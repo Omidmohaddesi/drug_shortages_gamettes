@@ -1,0 +1,162 @@
+{
+  "dictNodes": {
+    "0": {
+      "actionTarget": null,
+      "actionName": "",
+      "name": null,
+      "next": "26278",
+      "tru": "True",
+      "index": "0",
+      "posX": "0",
+      "posY": "0",
+      "advance_mode": "OnClick",
+      "type": "action"
+    },
+    "26278": {
+      "content": "Thank you for participating in this research. ",
+      "owner": "Doctor_Male1",
+      "speaking": "True",
+      "name": "Dialogue State",
+      "next": "26279",
+      "tru": "True",
+      "index": "26278",
+      "posX": "3.348681",
+      "posY": "0.9138869",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "26279": {
+      "content": "",
+      "owner": "Doctor_Male1",
+      "speaking": "True",
+      "name": "Dialogue State",
+      "next": "-1",
+      "tru": "True",
+      "index": "26279",
+      "posX": "6.635053",
+      "posY": "0.9138899",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    }
+  },
+  "scene": {
+    "name": "Scene 1",
+    "title": "Debriefing",
+    "pos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "uid": 0,
+    "background": "PatientRoom",
+    "furniture": [
+      {
+        "uid": 0,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "PatientRoom",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Background",
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "size": {
+          "x": 960.0,
+          "y": 540.0,
+          "normalized": {
+            "x": 0.871575534,
+            "y": 0.490261227,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1101.45361,
+          "sqrMagnitude": 1213200.0
+        }
+      },
+      {
+        "uid": 1,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "Doctor_Male1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Doctor_Male1",
+        "pos": {
+          "x": -175.86412,
+          "y": -81.998,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.906325161,
+            "y": -0.4225811,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 194.040863,
+          "sqrMagnitude": 37651.86
+        },
+        "size": {
+          "x": 95.0,
+          "y": 310.0,
+          "normalized": {
+            "x": 0.293002,
+            "y": 0.956111848,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 324.229858,
+          "sqrMagnitude": 105125.0
+        }
+      }
+    ],
+    "layoutScale": 0.5,
+    "layoutPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "scriptorScale": 0.77401197,
+    "scriptorPosition": {
+      "x": -528.8465,
+      "y": -135.1432,
+      "normalized": {
+        "x": -0.9688656,
+        "y": -0.247587144,
+        "normalized": {
+          "x": -0.968865633,
+          "y": -0.247587159,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
+      },
+      "magnitude": 545.840942,
+      "sqrMagnitude": 297942.3
+    },
+    "layoutParamSet": true,
+    "scriptorParamSet": true
+  },
+  "started": false,
+  "manipulator": null
+}
