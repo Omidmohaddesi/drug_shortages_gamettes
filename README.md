@@ -8,4 +8,4 @@ Gamettes are short game-based experiments that help collecting data on human dec
 
 ## How to deploy
 
-* Upload to your account on https://studycrafter.com/ and modify API server address for [crisp_game_server](https://github.com/Omidmohaddesi/crisp_game_server)
+* Upload to your account on https://studycrafter.com/ and modify Web API address in the game for [crisp_game_server](https://github.com/Omidmohaddesi/crisp_game_server)
