@@ -1376,11 +1376,11 @@
       "functionDetail": "https://highfreq.ece.neu.edu:8540/api/get_user_id?token={token}",
       "functionDetail2": "user_id",
       "name": "Call Function State",
-      "next": "27955",
+      "next": "28112",
       "tru": "True",
       "index": "27917",
-      "posX": "1.623451",
-      "posY": "11.83957",
+      "posX": "1.498498",
+      "posY": "11.93328",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
@@ -1392,8 +1392,8 @@
       "next": "27986",
       "tru": "True",
       "index": "27918",
-      "posX": "11.62193",
-      "posY": "11.88586",
+      "posX": "11.50325",
+      "posY": "15.31667",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
@@ -1418,8 +1418,8 @@
       "next": "27957",
       "tru": "True",
       "index": "27955",
-      "posX": "5.148252",
-      "posY": "11.79471",
+      "posX": "5.395007",
+      "posY": "15.40182",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
@@ -1431,8 +1431,8 @@
       "next": "27918",
       "tru": "True",
       "index": "27957",
-      "posX": "8.496129",
-      "posY": "11.82173",
+      "posX": "8.423932",
+      "posY": "15.31119",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
@@ -1444,8 +1444,21 @@
       "next": "-1",
       "tru": "True",
       "index": "27986",
-      "posX": "14.61203",
-      "posY": "11.8788",
+      "posX": "14.4871",
+      "posY": "15.31885",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28112": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://highfreq.ece.neu.edu:8540/api/get_game_param?token={token}&paramName=cycle",
+      "functionDetail2": "week",
+      "name": "Call Function State",
+      "next": "-1",
+      "tru": "True",
+      "index": "28112",
+      "posX": "4.608418",
+      "posY": "11.93697",
       "advance_mode": "OnClick",
       "type": "callfunction"
     }
@@ -2217,24 +2230,18 @@
       "magnitude": 70.54105,
       "sqrMagnitude": 4976.04
     },
-    "scriptorScale": 0.4473384,
+    "scriptorScale": 0.451811939,
     "scriptorPosition": {
-      "x": 161.346756,
-      "y": -405.608765,
+      "x": 146.961792,
+      "y": -558.0129,
       "normalized": {
-        "x": 0.369619042,
-        "y": -0.929183364,
-        "normalized": {
-          "x": 0.369619071,
-          "y": -0.9291834,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.99999994,
-        "sqrMagnitude": 0.99999994
+        "x": 0.2546818,
+        "y": -0.9670249,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
       },
-      "magnitude": 436.521759,
-      "sqrMagnitude": 190551.25
+      "magnitude": 577.040833,
+      "sqrMagnitude": 332976.156
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

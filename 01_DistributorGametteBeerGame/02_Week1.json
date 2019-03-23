@@ -10788,7 +10788,7 @@
       "functionDetail": "https://highfreq.ece.neu.edu:8540/api/next_period?token={token}",
       "functionDetail2": "{week}",
       "name": "Call Function State",
-      "next": "27984",
+      "next": "-1",
       "tru": "True",
       "index": "27925",
       "posX": "71.75146",
@@ -15615,24 +15615,18 @@
       "magnitude": 70.90007,
       "sqrMagnitude": 5026.82
     },
-    "scriptorScale": 0.130252555,
+    "scriptorScale": 0.48440358,
     "scriptorPosition": {
-      "x": 233.256622,
-      "y": -247.568039,
+      "x": -2964.72852,
+      "y": -573.5282,
       "normalized": {
-        "x": 0.6857565,
-        "y": -0.727831,
-        "normalized": {
-          "x": 0.685756564,
-          "y": -0.727831066,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.99999994,
-        "sqrMagnitude": 0.99999994
+        "x": -0.9817978,
+        "y": -0.189929262,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
       },
-      "magnitude": 340.144958,
-      "sqrMagnitude": 115698.586
+      "magnitude": 3019.6936,
+      "sqrMagnitude": 9118550.0
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

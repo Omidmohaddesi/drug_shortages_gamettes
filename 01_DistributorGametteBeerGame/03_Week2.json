@@ -12033,7 +12033,7 @@
       "functionDetail": "https://highfreq.ece.neu.edu:8540/api/next_period?token={token}",
       "functionDetail2": "{week}",
       "name": "Call Function State",
-      "next": "27981",
+      "next": "28118",
       "tru": "True",
       "index": "27931",
       "posX": "63.88294",
@@ -12181,8 +12181,8 @@
       "next": "-1",
       "tru": "True",
       "index": "27981",
-      "posX": "67.11176",
-      "posY": "15.4979",
+      "posX": "70.30383",
+      "posY": "16.62187",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
@@ -12705,6 +12705,18 @@
       "posY": "-17.91552",
       "advance_mode": "Instantly",
       "type": "action"
+    },
+    "28118": {
+      "choices": "27981~~{week} = 21~-~-1~~true~-~",
+      "isRandom": "False",
+      "name": "If Sticker",
+      "next": "-1",
+      "tru": "True",
+      "index": "28118",
+      "posX": "67.0509",
+      "posY": "17.89718",
+      "advance_mode": "OnClick",
+      "type": "if"
     }
   },
   "scene": {
@@ -17249,18 +17261,24 @@
       "magnitude": 44.95996,
       "sqrMagnitude": 2021.398
     },
-    "scriptorScale": 0.409659773,
+    "scriptorScale": 0.393675029,
     "scriptorPosition": {
-      "x": -3495.27246,
-      "y": 530.4139,
+      "x": -2388.94824,
+      "y": -610.1488,
       "normalized": {
-        "x": -0.98868084,
-        "y": 0.150034085,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.0
+        "x": -0.96889776,
+        "y": -0.247461125,
+        "normalized": {
+          "x": -0.9688978,
+          "y": -0.24746114,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
       },
-      "magnitude": 3535.289,
-      "sqrMagnitude": 12498268.0
+      "magnitude": 2465.635,
+      "sqrMagnitude": 6079355.5
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

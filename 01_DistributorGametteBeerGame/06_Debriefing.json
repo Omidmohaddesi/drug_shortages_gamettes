@@ -977,30 +977,30 @@
         "objectType": 2,
         "name": "InventoryText",
         "pos": {
-          "x": 80.00003,
-          "y": 0.0,
+          "x": 80.59,
+          "y": 4.76837158E-07,
           "z": 0.0,
           "normalized": {
             "x": 1.0,
-            "y": 0.0,
+            "y": 5.91682836E-09,
             "z": 0.0,
             "magnitude": 1.0,
             "sqrMagnitude": 1.0
           },
-          "magnitude": 80.00003,
-          "sqrMagnitude": 6400.005
+          "magnitude": 80.59,
+          "sqrMagnitude": 6494.74756
         },
         "size": {
           "x": 116.0,
-          "y": 20.0,
+          "y": 21.0,
           "normalized": {
-            "x": 0.985460162,
-            "y": 0.169906914,
+            "x": 0.9840054,
+            "y": 0.1781389,
             "magnitude": 1.0,
             "sqrMagnitude": 1.00000012
           },
-          "magnitude": 117.71151,
-          "sqrMagnitude": 13856.0
+          "magnitude": 117.885536,
+          "sqrMagnitude": 13897.0
         }
       },
       {
@@ -1080,15 +1080,15 @@
         },
         "size": {
           "x": 116.0,
-          "y": 20.0,
+          "y": 21.0,
           "normalized": {
-            "x": 0.985460162,
-            "y": 0.169906914,
+            "x": 0.9840054,
+            "y": 0.1781389,
             "magnitude": 1.0,
             "sqrMagnitude": 1.00000012
           },
-          "magnitude": 117.71151,
-          "sqrMagnitude": 13856.0
+          "magnitude": 117.885536,
+          "sqrMagnitude": 13897.0
         }
       },
       {
@@ -1168,15 +1168,15 @@
         },
         "size": {
           "x": 116.0,
-          "y": 20.0,
+          "y": 21.0,
           "normalized": {
-            "x": 0.985460162,
-            "y": 0.169906914,
+            "x": 0.9840054,
+            "y": 0.1781389,
             "magnitude": 1.0,
             "sqrMagnitude": 1.00000012
           },
-          "magnitude": 117.71151,
-          "sqrMagnitude": 13856.0
+          "magnitude": 117.885536,
+          "sqrMagnitude": 13897.0
         }
       },
       {
@@ -1221,18 +1221,24 @@
         }
       }
     ],
-    "layoutScale": 0.917430043,
+    "layoutScale": 0.6943439,
     "layoutPosition": {
-      "x": 141.84816,
-      "y": 60.0892334,
+      "x": 116.371979,
+      "y": 25.0694981,
       "normalized": {
-        "x": 0.9207889,
-        "y": 0.390061438,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.00000012
+        "x": 0.9775735,
+        "y": 0.210594311,
+        "normalized": {
+          "x": 0.9775736,
+          "y": 0.210594326,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
       },
-      "magnitude": 154.05069,
-      "sqrMagnitude": 23731.6172
+      "magnitude": 119.041664,
+      "sqrMagnitude": 14170.917
     },
     "scriptorScale": 0.359751076,
     "scriptorPosition": {
