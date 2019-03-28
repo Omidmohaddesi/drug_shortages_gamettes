@@ -4,11 +4,11 @@
       "actionTarget": "Timer_0",
       "actionName": "",
       "name": null,
-      "next": "26287",
+      "next": "28116",
       "tru": "True",
       "index": "0",
-      "posX": "-8.496782",
-      "posY": "2.377548",
+      "posX": "-12.40193",
+      "posY": "2.429158",
       "advance_mode": "WhenCompleted",
       "type": "action"
     },
@@ -1360,7 +1360,7 @@
     },
     "27916": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://highfreq.ece.neu.edu:8540/api/create_game?role=wholesaler&numHumanPlayer=1&startCycle=0&studyName=beerGame",
+      "functionDetail": "https://highfreq.ece.neu.edu:8540/api/create_game?role=wholesaler&numHumanPlayer=1&startCycle=17&studyName=beerGame",
       "functionDetail2": "token",
       "name": "Call Function State",
       "next": "27917",
@@ -1461,6 +1461,157 @@
       "posY": "11.93697",
       "advance_mode": "OnClick",
       "type": "callfunction"
+    },
+    "28116": {
+      "functionType": "CustomFunction",
+      "functionDetail": "tutorial",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "26287",
+      "tru": "True",
+      "index": "28116",
+      "posX": "-8.652315",
+      "posY": "2.445774",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28117": {
+      "functionName": "tutorial",
+      "takesFocus": "True",
+      "name": "Custom Function State",
+      "next": "28119",
+      "tru": "True",
+      "index": "28117",
+      "posX": "-16.41599",
+      "posY": "22.78402",
+      "advance_mode": "OnClick",
+      "type": "customfunction"
+    },
+    "28119": {
+      "content": "Click or tap anywhere on the screen to move the game forward.",
+      "owner": "None",
+      "speaking": "True",
+      "name": "Dialogue State",
+      "next": "28120",
+      "tru": "True",
+      "index": "28119",
+      "posX": "-13.27272",
+      "posY": "23.30456",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28120": {
+      "content": "This game is part of a study on pharmaceutical supply chains.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue State",
+      "next": "28122",
+      "tru": "True",
+      "index": "28120",
+      "posX": "-10.10868",
+      "posY": "23.29354",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28122": {
+      "content": "You will be deciding how much Saline to order from your supplier.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue State",
+      "next": "28152",
+      "tru": "True",
+      "index": "28122",
+      "posX": "-7.017121",
+      "posY": "23.29874",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28123": {
+      "actionTarget": "GlassFront",
+      "actionName": "MoveBy",
+      "action_x-difference": "2000",
+      "action_y-difference": "0",
+      "action_time": "1",
+      "action_easing": null,
+      "name": null,
+      "next": "28124",
+      "tru": "True",
+      "index": "28123",
+      "posX": "6.230669",
+      "posY": "23.23348",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "28124": {
+      "actionTarget": "Karl",
+      "actionName": "MoveTo",
+      "action_x-position": "-250",
+      "action_y-position": "{Karl.posy}",
+      "action_time": "2",
+      "action_easing": null,
+      "name": null,
+      "next": "28128",
+      "tru": "True",
+      "index": "28124",
+      "posX": "9.388717",
+      "posY": "23.35845",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "28128": {
+      "actionTarget": "Boss",
+      "actionName": "MoveTo",
+      "action_x-position": "60",
+      "action_y-position": "{Boss.posy}",
+      "action_time": "2",
+      "action_easing": null,
+      "name": null,
+      "next": "-1",
+      "tru": "True",
+      "index": "28128",
+      "posX": "12.43318",
+      "posY": "23.82427",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "28149": {
+      "content": "In case you're not familiar with Saline solution, here is what it looks like. It is a mixture of sodium chloride in water which has a number of uses in medicine.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue State",
+      "next": "28155",
+      "tru": "True",
+      "index": "28149",
+      "posX": "-0.3280375",
+      "posY": "23.27672",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28152": {
+      "actionTarget": "salineBag",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": null,
+      "next": "28149",
+      "tru": "True",
+      "index": "28152",
+      "posX": "-3.715428",
+      "posY": "23.32065",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28155": {
+      "actionTarget": "salineBag",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": null,
+      "next": "28123",
+      "tru": "True",
+      "index": "28155",
+      "posX": "2.931661",
+      "posY": "23.17492",
+      "advance_mode": "Instantly",
+      "type": "action"
     }
   },
   "scene": {
@@ -1667,18 +1818,18 @@
         "objectType": 0,
         "name": "Boss",
         "pos": {
-          "x": -32.10845,
-          "y": -105.61705,
+          "x": 553.529358,
+          "y": -98.74066,
           "z": 0.0,
           "normalized": {
-            "x": -0.290864229,
-            "y": -0.95676434,
+            "x": 0.9844595,
+            "y": -0.175611615,
             "z": 0.0,
             "magnitude": 1.0,
             "sqrMagnitude": 1.0
           },
-          "magnitude": 110.389824,
-          "sqrMagnitude": 12185.9141
+          "magnitude": 562.2673,
+          "sqrMagnitude": 316144.469
         },
         "size": {
           "x": -80.09255,
@@ -1714,18 +1865,25 @@
         "objectType": 0,
         "name": "Karl",
         "pos": {
-          "x": -279.203827,
-          "y": -116.091972,
+          "x": -555.4049,
+          "y": -114.945908,
           "z": 0.0,
           "normalized": {
-            "x": -0.923361957,
-            "y": -0.383930653,
+            "x": -0.9792483,
+            "y": -0.202664,
             "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "normalized": {
+              "x": -0.979248345,
+              "y": -0.202664018,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
           },
-          "magnitude": 302.377441,
-          "sqrMagnitude": 91432.125
+          "magnitude": 567.174744,
+          "sqrMagnitude": 321687.2
         },
         "size": {
           "x": 68.0,
@@ -2209,39 +2367,128 @@
           "magnitude": 19.4164886,
           "sqrMagnitude": 377.0
         }
+      },
+      {
+        "uid": 16,
+        "rotation": 90.0,
+        "visible": true,
+        "locked": true,
+        "color": "000000",
+        "textcolor": "000000",
+        "image": "GlassFront",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "GlassFront",
+        "pos": {
+          "x": 3.39746475E-06,
+          "y": 0.0,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "magnitude": 3.39746475E-06,
+          "sqrMagnitude": 1.15427667E-11
+        },
+        "size": {
+          "x": 560.0,
+          "y": 980.0,
+          "normalized": {
+            "x": 0.49613896,
+            "y": 0.868243158,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1128.71606,
+          "sqrMagnitude": 1274000.0
+        }
+      },
+      {
+        "uid": 17,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "salineBag",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "salineBag",
+        "pos": {
+          "x": -389.16333,
+          "y": -78.5282,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.980242252,
+            "y": -0.1978004,
+            "z": 0.0,
+            "normalized": {
+              "x": -0.9802423,
+              "y": -0.197800413,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 397.0073,
+          "sqrMagnitude": 157614.781
+        },
+        "size": {
+          "x": 112.523537,
+          "y": 292.2253,
+          "normalized": {
+            "x": 0.359338433,
+            "y": 0.9332073,
+            "normalized": {
+              "x": 0.359338462,
+              "y": 0.933207333,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 313.140839,
+          "sqrMagnitude": 98057.18
+        }
       }
     ],
-    "layoutScale": 0.4152691,
+    "layoutScale": 0.57668,
     "layoutPosition": {
-      "x": 42.9450226,
-      "y": -55.9621735,
+      "x": -1.79061329,
+      "y": -33.0800476,
       "normalized": {
-        "x": 0.608794749,
-        "y": -0.793327749,
-        "normalized": {
-          "x": 0.6087948,
-          "y": -0.7933278,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.99999994,
-        "sqrMagnitude": 0.99999994
-      },
-      "magnitude": 70.54105,
-      "sqrMagnitude": 4976.04
-    },
-    "scriptorScale": 0.451811939,
-    "scriptorPosition": {
-      "x": 146.961792,
-      "y": -558.0129,
-      "normalized": {
-        "x": 0.2546818,
-        "y": -0.9670249,
+        "x": -0.05405058,
+        "y": -0.9985382,
         "magnitude": 1.0,
         "sqrMagnitude": 1.0
       },
-      "magnitude": 577.040833,
-      "sqrMagnitude": 332976.156
+      "magnitude": 33.1284752,
+      "sqrMagnitude": 1097.49585
+    },
+    "scriptorScale": 0.456330538,
+    "scriptorPosition": {
+      "x": 139.958481,
+      "y": -545.598755,
+      "normalized": {
+        "x": 0.248477578,
+        "y": -0.968637645,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 563.264038,
+      "sqrMagnitude": 317266.375
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
