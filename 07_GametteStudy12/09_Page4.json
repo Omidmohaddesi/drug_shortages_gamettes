@@ -163,7 +163,7 @@
       "type": "callfunction"
     },
     "98": {
-      "customEventName": "",
+      "customEventName": "next",
       "eventDetails": "next",
       "startsActive": "True",
       "takesFocus": "True",
@@ -323,7 +323,7 @@
       "takesFocus": "True",
       "eventType": "ObjectClick",
       "name": "Event State",
-      "next": "361",
+      "next": "28245",
       "tru": "True",
       "index": "359",
       "posX": "0.2977374",
@@ -346,8 +346,8 @@
       "next": "363",
       "tru": "True",
       "index": "361",
-      "posX": "3.64952",
-      "posY": "-18.44013",
+      "posX": "6.783829",
+      "posY": "-18.42291",
       "advance_mode": "OnClick",
       "type": "choice"
     },
@@ -357,11 +357,11 @@
       "action_text": "{Q12}",
       "action_type-speed": "0",
       "name": null,
-      "next": "-1",
+      "next": "28247",
       "tru": "True",
       "index": "363",
-      "posX": "6.573617",
-      "posY": "-18.4129",
+      "posX": "9.707927",
+      "posY": "-18.39568",
       "advance_mode": "Instantly",
       "type": "action"
     },
@@ -388,6 +388,58 @@
       "index": "375",
       "posX": "28.02328",
       "posY": "1.427426",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28245": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "next",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "28246",
+      "tru": "True",
+      "index": "28245",
+      "posX": "3.626958",
+      "posY": "-18.50693",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28246": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "361",
+      "tru": "True",
+      "index": "28246",
+      "posX": "3.609737",
+      "posY": "-20.76295",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28247": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "next",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "28248",
+      "tru": "True",
+      "index": "28247",
+      "posX": "12.83183",
+      "posY": "-18.25723",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28248": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "-1",
+      "tru": "True",
+      "index": "28248",
+      "posX": "12.81461",
+      "posY": "-20.51324",
       "advance_mode": "OnClick",
       "type": "callfunction"
     }
@@ -800,18 +852,18 @@
       "magnitude": 30.58929,
       "sqrMagnitude": 935.704651
     },
-    "scriptorScale": 0.420487374,
+    "scriptorScale": 0.355049878,
     "scriptorPosition": {
-      "x": -331.42572,
-      "y": 539.755066,
+      "x": -201.549225,
+      "y": 470.9811,
       "normalized": {
-        "x": -0.5232598,
-        "y": 0.852173269,
+        "x": -0.3934248,
+        "y": 0.9193568,
         "magnitude": 1.0,
-        "sqrMagnitude": 1.00000012
+        "sqrMagnitude": 1.0
       },
-      "magnitude": 633.386536,
-      "sqrMagnitude": 401178.531
+      "magnitude": 512.2941,
+      "sqrMagnitude": 262445.281
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

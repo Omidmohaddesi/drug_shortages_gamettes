@@ -163,7 +163,7 @@
       "type": "callfunction"
     },
     "98": {
-      "customEventName": "",
+      "customEventName": "next",
       "eventDetails": "next",
       "startsActive": "True",
       "takesFocus": "True",
@@ -323,7 +323,7 @@
       "takesFocus": "True",
       "eventType": "ObjectClick",
       "name": "Event State",
-      "next": "361",
+      "next": "28232",
       "tru": "True",
       "index": "359",
       "posX": "0.2977374",
@@ -339,15 +339,15 @@
       "prompted": "False",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "Q12",
-      "inputMultiline": "True",
+      "inputMultiline": "False",
       "openResponseButton": "Background",
       "openResponseTextObject": "textbox",
       "name": null,
       "next": "363",
       "tru": "True",
       "index": "361",
-      "posX": "3.64952",
-      "posY": "-18.44013",
+      "posX": "7.037015",
+      "posY": "-18.45603",
       "advance_mode": "OnClick",
       "type": "choice"
     },
@@ -357,11 +357,11 @@
       "action_text": "{Q12}",
       "action_type-speed": "0",
       "name": null,
-      "next": "-1",
+      "next": "28234",
       "tru": "True",
       "index": "363",
-      "posX": "6.573617",
-      "posY": "-18.4129",
+      "posX": "9.961114",
+      "posY": "-18.4288",
       "advance_mode": "Instantly",
       "type": "action"
     },
@@ -388,6 +388,58 @@
       "index": "375",
       "posX": "28.02328",
       "posY": "1.427426",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28232": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "next",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "28233",
+      "tru": "True",
+      "index": "28232",
+      "posX": "3.692551",
+      "posY": "-18.58339",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28233": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "361",
+      "tru": "True",
+      "index": "28233",
+      "posX": "3.756165",
+      "posY": "-20.71449",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28234": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "next",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "28235",
+      "tru": "True",
+      "index": "28234",
+      "posX": "13.17118",
+      "posY": "-18.40844",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28235": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "-1",
+      "tru": "True",
+      "index": "28235",
+      "posX": "13.15528",
+      "posY": "-20.52365",
       "advance_mode": "OnClick",
       "type": "callfunction"
     }
@@ -800,18 +852,24 @@
       "magnitude": 30.58929,
       "sqrMagnitude": 935.704651
     },
-    "scriptorScale": 0.420487374,
+    "scriptorScale": 0.376892924,
     "scriptorPosition": {
-      "x": -331.42572,
-      "y": 539.755066,
+      "x": -192.145828,
+      "y": 540.814331,
       "normalized": {
-        "x": -0.5232598,
-        "y": 0.852173269,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.00000012
+        "x": -0.334787339,
+        "y": 0.942293644,
+        "normalized": {
+          "x": -0.334787369,
+          "y": 0.9422937,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
       },
-      "magnitude": 633.386536,
-      "sqrMagnitude": 401178.531
+      "magnitude": 573.93396,
+      "sqrMagnitude": 329400.156
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
