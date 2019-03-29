@@ -1,102 +1,102 @@
 {
-    "dictNodes": {
-        "0": {
-            "actionTarget": null,
-            "actionName": "",
-            "name": null,
-            "next": "310",
-            "tru": "True",
-            "index": "0",
-            "posX": "0",
-            "posY": "0",
-            "advance_mode": "WhenCompleted",
-            "type": "action"
-        },
-        "310": {
-            "nextScript": "First Day",
-            "transitionText": "Day 1",
-            "variablePairs": "",
-            "name": "End Sticker",
-            "next": "-1",
-            "tru": "True",
-            "index": "310",
-            "posX": "9.543398",
-            "posY": "1.67563",
-            "advance_mode": "OnClick",
-            "type": "end"
-        }
+  "dictNodes": {
+    "0": {
+      "actionTarget": null,
+      "actionName": "",
+      "name": null,
+      "next": "310",
+      "tru": "True",
+      "index": "0",
+      "posX": "0",
+      "posY": "0",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
     },
-    "scene": {
-        "name": "Start",
-        "title": "Start",
-        "pos": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "magnitude": 0,
-            "sqrMagnitude": 0
-        },
+    "310": {
+      "nextScript": "First Day",
+      "transitionText": "Day 1",
+      "variablePairs": "",
+      "name": "End Sticker",
+      "next": "-1",
+      "tru": "True",
+      "index": "310",
+      "posX": "9.543398",
+      "posY": "1.67563",
+      "advance_mode": "OnClick",
+      "type": "end"
+    }
+  },
+  "scene": {
+    "name": "Start",
+    "title": "Start",
+    "pos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "uid": 0,
+    "background": "HospitalManager_Empty",
+    "furniture": [
+      {
         "uid": 0,
-        "background": "HospitalManager_Empty",
-        "furniture": [
-            {
-                "uid": 0,
-                "rotation": 0,
-                "visible": true,
-                "locked": true,
-                "color": "FFFFFF",
-                "textcolor": "000000",
-                "image": "HospitalManager_Empty",
-                "value": 0,
-                "text": "",
-                "fontSize": 0,
-                "parentName": "",
-                "objectType": 0,
-                "name": "Background",
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "magnitude": 0,
-                    "sqrMagnitude": 0
-                },
-                "size": {
-                    "x": 960,
-                    "y": 540,
-                    "normalized": {
-                        "x": 0.871575534,
-                        "y": 0.490261227,
-                        "magnitude": 1,
-                        "sqrMagnitude": 1
-                    },
-                    "magnitude": 1101.45361,
-                    "sqrMagnitude": 1213200
-                }
-            }
-        ],
-        "layoutScale": 0.5,
-        "layoutPosition": {
-            "x": 0,
-            "y": 0,
-            "magnitude": 0,
-            "sqrMagnitude": 0
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "HospitalManager_Empty",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Background",
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
         },
-        "scriptorScale": 0.3200375,
-        "scriptorPosition": {
-            "x": -166.911713,
-            "y": -80.62162,
-            "normalized": {
-                "x": -0.900459647,
-                "y": -0.4349396,
-                "magnitude": 1,
-                "sqrMagnitude": 1
-            },
-            "magnitude": 185.3628,
-            "sqrMagnitude": 34359.3672
-        },
-        "layoutParamSet": true,
-        "scriptorParamSet": true
+        "size": {
+          "x": 960.0,
+          "y": 540.0,
+          "normalized": {
+            "x": 0.871575534,
+            "y": 0.490261227,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1101.45361,
+          "sqrMagnitude": 1213200.0
+        }
+      }
+    ],
+    "layoutScale": 0.5,
+    "layoutPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
     },
-    "started": false,
-    "manipulator": null
+    "scriptorScale": 0.3500203,
+    "scriptorPosition": {
+      "x": -199.555511,
+      "y": -93.6145554,
+      "normalized": {
+        "x": -0.9053318,
+        "y": -0.424705058,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 220.422516,
+      "sqrMagnitude": 48586.0859
+    },
+    "layoutParamSet": true,
+    "scriptorParamSet": true
+  },
+  "started": false,
+  "manipulator": null
 }

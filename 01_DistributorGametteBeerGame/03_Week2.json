@@ -1931,7 +1931,7 @@
     },
     "25624": {
       "nextScript": "Debriefing",
-      "transitionText": "Experiment Completed!",
+      "transitionText": "Let's see how you performed!",
       "variablePairs": "",
       "name": "End Sticker",
       "next": "-1",
@@ -12181,8 +12181,8 @@
       "next": "-1",
       "tru": "True",
       "index": "27981",
-      "posX": "70.30383",
-      "posY": "16.62187",
+      "posX": "77.01236",
+      "posY": "17.12408",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
@@ -12707,7 +12707,7 @@
       "type": "action"
     },
     "28118": {
-      "choices": "27981~~{week} = 21~-~-1~~true~-~",
+      "choices": "28161~~{week} = 21~-~-1~~true~-~",
       "isRandom": "False",
       "name": "If Sticker",
       "next": "-1",
@@ -12717,6 +12717,32 @@
       "posY": "17.89718",
       "advance_mode": "OnClick",
       "type": "if"
+    },
+    "28160": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://highfreq.ece.neu.edu:8540/api/store_data?token={token}",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "27981",
+      "tru": "True",
+      "index": "28160",
+      "posX": "73.92631",
+      "posY": "17.11488",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28161": {
+      "actionTarget": "GlassFront",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": null,
+      "next": "28160",
+      "tru": "True",
+      "index": "28161",
+      "posX": "70.6055",
+      "posY": "17.11073",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
     }
   },
   "scene": {
@@ -17240,6 +17266,88 @@
           "magnitude": 131.301178,
           "sqrMagnitude": 17240.0
         }
+      },
+      {
+        "uid": 99,
+        "rotation": 90.0,
+        "visible": false,
+        "locked": true,
+        "color": "000000",
+        "textcolor": "000000",
+        "image": "GlassFront",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "GlassFront",
+        "pos": {
+          "x": 3.39746475E-06,
+          "y": 0.0,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "magnitude": 3.39746475E-06,
+          "sqrMagnitude": 1.15427667E-11
+        },
+        "size": {
+          "x": 560.0,
+          "y": 980.0,
+          "normalized": {
+            "x": 0.49613896,
+            "y": 0.868243158,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1128.71606,
+          "sqrMagnitude": 1274000.0
+        }
+      },
+      {
+        "uid": 100,
+        "rotation": 270.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "BlankButton",
+        "value": 0.0,
+        "text": "Experiment completed!\n\nPlease wait until we gather your data and show you \nyour results. This can take a few seconds.\n\nloading . . .",
+        "fontSize": 20,
+        "parentName": "GlassFront",
+        "objectType": 1,
+        "name": "experiment_ended",
+        "pos": {
+          "x": -3.81469727E-06,
+          "y": 3.81469727E-06,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "magnitude": 5.39479652E-06,
+          "sqrMagnitude": 2.910383E-11
+        },
+        "size": {
+          "x": 500.0,
+          "y": 190.0,
+          "normalized": {
+            "x": 0.9347836,
+            "y": 0.355217755,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 534.8832,
+          "sqrMagnitude": 286100.0
+        }
       }
     ],
     "layoutScale": 0.5155118,
@@ -17261,24 +17369,18 @@
       "magnitude": 44.95996,
       "sqrMagnitude": 2021.398
     },
-    "scriptorScale": 0.393675029,
+    "scriptorScale": 0.457044452,
     "scriptorPosition": {
-      "x": -2388.94824,
-      "y": -610.1488,
+      "x": -3861.9187,
+      "y": 118.847458,
       "normalized": {
-        "x": -0.96889776,
-        "y": -0.247461125,
-        "normalized": {
-          "x": -0.9688978,
-          "y": -0.24746114,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.99999994,
-        "sqrMagnitude": 0.9999999
+        "x": -0.9995268,
+        "y": 0.0307596363,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
       },
-      "magnitude": 2465.635,
-      "sqrMagnitude": 6079355.5
+      "magnitude": 3863.747,
+      "sqrMagnitude": 14928541.0
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
