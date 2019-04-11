@@ -11325,7 +11325,7 @@
       "type": "callfunction"
     },
     "28218": {
-      "content": "This is where you can place orders.",
+      "content": "This is where you can place orders. ",
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue State",
@@ -15726,18 +15726,18 @@
       "magnitude": 52.2642937,
       "sqrMagnitude": 2731.5564
     },
-    "scriptorScale": 0.8046319,
+    "scriptorScale": 0.438524216,
     "scriptorPosition": {
-      "x": -3263.80054,
-      "y": 3742.99341,
+      "x": -1748.27747,
+      "y": 2049.41626,
       "normalized": {
-        "x": -0.6572128,
-        "y": 0.7537051,
+        "x": -0.648999453,
+        "y": 0.760788858,
         "magnitude": 1.0,
         "sqrMagnitude": 1.0
       },
-      "magnitude": 4966.12451,
-      "sqrMagnitude": 24662394.0
+      "magnitude": 2693.8042,
+      "sqrMagnitude": 7256581.0
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

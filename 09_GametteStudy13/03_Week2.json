@@ -17564,18 +17564,18 @@
       "magnitude": 44.95996,
       "sqrMagnitude": 2021.398
     },
-    "scriptorScale": 0.7,
+    "scriptorScale": 0.438524216,
     "scriptorPosition": {
-      "x": -1874.87439,
-      "y": 5012.996,
+      "x": -327.8191,
+      "y": 2077.95679,
       "normalized": {
-        "x": -0.350304425,
-        "y": 0.9366359,
+        "x": -0.155833,
+        "y": 0.987783432,
         "magnitude": 1.0,
         "sqrMagnitude": 1.0
       },
-      "magnitude": 5352.129,
-      "sqrMagnitude": 28645284.0
+      "magnitude": 2103.65625,
+      "sqrMagnitude": 4425370.0
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

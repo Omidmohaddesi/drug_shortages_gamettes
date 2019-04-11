@@ -1360,7 +1360,7 @@
     },
     "27916": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://highfreq.ece.neu.edu:8540/api/create_game?role=wholesaler&numHumanPlayer=1&startCycle=0&studyName=beerGameOUL",
+      "functionDetail": "https://highfreq.ece.neu.edu:8540/api/create_game?role=wholesaler&numHumanPlayer=1&startCycle=0&studyName=beerGameOULnoSg",
       "functionDetail2": "token",
       "name": "Call Function State",
       "next": "27917",
@@ -2477,18 +2477,24 @@
       "magnitude": 33.1284752,
       "sqrMagnitude": 1097.49585
     },
-    "scriptorScale": 0.579417944,
+    "scriptorScale": 0.5680011,
     "scriptorPosition": {
-      "x": -3.25186682,
-      "y": -613.835,
+      "x": -71.88048,
+      "y": -527.4444,
       "normalized": {
-        "x": -0.005297549,
-        "y": -0.999986,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.0
+        "x": -0.1350325,
+        "y": -0.99084115,
+        "normalized": {
+          "x": -0.13503252,
+          "y": -0.9908412,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
       },
-      "magnitude": 613.8436,
-      "sqrMagnitude": 376804.0
+      "magnitude": 532.3198,
+      "sqrMagnitude": 283364.4
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
