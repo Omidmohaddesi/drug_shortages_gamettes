@@ -1,0 +1,879 @@
+{
+  "dictNodes": {
+    "0": {
+      "actionTarget": null,
+      "actionName": "",
+      "name": null,
+      "next": "176",
+      "tru": "True",
+      "index": "0",
+      "posX": "0",
+      "posY": "0",
+      "advance_mode": "OnClick",
+      "type": "action"
+    },
+    "3": {
+      "customEventName": "",
+      "eventDetails": "Yes",
+      "startsActive": "True",
+      "takesFocus": "True",
+      "eventType": "ObjectClick",
+      "name": "Event State",
+      "next": "28",
+      "tru": "True",
+      "index": "3",
+      "posX": "0.443271",
+      "posY": "-10.10586",
+      "advance_mode": "OnClick",
+      "type": "event"
+    },
+    "6": {
+      "actionTarget": "Yes",
+      "actionName": "ChangeColor",
+      "action_color": "1ca81e",
+      "name": null,
+      "next": "15",
+      "tru": "True",
+      "index": "6",
+      "posX": "6.719953",
+      "posY": "-10.1306",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "12": {
+      "functionName": "reset_all_1",
+      "takesFocus": "True",
+      "name": "Custom Function State",
+      "next": "23",
+      "tru": "True",
+      "index": "12",
+      "posX": "0.4643285",
+      "posY": "-5.504643",
+      "advance_mode": "OnClick",
+      "type": "customfunction"
+    },
+    "15": {
+      "displayName": null,
+      "owner": "{Q11}",
+      "newValue": "Yes",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Variable Sticker",
+      "next": "-1",
+      "tru": "True",
+      "index": "15",
+      "posX": "9.823173",
+      "posY": "-10.10931",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "16": {
+      "displayName": null,
+      "owner": "{Q11}",
+      "newValue": "No",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Variable Sticker",
+      "next": "-1",
+      "tru": "True",
+      "index": "16",
+      "posX": "9.832454",
+      "posY": "-14.03073",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "17": {
+      "actionTarget": "No",
+      "actionName": "ChangeColor",
+      "action_color": "1ca81e",
+      "name": null,
+      "next": "16",
+      "tru": "True",
+      "index": "17",
+      "posX": "6.729238",
+      "posY": "-14.03761",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "18": {
+      "customEventName": "",
+      "eventDetails": "No",
+      "startsActive": "True",
+      "takesFocus": "True",
+      "eventType": "ObjectClick",
+      "name": "Event State",
+      "next": "29",
+      "tru": "True",
+      "index": "18",
+      "posX": "0.438142",
+      "posY": "-14.07052",
+      "advance_mode": "OnClick",
+      "type": "event"
+    },
+    "22": {
+      "actionTarget": "No",
+      "actionName": "ChangeColor",
+      "action_color": "FFFFFF",
+      "name": null,
+      "next": "-1",
+      "tru": "True",
+      "index": "22",
+      "posX": "7.038574",
+      "posY": "-5.488628",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "23": {
+      "actionTarget": "Yes",
+      "actionName": "ChangeColor",
+      "action_color": "FFFFFF",
+      "name": null,
+      "next": "22",
+      "tru": "True",
+      "index": "23",
+      "posX": "3.687605",
+      "posY": "-5.521441",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28": {
+      "functionType": "CustomFunction",
+      "functionDetail": "reset_all_1",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "6",
+      "tru": "True",
+      "index": "28",
+      "posX": "3.602492",
+      "posY": "-10.13439",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "29": {
+      "functionType": "CustomFunction",
+      "functionDetail": "reset_all_1",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "17",
+      "tru": "True",
+      "index": "29",
+      "posX": "3.618647",
+      "posY": "-14.0379",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "98": {
+      "customEventName": "next",
+      "eventDetails": "next",
+      "startsActive": "True",
+      "takesFocus": "True",
+      "eventType": "ObjectClick",
+      "name": "Event State",
+      "next": "197",
+      "tru": "True",
+      "index": "98",
+      "posX": "19.62523",
+      "posY": "-1.208102",
+      "advance_mode": "OnClick",
+      "type": "event"
+    },
+    "99": {
+      "choices": "102~~{Q6} = ~-~197~~true~-~",
+      "isRandom": "False",
+      "name": "If Sticker",
+      "next": "-1",
+      "tru": "True",
+      "index": "99",
+      "posX": "20.64461",
+      "posY": "6.586472",
+      "advance_mode": "OnClick",
+      "type": "if"
+    },
+    "102": {
+      "choiceType": "simple",
+      "content": "You have unanswered questions. Are you sure you want to continue?",
+      "owner": "",
+      "speaking": "False",
+      "prompted": "True",
+      "choices": "197~~Yes~~False~~none~~true~-~375~~No~~False~~none~~true~-~",
+      "variable": null,
+      "name": null,
+      "next": "-1",
+      "tru": "True",
+      "index": "102",
+      "posX": "24.29389",
+      "posY": "8.165443",
+      "advance_mode": "OnClick",
+      "type": "choice"
+    },
+    "103": {
+      "nextScript": "Page 5",
+      "transitionText": "None",
+      "variablePairs": "",
+      "name": "End Sticker",
+      "next": "-1",
+      "tru": "True",
+      "index": "103",
+      "posX": "34.89993",
+      "posY": "1.466527",
+      "advance_mode": "OnClick",
+      "type": "end"
+    },
+    "172": {
+      "displayName": null,
+      "owner": "{progress}",
+      "newValue": "{sceneNo}/{noOfScenes} * 100",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Variable Sticker",
+      "next": "175",
+      "tru": "True",
+      "index": "172",
+      "posX": "3.130505",
+      "posY": "6.666082",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "173": {
+      "actionTarget": "progress_text",
+      "actionName": "TypeText",
+      "action_text": "{progress}%",
+      "action_type-speed": "10",
+      "name": null,
+      "next": "-1",
+      "tru": "True",
+      "index": "173",
+      "posX": "9.298861",
+      "posY": "6.666084",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "175": {
+      "actionTarget": "BasicMeter",
+      "actionName": "ChangeValue",
+      "action_value": "{progress}",
+      "action_time": "0",
+      "action_easing": "linear",
+      "name": null,
+      "next": "173",
+      "tru": "True",
+      "index": "175",
+      "posX": "6.196137",
+      "posY": "6.653721",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "176": {
+      "functionType": "CustomFunction",
+      "functionDetail": "progress",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "356",
+      "tru": "True",
+      "index": "176",
+      "posX": "3.83733",
+      "posY": "-0.2249567",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "177": {
+      "functionName": "progress",
+      "takesFocus": "False",
+      "name": "Custom Function State",
+      "next": "172",
+      "tru": "True",
+      "index": "177",
+      "posX": "-0.3456855",
+      "posY": "6.718462",
+      "advance_mode": "OnClick",
+      "type": "customfunction"
+    },
+    "197": {
+      "displayName": null,
+      "owner": "{sceneNo}",
+      "newValue": "{sceneNo} + 1",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Variable Sticker",
+      "next": "103",
+      "tru": "True",
+      "index": "197",
+      "posX": "31.37539",
+      "posY": "1.720662",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "356": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "-1",
+      "tru": "True",
+      "index": "356",
+      "posX": "6.924001",
+      "posY": "-0.3469591",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "359": {
+      "customEventName": "type",
+      "eventDetails": "textbox",
+      "startsActive": "False",
+      "takesFocus": "True",
+      "eventType": "ObjectClick",
+      "name": "Event State",
+      "next": "28232",
+      "tru": "True",
+      "index": "359",
+      "posX": "0.2977374",
+      "posY": "-18.45215",
+      "advance_mode": "OnClick",
+      "type": "event"
+    },
+    "361": {
+      "choiceType": "open_response",
+      "content": "",
+      "owner": "",
+      "speaking": "False",
+      "prompted": "False",
+      "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
+      "variable": "Q12",
+      "inputMultiline": "False",
+      "openResponseButton": "Background",
+      "openResponseTextObject": "textbox",
+      "name": null,
+      "next": "363",
+      "tru": "True",
+      "index": "361",
+      "posX": "7.037015",
+      "posY": "-18.45603",
+      "advance_mode": "OnClick",
+      "type": "choice"
+    },
+    "363": {
+      "actionTarget": "textbox",
+      "actionName": "TypeText",
+      "action_text": "{Q12}",
+      "action_type-speed": "0",
+      "name": null,
+      "next": "28234",
+      "tru": "True",
+      "index": "363",
+      "posX": "9.961114",
+      "posY": "-18.4288",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "374": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "99",
+      "tru": "True",
+      "index": "374",
+      "posX": "16.96629",
+      "posY": "4.898085",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "375": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "-1",
+      "tru": "True",
+      "index": "375",
+      "posX": "28.02328",
+      "posY": "1.427426",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28232": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "next",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "28233",
+      "tru": "True",
+      "index": "28232",
+      "posX": "3.692551",
+      "posY": "-18.58339",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28233": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "361",
+      "tru": "True",
+      "index": "28233",
+      "posX": "3.756165",
+      "posY": "-20.71449",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28234": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "next",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "28235",
+      "tru": "True",
+      "index": "28234",
+      "posX": "13.17118",
+      "posY": "-18.40844",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28235": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "type",
+      "functionDetail2": "",
+      "name": "Call Function State",
+      "next": "-1",
+      "tru": "True",
+      "index": "28235",
+      "posX": "13.15528",
+      "posY": "-20.52365",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    }
+  },
+  "scene": {
+    "name": "Scene 1",
+    "title": "Page 4",
+    "pos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "uid": 0,
+    "background": "Office2_Empty",
+    "furniture": [
+      {
+        "uid": 0,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "Office2_Empty",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Background",
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "size": {
+          "x": 960.0,
+          "y": 540.0,
+          "normalized": {
+            "x": 0.871575534,
+            "y": 0.490261227,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1101.45361,
+          "sqrMagnitude": 1213200.0
+        }
+      },
+      {
+        "uid": 1,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF00",
+        "textcolor": "000000",
+        "image": "",
+        "value": 0.0,
+        "text": "3. Have you ever played any supply chain games (for example the Beer Game) before?",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 2,
+        "name": "Question",
+        "pos": {
+          "x": -10.6394958,
+          "y": 194.786667,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.05453998,
+            "y": 0.9985117,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 195.077011,
+          "sqrMagnitude": 38055.043
+        },
+        "size": {
+          "x": 824.1542,
+          "y": 35.6808777,
+          "normalized": {
+            "x": 0.999064147,
+            "y": 0.0432534181,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 824.9262,
+          "sqrMagnitude": 680503.25
+        }
+      },
+      {
+        "uid": 2,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF00",
+        "textcolor": "000000",
+        "image": "",
+        "value": 0.0,
+        "text": "4. What else did you learn from playing this game? (optional)",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 2,
+        "name": "Question2",
+        "pos": {
+          "x": -136.603119,
+          "y": 85.78662,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.8468549,
+            "y": 0.531824052,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 161.3064,
+          "sqrMagnitude": 26019.7559
+        },
+        "size": {
+          "x": 572.2267,
+          "y": 35.6808777,
+          "normalized": {
+            "x": 0.998061657,
+            "y": 0.0622335821,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 573.338,
+          "sqrMagnitude": 328716.5
+        }
+      },
+      {
+        "uid": 3,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "Jeopardy Represent-Button-White",
+        "value": 0.0,
+        "text": "Yes",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 1,
+        "name": "Yes",
+        "pos": {
+          "x": -380.0,
+          "y": 155.0,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.9259346,
+            "y": 0.377683848,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 410.396149,
+          "sqrMagnitude": 168425.0
+        },
+        "size": {
+          "x": 50.0,
+          "y": 40.0,
+          "normalized": {
+            "x": 0.7808688,
+            "y": 0.624695063,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 64.03124,
+          "sqrMagnitude": 4100.0
+        }
+      },
+      {
+        "uid": 4,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "Jeopardy Represent-Button-White",
+        "value": 0.0,
+        "text": "No",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 1,
+        "name": "No",
+        "pos": {
+          "x": -320.0,
+          "y": 155.0,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.8999813,
+            "y": 0.435928464,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 355.562927,
+          "sqrMagnitude": 126425.0
+        },
+        "size": {
+          "x": 50.0,
+          "y": 40.0,
+          "normalized": {
+            "x": 0.7808688,
+            "y": 0.624695063,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 64.03124,
+          "sqrMagnitude": 4100.0
+        }
+      },
+      {
+        "uid": 5,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "BlankButton",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 1,
+        "name": "textbox",
+        "pos": {
+          "x": -2.99162566E-05,
+          "y": -47.3396,
+          "z": 0.0,
+          "normalized": {
+            "x": -6.31949945E-07,
+            "y": -1.0,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 47.3396,
+          "sqrMagnitude": 2241.0376
+        },
+        "size": {
+          "x": 850.0,
+          "y": 230.601715,
+          "normalized": {
+            "x": 0.9651136,
+            "y": 0.261831582,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 880.725342,
+          "sqrMagnitude": 775677.1
+        }
+      },
+      {
+        "uid": 6,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "84D151",
+        "textcolor": "000000",
+        "image": "Jeopardy Represent-Button-White",
+        "value": 0.0,
+        "text": "Next",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 1,
+        "name": "next",
+        "pos": {
+          "x": 380.0,
+          "y": -220.0,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.8654263,
+            "y": -0.5010363,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 439.089966,
+          "sqrMagnitude": 192800.0
+        },
+        "size": {
+          "x": 140.0,
+          "y": 50.0,
+          "normalized": {
+            "x": 0.9417419,
+            "y": 0.3363364,
+            "normalized": {
+              "x": 0.941741943,
+              "y": 0.336336434,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 148.66069,
+          "sqrMagnitude": 22100.0
+        }
+      },
+      {
+        "uid": 7,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "74D4ED",
+        "textcolor": "FFFFFF",
+        "image": "BasicMeter",
+        "value": 10.0,
+        "text": "",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 6,
+        "name": "BasicMeter",
+        "pos": {
+          "x": -3.81469727E-06,
+          "y": -224.999985,
+          "z": 0.0,
+          "normalized": {
+            "x": -1.695421E-08,
+            "y": -1.0,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 224.999985,
+          "sqrMagnitude": 50624.9922
+        },
+        "size": {
+          "x": 500.0,
+          "y": 5.0,
+          "normalized": {
+            "x": 0.99995,
+            "y": 0.009999501,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 500.025,
+          "sqrMagnitude": 250025.0
+        }
+      },
+      {
+        "uid": 8,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "D1D1D1",
+        "image": "",
+        "value": 0.0,
+        "text": "10%",
+        "fontSize": 15,
+        "parentName": "BasicMeter",
+        "objectType": 2,
+        "name": "progress_text",
+        "pos": {
+          "x": -221.151932,
+          "y": 10.0012054,
+          "z": 0.0,
+          "normalized": {
+            "x": -0.998979,
+            "y": 0.04517706,
+            "z": 0.0,
+            "normalized": {
+              "x": -0.998979032,
+              "y": 0.0451770648,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 221.37796,
+          "sqrMagnitude": 49008.2
+        },
+        "size": {
+          "x": 50.1753235,
+          "y": 26.6217651,
+          "normalized": {
+            "x": 0.8833627,
+            "y": 0.468690038,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 56.8003654,
+          "sqrMagnitude": 3226.28149
+        }
+      }
+    ],
+    "layoutScale": 0.510050058,
+    "layoutPosition": {
+      "x": 30.4114552,
+      "y": 3.29364014,
+      "normalized": {
+        "x": 0.994186342,
+        "y": 0.107672982,
+        "normalized": {
+          "x": 0.9941864,
+          "y": 0.107672989,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 30.58929,
+      "sqrMagnitude": 935.704651
+    },
+    "scriptorScale": 0.376892924,
+    "scriptorPosition": {
+      "x": -192.145828,
+      "y": 540.814331,
+      "normalized": {
+        "x": -0.334787339,
+        "y": 0.942293644,
+        "normalized": {
+          "x": -0.334787369,
+          "y": 0.9422937,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
+      },
+      "magnitude": 573.93396,
+      "sqrMagnitude": 329400.156
+    },
+    "layoutParamSet": true,
+    "scriptorParamSet": true
+  },
+  "started": false,
+  "manipulator": null
+}
