@@ -1,0 +1,22 @@
+{
+  "title": "Escape the Shortage",
+  "description": "",
+  "initial_scene": "Scene 1",
+  "version": 1,
+  "last_edit": "2020-01-23 17:28:21",
+  "published": "false",
+  "scene_order": [
+    "0"
+  ],
+  "variables": [
+    {
+      "name": "score",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    }
+  ],
+  "proj_status": [],
+  "research_variables": [],
+  "hypotheses": []
+}
