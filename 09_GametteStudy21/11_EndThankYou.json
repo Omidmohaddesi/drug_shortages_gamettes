@@ -1,326 +1,325 @@
 {
-  "dictNodes": {
-    "0": {
-      "actionTarget": null,
-      "actionName": "",
-      "name": null,
-      "next": "185",
-      "tru": "True",
-      "index": "0",
-      "posX": "-3.849637",
-      "posY": "0.4261054",
-      "advance_mode": "OnClick",
-      "type": "action"
+    "dictNodes": {
+        "0": {
+            "name": "Start",
+            "next": "185",
+            "tru": "True",
+            "index": "0",
+            "posX": "-3.849637",
+            "posY": "0.4261054",
+            "minimized": "False",
+            "advance_mode": "OnClick",
+            "type": "start"
+        },
+        "181": {
+            "displayName": null,
+            "owner": "{progress}",
+            "newValue": "{sceneNo}\/{noOfScenes} * 100",
+            "fromVariable": "False",
+            "get": "True",
+            "name": "Variable Sticker",
+            "next": "184",
+            "tru": "True",
+            "index": "181",
+            "posX": "0.1603112",
+            "posY": "7.680196",
+            "advance_mode": "OnClick",
+            "type": "variable"
+        },
+        "182": {
+            "actionTarget": "progress_text",
+            "actionName": "TypeText",
+            "action_text": "{progress}%",
+            "action_type-speed": "10",
+            "name": null,
+            "next": "-1",
+            "tru": "True",
+            "index": "182",
+            "posX": "6.328667",
+            "posY": "7.680198",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "183": {
+            "functionName": "progress",
+            "takesFocus": "True",
+            "name": "Custom Function State",
+            "next": "181",
+            "tru": "True",
+            "index": "183",
+            "posX": "-3.315879",
+            "posY": "7.732576",
+            "advance_mode": "OnClick",
+            "type": "customfunction"
+        },
+        "184": {
+            "actionTarget": "BasicMeter",
+            "actionName": "ChangeValue",
+            "action_value": "{progress}",
+            "action_time": "0",
+            "action_easing": "linear",
+            "name": null,
+            "next": "182",
+            "tru": "True",
+            "index": "184",
+            "posX": "3.225943",
+            "posY": "7.667835",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "185": {
+            "functionType": "CustomFunction",
+            "functionDetail": "progress",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "210",
+            "tru": "True",
+            "index": "185",
+            "posX": "0.4601264",
+            "posY": "0.6624112",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "206": {
+            "nextScript": "None",
+            "transitionText": "None",
+            "variablePairs": "",
+            "name": "End Sticker",
+            "next": "-1",
+            "tru": "True",
+            "index": "206",
+            "posX": "7.68855",
+            "posY": "0.6718153",
+            "advance_mode": "OnClick",
+            "type": "end"
+        },
+        "210": {
+            "actionTarget": "ThankYou",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "206",
+            "tru": "True",
+            "index": "210",
+            "posX": "4.100287",
+            "posY": "0.6688955",
+            "advance_mode": "AfterTime_2",
+            "type": "action"
+        }
     },
-    "181": {
-      "displayName": null,
-      "owner": "{progress}",
-      "newValue": "{sceneNo}/{noOfScenes} * 100",
-      "fromVariable": "False",
-      "get": "True",
-      "name": "Variable Sticker",
-      "next": "184",
-      "tru": "True",
-      "index": "181",
-      "posX": "0.1603112",
-      "posY": "7.680196",
-      "advance_mode": "OnClick",
-      "type": "variable"
-    },
-    "182": {
-      "actionTarget": "progress_text",
-      "actionName": "TypeText",
-      "action_text": "{progress}%",
-      "action_type-speed": "10",
-      "name": null,
-      "next": "-1",
-      "tru": "True",
-      "index": "182",
-      "posX": "6.328667",
-      "posY": "7.680198",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "183": {
-      "functionName": "progress",
-      "takesFocus": "True",
-      "name": "Custom Function State",
-      "next": "181",
-      "tru": "True",
-      "index": "183",
-      "posX": "-3.315879",
-      "posY": "7.732576",
-      "advance_mode": "OnClick",
-      "type": "customfunction"
-    },
-    "184": {
-      "actionTarget": "BasicMeter",
-      "actionName": "ChangeValue",
-      "action_value": "{progress}",
-      "action_time": "0",
-      "action_easing": "linear",
-      "name": null,
-      "next": "182",
-      "tru": "True",
-      "index": "184",
-      "posX": "3.225943",
-      "posY": "7.667835",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "185": {
-      "functionType": "CustomFunction",
-      "functionDetail": "progress",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "210",
-      "tru": "True",
-      "index": "185",
-      "posX": "0.4601264",
-      "posY": "0.6624112",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "206": {
-      "nextScript": "None",
-      "transitionText": "None",
-      "variablePairs": "",
-      "name": "End Sticker",
-      "next": "-1",
-      "tru": "True",
-      "index": "206",
-      "posX": "7.68855",
-      "posY": "0.6718153",
-      "advance_mode": "OnClick",
-      "type": "end"
-    },
-    "210": {
-      "actionTarget": "ThankYou",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "206",
-      "tru": "True",
-      "index": "210",
-      "posX": "4.100287",
-      "posY": "0.6688955",
-      "advance_mode": "AfterTime_2",
-      "type": "action"
-    }
-  },
-  "scene": {
-    "name": "Scene 1",
-    "title": "End - Thank You!",
-    "pos": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0.0
-    },
-    "uid": 0,
-    "background": "Office2_Empty",
-    "furniture": [
-      {
+    "scene": {
+        "name": "Scene 1",
+        "title": "End - Thank You!",
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "magnitude": 0,
+            "sqrMagnitude": 0
+        },
         "uid": 0,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "Office2_Empty",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "Background",
-        "pos": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
-        },
-        "size": {
-          "x": 960.0,
-          "y": 540.0,
-          "normalized": {
-            "x": 0.871575534,
-            "y": 0.490261227,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1101.45361,
-          "sqrMagnitude": 1213200.0
-        }
-      },
-      {
-        "uid": 1,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "74D4ED",
-        "textcolor": "FFFFFF",
-        "image": "BasicMeter",
-        "value": 10.0,
-        "text": "",
-        "fontSize": 20,
-        "parentName": "",
-        "objectType": 6,
-        "name": "BasicMeter",
-        "pos": {
-          "x": -3.81469727E-06,
-          "y": -224.999985,
-          "z": 0.0,
-          "normalized": {
-            "x": -1.695421E-08,
-            "y": -1.0,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 224.999985,
-          "sqrMagnitude": 50624.9922
-        },
-        "size": {
-          "x": 500.0,
-          "y": 5.0,
-          "normalized": {
-            "x": 0.99995,
-            "y": 0.009999501,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 500.025,
-          "sqrMagnitude": 250025.0
-        }
-      },
-      {
-        "uid": 2,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF00",
-        "textcolor": "D1D1D1",
-        "image": "",
-        "value": 0.0,
-        "text": "10%",
-        "fontSize": 15,
-        "parentName": "BasicMeter",
-        "objectType": 2,
-        "name": "progress_text",
-        "pos": {
-          "x": -221.151932,
-          "y": 10.0012054,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.998979,
-            "y": 0.04517706,
-            "z": 0.0,
-            "normalized": {
-              "x": -0.998979032,
-              "y": 0.0451770648,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+        "background": "wall_inside_35",
+        "furniture": [
+            {
+                "uid": 0,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "wall_inside_35",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "Background",
+                "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "magnitude": 0,
+                    "sqrMagnitude": 0
+                },
+                "size": {
+                    "x": 960,
+                    "y": 540,
+                    "normalized": {
+                        "x": 0.871575534,
+                        "y": 0.490261227,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 1101.45361,
+                    "sqrMagnitude": 1213200
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 221.37796,
-          "sqrMagnitude": 49008.2
+            {
+                "uid": 1,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "74D4ED",
+                "textcolor": "FFFFFF",
+                "image": "meter_basic_1",
+                "value": 10,
+                "text": "",
+                "fontSize": 20,
+                "parentName": "",
+                "objectType": 6,
+                "name": "BasicMeter",
+                "pos": {
+                    "x": -3.81469727e-6,
+                    "y": -224.999985,
+                    "z": 0,
+                    "normalized": {
+                        "x": -1.695421e-8,
+                        "y": -1,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 224.999985,
+                    "sqrMagnitude": 50624.9922
+                },
+                "size": {
+                    "x": 500,
+                    "y": 5,
+                    "normalized": {
+                        "x": 0.99995,
+                        "y": 0.009999501,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 500.025,
+                    "sqrMagnitude": 250025
+                }
+            },
+            {
+                "uid": 2,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF00",
+                "textcolor": "D1D1D1",
+                "image": "",
+                "value": 0,
+                "text": "10%",
+                "fontSize": 15,
+                "parentName": "BasicMeter",
+                "objectType": 2,
+                "name": "progress_text",
+                "pos": {
+                    "x": -221.151932,
+                    "y": 10.0012054,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.998979,
+                        "y": 0.04517706,
+                        "z": 0,
+                        "normalized": {
+                            "x": -0.998979032,
+                            "y": 0.0451770648,
+                            "z": 0,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 221.37796,
+                    "sqrMagnitude": 49008.2
+                },
+                "size": {
+                    "x": 50.1753235,
+                    "y": 26.6217651,
+                    "normalized": {
+                        "x": 0.8833627,
+                        "y": 0.468690038,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 56.8003654,
+                    "sqrMagnitude": 3226.28149
+                }
+            },
+            {
+                "uid": 3,
+                "rotation": 0,
+                "visible": true,
+                "locked": false,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "button_blank_1",
+                "value": 0,
+                "text": "<i>THANK YOU FOR TAKING THIS SURVEY<\/i>",
+                "fontSize": 20,
+                "parentName": "",
+                "objectType": 1,
+                "name": "ThankYou",
+                "pos": {
+                    "x": 0,
+                    "y": 50,
+                    "z": 0,
+                    "normalized": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 50,
+                    "sqrMagnitude": 2500
+                },
+                "size": {
+                    "x": 700,
+                    "y": 200,
+                    "normalized": {
+                        "x": 0.96152395,
+                        "y": 0.274721116,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 728.011,
+                    "sqrMagnitude": 530000
+                }
+            }
+        ],
+        "layoutScale": 0.5,
+        "layoutPosition": {
+            "x": -2.51061678,
+            "y": -4.47891474,
+            "normalized": {
+                "x": -0.4889628,
+                "y": -0.8723046,
+                "normalized": {
+                    "x": -0.488962829,
+                    "y": -0.8723047,
+                    "magnitude": 1,
+                    "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 5.13457632,
+            "sqrMagnitude": 26.3638744
         },
-        "size": {
-          "x": 50.1753235,
-          "y": 26.6217651,
-          "normalized": {
-            "x": 0.8833627,
-            "y": 0.468690038,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 56.8003654,
-          "sqrMagnitude": 3226.28149
-        }
-      },
-      {
-        "uid": 3,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": false,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "BlankButton",
-        "value": 0.0,
-        "text": "<i>THANK YOU FOR TAKING THIS SURVEY</i>",
-        "fontSize": 20,
-        "parentName": "",
-        "objectType": 1,
-        "name": "ThankYou",
-        "pos": {
-          "x": 0.0,
-          "y": 50.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 0.0,
-            "y": 1.0,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 50.0,
-          "sqrMagnitude": 2500.0
+        "scriptorScale": 0.3855161,
+        "scriptorPosition": {
+            "x": -105.094269,
+            "y": -180.707855,
+            "normalized": {
+                "x": -0.5027333,
+                "y": -0.864441633,
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 209.045761,
+            "sqrMagnitude": 43700.1328
         },
-        "size": {
-          "x": 700.0,
-          "y": 200.0,
-          "normalized": {
-            "x": 0.96152395,
-            "y": 0.274721116,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 728.011,
-          "sqrMagnitude": 530000.0
-        }
-      }
-    ],
-    "layoutScale": 0.5,
-    "layoutPosition": {
-      "x": -2.51061678,
-      "y": -4.47891474,
-      "normalized": {
-        "x": -0.4889628,
-        "y": -0.8723046,
-        "normalized": {
-          "x": -0.488962829,
-          "y": -0.8723047,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.99999994,
-        "sqrMagnitude": 0.99999994
-      },
-      "magnitude": 5.13457632,
-      "sqrMagnitude": 26.3638744
+        "layoutParamSet": true,
+        "scriptorParamSet": true
     },
-    "scriptorScale": 0.3855161,
-    "scriptorPosition": {
-      "x": -105.094269,
-      "y": -180.707855,
-      "normalized": {
-        "x": -0.5027333,
-        "y": -0.864441633,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.00000012
-      },
-      "magnitude": 209.045761,
-      "sqrMagnitude": 43700.1328
-    },
-    "layoutParamSet": true,
-    "scriptorParamSet": true
-  },
-  "started": false,
-  "manipulator": null
+    "started": false,
+    "manipulator": null
 }

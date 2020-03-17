@@ -1,1348 +1,1347 @@
 {
-  "dictNodes": {
-    "0": {
-      "actionTarget": null,
-      "actionName": "",
-      "name": null,
-      "next": "27997",
-      "tru": "True",
-      "index": "0",
-      "posX": "-8.151493",
-      "posY": "0.3693646",
-      "advance_mode": "OnClick",
-      "type": "action"
+    "dictNodes": {
+        "0": {
+            "name": "Start",
+            "next": "27997",
+            "tru": "True",
+            "index": "0",
+            "posX": "-8.151493",
+            "posY": "0.3693646",
+            "minimized": "False",
+            "advance_mode": "OnClick",
+            "type": "start"
+        },
+        "26278": {
+            "content": "Thank you for playing this game and for participating in our research. ",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "26279",
+            "tru": "True",
+            "index": "26278",
+            "posX": "0.4352321",
+            "posY": "1.399438",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "26279": {
+            "content": "This game was a replication of the well-known Beer Distribution Game in supply chain management.",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28055",
+            "tru": "True",
+            "index": "26279",
+            "posX": "3.406388",
+            "posY": "1.591975",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "27991": {
+            "functionType": "ReloadImageFromServer",
+            "functionDetail": "https:\/\/gamette.me:5000\/client\/{user_id}\/beer_game_inventory_chart.png",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "27992",
+            "tru": "True",
+            "index": "27991",
+            "posX": "3.197334",
+            "posY": "-3.583632",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "27992": {
+            "functionType": "ReloadImageFromServer",
+            "functionDetail": "https:\/\/gamette.me:5000\/client\/{user_id}\/beer_game_order_quantity.png",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "27993",
+            "tru": "True",
+            "index": "27992",
+            "posX": "6.313996",
+            "posY": "-3.506038",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "27993": {
+            "functionType": "ReloadImageFromServer",
+            "functionDetail": "https:\/\/gamette.me:5000\/client\/{user_id}\/beer_game_cum_cost.png",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "-1",
+            "tru": "True",
+            "index": "27993",
+            "posX": "9.417725",
+            "posY": "-3.506038",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "27996": {
+            "functionName": "reload_images",
+            "takesFocus": "True",
+            "name": "Custom Function State",
+            "next": "27991",
+            "tru": "True",
+            "index": "27996",
+            "posX": "-0.4157533",
+            "posY": "-3.701799",
+            "advance_mode": "OnClick",
+            "type": "customfunction"
+        },
+        "27997": {
+            "functionType": "CustomFunction",
+            "functionDetail": "reload_images",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "26278",
+            "tru": "True",
+            "index": "27997",
+            "posX": "-3.370198",
+            "posY": "0.8349296",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "28004": {
+            "content": "Let's take a look at your results.",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28005",
+            "tru": "True",
+            "index": "28004",
+            "posX": "15.22831",
+            "posY": "4.630292",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28005": {
+            "actionTarget": "beer_game_inventory_chart",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "28028",
+            "tru": "True",
+            "index": "28005",
+            "posX": "17.95444",
+            "posY": "2.236914",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28006": {
+            "content": "This is the inventory level of all stakeholders including you throughout the game. Negative amounts on this graph represent the backlog at each time period. ",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28024",
+            "tru": "True",
+            "index": "28006",
+            "posX": "21.13765",
+            "posY": "2.38747",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28007": {
+            "actionTarget": "beer_game_cum_cost",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "28029",
+            "tru": "True",
+            "index": "28007",
+            "posX": "24.33165",
+            "posY": "2.892913",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28011": {
+            "content": "This graph shows the cumulative cost for all stakeholder throughout the game. Note that whenever you or others experienced a large backlog, there is a rapid increase in cumulative cost due to the cost of backlog.",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28025",
+            "tru": "True",
+            "index": "28011",
+            "posX": "27.55793",
+            "posY": "3.323082",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28012": {
+            "content": "Finally this graph shows how much you and other stakeholder ordered in each time period. As you can see the demand was constant and equal to 40 until week 4 and then constant 80 for the rest of the game. Note how your order amounts affected other's order amounts.",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28026",
+            "tru": "True",
+            "index": "28012",
+            "posX": "33.94591",
+            "posY": "3.946827",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28013": {
+            "actionTarget": "beer_game_order_quantity",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "28030",
+            "tru": "True",
+            "index": "28013",
+            "posX": "30.71963",
+            "posY": "3.516658",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28017": {
+            "nextScript": "Page 1",
+            "transitionText": "None",
+            "variablePairs": "",
+            "name": "End Sticker",
+            "next": "-1",
+            "tru": "True",
+            "index": "28017",
+            "posX": "48.59496",
+            "posY": "-3.291228",
+            "advance_mode": "OnClick",
+            "type": "end"
+        },
+        "28019": {
+            "actionTarget": "beer_game_inventory_chart",
+            "actionName": "ZOrder",
+            "action_z-order": "move_to_front",
+            "name": null,
+            "next": "-1",
+            "tru": "True",
+            "index": "28019",
+            "posX": "48.50599",
+            "posY": "9.079369",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28020": {
+            "actionTarget": "beer_game_cum_cost",
+            "actionName": "ZOrder",
+            "action_z-order": "move_to_front",
+            "name": null,
+            "next": "-1",
+            "tru": "True",
+            "index": "28020",
+            "posX": "48.43329",
+            "posY": "5.217287",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28021": {
+            "actionTarget": "beer_game_order_quantity",
+            "actionName": "ZOrder",
+            "action_z-order": "move_to_front",
+            "name": null,
+            "next": "-1",
+            "tru": "True",
+            "index": "28021",
+            "posX": "48.44936",
+            "posY": "1.035151",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28024": {
+            "content": "<click to continue...>",
+            "owner": null,
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28007",
+            "tru": "True",
+            "index": "28024",
+            "posX": "22.99689",
+            "posY": "-1.628303",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28025": {
+            "content": "<click to continue...>",
+            "owner": null,
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28013",
+            "tru": "True",
+            "index": "28025",
+            "posX": "29.73944",
+            "posY": "-1.593368",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28026": {
+            "content": "<click to continue...>",
+            "owner": null,
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28040",
+            "tru": "True",
+            "index": "28026",
+            "posX": "34.44411",
+            "posY": "-0.8849559",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28028": {
+            "actionTarget": "beer_game_inventory_chart",
+            "actionName": "ZOrder",
+            "action_z-order": "move_to_front",
+            "name": null,
+            "next": "28006",
+            "tru": "True",
+            "index": "28028",
+            "posX": "19.99508",
+            "posY": "5.690203",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28029": {
+            "actionTarget": "beer_game_cum_cost",
+            "actionName": "ZOrder",
+            "action_z-order": "move_to_front",
+            "name": null,
+            "next": "28011",
+            "tru": "True",
+            "index": "28029",
+            "posX": "25.83727",
+            "posY": "7.228525",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28030": {
+            "actionTarget": "beer_game_order_quantity",
+            "actionName": "ZOrder",
+            "action_z-order": "move_to_front",
+            "name": null,
+            "next": "28012",
+            "tru": "True",
+            "index": "28030",
+            "posX": "32.31673",
+            "posY": "7.825316",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28039": {
+            "content": "You can click on these buttons to look at each graph again. When you're done, please click on NEXT to take a short survey.",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28042",
+            "tru": "True",
+            "index": "28039",
+            "posX": "37.09122",
+            "posY": "3.823584",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28040": {
+            "functionType": "CustomFunction",
+            "functionDetail": "buttons_unhide",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "28039",
+            "tru": "True",
+            "index": "28040",
+            "posX": "37.54892",
+            "posY": "-0.8803614",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "28042": {
+            "functionType": "ActivateEvent",
+            "functionDetail": "chart_buttons",
+            "functionDetail2": "",
+            "name": "Call Function State",
+            "next": "-1",
+            "tru": "True",
+            "index": "28042",
+            "posX": "40.28045",
+            "posY": "4.924646",
+            "advance_mode": "OnClick",
+            "type": "callfunction"
+        },
+        "28044": {
+            "customEventName": "chart_buttons",
+            "eventDetails": "InventoryChart",
+            "startsActive": "False",
+            "takesFocus": "True",
+            "eventType": "ObjectClick",
+            "name": "Event State",
+            "next": "28019",
+            "tru": "True",
+            "index": "28044",
+            "posX": "45.13625",
+            "posY": "9.049204",
+            "advance_mode": "OnClick",
+            "type": "event"
+        },
+        "28045": {
+            "customEventName": "chart_buttons",
+            "eventDetails": "CostChart",
+            "startsActive": "False",
+            "takesFocus": "True",
+            "eventType": "ObjectClick",
+            "name": "Event State",
+            "next": "28020",
+            "tru": "True",
+            "index": "28045",
+            "posX": "45.10145",
+            "posY": "5.217371",
+            "advance_mode": "OnClick",
+            "type": "event"
+        },
+        "28046": {
+            "customEventName": "chart_buttons",
+            "eventDetails": "OrderChart",
+            "startsActive": "False",
+            "takesFocus": "True",
+            "eventType": "ObjectClick",
+            "name": "Event State",
+            "next": "28021",
+            "tru": "True",
+            "index": "28046",
+            "posX": "45.11811",
+            "posY": "1.035327",
+            "advance_mode": "OnClick",
+            "type": "event"
+        },
+        "28047": {
+            "customEventName": "chart_buttons",
+            "eventDetails": "Jeopardy Represent-Button-Green",
+            "startsActive": "False",
+            "takesFocus": "True",
+            "eventType": "ObjectClick",
+            "name": "Event State",
+            "next": "28017",
+            "tru": "True",
+            "index": "28047",
+            "posX": "45.21809",
+            "posY": "-3.296672",
+            "advance_mode": "OnClick",
+            "type": "event"
+        },
+        "28049": {
+            "functionName": "buttons_unhide",
+            "takesFocus": "True",
+            "name": "Custom Function State",
+            "next": "28050",
+            "tru": "True",
+            "index": "28049",
+            "posX": "29.85618",
+            "posY": "-6.529008",
+            "advance_mode": "OnClick",
+            "type": "customfunction"
+        },
+        "28050": {
+            "actionTarget": "InventoryChart",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "28051",
+            "tru": "True",
+            "index": "28050",
+            "posX": "33.12185",
+            "posY": "-6.529007",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28051": {
+            "actionTarget": "OrderChart",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "28052",
+            "tru": "True",
+            "index": "28051",
+            "posX": "36.13759",
+            "posY": "-6.54567",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28052": {
+            "actionTarget": "CostChart",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "28053",
+            "tru": "True",
+            "index": "28052",
+            "posX": "39.40326",
+            "posY": "-6.612315",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28053": {
+            "actionTarget": "Jeopardy Represent-Button-Green",
+            "actionName": "Visibility",
+            "action_hidden": "False",
+            "name": null,
+            "next": "-1",
+            "tru": "True",
+            "index": "28053",
+            "posX": "42.53561",
+            "posY": "-6.612315",
+            "advance_mode": "Instantly",
+            "type": "action"
+        },
+        "28055": {
+            "content": "You were receving demand from the health-center. But how much do you think the actual demand was?",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28060",
+            "tru": "True",
+            "index": "28055",
+            "posX": "6.392767",
+            "posY": "2.088104",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        },
+        "28056": {
+            "choiceType": "open_response",
+            "content": "Enter below your guess about the actual demand's amount or its pattern at the health-center during the game. ",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "prompted": "True",
+            "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
+            "variable": "Qdemand",
+            "inputMultiline": "False",
+            "openResponseButton": "",
+            "openResponseTextObject": "",
+            "name": null,
+            "next": "28004",
+            "tru": "True",
+            "index": "28056",
+            "posX": "12.17179",
+            "posY": "6.05461",
+            "advance_mode": "OnClick",
+            "type": "choice"
+        },
+        "28060": {
+            "content": "By \"actual demand\" we mean the actual number of salines needed for the patients at the health-center.",
+            "owner": "Doctor_Male1",
+            "speaking": "True",
+            "name": "Dialogue State",
+            "next": "28056",
+            "tru": "True",
+            "index": "28060",
+            "posX": "9.283643",
+            "posY": "4.071278",
+            "advance_mode": "OnClick",
+            "type": "dialogue"
+        }
     },
-    "26278": {
-      "content": "Thank you for playing this game and for participating in our research. ",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "26279",
-      "tru": "True",
-      "index": "26278",
-      "posX": "0.4352321",
-      "posY": "1.399438",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "26279": {
-      "content": "This game was a replication of the well-known Beer Distribution Game in supply chain management.",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28055",
-      "tru": "True",
-      "index": "26279",
-      "posX": "3.406388",
-      "posY": "1.591975",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "27991": {
-      "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://highfreq.ece.neu.edu:8540/client/{user_id}/beer_game_inventory_chart.png",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "27992",
-      "tru": "True",
-      "index": "27991",
-      "posX": "3.197334",
-      "posY": "-3.583632",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "27992": {
-      "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://highfreq.ece.neu.edu:8540/client/{user_id}/beer_game_order_quantity.png",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "27993",
-      "tru": "True",
-      "index": "27992",
-      "posX": "6.313996",
-      "posY": "-3.506038",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "27993": {
-      "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://highfreq.ece.neu.edu:8540/client/{user_id}/beer_game_cum_cost.png",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "-1",
-      "tru": "True",
-      "index": "27993",
-      "posX": "9.417725",
-      "posY": "-3.506038",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "27996": {
-      "functionName": "reload_images",
-      "takesFocus": "True",
-      "name": "Custom Function State",
-      "next": "27991",
-      "tru": "True",
-      "index": "27996",
-      "posX": "-0.4157533",
-      "posY": "-3.701799",
-      "advance_mode": "OnClick",
-      "type": "customfunction"
-    },
-    "27997": {
-      "functionType": "CustomFunction",
-      "functionDetail": "reload_images",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "26278",
-      "tru": "True",
-      "index": "27997",
-      "posX": "-3.370198",
-      "posY": "0.8349296",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "28004": {
-      "content": "Let's take a look at your results.",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28005",
-      "tru": "True",
-      "index": "28004",
-      "posX": "15.22831",
-      "posY": "4.630292",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28005": {
-      "actionTarget": "beer_game_inventory_chart",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "28028",
-      "tru": "True",
-      "index": "28005",
-      "posX": "17.95444",
-      "posY": "2.236914",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28006": {
-      "content": "This is the inventory level of all stakeholders including you throughout the game. Negative amounts on this graph represent the backlog at each time period. ",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28024",
-      "tru": "True",
-      "index": "28006",
-      "posX": "21.13765",
-      "posY": "2.38747",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28007": {
-      "actionTarget": "beer_game_cum_cost",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "28029",
-      "tru": "True",
-      "index": "28007",
-      "posX": "24.33165",
-      "posY": "2.892913",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28011": {
-      "content": "This graph shows the cumulative cost for all stakeholder throughout the game. Note that whenever you or others experienced a large backlog, there is a rapid increase in cumulative cost due to the cost of backlog.",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28025",
-      "tru": "True",
-      "index": "28011",
-      "posX": "27.55793",
-      "posY": "3.323082",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28012": {
-      "content": "Finally this graph shows how much you and other stakeholder ordered in each time period. As you can see the demand was constant and equal to 40 until week 4 and then constant 80 for the rest of the game. Note how your order amounts affected other's order amounts.",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28026",
-      "tru": "True",
-      "index": "28012",
-      "posX": "33.94591",
-      "posY": "3.946827",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28013": {
-      "actionTarget": "beer_game_order_quantity",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "28030",
-      "tru": "True",
-      "index": "28013",
-      "posX": "30.71963",
-      "posY": "3.516658",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28017": {
-      "nextScript": "Page 1",
-      "transitionText": "None",
-      "variablePairs": "",
-      "name": "End Sticker",
-      "next": "-1",
-      "tru": "True",
-      "index": "28017",
-      "posX": "48.59496",
-      "posY": "-3.291228",
-      "advance_mode": "OnClick",
-      "type": "end"
-    },
-    "28019": {
-      "actionTarget": "beer_game_inventory_chart",
-      "actionName": "ZOrder",
-      "action_z-order": "move_to_front",
-      "name": null,
-      "next": "-1",
-      "tru": "True",
-      "index": "28019",
-      "posX": "48.50599",
-      "posY": "9.079369",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28020": {
-      "actionTarget": "beer_game_cum_cost",
-      "actionName": "ZOrder",
-      "action_z-order": "move_to_front",
-      "name": null,
-      "next": "-1",
-      "tru": "True",
-      "index": "28020",
-      "posX": "48.43329",
-      "posY": "5.217287",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28021": {
-      "actionTarget": "beer_game_order_quantity",
-      "actionName": "ZOrder",
-      "action_z-order": "move_to_front",
-      "name": null,
-      "next": "-1",
-      "tru": "True",
-      "index": "28021",
-      "posX": "48.44936",
-      "posY": "1.035151",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28024": {
-      "content": "<click to continue...>",
-      "owner": null,
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28007",
-      "tru": "True",
-      "index": "28024",
-      "posX": "22.99689",
-      "posY": "-1.628303",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28025": {
-      "content": "<click to continue...>",
-      "owner": null,
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28013",
-      "tru": "True",
-      "index": "28025",
-      "posX": "29.73944",
-      "posY": "-1.593368",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28026": {
-      "content": "<click to continue...>",
-      "owner": null,
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28040",
-      "tru": "True",
-      "index": "28026",
-      "posX": "34.44411",
-      "posY": "-0.8849559",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28028": {
-      "actionTarget": "beer_game_inventory_chart",
-      "actionName": "ZOrder",
-      "action_z-order": "move_to_front",
-      "name": null,
-      "next": "28006",
-      "tru": "True",
-      "index": "28028",
-      "posX": "19.99508",
-      "posY": "5.690203",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28029": {
-      "actionTarget": "beer_game_cum_cost",
-      "actionName": "ZOrder",
-      "action_z-order": "move_to_front",
-      "name": null,
-      "next": "28011",
-      "tru": "True",
-      "index": "28029",
-      "posX": "25.83727",
-      "posY": "7.228525",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28030": {
-      "actionTarget": "beer_game_order_quantity",
-      "actionName": "ZOrder",
-      "action_z-order": "move_to_front",
-      "name": null,
-      "next": "28012",
-      "tru": "True",
-      "index": "28030",
-      "posX": "32.31673",
-      "posY": "7.825316",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28039": {
-      "content": "You can click on these buttons to look at each graph again. When you're done, please click on NEXT to take a short survey.",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28042",
-      "tru": "True",
-      "index": "28039",
-      "posX": "37.09122",
-      "posY": "3.823584",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28040": {
-      "functionType": "CustomFunction",
-      "functionDetail": "buttons_unhide",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "28039",
-      "tru": "True",
-      "index": "28040",
-      "posX": "37.54892",
-      "posY": "-0.8803614",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "28042": {
-      "functionType": "ActivateEvent",
-      "functionDetail": "chart_buttons",
-      "functionDetail2": "",
-      "name": "Call Function State",
-      "next": "-1",
-      "tru": "True",
-      "index": "28042",
-      "posX": "40.28045",
-      "posY": "4.924646",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "28044": {
-      "customEventName": "chart_buttons",
-      "eventDetails": "InventoryChart",
-      "startsActive": "False",
-      "takesFocus": "True",
-      "eventType": "ObjectClick",
-      "name": "Event State",
-      "next": "28019",
-      "tru": "True",
-      "index": "28044",
-      "posX": "45.13625",
-      "posY": "9.049204",
-      "advance_mode": "OnClick",
-      "type": "event"
-    },
-    "28045": {
-      "customEventName": "chart_buttons",
-      "eventDetails": "CostChart",
-      "startsActive": "False",
-      "takesFocus": "True",
-      "eventType": "ObjectClick",
-      "name": "Event State",
-      "next": "28020",
-      "tru": "True",
-      "index": "28045",
-      "posX": "45.10145",
-      "posY": "5.217371",
-      "advance_mode": "OnClick",
-      "type": "event"
-    },
-    "28046": {
-      "customEventName": "chart_buttons",
-      "eventDetails": "OrderChart",
-      "startsActive": "False",
-      "takesFocus": "True",
-      "eventType": "ObjectClick",
-      "name": "Event State",
-      "next": "28021",
-      "tru": "True",
-      "index": "28046",
-      "posX": "45.11811",
-      "posY": "1.035327",
-      "advance_mode": "OnClick",
-      "type": "event"
-    },
-    "28047": {
-      "customEventName": "chart_buttons",
-      "eventDetails": "Jeopardy Represent-Button-Green",
-      "startsActive": "False",
-      "takesFocus": "True",
-      "eventType": "ObjectClick",
-      "name": "Event State",
-      "next": "28017",
-      "tru": "True",
-      "index": "28047",
-      "posX": "45.21809",
-      "posY": "-3.296672",
-      "advance_mode": "OnClick",
-      "type": "event"
-    },
-    "28049": {
-      "functionName": "buttons_unhide",
-      "takesFocus": "True",
-      "name": "Custom Function State",
-      "next": "28050",
-      "tru": "True",
-      "index": "28049",
-      "posX": "29.85618",
-      "posY": "-6.529008",
-      "advance_mode": "OnClick",
-      "type": "customfunction"
-    },
-    "28050": {
-      "actionTarget": "InventoryChart",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "28051",
-      "tru": "True",
-      "index": "28050",
-      "posX": "33.12185",
-      "posY": "-6.529007",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28051": {
-      "actionTarget": "OrderChart",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "28052",
-      "tru": "True",
-      "index": "28051",
-      "posX": "36.13759",
-      "posY": "-6.54567",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28052": {
-      "actionTarget": "CostChart",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "28053",
-      "tru": "True",
-      "index": "28052",
-      "posX": "39.40326",
-      "posY": "-6.612315",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28053": {
-      "actionTarget": "Jeopardy Represent-Button-Green",
-      "actionName": "Visibility",
-      "action_hidden": "False",
-      "name": null,
-      "next": "-1",
-      "tru": "True",
-      "index": "28053",
-      "posX": "42.53561",
-      "posY": "-6.612315",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "28055": {
-      "content": "You were receving demand from the health-center. But how much do you think the actual demand was?",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28060",
-      "tru": "True",
-      "index": "28055",
-      "posX": "6.392767",
-      "posY": "2.088104",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28056": {
-      "choiceType": "open_response",
-      "content": "Enter below your guess about the actual demand's amount or its pattern at the health-center during the game. ",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "prompted": "True",
-      "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
-      "variable": "Qdemand",
-      "inputMultiline": "False",
-      "openResponseButton": "",
-      "openResponseTextObject": "",
-      "name": null,
-      "next": "28004",
-      "tru": "True",
-      "index": "28056",
-      "posX": "12.17179",
-      "posY": "6.05461",
-      "advance_mode": "OnClick",
-      "type": "choice"
-    },
-    "28060": {
-      "content": "By \"actual demand\" we mean the actual number of salines needed for the patients at the health-center.",
-      "owner": "Doctor_Male1",
-      "speaking": "True",
-      "name": "Dialogue State",
-      "next": "28056",
-      "tru": "True",
-      "index": "28060",
-      "posX": "9.283643",
-      "posY": "4.071278",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    }
-  },
-  "scene": {
-    "name": "Scene 1",
-    "title": "Debriefing",
-    "pos": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0.0
-    },
-    "uid": 0,
-    "background": "GroceryStore_Empty",
-    "furniture": [
-      {
+    "scene": {
+        "name": "Scene 1",
+        "title": "Debriefing",
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "magnitude": 0,
+            "sqrMagnitude": 0
+        },
         "uid": 0,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "GroceryStore_Empty",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "Background",
-        "pos": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
-          "magnitude": 0.0,
-          "sqrMagnitude": 0.0
-        },
-        "size": {
-          "x": 960.0,
-          "y": 540.0,
-          "normalized": {
-            "x": 0.871575534,
-            "y": 0.490261227,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 1101.45361,
-          "sqrMagnitude": 1213200.0
-        }
-      },
-      {
-        "uid": 1,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": false,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "plant2",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "plant2",
-        "pos": {
-          "x": -233.979431,
-          "y": -77.4113159,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.94938916,
-            "y": -0.314102232,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 246.4526,
-          "sqrMagnitude": 60738.8867
-        },
-        "size": {
-          "x": 160.9821,
-          "y": 255.404419,
-          "normalized": {
-            "x": 0.533220947,
-            "y": 0.845975935,
-            "normalized": {
-              "x": 0.533221,
-              "y": 0.845976,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+        "background": "wall_inside_22",
+        "furniture": [
+            {
+                "uid": 0,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "wall_inside_22",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "Background",
+                "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "magnitude": 0,
+                    "sqrMagnitude": 0
+                },
+                "size": {
+                    "x": 960,
+                    "y": 540,
+                    "normalized": {
+                        "x": 0.871575534,
+                        "y": 0.490261227,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 1101.45361,
+                    "sqrMagnitude": 1213200
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 301.90506,
-          "sqrMagnitude": 91146.66
-        }
-      },
-      {
-        "uid": 2,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "Photoframe",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "Photoframe",
-        "pos": {
-          "x": -338.275818,
-          "y": 153.339325,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.9107944,
-            "y": 0.412860125,
-            "z": 0.0,
-            "normalized": {
-              "x": -0.910794437,
-              "y": 0.412860155,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+            {
+                "uid": 1,
+                "rotation": 0,
+                "visible": true,
+                "locked": false,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "plant_2",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "plant2",
+                "pos": {
+                    "x": -233.979431,
+                    "y": -77.4113159,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.94938916,
+                        "y": -0.314102232,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 246.4526,
+                    "sqrMagnitude": 60738.8867
+                },
+                "size": {
+                    "x": 160.9821,
+                    "y": 255.404419,
+                    "normalized": {
+                        "x": 0.533220947,
+                        "y": 0.845975935,
+                        "normalized": {
+                            "x": 0.533221,
+                            "y": 0.845976,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                    },
+                    "magnitude": 301.90506,
+                    "sqrMagnitude": 91146.66
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 371.40744,
-          "sqrMagnitude": 137943.484
-        },
-        "size": {
-          "x": 100.0,
-          "y": 121.0,
-          "normalized": {
-            "x": 0.6370461,
-            "y": 0.770825744,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 156.974518,
-          "sqrMagnitude": 24641.0
-        }
-      },
-      {
-        "uid": 3,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": false,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "board2",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "board2",
-        "pos": {
-          "x": -389.358215,
-          "y": -86.42475,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.976239741,
-            "y": -0.2166932,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 398.834625,
-          "sqrMagnitude": 159069.063
-        },
-        "size": {
-          "x": 194.425217,
-          "y": 355.798248,
-          "normalized": {
-            "x": 0.4795238,
-            "y": 0.877528846,
-            "normalized": {
-              "x": 0.479523838,
-              "y": 0.8775289,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+            {
+                "uid": 2,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "frame_8",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "Photoframe",
+                "pos": {
+                    "x": -338.275818,
+                    "y": 153.339325,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.9107944,
+                        "y": 0.412860125,
+                        "z": 0,
+                        "normalized": {
+                            "x": -0.910794437,
+                            "y": 0.412860155,
+                            "z": 0,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                    },
+                    "magnitude": 371.40744,
+                    "sqrMagnitude": 137943.484
+                },
+                "size": {
+                    "x": 100,
+                    "y": 121,
+                    "normalized": {
+                        "x": 0.6370461,
+                        "y": 0.770825744,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 156.974518,
+                    "sqrMagnitude": 24641
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 405.454773,
-          "sqrMagnitude": 164393.563
-        }
-      },
-      {
-        "uid": 4,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "Jeopardy Represent-Whiteboard",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "Jeopardy Represent-Whiteboard",
-        "pos": {
-          "x": 130.0,
-          "y": 40.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 0.955778956,
-            "y": 0.29408583,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.955779,
-              "y": 0.29408586,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+            {
+                "uid": 3,
+                "rotation": 0,
+                "visible": true,
+                "locked": false,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "board_2",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "board2",
+                "pos": {
+                    "x": -389.358215,
+                    "y": -86.42475,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.976239741,
+                        "y": -0.2166932,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 398.834625,
+                    "sqrMagnitude": 159069.063
+                },
+                "size": {
+                    "x": 194.425217,
+                    "y": 355.798248,
+                    "normalized": {
+                        "x": 0.4795238,
+                        "y": 0.877528846,
+                        "normalized": {
+                            "x": 0.479523838,
+                            "y": 0.8775289,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 405.454773,
+                    "sqrMagnitude": 164393.563
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 136.014709,
-          "sqrMagnitude": 18500.0
-        },
-        "size": {
-          "x": 559.0,
-          "y": 383.0,
-          "normalized": {
-            "x": 0.8249451,
-            "y": 0.565212846,
-            "normalized": {
-              "x": 0.824945152,
-              "y": 0.5652129,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+            {
+                "uid": 4,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "jeopardy_whiteboard_1",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "Jeopardy Represent-Whiteboard",
+                "pos": {
+                    "x": 130,
+                    "y": 40,
+                    "z": 0,
+                    "normalized": {
+                        "x": 0.955778956,
+                        "y": 0.29408583,
+                        "z": 0,
+                        "normalized": {
+                            "x": 0.955779,
+                            "y": 0.29408586,
+                            "z": 0,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                    },
+                    "magnitude": 136.014709,
+                    "sqrMagnitude": 18500
+                },
+                "size": {
+                    "x": 559,
+                    "y": 383,
+                    "normalized": {
+                        "x": 0.8249451,
+                        "y": 0.565212846,
+                        "normalized": {
+                            "x": 0.824945152,
+                            "y": 0.5652129,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 677.62085,
+                    "sqrMagnitude": 459170
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 677.62085,
-          "sqrMagnitude": 459170.0
-        }
-      },
-      {
-        "uid": 5,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "beer_game_order_quantity",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "beer_game_order_quantity",
-        "pos": {
-          "x": 130.0,
-          "y": 40.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 0.955778956,
-            "y": 0.29408583,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.955779,
-              "y": 0.29408586,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+            {
+                "uid": 5,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "beer_game_order_quantity",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "beer_game_order_quantity",
+                "pos": {
+                    "x": 130,
+                    "y": 40,
+                    "z": 0,
+                    "normalized": {
+                        "x": 0.955778956,
+                        "y": 0.29408583,
+                        "z": 0,
+                        "normalized": {
+                            "x": 0.955779,
+                            "y": 0.29408586,
+                            "z": 0,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                    },
+                    "magnitude": 136.014709,
+                    "sqrMagnitude": 18500
+                },
+                "size": {
+                    "x": 540.04,
+                    "y": 359.78,
+                    "normalized": {
+                        "x": 0.83222574,
+                        "y": 0.554437041,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 648.910461,
+                    "sqrMagnitude": 421084.8
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 136.014709,
-          "sqrMagnitude": 18500.0
-        },
-        "size": {
-          "x": 540.04,
-          "y": 359.78,
-          "normalized": {
-            "x": 0.83222574,
-            "y": 0.554437041,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 648.910461,
-          "sqrMagnitude": 421084.8
-        }
-      },
-      {
-        "uid": 6,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "beer_game_inventory_chart",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "beer_game_inventory_chart",
-        "pos": {
-          "x": 130.0,
-          "y": 40.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 0.955778956,
-            "y": 0.29408583,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.955779,
-              "y": 0.29408586,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+            {
+                "uid": 6,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "beer_game_inventory_chart",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "beer_game_inventory_chart",
+                "pos": {
+                    "x": 130,
+                    "y": 40,
+                    "z": 0,
+                    "normalized": {
+                        "x": 0.955778956,
+                        "y": 0.29408583,
+                        "z": 0,
+                        "normalized": {
+                            "x": 0.955779,
+                            "y": 0.29408586,
+                            "z": 0,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                    },
+                    "magnitude": 136.014709,
+                    "sqrMagnitude": 18500
+                },
+                "size": {
+                    "x": 540.04,
+                    "y": 359.78,
+                    "normalized": {
+                        "x": 0.83222574,
+                        "y": 0.554437041,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 648.910461,
+                    "sqrMagnitude": 421084.8
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 136.014709,
-          "sqrMagnitude": 18500.0
-        },
-        "size": {
-          "x": 540.04,
-          "y": 359.78,
-          "normalized": {
-            "x": 0.83222574,
-            "y": 0.554437041,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 648.910461,
-          "sqrMagnitude": 421084.8
-        }
-      },
-      {
-        "uid": 7,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "beer_game_cum_cost",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "beer_game_cum_cost",
-        "pos": {
-          "x": 130.0,
-          "y": 40.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 0.955778956,
-            "y": 0.29408583,
-            "z": 0.0,
-            "normalized": {
-              "x": 0.955779,
-              "y": 0.29408586,
-              "z": 0.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+            {
+                "uid": 7,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "beer_game_cum_cost",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "beer_game_cum_cost",
+                "pos": {
+                    "x": 130,
+                    "y": 40,
+                    "z": 0,
+                    "normalized": {
+                        "x": 0.955778956,
+                        "y": 0.29408583,
+                        "z": 0,
+                        "normalized": {
+                            "x": 0.955779,
+                            "y": 0.29408586,
+                            "z": 0,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                    },
+                    "magnitude": 136.014709,
+                    "sqrMagnitude": 18500
+                },
+                "size": {
+                    "x": 540.04,
+                    "y": 359.78,
+                    "normalized": {
+                        "x": 0.83222574,
+                        "y": 0.554437041,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 648.910461,
+                    "sqrMagnitude": 421084.8
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.9999999
-          },
-          "magnitude": 136.014709,
-          "sqrMagnitude": 18500.0
-        },
-        "size": {
-          "x": 540.04,
-          "y": 359.78,
-          "normalized": {
-            "x": 0.83222574,
-            "y": 0.554437041,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 648.910461,
-          "sqrMagnitude": 421084.8
-        }
-      },
-      {
-        "uid": 8,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": false,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "Doctor_Male1",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 0,
-        "name": "Doctor_Male1",
-        "pos": {
-          "x": -258.35083,
-          "y": -105.832443,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.925366759,
-            "y": -0.379073,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 279.1875,
-          "sqrMagnitude": 77945.66
-        },
-        "size": {
-          "x": 95.0,
-          "y": 310.0,
-          "normalized": {
-            "x": 0.293002,
-            "y": 0.956111848,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 324.229858,
-          "sqrMagnitude": 105125.0
-        }
-      },
-      {
-        "uid": 9,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "button_chart",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 3,
-        "name": "InventoryChart",
-        "pos": {
-          "x": -450.0,
-          "y": 30.0,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.997785151,
-            "y": 0.06651901,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 450.9989,
-          "sqrMagnitude": 203400.0
-        },
-        "size": {
-          "x": 30.0,
-          "y": 30.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+            {
+                "uid": 8,
+                "rotation": 0,
+                "visible": true,
+                "locked": false,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "male_doctor_1",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 0,
+                "name": "Doctor_Male1",
+                "pos": {
+                    "x": -258.35083,
+                    "y": -105.832443,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.925366759,
+                        "y": -0.379073,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 279.1875,
+                    "sqrMagnitude": 77945.66
+                },
+                "size": {
+                    "x": 95,
+                    "y": 310,
+                    "normalized": {
+                        "x": 0.293002,
+                        "y": 0.956111848,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 324.229858,
+                    "sqrMagnitude": 105125
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 42.4264069,
-          "sqrMagnitude": 1800.0
-        }
-      },
-      {
-        "uid": 10,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF00",
-        "textcolor": "08AFD8",
-        "image": "",
-        "value": 0.0,
-        "text": "Inventory Level",
-        "fontSize": 16,
-        "parentName": "InventoryChart",
-        "objectType": 2,
-        "name": "InventoryText",
-        "pos": {
-          "x": 80.59,
-          "y": 4.76837158E-07,
-          "z": 0.0,
-          "normalized": {
-            "x": 1.0,
-            "y": 5.91682836E-09,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 80.59,
-          "sqrMagnitude": 6494.74756
-        },
-        "size": {
-          "x": 116.0,
-          "y": 21.0,
-          "normalized": {
-            "x": 0.9840054,
-            "y": 0.1781389,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 117.885536,
-          "sqrMagnitude": 13897.0
-        }
-      },
-      {
-        "uid": 11,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "button_chart",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 3,
-        "name": "OrderChart",
-        "pos": {
-          "x": -450.0,
-          "y": -10.0,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.999753237,
-            "y": -0.0222167373,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 450.111084,
-          "sqrMagnitude": 202600.0
-        },
-        "size": {
-          "x": 30.0,
-          "y": 30.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+            {
+                "uid": 9,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "button_chart_1",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 3,
+                "name": "InventoryChart",
+                "pos": {
+                    "x": -450,
+                    "y": 30,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.997785151,
+                        "y": 0.06651901,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 450.9989,
+                    "sqrMagnitude": 203400
+                },
+                "size": {
+                    "x": 30,
+                    "y": 30,
+                    "normalized": {
+                        "x": 0.707106769,
+                        "y": 0.707106769,
+                        "normalized": {
+                            "x": 0.7071068,
+                            "y": 0.7071068,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 42.4264069,
+                    "sqrMagnitude": 1800
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 42.4264069,
-          "sqrMagnitude": 1800.0
-        }
-      },
-      {
-        "uid": 12,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF00",
-        "textcolor": "08AFD8",
-        "image": "",
-        "value": 0.0,
-        "text": "Order Quantity",
-        "fontSize": 16,
-        "parentName": "OrderChart",
-        "objectType": 2,
-        "name": "OrderText",
-        "pos": {
-          "x": 80.58804,
-          "y": 0.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 1.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 80.58804,
-          "sqrMagnitude": 6494.43262
-        },
-        "size": {
-          "x": 116.0,
-          "y": 21.0,
-          "normalized": {
-            "x": 0.9840054,
-            "y": 0.1781389,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 117.885536,
-          "sqrMagnitude": 13897.0
-        }
-      },
-      {
-        "uid": 13,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "button_chart",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 3,
-        "name": "CostChart",
-        "pos": {
-          "x": -450.0,
-          "y": -50.0,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.9938837,
-            "y": -0.11043153,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 452.769257,
-          "sqrMagnitude": 205000.0
-        },
-        "size": {
-          "x": 30.0,
-          "y": 30.0,
-          "normalized": {
-            "x": 0.707106769,
-            "y": 0.707106769,
-            "normalized": {
-              "x": 0.7071068,
-              "y": 0.7071068,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+            {
+                "uid": 10,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF00",
+                "textcolor": "08AFD8",
+                "image": "",
+                "value": 0,
+                "text": "Inventory Level",
+                "fontSize": 16,
+                "parentName": "InventoryChart",
+                "objectType": 2,
+                "name": "InventoryText",
+                "pos": {
+                    "x": 80.59,
+                    "y": 4.76837158e-7,
+                    "z": 0,
+                    "normalized": {
+                        "x": 1,
+                        "y": 5.91682836e-9,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 80.59,
+                    "sqrMagnitude": 6494.74756
+                },
+                "size": {
+                    "x": 116,
+                    "y": 21,
+                    "normalized": {
+                        "x": 0.9840054,
+                        "y": 0.1781389,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 117.885536,
+                    "sqrMagnitude": 13897
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 42.4264069,
-          "sqrMagnitude": 1800.0
-        }
-      },
-      {
-        "uid": 14,
-        "rotation": 0.0,
-        "visible": true,
-        "locked": true,
-        "color": "FFFFFF00",
-        "textcolor": "08AFD8",
-        "image": "",
-        "value": 0.0,
-        "text": "Cumulative Cost",
-        "fontSize": 16,
-        "parentName": "CostChart",
-        "objectType": 2,
-        "name": "CostText",
-        "pos": {
-          "x": 80.00003,
-          "y": 0.0,
-          "z": 0.0,
-          "normalized": {
-            "x": 1.0,
-            "y": 0.0,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 80.00003,
-          "sqrMagnitude": 6400.005
-        },
-        "size": {
-          "x": 116.0,
-          "y": 21.0,
-          "normalized": {
-            "x": 0.9840054,
-            "y": 0.1781389,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 117.885536,
-          "sqrMagnitude": 13897.0
-        }
-      },
-      {
-        "uid": 15,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "drug_shortage_exit_button",
-        "value": 0.0,
-        "text": "",
-        "fontSize": 0,
-        "parentName": "",
-        "objectType": 3,
-        "name": "drug_shortage_exit_button",
-        "pos": {
-          "x": -390.0,
-          "y": -110.0,
-          "z": 0.0,
-          "normalized": {
-            "x": -0.96244967,
-            "y": -0.271460146,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 405.216,
-          "sqrMagnitude": 164200.0
-        },
-        "size": {
-          "x": 70.0,
-          "y": 26.0,
-          "normalized": {
-            "x": 0.9374253,
-            "y": 0.348186553,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 74.6726151,
-          "sqrMagnitude": 5576.0
-        }
-      },
-      {
-        "uid": 16,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF",
-        "textcolor": "000000",
-        "image": "Jeopardy Represent-Button-Green",
-        "value": 0.0,
-        "text": "NEXT",
-        "fontSize": 22,
-        "parentName": "",
-        "objectType": 1,
-        "name": "Jeopardy Represent-Button-Green",
-        "pos": {
-          "x": 371.8836,
-          "y": -220.512344,
-          "z": 0.0,
-          "normalized": {
-            "x": 0.860152662,
-            "y": -0.5100367,
-            "z": 0.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 432.346039,
-          "sqrMagnitude": 186923.109
-        },
-        "size": {
-          "x": 135.78244,
-          "y": 44.5306549,
-          "normalized": {
-            "x": 0.950205,
-            "y": 0.311625361,
-            "normalized": {
-              "x": 0.9502051,
-              "y": 0.3116254,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+            {
+                "uid": 11,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "button_chart_1",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 3,
+                "name": "OrderChart",
+                "pos": {
+                    "x": -450,
+                    "y": -10,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.999753237,
+                        "y": -0.0222167373,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 450.111084,
+                    "sqrMagnitude": 202600
+                },
+                "size": {
+                    "x": 30,
+                    "y": 30,
+                    "normalized": {
+                        "x": 0.707106769,
+                        "y": 0.707106769,
+                        "normalized": {
+                            "x": 0.7071068,
+                            "y": 0.7071068,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 42.4264069,
+                    "sqrMagnitude": 1800
+                }
             },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 142.898041,
-          "sqrMagnitude": 20419.85
-        }
-      }
-    ],
-    "layoutScale": 0.5578333,
-    "layoutPosition": {
-      "x": -9.472626,
-      "y": -28.4188843,
-      "normalized": {
-        "x": -0.3162177,
-        "y": -0.948686659,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.0
-      },
-      "magnitude": 29.956028,
-      "sqrMagnitude": 897.363647
+            {
+                "uid": 12,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF00",
+                "textcolor": "08AFD8",
+                "image": "",
+                "value": 0,
+                "text": "Order Quantity",
+                "fontSize": 16,
+                "parentName": "OrderChart",
+                "objectType": 2,
+                "name": "OrderText",
+                "pos": {
+                    "x": 80.58804,
+                    "y": 0,
+                    "z": 0,
+                    "normalized": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 80.58804,
+                    "sqrMagnitude": 6494.43262
+                },
+                "size": {
+                    "x": 116,
+                    "y": 21,
+                    "normalized": {
+                        "x": 0.9840054,
+                        "y": 0.1781389,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 117.885536,
+                    "sqrMagnitude": 13897
+                }
+            },
+            {
+                "uid": 13,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "button_chart_1",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 3,
+                "name": "CostChart",
+                "pos": {
+                    "x": -450,
+                    "y": -50,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.9938837,
+                        "y": -0.11043153,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 452.769257,
+                    "sqrMagnitude": 205000
+                },
+                "size": {
+                    "x": 30,
+                    "y": 30,
+                    "normalized": {
+                        "x": 0.707106769,
+                        "y": 0.707106769,
+                        "normalized": {
+                            "x": 0.7071068,
+                            "y": 0.7071068,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 42.4264069,
+                    "sqrMagnitude": 1800
+                }
+            },
+            {
+                "uid": 14,
+                "rotation": 0,
+                "visible": true,
+                "locked": true,
+                "color": "FFFFFF00",
+                "textcolor": "08AFD8",
+                "image": "",
+                "value": 0,
+                "text": "Cumulative Cost",
+                "fontSize": 16,
+                "parentName": "CostChart",
+                "objectType": 2,
+                "name": "CostText",
+                "pos": {
+                    "x": 80.00003,
+                    "y": 0,
+                    "z": 0,
+                    "normalized": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 80.00003,
+                    "sqrMagnitude": 6400.005
+                },
+                "size": {
+                    "x": 116,
+                    "y": 21,
+                    "normalized": {
+                        "x": 0.9840054,
+                        "y": 0.1781389,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 117.885536,
+                    "sqrMagnitude": 13897
+                }
+            },
+            {
+                "uid": 15,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "drug_shortage_exit_button_1",
+                "value": 0,
+                "text": "",
+                "fontSize": 0,
+                "parentName": "",
+                "objectType": 3,
+                "name": "drug_shortage_exit_button",
+                "pos": {
+                    "x": -390,
+                    "y": -110,
+                    "z": 0,
+                    "normalized": {
+                        "x": -0.96244967,
+                        "y": -0.271460146,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 405.216,
+                    "sqrMagnitude": 164200
+                },
+                "size": {
+                    "x": 70,
+                    "y": 26,
+                    "normalized": {
+                        "x": 0.9374253,
+                        "y": 0.348186553,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1.00000012
+                    },
+                    "magnitude": 74.6726151,
+                    "sqrMagnitude": 5576
+                }
+            },
+            {
+                "uid": 16,
+                "rotation": 0,
+                "visible": false,
+                "locked": true,
+                "color": "FFFFFF",
+                "textcolor": "000000",
+                "image": "jeopardy_button_green_1",
+                "value": 0,
+                "text": "NEXT",
+                "fontSize": 22,
+                "parentName": "",
+                "objectType": 1,
+                "name": "Jeopardy Represent-Button-Green",
+                "pos": {
+                    "x": 371.8836,
+                    "y": -220.512344,
+                    "z": 0,
+                    "normalized": {
+                        "x": 0.860152662,
+                        "y": -0.5100367,
+                        "z": 0,
+                        "magnitude": 1,
+                        "sqrMagnitude": 1
+                    },
+                    "magnitude": 432.346039,
+                    "sqrMagnitude": 186923.109
+                },
+                "size": {
+                    "x": 135.78244,
+                    "y": 44.5306549,
+                    "normalized": {
+                        "x": 0.950205,
+                        "y": 0.311625361,
+                        "normalized": {
+                            "x": 0.9502051,
+                            "y": 0.3116254,
+                            "magnitude": 1,
+                            "sqrMagnitude": 1.00000012
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.99999994
+                    },
+                    "magnitude": 142.898041,
+                    "sqrMagnitude": 20419.85
+                }
+            }
+        ],
+        "layoutScale": 0.5578333,
+        "layoutPosition": {
+            "x": -9.472626,
+            "y": -28.4188843,
+            "normalized": {
+                "x": -0.3162177,
+                "y": -0.948686659,
+                "magnitude": 1,
+                "sqrMagnitude": 1
+            },
+            "magnitude": 29.956028,
+            "sqrMagnitude": 897.363647
+        },
+        "scriptorScale": 0.5198679,
+        "scriptorPosition": {
+            "x": -1947.71094,
+            "y": -12.6325035,
+            "normalized": {
+                "x": -0.99997896,
+                "y": -0.006485684,
+                "magnitude": 1,
+                "sqrMagnitude": 1
+            },
+            "magnitude": 1947.752,
+            "sqrMagnitude": 3793737.5
+        },
+        "layoutParamSet": true,
+        "scriptorParamSet": true
     },
-    "scriptorScale": 0.5198679,
-    "scriptorPosition": {
-      "x": -1947.71094,
-      "y": -12.6325035,
-      "normalized": {
-        "x": -0.99997896,
-        "y": -0.006485684,
-        "magnitude": 1.0,
-        "sqrMagnitude": 1.0
-      },
-      "magnitude": 1947.752,
-      "sqrMagnitude": 3793737.5
-    },
-    "layoutParamSet": true,
-    "scriptorParamSet": true
-  },
-  "started": false,
-  "manipulator": null
+    "started": false,
+    "manipulator": null
 }
