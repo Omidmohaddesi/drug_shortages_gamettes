@@ -3,7 +3,7 @@
   "description": "This is the second study with Gamettes to look into human behavior within supply chains",
   "initial_scene": "First Day",
   "version": 1,
-  "last_edit": "2020-03-17 17:46:15",
+  "last_edit": "2020-03-18 01:31:25",
   "published": "false",
   "scene_order": [
     "0",
@@ -549,6 +549,12 @@
     },
     {
       "name": "backlogHC2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "mnInventory",
       "value": "0",
       "value_type": "Int",
       "id": "-1"

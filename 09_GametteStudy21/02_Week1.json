@@ -344,8 +344,8 @@
       "next": "23344",
       "tru": "True",
       "index": "23343",
-      "posX": "106.4042",
-      "posY": "-8.280515",
+      "posX": "106.2483",
+      "posY": "-8.306498",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -361,22 +361,22 @@
       "next": "23764",
       "tru": "True",
       "index": "23344",
-      "posX": "109.4435",
-      "posY": "-8.286029",
+      "posX": "109.5085",
+      "posY": "-8.312013",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
     },
     "23346": {
-      "actionTarget": "TVLarge",
+      "actionTarget": "TVLargeGroup",
       "actionName": "Visibility",
       "action_hidden": "",
       "name": "Action",
-      "next": "23361",
+      "next": "28512",
       "tru": "True",
       "index": "23346",
-      "posX": "117.0558",
-      "posY": "-8.288626",
+      "posX": "115.9775",
+      "posY": "-7.317088",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -386,11 +386,11 @@
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28218",
+      "next": "28521",
       "tru": "True",
       "index": "23361",
-      "posX": "120.33",
-      "posY": "-8.311979",
+      "posX": "123.4325",
+      "posY": "-7.807111",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -406,8 +406,8 @@
       "next": "23383",
       "tru": "True",
       "index": "23382",
-      "posX": "134.1866",
-      "posY": "-8.128566",
+      "posX": "141.0365",
+      "posY": "-8.250884",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -423,8 +423,8 @@
       "next": "28016",
       "tru": "True",
       "index": "23383",
-      "posX": "137.6596",
-      "posY": "-8.088255",
+      "posX": "144.5094",
+      "posY": "-8.210573",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -451,8 +451,8 @@
       "next": "23343",
       "tru": "True",
       "index": "23398",
-      "posX": "103.0761",
-      "posY": "-8.8002",
+      "posX": "102.9202",
+      "posY": "-8.826184",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -583,8 +583,8 @@
       "next": "23769",
       "tru": "True",
       "index": "23745",
-      "posX": "95.91078",
-      "posY": "-8.592735",
+      "posX": "95.89897",
+      "posY": "-7.742384",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "event"
@@ -614,22 +614,22 @@
       "next": "23346",
       "tru": "True",
       "index": "23764",
-      "posX": "113.1933",
-      "posY": "-8.231795",
+      "posX": "112.8555",
+      "posY": "-7.309402",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
     },
     "23765": {
-      "actionTarget": "TVLarge",
+      "actionTarget": "TVLargeGroup",
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
       "next": "23382",
       "tru": "True",
       "index": "23765",
-      "posX": "130.4268",
-      "posY": "-8.244732",
+      "posX": "137.2766",
+      "posY": "-8.36705",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -642,8 +642,8 @@
       "next": "23765",
       "tru": "True",
       "index": "23766",
-      "posX": "127.1122",
-      "posY": "-8.272217",
+      "posX": "133.9621",
+      "posY": "-8.394536",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -659,8 +659,8 @@
       "next": "28042",
       "tru": "True",
       "index": "23769",
-      "posX": "99.70941",
-      "posY": "-8.820951",
+      "posX": "99.30785",
+      "posY": "-7.214733",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -1518,7 +1518,7 @@
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
-      "next": "-1",
+      "next": "28550",
       "tru": "True",
       "index": "23902",
       "posX": "-13.11429",
@@ -8592,8 +8592,8 @@
       "next": "25741",
       "tru": "True",
       "index": "25731",
-      "posX": "-1.275882",
-      "posY": "53.03412",
+      "posX": "-0.1755066",
+      "posY": "55.13484",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -8666,8 +8666,8 @@
       "next": "-1",
       "tru": "True",
       "index": "25741",
-      "posX": "4.535316",
-      "posY": "53.62257",
+      "posX": "3.306325",
+      "posY": "54.9659",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -12123,8 +12123,8 @@
       "next": "28012",
       "tru": "True",
       "index": "27884",
-      "posX": "-34.81875",
-      "posY": "17.01357",
+      "posX": "-34.81874",
+      "posY": "17.0055",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -12603,7 +12603,7 @@
       "tru": "True",
       "index": "28004",
       "posX": "-38.23737",
-      "posY": "16.85144",
+      "posY": "16.74751",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -12631,8 +12631,8 @@
       "next": "23743",
       "tru": "True",
       "index": "28012",
-      "posX": "-31.44961",
-      "posY": "17.1666",
+      "posX": "-31.4496",
+      "posY": "17.10164",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -12645,8 +12645,8 @@
       "next": "23766",
       "tru": "True",
       "index": "28015",
-      "posX": "123.6284",
-      "posY": "-8.213536",
+      "posX": "130.6413",
+      "posY": "-8.009672",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -12659,8 +12659,8 @@
       "next": "28017",
       "tru": "True",
       "index": "28016",
-      "posX": "141.2598",
-      "posY": "-7.775739",
+      "posX": "148.1096",
+      "posY": "-7.898058",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -12673,8 +12673,8 @@
       "next": "28018",
       "tru": "True",
       "index": "28017",
-      "posX": "144.3509",
-      "posY": "-7.311409",
+      "posX": "151.2526",
+      "posY": "-7.55477",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -12684,11 +12684,11 @@
       "actionName": "ZOrder",
       "action_z-order": "move_to_back",
       "name": "Action",
-      "next": "28023",
+      "next": "28530",
       "tru": "True",
       "index": "28018",
-      "posX": "147.4553",
-      "posY": "-7.019542",
+      "posX": "154.5299",
+      "posY": "-7.280195",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -12716,8 +12716,8 @@
       "next": "28043",
       "tru": "True",
       "index": "28023",
-      "posX": "150.5605",
-      "posY": "-6.855763",
+      "posX": "167.526",
+      "posY": "-6.926209",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -12852,8 +12852,8 @@
       "next": "28048",
       "tru": "True",
       "index": "28042",
-      "posX": "99.58244",
-      "posY": "-11.03023",
+      "posX": "99.28719",
+      "posY": "-10.29798",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -12868,8 +12868,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28043",
-      "posX": "153.5311",
-      "posY": "-6.876743",
+      "posX": "170.4965",
+      "posY": "-6.947188",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -12882,8 +12882,8 @@
       "next": "23398",
       "tru": "True",
       "index": "28048",
-      "posX": "99.56711",
-      "posY": "-14.85128",
+      "posX": "99.30728",
+      "posY": "-13.89464",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -12990,8 +12990,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28177",
-      "posX": "-13.25696",
-      "posY": "4.358952",
+      "posX": "-9.710295",
+      "posY": "4.293995",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -13018,11 +13018,11 @@
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28015",
+      "next": "28524",
       "tru": "True",
       "index": "28218",
-      "posX": "122.0467",
-      "posY": "-5.125648",
+      "posX": "126.8579",
+      "posY": "-7.775878",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -15502,7 +15502,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "-1",
+      "next": "28534",
       "tru": "True",
       "index": "28446",
       "posX": "41.28595",
@@ -15695,7 +15695,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28435",
+      "next": "28532",
       "tru": "True",
       "index": "28486",
       "posX": "9.155452",
@@ -15850,11 +15850,439 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28177",
+      "next": "28554",
       "tru": "True",
       "index": "28510",
       "posX": "-16.41288",
       "posY": "3.773902",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28512": {
+      "content": "This is the our supply chain...",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "28513",
+      "tru": "True",
+      "index": "28512",
+      "posX": "119.0775",
+      "posY": "-6.880982",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28513": {
+      "actionTarget": "Supply Chain Network",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": "Action",
+      "next": "23361",
+      "tru": "True",
+      "index": "28513",
+      "posX": "121.2261",
+      "posY": "-4.150936",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28514": {
+      "functionName": "info_sharing_character",
+      "takesFocus": "True",
+      "name": "Make Function",
+      "next": "28517",
+      "tru": "True",
+      "index": "28514",
+      "posX": "119.2986",
+      "posY": "2.178959",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "customfunction"
+    },
+    "28515": {
+      "content": "Health Center 1 always orders based on their trust on how we fulfill their demand. Their demand from us is always proportional to our delivery rate.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "28520",
+      "tru": "True",
+      "index": "28515",
+      "posX": "133.2402",
+      "posY": "2.109203",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28516": {
+      "actionTarget": "Study 2 Network DS1",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": "Action",
+      "next": "28515",
+      "tru": "True",
+      "index": "28516",
+      "posX": "129.4237",
+      "posY": "1.969891",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28517": {
+      "content": "Also note that Health Centers have different ordering behavior.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "28526",
+      "tru": "True",
+      "index": "28517",
+      "posX": "122.8465",
+      "posY": "2.012088",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28519": {
+      "content": "Health Center 2 always split their order amount equally between us and Wholesaler 2.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "-1",
+      "tru": "True",
+      "index": "28519",
+      "posX": "140.3264",
+      "posY": "2.459518",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "28520": {
+      "actionTarget": "Study 2 Network HC1",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": "Action",
+      "next": "28519",
+      "tru": "True",
+      "index": "28520",
+      "posX": "136.7423",
+      "posY": "2.21354",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28521": {
+      "actionTarget": "Supply Chain Network",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "28218",
+      "tru": "True",
+      "index": "28521",
+      "posX": "125.526",
+      "posY": "-3.895592",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28524": {
+      "functionType": "CustomFunction",
+      "functionDetail": "info_sharing_character",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28015",
+      "tru": "True",
+      "index": "28524",
+      "posX": "129.6843",
+      "posY": "-3.988523",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28526": {
+      "actionTarget": "Supply Chain Network",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": "Action",
+      "next": "28516",
+      "tru": "True",
+      "index": "28526",
+      "posX": "126.2805",
+      "posY": "1.89086",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28528": {
+      "actionTarget": "Study 2 Network HC1",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "28023",
+      "tru": "True",
+      "index": "28528",
+      "posX": "164.2417",
+      "posY": "-6.958698",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28529": {
+      "actionTarget": "Study 2 Network DS1",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "28528",
+      "tru": "True",
+      "index": "28529",
+      "posX": "160.8137",
+      "posY": "-6.908391",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28530": {
+      "actionTarget": "Supply Chain Network",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "28529",
+      "tru": "True",
+      "index": "28530",
+      "posX": "157.6705",
+      "posY": "-6.987422",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28532": {
+      "actionTarget": "button_request",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "28435",
+      "tru": "True",
+      "index": "28532",
+      "posX": "12.37502",
+      "posY": "-73.73196",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28534": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "info_sharing",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "-1",
+      "tru": "True",
+      "index": "28534",
+      "posX": "44.47121",
+      "posY": "-63.92762",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28535": {
+      "customEventName": "info_sharing",
+      "eventDetails": "button_request",
+      "startsActive": "False",
+      "takesFocus": "True",
+      "eventType": "ObjectClick",
+      "name": "Event",
+      "next": "28536",
+      "tru": "True",
+      "index": "28535",
+      "posX": "3.118884",
+      "posY": "-98.15105",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "event"
+    },
+    "28536": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "info_sharing",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28537",
+      "tru": "True",
+      "index": "28536",
+      "posX": "6.973338",
+      "posY": "-97.32058",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28537": {
+      "actionTarget": "mn_inventory",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "28540",
+      "tru": "True",
+      "index": "28537",
+      "posX": "10.15242",
+      "posY": "-97.44209",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28538": {
+      "actionTarget": "mn_inv_text",
+      "actionName": "TypeText",
+      "action_text": "<i>Manufacturer's Inventory</i>\n\n{mnInventory}",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28544",
+      "tru": "True",
+      "index": "28538",
+      "posX": "26.0612",
+      "posY": "-97.52548",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "action"
+    },
+    "28540": {
+      "actionTarget": "mn_inv_text",
+      "actionName": "TypeText",
+      "action_text": "<i>Manufacturer's Inventory</i>\n\n.",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28541",
+      "tru": "True",
+      "index": "28540",
+      "posX": "13.30286",
+      "posY": "-97.56871",
+      "minimized": "False",
+      "advance_mode": "AfterTime_.75",
+      "type": "action"
+    },
+    "28541": {
+      "actionTarget": "mn_inv_text",
+      "actionName": "TypeText",
+      "action_text": "<i>Manufacturer's Inventory</i>\n\n. .",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28542",
+      "tru": "True",
+      "index": "28541",
+      "posX": "16.55333",
+      "posY": "-97.5246",
+      "minimized": "False",
+      "advance_mode": "AfterTime_.75",
+      "type": "action"
+    },
+    "28542": {
+      "actionTarget": "mn_inv_text",
+      "actionName": "TypeText",
+      "action_text": "<i>Manufacturer's Inventory</i>\n\n. . .",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28543",
+      "tru": "True",
+      "index": "28542",
+      "posX": "19.68427",
+      "posY": "-97.56358",
+      "minimized": "False",
+      "advance_mode": "AfterTime_.75",
+      "type": "action"
+    },
+    "28543": {
+      "actionTarget": "mn_inv_text",
+      "actionName": "TypeText",
+      "action_text": "<i>Manufacturer's Inventory</i>\n\n. . . .",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28538",
+      "tru": "True",
+      "index": "28543",
+      "posX": "22.8412",
+      "posY": "-97.5376",
+      "minimized": "False",
+      "advance_mode": "AfterTime_.75",
+      "type": "action"
+    },
+    "28544": {
+      "actionTarget": "mn_inv_text",
+      "actionName": "TypeText",
+      "action_text": "",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28545",
+      "tru": "True",
+      "index": "28544",
+      "posX": "29.14208",
+      "posY": "-97.13487",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28545": {
+      "actionTarget": "mn_inventory",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": "Action",
+      "next": "28546",
+      "tru": "True",
+      "index": "28545",
+      "posX": "32.23625",
+      "posY": "-96.47518",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28546": {
+      "functionType": "ActivateEvent",
+      "functionDetail": "info_sharing",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "-1",
+      "tru": "True",
+      "index": "28546",
+      "posX": "35.19281",
+      "posY": "-95.81382",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28550": {
+      "actionTarget": "button_request",
+      "actionName": "Visibility",
+      "action_hidden": "True",
+      "name": "Action",
+      "next": "-1",
+      "tru": "True",
+      "index": "28550",
+      "posX": "-9.927107",
+      "posY": "-43.23029",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28554": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=inventory-mn1",
+      "functionDetail2": "{mnInventory}",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28177",
+      "tru": "True",
+      "index": "28554",
+      "posX": "-13.05511",
+      "posY": "3.790729",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -17122,6 +17550,30 @@
       {
         "uid": 52,
         "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "000000",
+        "image": "Group",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 8,
+        "name": "TVLargeGroup",
+        "pos": {
+          "x": 4.21878052,
+          "y": -6.32815552,
+          "z": 0.0
+        },
+        "size": {
+          "x": 648.5625,
+          "y": 463.468719
+        }
+      },
+      {
+        "uid": 53,
+        "rotation": 0.0,
         "visible": true,
         "locked": true,
         "color": "FFFFFF",
@@ -17130,12 +17582,12 @@
         "value": 0.0,
         "text": "",
         "fontSize": 0,
-        "parentName": "",
+        "parentName": "TVLargeGroup",
         "objectType": 0,
         "name": "TVLarge",
         "pos": {
-          "x": 4.21875,
-          "y": -6.32814026,
+          "x": 2.670288E-05,
+          "y": 1.09672546E-05,
           "z": 0.0
         },
         "size": {
@@ -17144,51 +17596,27 @@
         }
       },
       {
-        "uid": 53,
-        "rotation": 0.0,
-        "visible": false,
-        "locked": true,
-        "color": "FFFFFF00",
-        "textcolor": "FFFFFF",
-        "image": "",
-        "value": 0.0,
-        "text": "SALINE SHORTAGE",
-        "fontSize": 22,
-        "parentName": "TVLarge",
-        "objectType": 2,
-        "name": "News_headline",
-        "pos": {
-          "x": -180.452362,
-          "y": -56.01886,
-          "z": 0.0
-        },
-        "size": {
-          "x": 183.624329,
-          "y": 29.3073158
-        }
-      },
-      {
         "uid": 54,
         "rotation": 0.0,
-        "visible": false,
+        "visible": true,
         "locked": true,
-        "color": "FFFFFF00",
-        "textcolor": "FFFFFF",
-        "image": "",
+        "color": "A18DA8",
+        "textcolor": "000000",
+        "image": "panel_blank_1",
         "value": 0.0,
-        "text": "FDA is aware of saline shortage",
-        "fontSize": 11,
-        "parentName": "TVLarge",
-        "objectType": 2,
-        "name": "News_description",
+        "text": "",
+        "fontSize": 0,
+        "parentName": "TVLargeGroup",
+        "objectType": 3,
+        "name": "TVBackground",
         "pos": {
-          "x": -176.3466,
-          "y": -79.31702,
+          "x": -0.0434942245,
+          "y": 46.69023,
           "z": 0.0
         },
         "size": {
-          "x": 184.48645,
-          "y": 14.6514893
+          "x": 584.34436,
+          "y": 332.429565
         }
       },
       {
@@ -17200,14 +17628,62 @@
         "textcolor": "FFFFFF",
         "image": "",
         "value": 0.0,
+        "text": "SALINE SHORTAGE",
+        "fontSize": 22,
+        "parentName": "TVLargeGroup",
+        "objectType": 2,
+        "name": "News_headline",
+        "pos": {
+          "x": -180.4524,
+          "y": -56.018837,
+          "z": 0.0
+        },
+        "size": {
+          "x": 183.624329,
+          "y": 29.3073158
+        }
+      },
+      {
+        "uid": 56,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "FFFFFF",
+        "image": "",
+        "value": 0.0,
+        "text": "FDA is aware of saline shortage",
+        "fontSize": 11,
+        "parentName": "TVLargeGroup",
+        "objectType": 2,
+        "name": "News_description",
+        "pos": {
+          "x": -176.346619,
+          "y": -79.31701,
+          "z": 0.0
+        },
+        "size": {
+          "x": 184.48645,
+          "y": 14.6514893
+        }
+      },
+      {
+        "uid": 57,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "FFFFFF",
+        "image": "",
+        "value": 0.0,
         "text": "rtage situation for intravenous (IV) solutions, particularly 0.9% sodium chloride injection (i.e., saline)",
         "fontSize": 11,
-        "parentName": "TVLarge",
+        "parentName": "TVLargeGroup",
         "objectType": 2,
         "name": "News_subline",
         "pos": {
-          "x": 49.8857651,
-          "y": -102.2546,
+          "x": 49.88576,
+          "y": -102.254593,
           "z": 0.0
         },
         "size": {
@@ -17216,31 +17692,79 @@
         }
       },
       {
-        "uid": 56,
+        "uid": 58,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
-        "color": "A18DA8",
+        "color": "FFFFFF",
         "textcolor": "000000",
-        "image": "panel_blank_1",
+        "image": "Study 2 Network HC2",
         "value": 0.0,
         "text": "",
         "fontSize": 0,
-        "parentName": "TVLarge",
-        "objectType": 3,
-        "name": "TVBackground",
+        "parentName": "TVLargeGroup",
+        "objectType": 0,
+        "name": "Study 2 Network HC2",
         "pos": {
-          "x": -0.04344988,
-          "y": 46.69023,
+          "x": 0.00123214722,
+          "y": 47.9981728,
           "z": 0.0
         },
         "size": {
-          "x": 584.34436,
-          "y": 332.429565
+          "x": 580.0,
+          "y": 271.0
         }
       },
       {
-        "uid": 57,
+        "uid": 59,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "Study 2 Network HC1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "TVLargeGroup",
+        "objectType": 0,
+        "name": "Study 2 Network HC1",
+        "pos": {
+          "x": 0.00123214722,
+          "y": 47.9981728,
+          "z": 0.0
+        },
+        "size": {
+          "x": 580.0,
+          "y": 271.0
+        }
+      },
+      {
+        "uid": 60,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "Study 2 Network DS1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "TVLargeGroup",
+        "objectType": 0,
+        "name": "Study 2 Network DS1",
+        "pos": {
+          "x": 0.00123214722,
+          "y": 47.9981728,
+          "z": 0.0
+        },
+        "size": {
+          "x": 580.0,
+          "y": 271.0
+        }
+      },
+      {
+        "uid": 61,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -17250,7 +17774,7 @@
         "value": 0.0,
         "text": "",
         "fontSize": 0,
-        "parentName": "TVLarge",
+        "parentName": "TVLargeGroup",
         "objectType": 0,
         "name": "Supply Chain Network",
         "pos": {
@@ -17264,7 +17788,7 @@
         }
       },
       {
-        "uid": 58,
+        "uid": 62,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17288,7 +17812,7 @@
         }
       },
       {
-        "uid": 59,
+        "uid": 63,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17312,7 +17836,7 @@
         }
       },
       {
-        "uid": 60,
+        "uid": 64,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17336,7 +17860,7 @@
         }
       },
       {
-        "uid": 61,
+        "uid": 65,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17360,7 +17884,7 @@
         }
       },
       {
-        "uid": 62,
+        "uid": 66,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17384,7 +17908,7 @@
         }
       },
       {
-        "uid": 63,
+        "uid": 67,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -17408,7 +17932,7 @@
         }
       },
       {
-        "uid": 64,
+        "uid": 68,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17432,7 +17956,7 @@
         }
       },
       {
-        "uid": 65,
+        "uid": 69,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17456,7 +17980,7 @@
         }
       },
       {
-        "uid": 66,
+        "uid": 70,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17480,7 +18004,7 @@
         }
       },
       {
-        "uid": 67,
+        "uid": 71,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17504,7 +18028,7 @@
         }
       },
       {
-        "uid": 68,
+        "uid": 72,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17528,7 +18052,7 @@
         }
       },
       {
-        "uid": 69,
+        "uid": 73,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17552,7 +18076,7 @@
         }
       },
       {
-        "uid": 70,
+        "uid": 74,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17576,7 +18100,7 @@
         }
       },
       {
-        "uid": 71,
+        "uid": 75,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17600,7 +18124,7 @@
         }
       },
       {
-        "uid": 72,
+        "uid": 76,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17624,7 +18148,7 @@
         }
       },
       {
-        "uid": 73,
+        "uid": 77,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17648,7 +18172,7 @@
         }
       },
       {
-        "uid": 74,
+        "uid": 78,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17672,7 +18196,31 @@
         }
       },
       {
-        "uid": 75,
+        "uid": 79,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "button_info_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 1,
+        "name": "button_request",
+        "pos": {
+          "x": 310.0,
+          "y": 112.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 33.0,
+          "y": 33.0
+        }
+      },
+      {
+        "uid": 80,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17696,7 +18244,7 @@
         }
       },
       {
-        "uid": 76,
+        "uid": 81,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -17720,7 +18268,7 @@
         }
       },
       {
-        "uid": 77,
+        "uid": 82,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17744,7 +18292,7 @@
         }
       },
       {
-        "uid": 78,
+        "uid": 83,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -17768,7 +18316,7 @@
         }
       },
       {
-        "uid": 79,
+        "uid": 84,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17792,7 +18340,7 @@
         }
       },
       {
-        "uid": 80,
+        "uid": 85,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -17816,7 +18364,7 @@
         }
       },
       {
-        "uid": 81,
+        "uid": 86,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17840,7 +18388,7 @@
         }
       },
       {
-        "uid": 82,
+        "uid": 87,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17864,7 +18412,7 @@
         }
       },
       {
-        "uid": 83,
+        "uid": 88,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17888,7 +18436,7 @@
         }
       },
       {
-        "uid": 84,
+        "uid": 89,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17912,7 +18460,7 @@
         }
       },
       {
-        "uid": 85,
+        "uid": 90,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17936,7 +18484,7 @@
         }
       },
       {
-        "uid": 86,
+        "uid": 91,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17960,7 +18508,7 @@
         }
       },
       {
-        "uid": 87,
+        "uid": 92,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -17984,7 +18532,7 @@
         }
       },
       {
-        "uid": 88,
+        "uid": 93,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18008,7 +18556,7 @@
         }
       },
       {
-        "uid": 89,
+        "uid": 94,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18032,7 +18580,7 @@
         }
       },
       {
-        "uid": 90,
+        "uid": 95,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18056,7 +18604,7 @@
         }
       },
       {
-        "uid": 91,
+        "uid": 96,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18080,7 +18628,79 @@
         }
       },
       {
-        "uid": 92,
+        "uid": 97,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "000000",
+        "image": "Group",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 8,
+        "name": "mn_inventory",
+        "pos": {
+          "x": 69.99999,
+          "y": 14.9999847,
+          "z": 0.0
+        },
+        "size": {
+          "x": 360.000031,
+          "y": 80.0
+        }
+      },
+      {
+        "uid": 98,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "E89031",
+        "textcolor": "000000",
+        "image": "panel_blank_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "mn_inventory",
+        "objectType": 3,
+        "name": "mn_inv_panel",
+        "pos": {
+          "x": 7.62939453E-06,
+          "y": 3.6239624E-05,
+          "z": 0.0
+        },
+        "size": {
+          "x": 300.0,
+          "y": 100.0
+        }
+      },
+      {
+        "uid": 99,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "button_blank_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 16,
+        "parentName": "mn_inventory",
+        "objectType": 1,
+        "name": "mn_inv_text",
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 290.0,
+          "y": 90.0
+        }
+      },
+      {
+        "uid": 100,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18104,7 +18724,7 @@
         }
       },
       {
-        "uid": 93,
+        "uid": 101,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18128,7 +18748,7 @@
         }
       },
       {
-        "uid": 94,
+        "uid": 102,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18152,7 +18772,7 @@
         }
       },
       {
-        "uid": 95,
+        "uid": 103,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18176,7 +18796,7 @@
         }
       },
       {
-        "uid": 96,
+        "uid": 104,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18200,7 +18820,7 @@
         }
       },
       {
-        "uid": 97,
+        "uid": 105,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18224,7 +18844,7 @@
         }
       },
       {
-        "uid": 98,
+        "uid": 106,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18248,7 +18868,7 @@
         }
       },
       {
-        "uid": 99,
+        "uid": 107,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18272,7 +18892,7 @@
         }
       },
       {
-        "uid": 100,
+        "uid": 108,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18296,7 +18916,7 @@
         }
       },
       {
-        "uid": 101,
+        "uid": 109,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -18320,7 +18940,7 @@
         }
       },
       {
-        "uid": 102,
+        "uid": 110,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -18345,21 +18965,27 @@
       }
     ],
     "recent_assets": [
-      "saline_stand_1"
+      "wand_1",
+      "button_basic_1",
+      "speech_bubble_1",
+      "panel_basic_1",
+      "Text",
+      "panel_basic_1",
+      "Text",
+      "jeopardy_question_bar_1",
+      "button_blank_1"
     ],
     "recent_backgrounds": [],
-    "recent_characters": [
-      "baby_2"
-    ],
-    "layoutScale": 0.6209211,
+    "recent_characters": [],
+    "layoutScale": 0.826446056,
     "layoutPosition": {
-      "x": 0.491528332,
-      "y": -21.009779
+      "x": -60.24684,
+      "y": -31.23642
     },
-    "scriptorScale": 0.269879967,
+    "scriptorScale": 0.35049367,
     "scriptorPosition": {
-      "x": 723.486938,
-      "y": -131.9479
+      "x": 940.5235,
+      "y": -27.60948
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
