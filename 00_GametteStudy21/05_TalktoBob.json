@@ -1,0 +1,299 @@
+{
+  "dictNodes": {
+    "0": {
+      "name": "Start",
+      "next": "79",
+      "tru": "True",
+      "index": "0",
+      "posX": "-2.723203",
+      "posY": "-0.1234568",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "start"
+    },
+    "4": {
+      "content": "Hey Boss!",
+      "owner": "Kate",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "17",
+      "tru": "True",
+      "index": "4",
+      "posX": "5.156745",
+      "posY": "1.613703",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "17": {
+      "content": "Kate! It's seems we will have some problems with our Saline supplies! ",
+      "owner": "Doctor",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "32",
+      "tru": "True",
+      "index": "17",
+      "posX": "9.033696",
+      "posY": "2.839154",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "32": {
+      "content": "I've just heard that the recent hurricane caused Daxter Pharma to shutdown its Puerto Rico facility.",
+      "owner": "Doctor",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "85",
+      "tru": "True",
+      "index": "32",
+      "posX": "12.53435",
+      "posY": "3.926854",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "46": {
+      "nextScript": "Week 2",
+      "transitionText": "Back to Office...",
+      "variablePairs": "",
+      "name": "end",
+      "next": "-1",
+      "tru": "True",
+      "index": "46",
+      "posX": "38.94463",
+      "posY": "9.864942",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "end"
+    },
+    "79": {
+      "actionTarget": "Kate",
+      "actionName": "MoveBy",
+      "action_x-difference": "250",
+      "action_y-difference": "0",
+      "action_time": "2",
+      "action_easing": null,
+      "name": "Action",
+      "next": "4",
+      "tru": "True",
+      "index": "79",
+      "posX": "1.268559",
+      "posY": "0.8605655",
+      "minimized": "False",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "85": {
+      "content": "Oh, that's dreadful!",
+      "owner": "Kate",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "89",
+      "tru": "True",
+      "index": "85",
+      "posX": "15.83277",
+      "posY": "4.838693",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "89": {
+      "content": "Now we have to be more careful about how we allocate our inventory and how we're ordering.",
+      "owner": "Doctor",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "90",
+      "tru": "True",
+      "index": "89",
+      "posX": "19.16236",
+      "posY": "5.776065",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "90": {
+      "content": "OK Boss! I'm on it.",
+      "owner": "Kate",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "94",
+      "tru": "True",
+      "index": "90",
+      "posX": "22.39063",
+      "posY": "6.914063",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "94": {
+      "actionTarget": "Kate",
+      "actionName": "Flip",
+      "action_horizontal": "true",
+      "action_vertical": "false",
+      "name": "Action",
+      "next": "95",
+      "tru": "True",
+      "index": "94",
+      "posX": "25.58917",
+      "posY": "8.005982",
+      "minimized": "False",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "95": {
+      "actionTarget": "Kate",
+      "actionName": "MoveBy",
+      "action_x-difference": "-250",
+      "action_y-difference": "0",
+      "action_time": "2",
+      "action_easing": null,
+      "name": "Action",
+      "next": "98",
+      "tru": "True",
+      "index": "95",
+      "posX": "28.6927",
+      "posY": "9.197906",
+      "minimized": "False",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "98": {
+      "displayName": null,
+      "owner": "{disruptionStart}",
+      "newValue": "null",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "26087",
+      "tru": "True",
+      "index": "98",
+      "posX": "31.87121",
+      "posY": "9.860044",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "26087": {
+      "displayName": null,
+      "owner": "{visitBob}",
+      "newValue": "1",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "46",
+      "tru": "True",
+      "index": "26087",
+      "posX": "35.23345",
+      "posY": "9.872212",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    }
+  },
+  "scene": {
+    "name": "Talk to Bob!",
+    "title": "Talk to Bob!",
+    "pos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "uid": "0",
+    "background": "patient_room_1",
+    "furniture": [
+      {
+        "uid": 0,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "patient_room_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Background",
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 960.0,
+          "y": 540.0
+        }
+      },
+      {
+        "uid": 1,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "male_doctor_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Doctor",
+        "pos": {
+          "x": 24.5307426,
+          "y": -98.23004,
+          "z": 0.0
+        },
+        "size": {
+          "x": -86.06037,
+          "y": 280.8285
+        }
+      },
+      {
+        "uid": 2,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "female_business_4",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "name": "Kate",
+        "pos": {
+          "x": -516.479858,
+          "y": -101.349678,
+          "z": 0.0
+        },
+        "size": {
+          "x": 67.729866,
+          "y": 271.901062
+        }
+      }
+    ],
+    "recent_assets": [
+      "saline_stand_1"
+    ],
+    "recent_backgrounds": [],
+    "recent_characters": [
+      "baby_2"
+    ],
+    "layoutScale": 0.5,
+    "layoutPosition": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scriptorScale": 0.47010836,
+    "scriptorPosition": {
+      "x": -656.6943,
+      "y": -250.5269
+    },
+    "layoutParamSet": true,
+    "scriptorParamSet": true
+  },
+  "started": false
+}
