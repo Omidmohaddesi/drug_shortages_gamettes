@@ -430,7 +430,7 @@
       "tru": "True",
       "index": "23743",
       "posX": "5.695107",
-      "posY": "42.64871",
+      "posY": "43.65683",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -1205,7 +1205,7 @@
     },
     "24106": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/update/{playerID}?",
+      "functionDetail": "https://gamette.me/update/{playerID}?",
       "functionDetail2": "{update}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1221,7 +1221,7 @@
       "type": "callfunction"
     },
     "24107": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 2 ...",
       "variablePairs": "",
       "name": "end",
@@ -1245,8 +1245,8 @@
       "next": "25874",
       "tru": "True",
       "index": "24229",
-      "posX": "8.743353",
-      "posY": "42.6734",
+      "posX": "8.743354",
+      "posY": "43.68152",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -1964,7 +1964,7 @@
     },
     "25554": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/week/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/week/{playerID}??",
       "functionDetail2": "task={week}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1981,7 +1981,7 @@
     },
     "25555": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/inv/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/inv/{playerID}??",
       "functionDetail2": "task={Inv}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1998,7 +1998,7 @@
     },
     "25556": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order/{playerID}??",
       "functionDetail2": "task={splitType}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2015,7 +2015,7 @@
     },
     "25557": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/allocate/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/allocate/{playerID}??",
       "functionDetail2": "task={AL}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2032,7 +2032,7 @@
     },
     "25558": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/satisfied_urgent/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/satisfied_urgent/{playerID}??",
       "functionDetail2": "task={ALHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2049,7 +2049,7 @@
     },
     "25559": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/satisfied_non_urgent/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/satisfied_non_urgent/{playerID}??",
       "functionDetail2": "task={ALHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2066,7 +2066,7 @@
     },
     "25560": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order_DS1/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order_DS1/{playerID}??",
       "functionDetail2": "task={OrDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2083,7 +2083,7 @@
     },
     "25561": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order_DS2/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order_DS2/{playerID}??",
       "functionDetail2": "task={OrDS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2100,7 +2100,7 @@
     },
     "25562": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order_total/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order_total/{playerID}??",
       "functionDetail2": "task={OrTobe}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2220,7 +2220,7 @@
       "type": "end"
     },
     "25697": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 4 ...",
       "variablePairs": "",
       "name": "end",
@@ -2234,7 +2234,7 @@
       "type": "end"
     },
     "25698": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 3 ...",
       "variablePairs": "",
       "name": "end",
@@ -2248,7 +2248,7 @@
       "type": "end"
     },
     "25699": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 6 ...",
       "variablePairs": "",
       "name": "end",
@@ -2262,7 +2262,7 @@
       "type": "end"
     },
     "25700": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 5 ...",
       "variablePairs": "",
       "name": "end",
@@ -2276,7 +2276,7 @@
       "type": "end"
     },
     "25701": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 8 ...",
       "variablePairs": "",
       "name": "end",
@@ -2290,7 +2290,7 @@
       "type": "end"
     },
     "25702": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 7 ...",
       "variablePairs": "",
       "name": "end",
@@ -2304,7 +2304,7 @@
       "type": "end"
     },
     "25703": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 9 ...",
       "variablePairs": "",
       "name": "end",
@@ -2506,8 +2506,8 @@
       "next": "26405",
       "tru": "True",
       "index": "25830",
-      "posX": "-7.352298",
-      "posY": "45.57203",
+      "posX": "-7.3523",
+      "posY": "46.58015",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -2519,8 +2519,8 @@
       "next": "-1",
       "tru": "True",
       "index": "25831",
-      "posX": "-0.8156874",
-      "posY": "47.6162",
+      "posX": "-0.8156899",
+      "posY": "48.62431",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -2533,7 +2533,7 @@
       "tru": "True",
       "index": "25842",
       "posX": "2.40571",
-      "posY": "46.60649",
+      "posY": "47.61461",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -2592,7 +2592,7 @@
       "tru": "True",
       "index": "25861",
       "posX": "35.23299",
-      "posY": "64.26497",
+      "posY": "65.11179",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -2606,7 +2606,7 @@
       "tru": "True",
       "index": "25874",
       "posX": "11.81612",
-      "posY": "42.67004",
+      "posY": "43.67815",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -2639,7 +2639,7 @@
       "tru": "True",
       "index": "25881",
       "posX": "14.88198",
-      "posY": "42.69239",
+      "posY": "43.70051",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -2968,8 +2968,8 @@
       "next": "25999",
       "tru": "True",
       "index": "25996",
-      "posX": "-4.828475",
-      "posY": "55.6377",
+      "posX": "-4.828478",
+      "posY": "56.64582",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -2985,8 +2985,8 @@
       "next": "26012",
       "tru": "True",
       "index": "25997",
-      "posX": "9.534754",
-      "posY": "46.88755",
+      "posX": "9.534751",
+      "posY": "47.89567",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3001,8 +3001,8 @@
       "next": "26000",
       "tru": "True",
       "index": "25998",
-      "posX": "1.792002",
-      "posY": "55.6331",
+      "posX": "1.792004",
+      "posY": "56.64121",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3015,8 +3015,8 @@
       "next": "25998",
       "tru": "True",
       "index": "25999",
-      "posX": "-1.333709",
-      "posY": "55.63308",
+      "posX": "-1.333708",
+      "posY": "56.6412",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "sound"
@@ -3031,8 +3031,8 @@
       "next": "26001",
       "tru": "True",
       "index": "26000",
-      "posX": "4.864187",
-      "posY": "55.64379",
+      "posX": "4.864188",
+      "posY": "56.65191",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3047,8 +3047,8 @@
       "next": "26002",
       "tru": "True",
       "index": "26001",
-      "posX": "7.957781",
-      "posY": "55.63308",
+      "posX": "7.95778",
+      "posY": "56.6412",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3064,7 +3064,7 @@
       "tru": "True",
       "index": "26002",
       "posX": "11.10491",
-      "posY": "55.66517",
+      "posY": "56.67329",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3080,7 +3080,7 @@
       "tru": "True",
       "index": "26003",
       "posX": "-4.876379",
-      "posY": "59.73396",
+      "posY": "60.74207",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "event"
@@ -3096,8 +3096,8 @@
       "next": "-1",
       "tru": "True",
       "index": "26004",
-      "posX": "-1.669532",
-      "posY": "59.74797",
+      "posX": "-1.669533",
+      "posY": "60.75608",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3113,8 +3113,8 @@
       "next": "25997",
       "tru": "True",
       "index": "26005",
-      "posX": "6.378445",
-      "posY": "46.86194",
+      "posX": "6.378444",
+      "posY": "47.87006",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3129,8 +3129,8 @@
       "next": "26030",
       "tru": "True",
       "index": "26006",
-      "posX": "-8.687136",
-      "posY": "64.24784",
+      "posX": "-8.687137",
+      "posY": "65.25596",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "event"
@@ -3147,7 +3147,7 @@
       "tru": "True",
       "index": "26007",
       "posX": "-2.319483",
-      "posY": "64.31086",
+      "posY": "65.31898",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3163,8 +3163,8 @@
       "next": "26014",
       "tru": "True",
       "index": "26008",
-      "posX": "0.7271488",
-      "posY": "64.31255",
+      "posX": "0.7271487",
+      "posY": "65.32068",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3178,7 +3178,7 @@
       "tru": "True",
       "index": "26009",
       "posX": "6.963979",
-      "posY": "64.29724",
+      "posY": "65.30536",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -3192,7 +3192,7 @@
       "tru": "True",
       "index": "26010",
       "posX": "10.07309",
-      "posY": "64.32724",
+      "posY": "65.33536",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -3209,7 +3209,7 @@
       "tru": "True",
       "index": "26012",
       "posX": "12.56394",
-      "posY": "46.89099",
+      "posY": "47.89911",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3225,7 +3225,7 @@
       "tru": "True",
       "index": "26013",
       "posX": "14.31798",
-      "posY": "55.68186",
+      "posY": "56.68998",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3242,7 +3242,7 @@
       "tru": "True",
       "index": "26014",
       "posX": "3.824525",
-      "posY": "64.2905",
+      "posY": "65.29861",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3254,7 +3254,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "26018~~Sure!~~False~~none~~true~-~26016~~Unfortunately, I'm busy!~~False~~none~~true~-~",
       "variable": null,
       "name": "Player Choice",
@@ -3262,7 +3262,7 @@
       "tru": "True",
       "index": "26015",
       "posX": "13.40439",
-      "posY": "64.4018",
+      "posY": "65.40993",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
@@ -3276,7 +3276,7 @@
       "tru": "True",
       "index": "26016",
       "posX": "16.70465",
-      "posY": "60.37039",
+      "posY": "61.3785",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -3289,8 +3289,8 @@
       "next": "26018",
       "tru": "True",
       "index": "26017",
-      "posX": "19.81752",
-      "posY": "60.35572",
+      "posX": "19.85785",
+      "posY": "61.12189",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -3304,8 +3304,8 @@
       "next": "26020",
       "tru": "True",
       "index": "26018",
-      "posX": "23.03753",
-      "posY": "64.19023",
+      "posX": "23.07786",
+      "posY": "65.07736",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3321,8 +3321,8 @@
       "next": "26025",
       "tru": "True",
       "index": "26020",
-      "posX": "26.23141",
-      "posY": "64.19022",
+      "posX": "26.27173",
+      "posY": "64.95639",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3338,8 +3338,8 @@
       "next": "25861",
       "tru": "True",
       "index": "26021",
-      "posX": "32.17971",
-      "posY": "64.22864",
+      "posX": "32.22003",
+      "posY": "65.11578",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -3352,8 +3352,8 @@
       "next": "26021",
       "tru": "True",
       "index": "26025",
-      "posX": "29.2667",
-      "posY": "64.17417",
+      "posX": "29.30703",
+      "posY": "65.06132",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -3369,8 +3369,8 @@
       "next": "26007",
       "tru": "True",
       "index": "26030",
-      "posX": "-5.465449",
-      "posY": "64.27184",
+      "posX": "-5.465447",
+      "posY": "65.27997",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -3750,7 +3750,7 @@
     },
     "26222": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_urgent;{ALHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3767,7 +3767,7 @@
     },
     "26223": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/next_period?token={token}",
+      "functionDetail": "https://gamette.me/api/next_period?token={token}",
       "functionDetail2": "week",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3784,7 +3784,7 @@
     },
     "26224": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_non_urgent;{ALHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3801,7 +3801,7 @@
     },
     "26225": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};order_from_ds1;{OrDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3818,7 +3818,7 @@
     },
     "26226": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};order_from_ds2;{OrDS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3835,7 +3835,7 @@
     },
     "26227": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/update_graphs?token={token}",
+      "functionDetail": "https://gamette.me/api/update_graphs?token={token}",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3882,7 +3882,7 @@
     },
     "26232": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=inventory",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=inventory",
       "functionDetail2": "{Inv}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3899,7 +3899,7 @@
     },
     "26233": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=urgent",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=urgent",
       "functionDetail2": "{HC1D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3916,7 +3916,7 @@
     },
     "26234": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=non-urgent",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=non-urgent",
       "functionDetail2": "{HC2D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3933,7 +3933,7 @@
     },
     "26236": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=received-delivery-ds1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=received-delivery-ds1",
       "functionDetail2": "{rec_DS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3950,7 +3950,7 @@
     },
     "26237": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=received-delivery-ds2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=received-delivery-ds2",
       "functionDetail2": "{rec_DS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3967,7 +3967,7 @@
     },
     "26238": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=on-order-ds1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=on-order-ds1",
       "functionDetail2": "{OnOrderDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -3984,7 +3984,7 @@
     },
     "26239": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=on-order-ds2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=on-order-ds2",
       "functionDetail2": "{OnOrderDS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4014,7 +4014,7 @@
     },
     "26241": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_inventory_chart_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_inventory_chart_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4031,7 +4031,7 @@
     },
     "26242": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_ds_order_history_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_ds_order_history_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4048,7 +4048,7 @@
     },
     "26243": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_ds_order_history_2.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_ds_order_history_2.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4065,7 +4065,7 @@
     },
     "26244": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_order_history_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_order_history_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4082,7 +4082,7 @@
     },
     "26245": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_patient_history_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_patient_history_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4114,7 +4114,7 @@
       "type": "variable"
     },
     "26297": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 10 ...",
       "variablePairs": "",
       "name": "end",
@@ -4128,7 +4128,7 @@
       "type": "end"
     },
     "26298": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 11 ...",
       "variablePairs": "",
       "name": "end",
@@ -4142,7 +4142,7 @@
       "type": "end"
     },
     "26299": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 12 ...",
       "variablePairs": "",
       "name": "end",
@@ -4156,7 +4156,7 @@
       "type": "end"
     },
     "26300": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 13 ...",
       "variablePairs": "",
       "name": "end",
@@ -4170,7 +4170,7 @@
       "type": "end"
     },
     "26301": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 14 ...",
       "variablePairs": "",
       "name": "end",
@@ -4184,7 +4184,7 @@
       "type": "end"
     },
     "26302": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 15 ...",
       "variablePairs": "",
       "name": "end",
@@ -4198,7 +4198,7 @@
       "type": "end"
     },
     "26303": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 16 ...",
       "variablePairs": "",
       "name": "end",
@@ -4212,7 +4212,7 @@
       "type": "end"
     },
     "26304": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 17 ...",
       "variablePairs": "",
       "name": "end",
@@ -4226,7 +4226,7 @@
       "type": "end"
     },
     "26305": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 18 ...",
       "variablePairs": "",
       "name": "end",
@@ -4240,7 +4240,7 @@
       "type": "end"
     },
     "26306": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 19 ...",
       "variablePairs": "",
       "name": "end",
@@ -4525,7 +4525,7 @@
     },
     "26366": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=disruption",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption",
       "functionDetail2": "{disruptionStart}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4542,7 +4542,7 @@
     },
     "26367": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=disruption-type",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption-type",
       "functionDetail2": "{disruptionType}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4559,7 +4559,7 @@
     },
     "26368": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=disruption-size",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption-size",
       "functionDetail2": "{disruptionSize}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4605,7 +4605,7 @@
     },
     "26405": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=disruption",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption",
       "functionDetail2": "{disruptionStart}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -4614,8 +4614,8 @@
       "next": "25831",
       "tru": "True",
       "index": "26405",
-      "posX": "-4.030102",
-      "posY": "46.12913",
+      "posX": "-4.030104",
+      "posY": "47.13725",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -6716,7 +6716,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "ALU",
       "inputMultiline": "False",
@@ -6833,7 +6833,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "ALN",
       "inputMultiline": "False",
@@ -12760,7 +12760,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "OrDS1",
       "inputMultiline": "False",
@@ -13803,7 +13803,7 @@
     },
     "27930": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};order_from_ds1;{OrDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -13820,7 +13820,7 @@
     },
     "27931": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/next_period?token={token}",
+      "functionDetail": "https://gamette.me/api/next_period?token={token}",
       "functionDetail2": "{week}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -13837,7 +13837,7 @@
     },
     "27961": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_hc1;{ALHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -13928,7 +13928,7 @@
       "type": "variable"
     },
     "27979": {
-      "nextScript": "Week 2",
+      "nextScript": "Week 2 old",
       "transitionText": "Week 20 ...",
       "variablePairs": "",
       "name": "end",
@@ -13943,7 +13943,7 @@
     },
     "27981": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/update_graphs?token={token}",
+      "functionDetail": "https://gamette.me/api/update_graphs?token={token}",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14555,7 +14555,7 @@
     },
     "28160": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/store_data?token={token}",
+      "functionDetail": "https://gamette.me/api/store_data?token={token}",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14758,7 +14758,7 @@
     },
     "28519": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=backlog-hc2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=backlog-hc2",
       "functionDetail2": "{backlogHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14775,7 +14775,7 @@
     },
     "28520": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=backlog-hc1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=backlog-hc1",
       "functionDetail2": "{backlogHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14792,7 +14792,7 @@
     },
     "28521": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=up-to-level",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=up-to-level",
       "functionDetail2": "{OUTL}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14809,7 +14809,7 @@
     },
     "28522": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=received-delivery",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=received-delivery",
       "functionDetail2": "{rec_DS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14826,7 +14826,7 @@
     },
     "28523": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=demand-hc2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=demand-hc2",
       "functionDetail2": "{HC2D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14843,7 +14843,7 @@
     },
     "28524": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=demand-hc1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=demand-hc1",
       "functionDetail2": "{HC1D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14860,7 +14860,7 @@
     },
     "28525": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=inventory",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=inventory",
       "functionDetail2": "{Inv}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14890,7 +14890,7 @@
     },
     "28527": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=disruption-start",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption-start",
       "functionDetail2": "{disruptionStart}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14907,7 +14907,7 @@
     },
     "28528": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=disruption-end",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption-end",
       "functionDetail2": "{disruptionEnd}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -14925,7 +14925,7 @@
   },
   "scene": {
     "name": "Kate Office 02 ",
-    "title": "Week 2",
+    "title": "Week 2 old",
     "pos": {
       "x": 0.0,
       "y": 0.0,
@@ -14947,6 +14947,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Background",
         "pos": {
           "x": 0.0,
@@ -14971,6 +14972,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "window6(1)",
         "pos": {
           "x": -285.3368,
@@ -14995,6 +14997,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "curtains3(2)",
         "pos": {
           "x": -283.431763,
@@ -15019,6 +15022,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "endTable5(1)",
         "pos": {
           "x": -264.901642,
@@ -15043,6 +15047,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "trashBin2(1)",
         "pos": {
           "x": 235.24295,
@@ -15067,6 +15072,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "cabin2(1)",
         "pos": {
           "x": 337.080017,
@@ -15091,6 +15097,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "chair1(1)",
         "pos": {
           "x": 38.4584274,
@@ -15115,6 +15122,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Chandelier3(1)",
         "pos": {
           "x": 21.13,
@@ -15139,6 +15147,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "shelves4(1)",
         "pos": {
           "x": 167.039764,
@@ -15163,6 +15172,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "clockA_time10",
         "pos": {
           "x": 290.7087,
@@ -15187,6 +15197,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Kate",
         "pos": {
           "x": -125.0,
@@ -15211,6 +15222,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "desk6(1)",
         "pos": {
           "x": 39.9327965,
@@ -15235,6 +15247,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "frame2(1)",
         "pos": {
           "x": -42.3474159,
@@ -15259,6 +15272,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "binders(1)",
         "pos": {
           "x": 143.955063,
@@ -15283,6 +15297,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "phone",
         "pos": {
           "x": -51.0119629,
@@ -15307,6 +15322,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "tv1(1)",
         "pos": {
           "x": -265.0,
@@ -15331,6 +15347,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "laptop1(2)",
         "pos": {
           "x": 23.42,
@@ -15355,6 +15372,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Boss",
         "pos": {
           "x": -343.56,
@@ -15379,6 +15397,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Right_filled",
         "pos": {
           "x": -31.0000019,
@@ -15403,6 +15422,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Right_filled_tv",
         "pos": {
           "x": -168.787521,
@@ -15427,6 +15447,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "laptop_large",
         "pos": {
           "x": 5.1,
@@ -15451,6 +15472,7 @@
         "fontSize": 14,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "Information",
         "pos": {
           "x": -282.0,
@@ -15475,6 +15497,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Inventory",
         "pos": {
           "x": -267.0,
@@ -15499,6 +15522,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Demand",
         "pos": {
           "x": -267.0,
@@ -15523,6 +15547,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Shipments",
         "pos": {
           "x": -267.0,
@@ -15547,6 +15572,7 @@
         "fontSize": 14,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "Make_decision",
         "pos": {
           "x": -282.000031,
@@ -15571,6 +15597,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Ordering",
         "pos": {
           "x": -267.0,
@@ -15595,6 +15622,7 @@
         "fontSize": 0,
         "parentName": "laptop_large",
         "objectType": 3,
+        "thisOC": null,
         "name": "exit_button",
         "pos": {
           "x": -267.0,
@@ -15619,6 +15647,7 @@
         "fontSize": 15,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "Textbox",
         "pos": {
           "x": 74.99999,
@@ -15643,6 +15672,7 @@
         "fontSize": 0,
         "parentName": "laptop_large",
         "objectType": 0,
+        "thisOC": null,
         "name": "email_icon",
         "pos": {
           "x": 323.927277,
@@ -15667,6 +15697,7 @@
         "fontSize": 0,
         "parentName": "laptop_large",
         "objectType": 0,
+        "thisOC": null,
         "name": "email_icon_notification",
         "pos": {
           "x": 326.591553,
@@ -15691,6 +15722,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "week_number",
         "pos": {
           "x": 300.0,
@@ -15715,6 +15747,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "inv_chart",
         "pos": {
           "x": -38.0,
@@ -15739,6 +15772,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "ds1_chart",
         "pos": {
           "x": -78.0,
@@ -15763,6 +15797,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "ds2_chart",
         "pos": {
           "x": -78.0,
@@ -15787,6 +15822,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "order_chart",
         "pos": {
           "x": 47.0,
@@ -15811,6 +15847,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "patient_chart",
         "pos": {
           "x": -24.0,
@@ -15835,6 +15872,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "policy1_button",
         "pos": {
           "x": 5.0,
@@ -15859,6 +15897,7 @@
         "fontSize": 0,
         "parentName": "policy1_button",
         "objectType": 3,
+        "thisOC": null,
         "name": "policy1_info",
         "pos": {
           "x": 53.0000648,
@@ -15883,6 +15922,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "policy2_button",
         "pos": {
           "x": 136.0,
@@ -15907,6 +15947,7 @@
         "fontSize": 0,
         "parentName": "policy2_button",
         "objectType": 3,
+        "thisOC": null,
         "name": "policy2_info",
         "pos": {
           "x": 54.00003,
@@ -15931,6 +15972,7 @@
         "fontSize": 13,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "equally_button",
         "pos": {
           "x": 0.272708416,
@@ -15955,6 +15997,7 @@
         "fontSize": 0,
         "parentName": "equally_button",
         "objectType": 3,
+        "thisOC": null,
         "name": "order_equally_info",
         "pos": {
           "x": 58.99995,
@@ -15979,6 +16022,7 @@
         "fontSize": 13,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "trust_button",
         "pos": {
           "x": 142.0,
@@ -16003,6 +16047,7 @@
         "fontSize": 0,
         "parentName": "trust_button",
         "objectType": 3,
+        "thisOC": null,
         "name": "order_trust_info",
         "pos": {
           "x": 59.0000458,
@@ -16027,6 +16072,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "TVLarge",
         "pos": {
           "x": 4.21875,
@@ -16051,6 +16097,7 @@
         "fontSize": 22,
         "parentName": "TVLarge",
         "objectType": 2,
+        "thisOC": null,
         "name": "News_headline",
         "pos": {
           "x": -180.452362,
@@ -16075,6 +16122,7 @@
         "fontSize": 11,
         "parentName": "TVLarge",
         "objectType": 2,
+        "thisOC": null,
         "name": "News_description",
         "pos": {
           "x": -176.3466,
@@ -16099,6 +16147,7 @@
         "fontSize": 11,
         "parentName": "TVLarge",
         "objectType": 2,
+        "thisOC": null,
         "name": "News_subline",
         "pos": {
           "x": 49.8857651,
@@ -16123,6 +16172,7 @@
         "fontSize": 0,
         "parentName": "TVLarge",
         "objectType": 3,
+        "thisOC": null,
         "name": "TVBackground",
         "pos": {
           "x": -0.04344988,
@@ -16147,6 +16197,7 @@
         "fontSize": 0,
         "parentName": "TVLarge",
         "objectType": 0,
+        "thisOC": null,
         "name": "Beer Game Network",
         "pos": {
           "x": 0.4995308,
@@ -16171,6 +16222,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "female2_green",
         "pos": {
           "x": -167.567261,
@@ -16195,6 +16247,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Business_Female3",
         "pos": {
           "x": 238.114319,
@@ -16219,6 +16272,7 @@
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "LED_tv",
         "pos": {
           "x": -197.470367,
@@ -16243,6 +16297,7 @@
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "LED_laptop",
         "pos": {
           "x": 50.08983,
@@ -16267,6 +16322,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "chart_window",
         "pos": {
           "x": 0.0,
@@ -16291,6 +16347,7 @@
         "fontSize": 12,
         "parentName": "chart_window",
         "objectType": 2,
+        "thisOC": null,
         "name": "close",
         "pos": {
           "x": 218.569351,
@@ -16315,6 +16372,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Inventory_Chart",
         "pos": {
           "x": 0.0,
@@ -16339,6 +16397,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Patient_History",
         "pos": {
           "x": 0.0,
@@ -16363,6 +16422,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "DS1_Order_History",
         "pos": {
           "x": 0.0,
@@ -16387,6 +16447,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "DS2_Order_History",
         "pos": {
           "x": 0.0,
@@ -16411,6 +16472,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Order_History",
         "pos": {
           "x": 0.0,
@@ -16435,6 +16497,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "order_value_ds1",
         "pos": {
           "x": -20.0000038,
@@ -16459,6 +16522,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "order_value_ds2",
         "pos": {
           "x": -20.0000019,
@@ -16483,6 +16547,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "treat_order_button",
         "pos": {
           "x": 20.0,
@@ -16507,6 +16572,7 @@
         "fontSize": 16,
         "parentName": "treat_order_button",
         "objectType": 2,
+        "thisOC": null,
         "name": "go_next_text",
         "pos": {
           "x": 5.0,
@@ -16531,6 +16597,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "modify_button",
         "pos": {
           "x": 200.000015,
@@ -16555,6 +16622,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "Back_button",
         "pos": {
           "x": -154.0,
@@ -16579,6 +16647,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "concern1",
         "pos": {
           "x": -65.0,
@@ -16603,6 +16672,7 @@
         "fontSize": 0,
         "parentName": "concern1",
         "objectType": 3,
+        "thisOC": null,
         "name": "Check_button1_info",
         "pos": {
           "x": 102.0,
@@ -16627,6 +16697,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "concern2",
         "pos": {
           "x": -65.0,
@@ -16651,6 +16722,7 @@
         "fontSize": 0,
         "parentName": "concern2",
         "objectType": 3,
+        "thisOC": null,
         "name": "Check_button2_info",
         "pos": {
           "x": 102.0,
@@ -16675,6 +16747,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "concern3",
         "pos": {
           "x": -65.0,
@@ -16699,6 +16772,7 @@
         "fontSize": 0,
         "parentName": "concern3",
         "objectType": 3,
+        "thisOC": null,
         "name": "Check_button3_info",
         "pos": {
           "x": 102.000046,
@@ -16723,6 +16797,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "BlankButton",
         "pos": {
           "x": -106.0,
@@ -16747,6 +16822,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "order_value",
         "pos": {
           "x": -105.0,
@@ -16771,6 +16847,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "urgent_value",
         "pos": {
           "x": 30.0,
@@ -16795,6 +16872,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "nonurgent_value",
         "pos": {
           "x": 30.0,
@@ -16819,6 +16897,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "check_button1",
         "pos": {
           "x": -155.0,
@@ -16843,6 +16922,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "check_button2",
         "pos": {
           "x": -155.0,
@@ -16867,6 +16947,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "check_button3",
         "pos": {
           "x": -155.0,
@@ -16891,6 +16972,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "info_bubble",
         "pos": {
           "x": 190.0,
@@ -16915,6 +16997,7 @@
         "fontSize": 11,
         "parentName": "info_bubble",
         "objectType": 2,
+        "thisOC": null,
         "name": "info_bubble_Text",
         "pos": {
           "x": 0.0,
@@ -16939,6 +17022,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "warning_panel",
         "pos": {
           "x": 70.0,
@@ -16963,6 +17047,7 @@
         "fontSize": 16,
         "parentName": "warning_panel",
         "objectType": 1,
+        "thisOC": null,
         "name": "warning_inside",
         "pos": {
           "x": 0.0,
@@ -16987,6 +17072,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "goal_button",
         "pos": {
           "x": -450.0,
@@ -17011,6 +17097,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "button_info",
         "pos": {
           "x": -450.0,
@@ -17035,6 +17122,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "face_smiling",
         "pos": {
           "x": -450.0,
@@ -17059,6 +17147,7 @@
         "fontSize": 12,
         "parentName": "face_smiling",
         "objectType": 2,
+        "thisOC": null,
         "name": "happiness%",
         "pos": {
           "x": 20.45,
@@ -17083,6 +17172,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "face_panel",
         "pos": {
           "x": -420.0,
@@ -17107,6 +17197,7 @@
         "fontSize": 16,
         "parentName": "face_panel",
         "objectType": 2,
+        "thisOC": null,
         "name": "face_Text",
         "pos": {
           "x": 0.0,
@@ -17131,6 +17222,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "info_panel",
         "pos": {
           "x": -420.0,
@@ -17155,6 +17247,7 @@
         "fontSize": 16,
         "parentName": "info_panel",
         "objectType": 2,
+        "thisOC": null,
         "name": "info_Text",
         "pos": {
           "x": 0.0,
@@ -17179,6 +17272,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "goal_panel",
         "pos": {
           "x": -419.999969,
@@ -17203,6 +17297,7 @@
         "fontSize": 16,
         "parentName": "goal_panel",
         "objectType": 2,
+        "thisOC": null,
         "name": "goal_Text",
         "pos": {
           "x": -3.05175781E-05,
@@ -17227,6 +17322,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "frame1",
         "pos": {
           "x": -766.3113,
@@ -17251,6 +17347,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "clockA_time08",
         "pos": {
           "x": -878.9649,
@@ -17275,6 +17372,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "clockA_time09",
         "pos": {
           "x": -877.0298,
@@ -17299,6 +17397,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "GlassFront",
         "pos": {
           "x": 3.39746475E-06,
@@ -17323,6 +17422,7 @@
         "fontSize": 20,
         "parentName": "GlassFront",
         "objectType": 1,
+        "thisOC": null,
         "name": "experiment_ended",
         "pos": {
           "x": -3.81469727E-06,
@@ -17347,10 +17447,10 @@
       "x": -28.9025784,
       "y": -34.4389153
     },
-    "scriptorScale": 0.09229587,
+    "scriptorScale": 0.148643509,
     "scriptorPosition": {
-      "x": -799.49,
-      "y": -127.141312
+      "x": -183.888412,
+      "y": -751.4365
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

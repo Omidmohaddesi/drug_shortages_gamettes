@@ -27,7 +27,7 @@
     },
     "17": {
       "content": "Kate! It's seems we will have some problems with our Saline supplies! ",
-      "owner": "Doctor",
+      "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
       "next": "32",
@@ -40,15 +40,15 @@
       "type": "dialogue"
     },
     "32": {
-      "content": "I've just heard that the recent hurricane caused Daxter Pharma to shutdown its Puerto Rico facility.",
-      "owner": "Doctor",
+      "content": "I've just heard that the recent hurricane caused Daxter Pharma to shutdown its Puerto Rico facility...",
+      "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "85",
+      "next": "28685",
       "tru": "True",
       "index": "32",
-      "posX": "12.53435",
-      "posY": "3.926854",
+      "posX": "12.23597",
+      "posY": "3.874198",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -61,8 +61,8 @@
       "next": "-1",
       "tru": "True",
       "index": "46",
-      "posX": "38.94463",
-      "posY": "9.864942",
+      "posX": "36.3031",
+      "posY": "10.23352",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -92,15 +92,15 @@
       "next": "89",
       "tru": "True",
       "index": "85",
-      "posX": "15.83277",
-      "posY": "4.838693",
+      "posX": "16.04339",
+      "posY": "5.01421",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
     },
     "89": {
       "content": "Now we have to be more careful about how we allocate our inventory and how we're ordering.",
-      "owner": "Doctor",
+      "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
       "next": "90",
@@ -149,7 +149,7 @@
       "action_time": "2",
       "action_easing": null,
       "name": "Action",
-      "next": "98",
+      "next": "26087",
       "tru": "True",
       "index": "95",
       "posX": "28.6927",
@@ -157,22 +157,6 @@
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
-    },
-    "98": {
-      "displayName": null,
-      "owner": "{disruptionStart}",
-      "newValue": "null",
-      "fromVariable": "False",
-      "get": "True",
-      "name": "Set Variable",
-      "next": "26087",
-      "tru": "True",
-      "index": "98",
-      "posX": "31.87121",
-      "posY": "9.860044",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "variable"
     },
     "26087": {
       "displayName": null,
@@ -184,11 +168,25 @@
       "next": "46",
       "tru": "True",
       "index": "26087",
-      "posX": "35.23345",
-      "posY": "9.872212",
+      "posX": "32.37253",
+      "posY": "10.13549",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
+    },
+    "28685": {
+      "content": "They may still be able to send us some shipments but they have lost {disruptionSize}% of their production capacity.",
+      "owner": "Boss",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "85",
+      "tru": "True",
+      "index": "28685",
+      "posX": "15.21646",
+      "posY": "1.764676",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
     }
   },
   "scene": {
@@ -200,7 +198,7 @@
       "z": 0.0
     },
     "uid": "0",
-    "background": "patient_room_1",
+    "background": "bricks_1",
     "furniture": [
       {
         "uid": 0,
@@ -209,12 +207,13 @@
         "locked": true,
         "color": "FFFFFF",
         "textcolor": "000000",
-        "image": "patient_room_1",
+        "image": "bricks_1",
         "value": 0.0,
         "text": "",
         "fontSize": 0,
         "parentName": "",
-        "objectType": 0,
+        "objectType": 3,
+        "thisOC": null,
         "name": "Background",
         "pos": {
           "x": 0.0,
@@ -230,31 +229,207 @@
         "uid": 1,
         "rotation": 0.0,
         "visible": true,
-        "locked": false,
+        "locked": true,
         "color": "FFFFFF",
         "textcolor": "000000",
-        "image": "male_doctor_1",
+        "image": "book_shelves_3Sprite",
         "value": 0.0,
         "text": "",
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
-        "name": "Doctor",
+        "thisOC": null,
+        "name": "book_shelves_3",
         "pos": {
-          "x": 24.5307426,
-          "y": -98.23004,
+          "x": 411.944153,
+          "y": 124.069374,
           "z": 0.0
         },
         "size": {
-          "x": -86.06037,
-          "y": 280.8285
+          "x": 162.784454,
+          "y": 77.4193954
         }
       },
       {
         "uid": 2,
         "rotation": 0.0,
         "visible": true,
-        "locked": false,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "office_chair_2",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "office_chair_2",
+        "pos": {
+          "x": 6.68981171,
+          "y": -97.66121,
+          "z": 0.0
+        },
+        "size": {
+          "x": 132.0,
+          "y": 218.0
+        }
+      },
+      {
+        "uid": 3,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "office_desk_2",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "office_desk_2",
+        "pos": {
+          "x": 16.7727776,
+          "y": -118.046822,
+          "z": 0.0
+        },
+        "size": {
+          "x": 325.4521,
+          "y": 161.3192
+        }
+      },
+      {
+        "uid": 4,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "computer_screen_2",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "computer_screen_2",
+        "pos": {
+          "x": -63.8814125,
+          "y": 3.15001631,
+          "z": 0.0
+        },
+        "size": {
+          "x": 120.0,
+          "y": 93.0
+        }
+      },
+      {
+        "uid": 5,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "frame_2Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "frame_2",
+        "pos": {
+          "x": -353.654541,
+          "y": 119.394569,
+          "z": 0.0
+        },
+        "size": {
+          "x": 106.490685,
+          "y": 135.070724
+        }
+      },
+      {
+        "uid": 6,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "sofa_6Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "sofa_6(1)",
+        "pos": {
+          "x": 380.867249,
+          "y": -98.26709,
+          "z": 0.0
+        },
+        "size": {
+          "x": 212.3596,
+          "y": 166.805023
+        }
+      },
+      {
+        "uid": 7,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "jeopardy_table_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "jeopardy_table_1",
+        "pos": {
+          "x": 361.889648,
+          "y": -172.0155,
+          "z": 0.0
+        },
+        "size": {
+          "x": 165.07,
+          "y": 77.76815
+        }
+      },
+      {
+        "uid": 8,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "male_middle_age_2",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "Boss",
+        "pos": {
+          "x": 128.158752,
+          "y": -64.40245,
+          "z": 0.0
+        },
+        "size": {
+          "x": -86.0,
+          "y": 309.0
+        }
+      },
+      {
+        "uid": 9,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
         "color": "FFFFFF",
         "textcolor": "000000",
         "image": "female_business_4",
@@ -263,34 +438,33 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Kate",
         "pos": {
-          "x": -516.479858,
-          "y": -101.349678,
+          "x": -530.1877,
+          "y": -77.03294,
           "z": 0.0
         },
         "size": {
-          "x": 67.729866,
-          "y": 271.901062
+          "x": 74.62079,
+          "y": 299.564728
         }
       }
     ],
-    "recent_assets": [
-      "saline_stand_1"
+    "recent_assets": [],
+    "recent_backgrounds": [
+      "bricks_1"
     ],
-    "recent_backgrounds": [],
-    "recent_characters": [
-      "baby_2"
-    ],
-    "layoutScale": 0.5,
+    "recent_characters": [],
+    "layoutScale": 0.564473867,
     "layoutPosition": {
-      "x": 0.0,
-      "y": 0.0
+      "x": -46.38714,
+      "y": -26.1258659
     },
-    "scriptorScale": 0.47010836,
+    "scriptorScale": 0.6830132,
     "scriptorPosition": {
-      "x": -656.6943,
-      "y": -250.5269
+      "x": -1986.11975,
+      "y": -610.4607
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

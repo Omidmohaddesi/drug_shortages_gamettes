@@ -39,7 +39,7 @@
         },
         "27991": {
             "functionType": "ReloadImageFromServer",
-            "functionDetail": "https:\/\/gamette.me:5000\/client\/{user_id}\/beer_game_inventory_chart.png",
+            "functionDetail": "https:\/\/gamette.me\/client\/{user_id}\/beer_game_inventory_chart.png",
             "functionDetail2": "",
             "name": "Call Function State",
             "next": "27992",
@@ -52,7 +52,7 @@
         },
         "27992": {
             "functionType": "ReloadImageFromServer",
-            "functionDetail": "https:\/\/gamette.me:5000\/client\/{user_id}\/beer_game_order_quantity.png",
+            "functionDetail": "https:\/\/gamette.me\/client\/{user_id}\/beer_game_order_quantity.png",
             "functionDetail2": "",
             "name": "Call Function State",
             "next": "27993",
@@ -65,7 +65,7 @@
         },
         "27993": {
             "functionType": "ReloadImageFromServer",
-            "functionDetail": "https:\/\/gamette.me:5000\/client\/{user_id}\/beer_game_cum_cost.png",
+            "functionDetail": "https:\/\/gamette.me\/client\/{user_id}\/beer_game_cum_cost.png",
             "functionDetail2": "",
             "name": "Call Function State",
             "next": "-1",

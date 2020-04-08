@@ -1701,7 +1701,7 @@
       "next": "24048",
       "tru": "True",
       "index": "24047",
-      "posX": "75.16926",
+      "posX": "75.16932",
       "posY": "-11.6271",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -1715,7 +1715,7 @@
       "next": "24093",
       "tru": "True",
       "index": "24048",
-      "posX": "78.346",
+      "posX": "78.34605",
       "posY": "-11.63047",
       "minimized": "False",
       "advance_mode": "Instantly",
@@ -1723,7 +1723,7 @@
     },
     "24049": {
       "customEventName": "chart_buttons",
-      "eventDetails": "mn1_chart",
+      "eventDetails": "hc1_demand_chart",
       "startsActive": "False",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -1738,36 +1738,36 @@
       "type": "event"
     },
     "24050": {
-      "actionTarget": "Order_History",
+      "actionTarget": "HC1_Demand_History",
       "actionName": "Visibility",
       "action_hidden": "False",
       "name": "Action",
       "next": "24051",
       "tru": "True",
       "index": "24050",
-      "posX": "75.28397",
+      "posX": "75.28403",
       "posY": "-15.08636",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "action"
     },
     "24051": {
-      "actionTarget": "Order_History",
+      "actionTarget": "HC1_Demand_History",
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
       "next": "24095",
       "tru": "True",
       "index": "24051",
-      "posX": "78.39748",
-      "posY": "-15.0739",
+      "posX": "78.39754",
+      "posY": "-15.07391",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
     },
     "24052": {
       "customEventName": "chart_buttons",
-      "eventDetails": "hc1_demand_chart",
+      "eventDetails": "hc2_demand_chart",
       "startsActive": "False",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -1782,36 +1782,36 @@
       "type": "event"
     },
     "24053": {
-      "actionTarget": "HC1_Demand_History",
+      "actionTarget": "HC2_Demand_History",
       "actionName": "Visibility",
       "action_hidden": "False",
       "name": "Action",
       "next": "24054",
       "tru": "True",
       "index": "24053",
-      "posX": "75.29642",
-      "posY": "-18.38174",
+      "posX": "75.29648",
+      "posY": "-18.38176",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "action"
     },
     "24054": {
-      "actionTarget": "HC1_Demand_History",
+      "actionTarget": "HC2_Demand_History",
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
       "next": "24097",
       "tru": "True",
       "index": "24054",
-      "posX": "78.4099",
-      "posY": "-18.36931",
+      "posX": "78.40996",
+      "posY": "-18.36932",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
     },
     "24055": {
       "customEventName": "chart_buttons",
-      "eventDetails": "hc2_demand_chart",
+      "eventDetails": "mn1_chart",
       "startsActive": "False",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -1819,36 +1819,36 @@
       "next": "24458",
       "tru": "True",
       "index": "24055",
-      "posX": "62.9911",
+      "posX": "62.99109",
       "posY": "-21.64966",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "event"
     },
     "24056": {
-      "actionTarget": "HC2_Demand_History",
+      "actionTarget": "Order_History",
       "actionName": "Visibility",
       "action_hidden": "False",
       "name": "Action",
       "next": "24057",
       "tru": "True",
       "index": "24056",
-      "posX": "75.19989",
-      "posY": "-21.56523",
+      "posX": "75.19994",
+      "posY": "-21.56524",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "action"
     },
     "24057": {
-      "actionTarget": "HC2_Demand_History",
+      "actionTarget": "Order_History",
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
       "next": "24099",
       "tru": "True",
       "index": "24057",
-      "posX": "78.31341",
-      "posY": "-21.55275",
+      "posX": "78.31346",
+      "posY": "-21.55276",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -1870,7 +1870,7 @@
       "type": "event"
     },
     "24059": {
-      "actionTarget": "Demand_History",
+      "actionTarget": "Patient_History",
       "actionName": "Visibility",
       "action_hidden": "False",
       "name": "Action",
@@ -1884,14 +1884,14 @@
       "type": "action"
     },
     "24060": {
-      "actionTarget": "Demand_History",
+      "actionTarget": "Patient_History",
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
       "next": "24101",
       "tru": "True",
       "index": "24060",
-      "posX": "78.42467",
+      "posX": "78.42466",
       "posY": "-25.07929",
       "minimized": "False",
       "advance_mode": "Instantly",
@@ -2397,7 +2397,7 @@
     },
     "24106": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/update/{playerID}?",
+      "functionDetail": "https://gamette.me/update/{playerID}?",
       "functionDetail2": "{update}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2413,15 +2413,15 @@
       "type": "callfunction"
     },
     "24107": {
-      "nextScript": "Week 3",
-      "transitionText": "Week 2 ...",
+      "nextScript": "Week 2",
+      "transitionText": "Week 22 ...",
       "variablePairs": "",
       "name": "end",
       "next": "-1",
       "tru": "True",
       "index": "24107",
-      "posX": "74.64809",
-      "posY": "6.528985",
+      "posX": "73.74636",
+      "posY": "7.897115",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -2675,7 +2675,7 @@
       "action_time": "0.5",
       "action_easing": null,
       "name": "Action",
-      "next": "24381",
+      "next": "24378",
       "tru": "True",
       "index": "24377",
       "posX": "-111.4465",
@@ -2715,23 +2715,6 @@
       "advance_mode": "Instantly",
       "type": "action"
     },
-    "24381": {
-      "actionTarget": "goal_Text",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "20",
-      "action_heightchange": "15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24378",
-      "tru": "True",
-      "index": "24381",
-      "posX": "-107.8364",
-      "posY": "9.027603",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
     "24382": {
       "actionTarget": "goal_panel",
       "actionName": "ChangeScaleBy",
@@ -2740,28 +2723,11 @@
       "action_time": "0.5",
       "action_easing": null,
       "name": "Action",
-      "next": "24383",
+      "next": "24384",
       "tru": "True",
       "index": "24382",
       "posX": "-94.36264",
       "posY": "9.017183",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24383": {
-      "actionTarget": "goal_Text",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "1/20",
-      "action_heightchange": "1/15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24384",
-      "tru": "True",
-      "index": "24383",
-      "posX": "-90.80867",
-      "posY": "9.044817",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -2870,7 +2836,7 @@
       "action_time": "0.5",
       "action_easing": null,
       "name": "Action",
-      "next": "24410",
+      "next": "24407",
       "tru": "True",
       "index": "24406",
       "posX": "-109.494",
@@ -2910,23 +2876,6 @@
       "advance_mode": "Instantly",
       "type": "action"
     },
-    "24410": {
-      "actionTarget": "face_Text",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "20",
-      "action_heightchange": "15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24407",
-      "tru": "True",
-      "index": "24410",
-      "posX": "-105.8839",
-      "posY": "-8.887313",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
     "24411": {
       "actionTarget": "face_panel",
       "actionName": "ChangeScaleBy",
@@ -2935,28 +2884,11 @@
       "action_time": "0.5",
       "action_easing": null,
       "name": "Action",
-      "next": "24412",
+      "next": "24413",
       "tru": "True",
       "index": "24411",
       "posX": "-92.41008",
       "posY": "-8.897733",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24412": {
-      "actionTarget": "face_Text",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "1/20",
-      "action_heightchange": "1/15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24413",
-      "tru": "True",
-      "index": "24412",
-      "posX": "-88.85609",
-      "posY": "-8.870103",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -3023,120 +2955,18 @@
       "advance_mode": "OnClick",
       "type": "event"
     },
-    "24417": {
-      "actionTarget": "info_panel",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "20",
-      "action_heightchange": "15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24421",
-      "tru": "True",
-      "index": "24417",
-      "posX": "-111.4261",
-      "posY": "1.348365",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24418": {
-      "actionTarget": "info_panel",
-      "actionName": "MoveBy",
-      "action_x-difference": "160",
-      "action_y-difference": "-100",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "26327",
-      "tru": "True",
-      "index": "24418",
-      "posX": "-104.1059",
-      "posY": "1.399845",
-      "minimized": "False",
-      "advance_mode": "WhenCompleted",
-      "type": "action"
-    },
     "24420": {
       "actionTarget": "info_panel",
       "actionName": "Visibility",
       "action_hidden": "False",
       "name": "Action",
-      "next": "24417",
+      "next": "28619",
       "tru": "True",
       "index": "24420",
       "posX": "-115.1789",
       "posY": "1.372975",
       "minimized": "False",
       "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24421": {
-      "actionTarget": "info_Text",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "20",
-      "action_heightchange": "15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24418",
-      "tru": "True",
-      "index": "24421",
-      "posX": "-107.816",
-      "posY": "1.375994",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24422": {
-      "actionTarget": "info_panel",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "1/20",
-      "action_heightchange": "1/15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24423",
-      "tru": "True",
-      "index": "24422",
-      "posX": "-94.34225",
-      "posY": "1.365563",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24423": {
-      "actionTarget": "info_Text",
-      "actionName": "ChangeScaleBy",
-      "action_widthchange": "1/20",
-      "action_heightchange": "1/15",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24424",
-      "tru": "True",
-      "index": "24423",
-      "posX": "-90.78829",
-      "posY": "1.393184",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24424": {
-      "actionTarget": "info_panel",
-      "actionName": "MoveBy",
-      "action_x-difference": "-160",
-      "action_y-difference": "100",
-      "action_time": "0.5",
-      "action_easing": null,
-      "name": "Action",
-      "next": "24425",
-      "tru": "True",
-      "index": "24424",
-      "posX": "-87.43332",
-      "posY": "1.398338",
-      "minimized": "False",
-      "advance_mode": "AfterTime_0.4",
       "type": "action"
     },
     "24425": {
@@ -3149,21 +2979,6 @@
       "index": "24425",
       "posX": "-84.19116",
       "posY": "1.406899",
-      "minimized": "False",
-      "advance_mode": "Instantly",
-      "type": "action"
-    },
-    "24426": {
-      "actionTarget": "info_Text",
-      "actionName": "TypeText",
-      "action_text": "",
-      "action_type-speed": "0",
-      "name": "Action",
-      "next": "24422",
-      "tru": "True",
-      "index": "24426",
-      "posX": "-97.55063",
-      "posY": "1.311552",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -5367,7 +5182,7 @@
     },
     "24973": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=inventory",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=inventory",
       "functionDetail2": "{Inv}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -5384,7 +5199,7 @@
     },
     "24974": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=urgent",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=urgent",
       "functionDetail2": "{HC1D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -5401,7 +5216,7 @@
     },
     "24975": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=non-urgent",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=non-urgent",
       "functionDetail2": "{HC2D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -6347,7 +6162,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "OrMN1",
       "inputMultiline": "False",
@@ -6556,8 +6371,8 @@
       "next": "27920",
       "tru": "True",
       "index": "25116",
-      "posX": "-39.22588",
-      "posY": "-0.200976",
+      "posX": "-49.15709",
+      "posY": "4.264737",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -6915,7 +6730,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "ALU",
       "inputMultiline": "False",
@@ -7032,7 +6847,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
       "variable": "ALN",
       "inputMultiline": "False",
@@ -8060,7 +7875,7 @@
     },
     "25539": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=received-delivery-ds1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=received-delivery-ds1",
       "functionDetail2": "{rec_DS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8077,7 +7892,7 @@
     },
     "25540": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=received-delivery-ds2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=received-delivery-ds2",
       "functionDetail2": "{rec_DS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8094,7 +7909,7 @@
     },
     "25542": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=on-order-ds1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=on-order-ds1",
       "functionDetail2": "{OnOrderDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8111,7 +7926,7 @@
     },
     "25543": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=on-order-ds2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=on-order-ds2",
       "functionDetail2": "{OnOrderDS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8137,8 +7952,8 @@
       "next": "27884",
       "tru": "True",
       "index": "25544",
-      "posX": "-38.29484",
-      "posY": "16.87607",
+      "posX": "-38.11574",
+      "posY": "16.46731",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -8158,7 +7973,7 @@
     },
     "25546": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_inventory_chart_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_inventory_chart_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8175,7 +7990,7 @@
     },
     "25547": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_total_demand_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_order_history_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8192,7 +8007,7 @@
     },
     "25548": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_hc1_demand_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_total_demand_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8209,7 +8024,7 @@
     },
     "25549": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_hc2_demand_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_hc1_demand_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8226,7 +8041,7 @@
     },
     "25550": {
       "functionType": "ReloadImageFromServer",
-      "functionDetail": "https://gamette.me:5000/client/{user_id}/drug_shortage_order_history_1.png",
+      "functionDetail": "https://gamette.me/client/{user_id}/drug_shortage_hc2_demand_1.png",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8235,15 +8050,15 @@
       "next": "-1",
       "tru": "True",
       "index": "25550",
-      "posX": "-19.69212",
-      "posY": "-4.598615",
+      "posX": "-19.82527",
+      "posY": "-4.579595",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
     "25554": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/week/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/week/{playerID}??",
       "functionDetail2": "task={week}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8260,7 +8075,7 @@
     },
     "25555": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/inv/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/inv/{playerID}??",
       "functionDetail2": "task={Inv}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8277,7 +8092,7 @@
     },
     "25556": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order/{playerID}??",
       "functionDetail2": "task={splitType}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8294,7 +8109,7 @@
     },
     "25557": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/allocate/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/allocate/{playerID}??",
       "functionDetail2": "task={AL}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8311,7 +8126,7 @@
     },
     "25558": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/satisfied_urgent/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/satisfied_urgent/{playerID}??",
       "functionDetail2": "task={ALHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8328,7 +8143,7 @@
     },
     "25559": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/satisfied_non_urgent/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/satisfied_non_urgent/{playerID}??",
       "functionDetail2": "task={ALHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8345,7 +8160,7 @@
     },
     "25560": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order_DS1/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order_DS1/{playerID}??",
       "functionDetail2": "task={OrDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8362,7 +8177,7 @@
     },
     "25561": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order_DS2/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order_DS2/{playerID}??",
       "functionDetail2": "task={OrDS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -8379,7 +8194,7 @@
     },
     "25562": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/decision/order_total/{playerID}??",
+      "functionDetail": "https://gamette.me/decision/order_total/{playerID}??",
       "functionDetail2": "task={OrTobe}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9115,7 +8930,7 @@
     },
     "26211": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_urgent;{ALHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9132,7 +8947,7 @@
     },
     "26214": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/next_period?token={token}",
+      "functionDetail": "https://gamette.me/api/next_period?token={token}",
       "functionDetail2": "week",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9149,7 +8964,7 @@
     },
     "26215": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_non_urgent;{ALHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9166,7 +8981,7 @@
     },
     "26216": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};order_from_ds1;{OrDS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9183,7 +8998,7 @@
     },
     "26217": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};order_from_ds2;{OrDS2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9200,7 +9015,7 @@
     },
     "26218": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/update_graphs?token={token}",
+      "functionDetail": "https://gamette.me/api/update_graphs?token={token}",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -9236,7 +9051,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28244",
+      "next": "24107",
       "tru": "True",
       "index": "26220",
       "posX": "63.14943",
@@ -9256,21 +9071,6 @@
       "index": "26326",
       "posX": "-100.733",
       "posY": "9.124826",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "action"
-    },
-    "26327": {
-      "actionTarget": "info_Text",
-      "actionName": "TypeText",
-      "action_text": "\t\t\t\t\t\t\t\t\tLast Week\t\t\tCumulative\n\nInventory Cost\t\t\t\t${invCost}\t\t\t\t\t\t\t${invCostCum}\nStockout Cost\t\t\t\t${untreatedU}\t\t\t\t\t\t\t${cumRepCostU}\nTotal Cost\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\n<i>(Holding cost is $0.5 and Stockout cost is $1 per unit of {drugName} per week)</i>",
-      "action_type-speed": "0",
-      "name": "Action",
-      "next": "24426",
-      "tru": "True",
-      "index": "26327",
-      "posX": "-100.7441",
-      "posY": "1.705532",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "action"
@@ -12150,7 +11950,7 @@
       "speaking": "True",
       "prompted": "True",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "27897~~Ask him about the Lead Time~~True~~none~~true~-~27899~~Ask him about ordering from Manufacturer~~True~~none~~true~-~27900~~Ask him about how to calculate cost.~~True~~none~~true~-~",
       "variable": null,
       "name": "Player Choice",
@@ -12322,7 +12122,7 @@
     },
     "27920": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=inventory",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=inventory",
       "functionDetail2": "{Inv}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -12331,7 +12131,7 @@
       "next": "27921",
       "tru": "True",
       "index": "27920",
-      "posX": "-35.77876",
+      "posX": "-45.31005",
       "posY": "3.65827",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -12339,7 +12139,7 @@
     },
     "27921": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=demand-hc1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=demand-hc1",
       "functionDetail2": "{HC1D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -12348,15 +12148,15 @@
       "next": "28496",
       "tru": "True",
       "index": "27921",
-      "posX": "-32.51891",
-      "posY": "3.678361",
+      "posX": "-42.05022",
+      "posY": "3.711687",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
     "27922": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=received-delivery",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=received-delivery",
       "functionDetail2": "{rec_DS1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -12365,32 +12165,32 @@
       "next": "28477",
       "tru": "True",
       "index": "27922",
-      "posX": "-25.99517",
-      "posY": "3.680908",
+      "posX": "-35.52647",
+      "posY": "3.714236",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
     "27925": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/next_period?token={token}",
+      "functionDetail": "https://gamette.me/api/next_period?token={token}",
       "functionDetail2": "{week}",
       "functionDetail3": "",
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "-1",
+      "next": "27984",
       "tru": "True",
       "index": "27925",
-      "posX": "68.63425",
-      "posY": "27.08658",
+      "posX": "68.42188",
+      "posY": "27.1445",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
     "27927": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};order_from_mn1;{OrMN1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -12407,7 +12207,7 @@
     },
     "27959": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_hc1;{ALHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -12424,7 +12224,7 @@
     },
     "27984": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/update_graphs?token={token}",
+      "functionDetail": "https://gamette.me/api/update_graphs?token={token}",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -12433,8 +12233,8 @@
       "next": "-1",
       "tru": "True",
       "index": "27984",
-      "posX": "71.83667",
-      "posY": "27.06256",
+      "posX": "71.83668",
+      "posY": "27.10117",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -12901,8 +12701,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28177",
-      "posX": "-9.710295",
-      "posY": "4.293995",
+      "posX": "-12.04642",
+      "posY": "4.421419",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -12915,7 +12715,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28246",
+      "next": "26220",
       "tru": "True",
       "index": "28199",
       "posX": "52.60324",
@@ -12946,8 +12746,8 @@
       "next": "24107",
       "tru": "True",
       "index": "28244",
-      "posX": "69.41047",
-      "posY": "7.409088",
+      "posX": "69.1151",
+      "posY": "6.180882",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -12960,23 +12760,11 @@
       "next": "26220",
       "tru": "True",
       "index": "28246",
-      "posX": "57.04312",
-      "posY": "6.855135",
+      "posX": "57.30743",
+      "posY": "5.238257",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
-    },
-    "28248": {
-      "groupSubNode": "{\"list\":[24436,24439,24484,24485,24435,24438,24388,24437,24384,24424,24425,24368,24377,24378,24380,24381,24382,24383,24386,24387,24416,24417,24418,24420,24421,24422,24423,24426,24427,24428,24429,24430,24431,24481,24482,26326,26327,24405,24406,24407,24409,24410,24411,24412,24413,24414,24415,24432,24433,24434,24483,26328,24440,24441,24442,24486,24385]}",
-      "name": "Group",
-      "next": "-1",
-      "tru": "True",
-      "index": "28248",
-      "posX": "-98.36263",
-      "posY": "-0.4666754",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "group"
     },
     "28257": {
       "customEventName": "buttons",
@@ -13952,7 +13740,7 @@
       "type": "action"
     },
     "28337": {
-      "actionTarget": "Policy1",
+      "actionTarget": "Policy2",
       "actionName": "ZOrder",
       "action_z-order": "move_to_front",
       "name": "Action",
@@ -14691,7 +14479,7 @@
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
-      "timer": "3.402823E+38",
+      "timer": "-1",
       "choices": "28388~~<i>Submit</i>~~False~~treat_order_button~~true~-~28353~~<i>Modify</i>~~False~~modify_button~~true~-~28382~~<i>Back</i>~~False~~Back_button~~true~-~",
       "variable": null,
       "name": "Player Choice",
@@ -14958,7 +14746,7 @@
       "type": "action"
     },
     "28404": {
-      "actionTarget": "Policy1",
+      "actionTarget": "Policy3",
       "actionName": "ZOrder",
       "action_z-order": "move_to_front",
       "name": "Action",
@@ -15536,7 +15324,7 @@
     },
     "28477": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=up-to-level",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=up-to-level",
       "functionDetail2": "{OUTL}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -15545,8 +15333,8 @@
       "next": "28498",
       "tru": "True",
       "index": "28477",
-      "posX": "-22.69193",
-      "posY": "3.687607",
+      "posX": "-32.22323",
+      "posY": "3.720932",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -15665,7 +15453,7 @@
     },
     "28496": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=demand-hc2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=demand-hc2",
       "functionDetail2": "{HC2D}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -15674,15 +15462,15 @@
       "next": "27922",
       "tru": "True",
       "index": "28496",
-      "posX": "-29.29571",
-      "posY": "3.721609",
+      "posX": "-38.82701",
+      "posY": "3.754936",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
     "28498": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=backlog-hc1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=backlog-hc1",
       "functionDetail2": "{backlogHC1}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -15691,8 +15479,8 @@
       "next": "28510",
       "tru": "True",
       "index": "28498",
-      "posX": "-19.49559",
-      "posY": "3.749361",
+      "posX": "-29.02689",
+      "posY": "3.782688",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -15755,7 +15543,7 @@
     },
     "28510": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=backlog-hc2",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=backlog-hc2",
       "functionDetail2": "{backlogHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -15764,8 +15552,8 @@
       "next": "28554",
       "tru": "True",
       "index": "28510",
-      "posX": "-16.41288",
-      "posY": "3.773902",
+      "posX": "-25.94418",
+      "posY": "3.807229",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -15984,24 +15772,24 @@
     },
     "28554": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.me:5000/api/get_game_param?token={token}&paramName=inventory-mn1",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=inventory-mn1",
       "functionDetail2": "{mnInventory}",
       "functionDetail3": "",
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28177",
+      "next": "28676",
       "tru": "True",
       "index": "28554",
-      "posX": "-13.05511",
-      "posY": "3.790729",
+      "posX": "-22.58641",
+      "posY": "3.824056",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
     "28598": {
       "functionType": "CallAPI_POST",
-      "functionDetail": "https://gamette.me:5000/api/make_decision?",
+      "functionDetail": "https://gamette.me/api/make_decision?",
       "functionDetail2": "task={token};satisfy_hc2;{ALHC2}",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -16031,6 +15819,138 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
+    },
+    "28619": {
+      "actionTarget": "info_panel",
+      "actionName": "ChangeScaleBy",
+      "action_widthchange": "20",
+      "action_heightchange": "31",
+      "action_time": "0.5",
+      "action_easing": null,
+      "name": "Action",
+      "next": "28620",
+      "tru": "True",
+      "index": "28619",
+      "posX": "-108.9464",
+      "posY": "1.436348",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28620": {
+      "actionTarget": "info_panel",
+      "actionName": "MoveBy",
+      "action_x-difference": "160",
+      "action_y-difference": "-190",
+      "action_time": "0.5",
+      "action_easing": null,
+      "name": "Action",
+      "next": "28621",
+      "tru": "True",
+      "index": "28620",
+      "posX": "-104.6332",
+      "posY": "1.396252",
+      "minimized": "False",
+      "advance_mode": "WhenCompleted",
+      "type": "action"
+    },
+    "28621": {
+      "actionTarget": "info_Text",
+      "actionName": "TypeText",
+      "action_text": "\t\t\t\t\t\t\t\t\tLast Week\t\t\tCumulative\nSALES\n<i>Sales - HC1\t\t\t\t\t${invCost}\t\t\t\t\t\t\t\t${invCostCum}\nSales - HC2\t\t\t\t\t${untreatedU}\t\t\t\t\t\t\t\t${cumRepCostU}</i>\nTotal Sales\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\nCOSTS\n<i>Inventory\t\t\t\t\t\t${invCost}\t\t\t\t\t\t\t\t${invCostCum}\nBacklog\t\t\t\t\t\t${untreatedU}\t\t\t\t\t\t\t\t${cumRepCostU}</i>\nTotal Cost\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\nNET PROFIT\t\t\t\t\t\t\t\t\t\t\t\t\t$0\n\n<i>For each unit of {drugName}:\nsales price is \t\t\t$5\ninventory cost is \t$1\nbacklog cost is \t\t$10</i>",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28622",
+      "tru": "True",
+      "index": "28621",
+      "posX": "-100.4347",
+      "posY": "-0.274052",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "action"
+    },
+    "28622": {
+      "actionTarget": "info_Text",
+      "actionName": "TypeText",
+      "action_text": "",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28623",
+      "tru": "True",
+      "index": "28622",
+      "posX": "-96.71808",
+      "posY": "1.397256",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28623": {
+      "actionTarget": "info_panel",
+      "actionName": "ChangeScaleBy",
+      "action_widthchange": "1/20",
+      "action_heightchange": "1/31",
+      "action_time": "0.5",
+      "action_easing": null,
+      "name": "Action",
+      "next": "28624",
+      "tru": "True",
+      "index": "28623",
+      "posX": "-92.93295",
+      "posY": "0.7415746",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28624": {
+      "actionTarget": "info_panel",
+      "actionName": "MoveBy",
+      "action_x-difference": "-160",
+      "action_y-difference": "190",
+      "action_time": "0.5",
+      "action_easing": null,
+      "name": "Action",
+      "next": "24425",
+      "tru": "True",
+      "index": "28624",
+      "posX": "-89.26797",
+      "posY": "0.6012661",
+      "minimized": "False",
+      "advance_mode": "AfterTime_0.4",
+      "type": "action"
+    },
+    "28676": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption-start",
+      "functionDetail2": "{disruptionStart}",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28677",
+      "tru": "True",
+      "index": "28676",
+      "posX": "-19.14151",
+      "posY": "3.853141",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "28677": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://gamette.me/api/get_game_param?token={token}&paramName=disruption-end",
+      "functionDetail2": "{disruptionEnd}",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28177",
+      "tru": "True",
+      "index": "28677",
+      "posX": "-15.63732",
+      "posY": "3.863761",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -16057,6 +15977,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Background",
         "pos": {
           "x": 0.0,
@@ -16081,6 +16002,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "window6(1)",
         "pos": {
           "x": -284.3368,
@@ -16105,6 +16027,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "curtains3(2)",
         "pos": {
           "x": -283.431763,
@@ -16129,6 +16052,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "endTable5(1)",
         "pos": {
           "x": -264.901642,
@@ -16153,6 +16077,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "trashBin2(1)",
         "pos": {
           "x": 235.24295,
@@ -16177,6 +16102,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "cabin2(1)",
         "pos": {
           "x": 337.080017,
@@ -16201,6 +16127,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "chair1(1)",
         "pos": {
           "x": 38.4584274,
@@ -16225,6 +16152,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Chandelier3(1)",
         "pos": {
           "x": 21.1259327,
@@ -16249,6 +16177,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "shelves4(1)",
         "pos": {
           "x": 167.039764,
@@ -16273,6 +16202,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "clockA_time10",
         "pos": {
           "x": 290.7087,
@@ -16297,6 +16227,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Kate",
         "pos": {
           "x": -130.0,
@@ -16321,6 +16252,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "desk6(1)",
         "pos": {
           "x": 39.9327965,
@@ -16345,6 +16277,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "frame2(1)",
         "pos": {
           "x": -42.3474159,
@@ -16369,6 +16302,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "binders(1)",
         "pos": {
           "x": 143.955063,
@@ -16393,6 +16327,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "phone",
         "pos": {
           "x": -51.0119629,
@@ -16417,6 +16352,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "tv1(1)",
         "pos": {
           "x": -265.0,
@@ -16441,6 +16377,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "laptop1(2)",
         "pos": {
           "x": 23.42198,
@@ -16465,6 +16402,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Boss",
         "pos": {
           "x": -343.555817,
@@ -16489,6 +16427,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Right_filled",
         "pos": {
           "x": -31.0000019,
@@ -16513,6 +16452,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Right_filled_tv",
         "pos": {
           "x": -168.787521,
@@ -16537,6 +16477,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "laptop_large",
         "pos": {
           "x": 5.095978,
@@ -16561,6 +16502,7 @@
         "fontSize": 14,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "Information",
         "pos": {
           "x": -282.000031,
@@ -16585,6 +16527,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Inventory",
         "pos": {
           "x": -267.0,
@@ -16609,6 +16552,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Demand",
         "pos": {
           "x": -267.0,
@@ -16633,6 +16577,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Shipments",
         "pos": {
           "x": -267.0,
@@ -16657,6 +16602,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Policies",
         "pos": {
           "x": -267.0,
@@ -16681,6 +16627,7 @@
         "fontSize": 14,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "Make_decision",
         "pos": {
           "x": -282.000031,
@@ -16705,6 +16652,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Allocating",
         "pos": {
           "x": -267.0,
@@ -16729,6 +16677,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 1,
+        "thisOC": null,
         "name": "Ordering",
         "pos": {
           "x": -267.0,
@@ -16753,6 +16702,7 @@
         "fontSize": 0,
         "parentName": "laptop_large",
         "objectType": 3,
+        "thisOC": null,
         "name": "exit_button",
         "pos": {
           "x": -267.0,
@@ -16777,6 +16727,7 @@
         "fontSize": 15,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "Textbox",
         "pos": {
           "x": 75.0,
@@ -16801,6 +16752,7 @@
         "fontSize": 18,
         "parentName": "laptop_large",
         "objectType": 2,
+        "thisOC": null,
         "name": "week_number",
         "pos": {
           "x": 300.0,
@@ -16825,6 +16777,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "inv_chart",
         "pos": {
           "x": -30.0,
@@ -16849,6 +16802,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "hc1_demand_chart",
         "pos": {
           "x": -52.0,
@@ -16873,6 +16827,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "hc2_demand_chart",
         "pos": {
           "x": -52.0,
@@ -16897,6 +16852,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "total_demand_chart",
         "pos": {
           "x": -7.0,
@@ -16921,6 +16877,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "mn1_chart",
         "pos": {
           "x": -21.0,
@@ -16945,6 +16902,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "mn2_chart",
         "pos": {
           "x": -78.0,
@@ -16969,6 +16927,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "order_chart",
         "pos": {
           "x": 47.0,
@@ -16993,6 +16952,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 8,
+        "thisOC": null,
         "name": "Policy1",
         "pos": {
           "x": -41.2499847,
@@ -17017,6 +16977,7 @@
         "fontSize": 16,
         "parentName": "Policy1",
         "objectType": 1,
+        "thisOC": null,
         "name": "policy1_button",
         "pos": {
           "x": -3.74996567,
@@ -17041,6 +17002,7 @@
         "fontSize": 0,
         "parentName": "Policy1",
         "objectType": 3,
+        "thisOC": null,
         "name": "policy1_info",
         "pos": {
           "x": 86.24999,
@@ -17065,6 +17027,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 8,
+        "thisOC": null,
         "name": "Policy2",
         "pos": {
           "x": -41.25,
@@ -17089,6 +17052,7 @@
         "fontSize": 16,
         "parentName": "Policy2",
         "objectType": 1,
+        "thisOC": null,
         "name": "policy2_button",
         "pos": {
           "x": -3.74996567,
@@ -17113,6 +17077,7 @@
         "fontSize": 0,
         "parentName": "Policy2",
         "objectType": 3,
+        "thisOC": null,
         "name": "policy2_info",
         "pos": {
           "x": 86.2499847,
@@ -17137,6 +17102,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 8,
+        "thisOC": null,
         "name": "Policy3",
         "pos": {
           "x": -41.2499847,
@@ -17161,6 +17127,7 @@
         "fontSize": 16,
         "parentName": "Policy3",
         "objectType": 1,
+        "thisOC": null,
         "name": "policy3_button",
         "pos": {
           "x": -3.74996567,
@@ -17185,6 +17152,7 @@
         "fontSize": 0,
         "parentName": "Policy3",
         "objectType": 3,
+        "thisOC": null,
         "name": "policy3_info",
         "pos": {
           "x": 86.24999,
@@ -17209,6 +17177,7 @@
         "fontSize": 13,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "equally_button",
         "pos": {
           "x": 0.0,
@@ -17233,6 +17202,7 @@
         "fontSize": 0,
         "parentName": "equally_button",
         "objectType": 3,
+        "thisOC": null,
         "name": "order_equally_info",
         "pos": {
           "x": 58.99995,
@@ -17257,6 +17227,7 @@
         "fontSize": 13,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "trust_button",
         "pos": {
           "x": 142.0,
@@ -17281,6 +17252,7 @@
         "fontSize": 0,
         "parentName": "trust_button",
         "objectType": 3,
+        "thisOC": null,
         "name": "order_trust_info",
         "pos": {
           "x": 59.0000458,
@@ -17305,6 +17277,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 8,
+        "thisOC": null,
         "name": "TVLargeGroup",
         "pos": {
           "x": 4.21878052,
@@ -17329,6 +17302,7 @@
         "fontSize": 0,
         "parentName": "TVLargeGroup",
         "objectType": 0,
+        "thisOC": null,
         "name": "TVLarge",
         "pos": {
           "x": 2.670288E-05,
@@ -17353,6 +17327,7 @@
         "fontSize": 0,
         "parentName": "TVLargeGroup",
         "objectType": 3,
+        "thisOC": null,
         "name": "TVBackground",
         "pos": {
           "x": -0.0434942245,
@@ -17377,6 +17352,7 @@
         "fontSize": 22,
         "parentName": "TVLargeGroup",
         "objectType": 2,
+        "thisOC": null,
         "name": "News_headline",
         "pos": {
           "x": -180.4524,
@@ -17401,6 +17377,7 @@
         "fontSize": 11,
         "parentName": "TVLargeGroup",
         "objectType": 2,
+        "thisOC": null,
         "name": "News_description",
         "pos": {
           "x": -176.346619,
@@ -17425,6 +17402,7 @@
         "fontSize": 11,
         "parentName": "TVLargeGroup",
         "objectType": 2,
+        "thisOC": null,
         "name": "News_subline",
         "pos": {
           "x": 49.88576,
@@ -17449,6 +17427,7 @@
         "fontSize": 0,
         "parentName": "TVLargeGroup",
         "objectType": 0,
+        "thisOC": null,
         "name": "Study 2 Network HC2",
         "pos": {
           "x": 0.00123214722,
@@ -17473,6 +17452,7 @@
         "fontSize": 0,
         "parentName": "TVLargeGroup",
         "objectType": 0,
+        "thisOC": null,
         "name": "Study 2 Network HC1",
         "pos": {
           "x": 0.00123214722,
@@ -17497,6 +17477,7 @@
         "fontSize": 0,
         "parentName": "TVLargeGroup",
         "objectType": 0,
+        "thisOC": null,
         "name": "Study 2 Network DS1",
         "pos": {
           "x": 0.00123214722,
@@ -17521,6 +17502,7 @@
         "fontSize": 0,
         "parentName": "TVLargeGroup",
         "objectType": 0,
+        "thisOC": null,
         "name": "Supply Chain Network",
         "pos": {
           "x": 1.1920929E-05,
@@ -17545,6 +17527,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "female2_green",
         "pos": {
           "x": -167.567261,
@@ -17569,6 +17552,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Business_Female3",
         "pos": {
           "x": 238.114319,
@@ -17593,6 +17577,7 @@
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "LED_tv",
         "pos": {
           "x": -197.470367,
@@ -17617,6 +17602,7 @@
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "LED_laptop",
         "pos": {
           "x": 50.08983,
@@ -17641,6 +17627,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "chart_window",
         "pos": {
           "x": 0.0,
@@ -17665,6 +17652,7 @@
         "fontSize": 12,
         "parentName": "chart_window",
         "objectType": 2,
+        "thisOC": null,
         "name": "close",
         "pos": {
           "x": 218.569351,
@@ -17689,6 +17677,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Inventory_Chart",
         "pos": {
           "x": 0.0,
@@ -17713,7 +17702,8 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
-        "name": "Demand_History",
+        "thisOC": null,
+        "name": "Patient_History",
         "pos": {
           "x": 0.0,
           "y": 40.0,
@@ -17737,6 +17727,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "HC1_Demand_History",
         "pos": {
           "x": 0.0,
@@ -17761,6 +17752,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "HC2_Demand_History",
         "pos": {
           "x": 0.0,
@@ -17785,6 +17777,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "Order_History",
         "pos": {
           "x": 0.0,
@@ -17809,6 +17802,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "order_value_ds1",
         "pos": {
           "x": -20.0000038,
@@ -17833,6 +17827,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "order_value_ds2",
         "pos": {
           "x": -20.0000019,
@@ -17857,6 +17852,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "treat_order_button",
         "pos": {
           "x": 275.0,
@@ -17881,6 +17877,7 @@
         "fontSize": 16,
         "parentName": "treat_order_button",
         "objectType": 2,
+        "thisOC": null,
         "name": "go_next_text",
         "pos": {
           "x": 5.0,
@@ -17905,6 +17902,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "modify_button",
         "pos": {
           "x": 180.0,
@@ -17929,6 +17927,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "Back_button",
         "pos": {
           "x": -125.0,
@@ -17953,6 +17952,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "concern1",
         "pos": {
           "x": -65.0,
@@ -17977,6 +17977,7 @@
         "fontSize": 0,
         "parentName": "concern1",
         "objectType": 3,
+        "thisOC": null,
         "name": "Check_button1_info",
         "pos": {
           "x": 102.0,
@@ -18001,6 +18002,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "concern2",
         "pos": {
           "x": -65.0,
@@ -18025,6 +18027,7 @@
         "fontSize": 0,
         "parentName": "concern2",
         "objectType": 3,
+        "thisOC": null,
         "name": "Check_button2_info",
         "pos": {
           "x": 102.0,
@@ -18049,6 +18052,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "concern3",
         "pos": {
           "x": -65.0,
@@ -18073,6 +18077,7 @@
         "fontSize": 0,
         "parentName": "concern3",
         "objectType": 3,
+        "thisOC": null,
         "name": "Check_button3_info",
         "pos": {
           "x": 102.000046,
@@ -18097,6 +18102,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "BlankButton",
         "pos": {
           "x": 127.999992,
@@ -18121,6 +18127,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "order_value",
         "pos": {
           "x": 128.0,
@@ -18145,6 +18152,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "HC1_value",
         "pos": {
           "x": 17.0,
@@ -18169,6 +18177,7 @@
         "fontSize": 16,
         "parentName": "",
         "objectType": 1,
+        "thisOC": null,
         "name": "HC2_value",
         "pos": {
           "x": 17.0,
@@ -18193,6 +18202,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "check_button1",
         "pos": {
           "x": -155.0,
@@ -18217,6 +18227,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "check_button2",
         "pos": {
           "x": -155.0,
@@ -18241,6 +18252,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "check_button3",
         "pos": {
           "x": -155.0,
@@ -18265,6 +18277,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "info_bubble",
         "pos": {
           "x": 190.0,
@@ -18289,6 +18302,7 @@
         "fontSize": 11,
         "parentName": "info_bubble",
         "objectType": 2,
+        "thisOC": null,
         "name": "info_bubble_Text",
         "pos": {
           "x": 0.0,
@@ -18313,6 +18327,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "warning_panel",
         "pos": {
           "x": 70.0,
@@ -18337,6 +18352,7 @@
         "fontSize": 16,
         "parentName": "warning_panel",
         "objectType": 1,
+        "thisOC": null,
         "name": "warning_inside",
         "pos": {
           "x": 0.0,
@@ -18361,6 +18377,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 8,
+        "thisOC": null,
         "name": "mn_inventory",
         "pos": {
           "x": 69.99999,
@@ -18385,6 +18402,7 @@
         "fontSize": 0,
         "parentName": "mn_inventory",
         "objectType": 3,
+        "thisOC": null,
         "name": "mn_inv_panel",
         "pos": {
           "x": 7.62939453E-06,
@@ -18409,6 +18427,7 @@
         "fontSize": 16,
         "parentName": "mn_inventory",
         "objectType": 1,
+        "thisOC": null,
         "name": "mn_inv_text",
         "pos": {
           "x": 0.0,
@@ -18433,6 +18452,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "goal_button",
         "pos": {
           "x": -450.0,
@@ -18457,6 +18477,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "button_cost",
         "pos": {
           "x": -450.0,
@@ -18481,6 +18502,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
+        "thisOC": null,
         "name": "buttonInfo",
         "pos": {
           "x": -450.0,
@@ -18505,6 +18527,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "face_smiling",
         "pos": {
           "x": -450.0,
@@ -18529,6 +18552,7 @@
         "fontSize": 12,
         "parentName": "face_smiling",
         "objectType": 2,
+        "thisOC": null,
         "name": "happiness%",
         "pos": {
           "x": 20.45,
@@ -18553,6 +18577,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "face_panel",
         "pos": {
           "x": -420.0,
@@ -18577,10 +18602,11 @@
         "fontSize": 16,
         "parentName": "face_panel",
         "objectType": 2,
+        "thisOC": null,
         "name": "face_Text",
         "pos": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 5.0,
+          "y": -5.0,
           "z": 0.0
         },
         "size": {
@@ -18601,6 +18627,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "info_panel",
         "pos": {
           "x": -420.0,
@@ -18625,10 +18652,11 @@
         "fontSize": 16,
         "parentName": "info_panel",
         "objectType": 2,
+        "thisOC": null,
         "name": "info_Text",
         "pos": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 5.0,
+          "y": -5.0,
           "z": 0.0
         },
         "size": {
@@ -18649,6 +18677,7 @@
         "fontSize": 0,
         "parentName": "",
         "objectType": 3,
+        "thisOC": null,
         "name": "goal_panel",
         "pos": {
           "x": -419.999969,
@@ -18673,10 +18702,11 @@
         "fontSize": 16,
         "parentName": "goal_panel",
         "objectType": 2,
+        "thisOC": null,
         "name": "goal_Text",
         "pos": {
-          "x": -3.05175781E-05,
-          "y": 4.57763672E-05,
+          "x": 4.99996948,
+          "y": -4.999954,
           "z": 0.0
         },
         "size": {
@@ -18688,15 +18718,15 @@
     "recent_assets": [],
     "recent_backgrounds": [],
     "recent_characters": [],
-    "layoutScale": 0.620921254,
+    "layoutScale": 0.751314759,
     "layoutPosition": {
-      "x": -64.07299,
-      "y": 27.2920074
+      "x": -66.17634,
+      "y": 9.512966
     },
-    "scriptorScale": 0.217628658,
+    "scriptorScale": 1.0,
     "scriptorPosition": {
-      "x": -1456.13269,
-      "y": 383.808868
+      "x": -6542.19336,
+      "y": -684.4084
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

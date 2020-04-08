@@ -2,8 +2,8 @@
   "title": "Gamette Study 2-1",
   "description": "This is the second study with Gamettes to look into human behavior within supply chains",
   "initial_scene": "First Day",
-  "version": 1,
-  "last_edit": "2020-03-24 20:51:54",
+  "version": "2.4.6",
+  "last_edit": "2020-04-07 22:19:07",
   "published": "false",
   "scene_order": [
     "0",
@@ -316,13 +316,13 @@
     },
     {
       "name": "disruptionStart",
-      "value": "no",
-      "value_type": "String",
+      "value": "0",
+      "value_type": "Int",
       "id": "-1"
     },
     {
       "name": "disruptionType",
-      "value": "",
+      "value": "shutdown",
       "value_type": "String",
       "id": "-1"
     },
@@ -538,8 +538,8 @@
     },
     {
       "name": "disruptionEnd",
-      "value": "no",
-      "value_type": "String",
+      "value": "0",
+      "value_type": "Int",
       "id": "-1"
     },
     {
