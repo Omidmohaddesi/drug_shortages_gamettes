@@ -68,15 +68,15 @@
       "type": "dialogue"
     },
     "23137": {
-      "content": "Your task is to allocate {drugName} inventory to meet our demand. ",
+      "content": "Your task is to allocate {drugName} inventory to meet our demand, and to keep sufficient inventory by ordering {drugName} from our supplier.",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
       "next": "26264",
       "tru": "True",
       "index": "23137",
-      "posX": "9.074212",
-      "posY": "2.289402",
+      "posX": "8.888397",
+      "posY": "2.403288",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -89,8 +89,8 @@
       "next": "24303",
       "tru": "True",
       "index": "23139",
-      "posX": "26.00984",
-      "posY": "2.263341",
+      "posX": "30.86765",
+      "posY": "3.688263",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -100,11 +100,11 @@
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "23139",
+      "next": "28868",
       "tru": "True",
       "index": "24121",
-      "posX": "22.87216",
-      "posY": "1.947109",
+      "posX": "23.42462",
+      "posY": "2.02689",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -319,7 +319,7 @@
     "24153": {
       "actionTarget": "goal_Text",
       "actionName": "TypeText",
-      "action_text": "Goal: Maximize Revenue!\t\t\n(Total sales revenue: ${costTotal})\n\n<i>Allocate {drugName} inventory to meet current demand in order to maximize sales revenue.</i>",
+      "action_text": "Goal: Maximize Revenue and Minimize Cost!\t\t\n\nTotal sales revenue:\t${TotalSalesCum}\nTotal Cost: \t${costTotalCum}\nNet Profit:\t${profit}\n\n<i>Allocate {drugName} inventory to meet current demand in order to maximize sales revenue.</i>",
       "action_type-speed": "0",
       "name": "Action",
       "next": "24178",
@@ -607,8 +607,8 @@
       "next": "293",
       "tru": "True",
       "index": "24294",
-      "posX": "35.4314",
-      "posY": "1.913612",
+      "posX": "40.43468",
+      "posY": "1.970146",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -747,8 +747,8 @@
       "next": "24339",
       "tru": "True",
       "index": "24303",
-      "posX": "29.41654",
-      "posY": "2.089373",
+      "posX": "34.41982",
+      "posY": "2.145908",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -1116,8 +1116,8 @@
       "next": "24294",
       "tru": "True",
       "index": "24339",
-      "posX": "32.43499",
-      "posY": "2.113618",
+      "posX": "37.43826",
+      "posY": "2.170153",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -1459,7 +1459,7 @@
       "type": "callfunction"
     },
     "26264": {
-      "content": "Your main goal is to maximize the company's sales revenue and increase our market share by deciding how to allocate current {drugName} inventory to health-centers.",
+      "content": "Your main goal is to maximize the company's sales revenue and to minimize overal cost. ",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -1477,11 +1477,11 @@
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28205",
+      "next": "28866",
       "tru": "True",
       "index": "26265",
-      "posX": "15.01743",
-      "posY": "4.947155",
+      "posX": "15.10135",
+      "posY": "4.959144",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1835,19 +1835,44 @@
       "advance_mode": "Instantly",
       "type": "action"
     },
-    "28205": {
-      "content": "But do not worry about this as we have a management software that minimizes these costs by automatically ordering from our supplier.",
+    "28866": {
+      "content": "Do your best in increasing our market share by deciding how to allocate current {drugName} inventory to health-centers, and how to order from our supplier.",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
       "next": "24140",
       "tru": "True",
-      "index": "28205",
-      "posX": "18.18782",
-      "posY": "5.969445",
+      "index": "28866",
+      "posX": "18.53537",
+      "posY": "5.209798",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
+    },
+    "28868": {
+      "choices": "23139~~{condition} = 2~-~24303~~true~-~",
+      "isRandom": "False",
+      "name": "Branch",
+      "next": "-1",
+      "tru": "True",
+      "index": "28868",
+      "posX": "27.2175",
+      "posY": "2.575664",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "if"
+    },
+    "28869": {
+      "contents": "Condition 6,7",
+      "name": "Comment",
+      "next": "-1",
+      "tru": "True",
+      "index": "28869",
+      "posX": "26.42602",
+      "posY": "5.246906",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "comment"
     }
   },
   "scene": {
@@ -2362,28 +2387,18 @@
         }
       }
     ],
-    "recent_assets": [
-      "tv_1",
-      "tv_1",
-      "end_table_6",
-      "end_table_7",
-      "cellphone_2",
-      "cellphone_3",
-      "cellphone_2",
-      "Study 2 Network Disruption",
-      "panel_blank_1"
-    ],
+    "recent_assets": [],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.4665073,
     "layoutPosition": {
-      "x": 39.98298,
-      "y": -152.391525
+      "x": 16.2467041,
+      "y": -88.73518
     },
-    "scriptorScale": 0.513157845,
+    "scriptorScale": 0.6209211,
     "scriptorPosition": {
-      "x": -1003.50208,
-      "y": 904.9833
+      "x": -745.6302,
+      "y": -132.052124
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
