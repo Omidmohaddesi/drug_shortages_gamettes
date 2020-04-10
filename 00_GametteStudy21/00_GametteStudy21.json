@@ -3,7 +3,7 @@
   "description": "This is the second study with Gamettes to look into human behavior within supply chains",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-04-07 22:19:07",
+  "last_edit": "2020-04-10 11:20:27",
   "published": "false",
   "scene_order": [
     "0",
@@ -558,6 +558,72 @@
       "name": "mnInventory",
       "value": "0",
       "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "condition",
+      "value": "2",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "profit",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "HC1Sales",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "HC2Sales",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "HC1SalesCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "HC2SalesCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "TotalSales",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "backlogCost",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "backlogCostCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "costTotalCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "TotalSalesCum",
+      "value": "0",
+      "value_type": "Float",
       "id": "-1"
     }
   ],

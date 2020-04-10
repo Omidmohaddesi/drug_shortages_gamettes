@@ -19,8 +19,8 @@
       "next": "17",
       "tru": "True",
       "index": "4",
-      "posX": "1.663269",
-      "posY": "2.258797",
+      "posX": "1.521544",
+      "posY": "2.128882",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -973,8 +973,8 @@
       "next": "24328",
       "tru": "True",
       "index": "24327",
-      "posX": "16.86137",
-      "posY": "-21.10304",
+      "posX": "16.67325",
+      "posY": "-20.91492",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -982,13 +982,13 @@
     "24328": {
       "actionTarget": "info_Text",
       "actionName": "TypeText",
-      "action_text": "\t\t\t\t\t\t\t\t\tLast Week\t\t\tCumulative\nSALES\n<i>Sales - HC1\t\t\t\t\t${invCost}\t\t\t\t\t\t\t\t${invCostCum}\nSales - HC2\t\t\t\t\t${untreatedU}\t\t\t\t\t\t\t\t${cumRepCostU}</i>\nTotal Sales\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\nCOSTS\n<i>Inventory\t\t\t\t\t\t${invCost}\t\t\t\t\t\t\t\t${invCostCum}\nBacklog\t\t\t\t\t\t${untreatedU}\t\t\t\t\t\t\t\t${cumRepCostU}</i>\nTotal Cost\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\nNET PROFIT\t\t\t\t\t\t\t\t\t\t\t\t\t$0\n\n<i>For each unit of {drugName}:\nsales price is \t\t\t$5\ninventory cost is \t$1\nbacklog cost is \t\t$10</i>",
+      "action_text": "\t\t\t\t\t\t\t\t\tLast Week\t\t\tCumulative\r\nSALES\r\n<i>Sales - HC1\t\t\t\t\t${HC1Sales}\t\t\t\t\t\t\t\t${HC1SalesCum}\r\nSales - HC2\t\t\t\t\t${HC2Sales}\t\t\t\t\t\t\t\t${HC2SalesCum}</i>\r\nTotal Sales\t\t\t\t\t${TotalSales}\t\t\t\t\t\t\t\t${TotalSalesCum}\r\n\r\nCOSTS\r\n<i>Inventory\t\t\t\t\t\t${invCost}\t\t\t\t\t\t\t\t${invCostCum}\r\nBacklog\t\t\t\t\t\t${backlogCost}\t\t\t\t\t\t\t\t${backlogCostCum}</i>\r\nTotal Cost\t\t\t\t\t${costTotal}\t\t\t\t\t\t\t\t${costTotalCum}\r\n\r\nNET PROFIT\t\t\t\t\t\t\t\t\t\t\t\t\t${profit}\r\n\r\n<i>For each unit of {drugName}:\r\nprice is \t\t\t\t\t\t$5\r\ninventory cost is \t$1\r\nbacklog cost is \t\t$10</i>",
       "action_type-speed": "0",
       "name": "Action",
       "next": "24335",
       "tru": "True",
       "index": "24328",
-      "posX": "20.04322",
+      "posX": "20.09966",
       "posY": "-20.33078",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -1036,8 +1036,8 @@
       "next": "24333",
       "tru": "True",
       "index": "24331",
-      "posX": "26.62507",
-      "posY": "-21.13731",
+      "posX": "26.66269",
+      "posY": "-21.04325",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -1773,7 +1773,7 @@
       "posX": "-5.961625",
       "posY": "1.101979",
       "minimized": "False",
-      "advance_mode": "WhenCompleted",
+      "advance_mode": "Instantly",
       "type": "action"
     },
     "28128": {
@@ -2345,7 +2345,7 @@
         "textcolor": "000000",
         "image": "Text",
         "value": 0.0,
-        "text": "\t\t\t\t\t\t\t\t\tLast Week\t\t\tCumulative\nSALES\n<i>Sales - HC1\t\t\t\t\t${invCost}\t\t\t\t${invCostCum}\nSales - HC2\t\t\t\t\t${untreatedU}\t\t${cumRepCostU}</i>\nTotal Sales\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\nCOSTS\n<i>Inventory\t\t\t\t\t\t${invCost}\t\t\t\t${invCostCum}\nBacklog\t\t\t\t\t\t\t${untreatedU}\t\t${cumRepCostU}</i>\nTotal Cost\t\t\t\t\t\t\t\t\t\t\t\t\t\t${costTotal}\n\nNET PROFIT\t\t\t\t\t\t\t\t\t\t\t\t\t${profit}\n\n<i>For each unit of {drugName}:\nprice is \t\t\t\t\t\t$5\ninventory cost is \t$1\nbacklog cost is \t\t$10</i>",
+        "text": "\t\t\t\t\t\t\t\t\tLast Week\t\t\tCumulative\r\nSALES\r\n<i>Sales - HC1\t\t\t\t\t${HC1Sales}\t\t\t\t\t\t\t\t${HC1SalesCum}\r\nSales - HC2\t\t\t\t\t${HC2Sales}\t\t\t\t\t\t\t\t${HC2SalesCum}</i>\r\nTotal Sales\t\t\t\t\t${TotalSales}\t\t\t\t\t\t\t\t${TotalSalesCum}\r\n\r\nCOSTS\r\n<i>Inventory\t\t\t\t\t\t${invCost}\t\t\t\t\t\t\t\t${invCostCum}\r\nBacklog\t\t\t\t\t\t${backlogCost}\t\t\t\t\t\t\t\t${backlogCostCum}</i>\r\nTotal Cost\t\t\t\t\t${costTotal}\t\t\t\t\t\t\t\t${costTotalCum}\r\n\r\nNET PROFIT\t\t\t\t\t\t\t\t\t\t\t\t\t${profit}\r\n\r\n<i>For each unit of {drugName}:\r\nprice is \t\t\t\t\t\t$5\r\ninventory cost is \t$1\r\nbacklog cost is \t\t$10</i>",
         "fontSize": 16,
         "parentName": "",
         "objectType": 2,
@@ -2362,18 +2362,28 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "tv_1",
+      "tv_1",
+      "end_table_6",
+      "end_table_7",
+      "cellphone_2",
+      "cellphone_3",
+      "cellphone_2",
+      "Study 2 Network Disruption",
+      "panel_blank_1"
+    ],
     "recent_backgrounds": [],
     "recent_characters": [],
-    "layoutScale": 0.6209211,
+    "layoutScale": 0.4665073,
     "layoutPosition": {
-      "x": -18.8596172,
-      "y": -61.35639
+      "x": 39.98298,
+      "y": -152.391525
     },
-    "scriptorScale": 1.0,
+    "scriptorScale": 0.513157845,
     "scriptorPosition": {
-      "x": -5056.08643,
-      "y": -351.8421
+      "x": -1003.50208,
+      "y": 904.9833
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
