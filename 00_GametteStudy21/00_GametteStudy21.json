@@ -3,7 +3,7 @@
   "description": "This is the second study with Gamettes to look into human behavior within supply chains",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-04-10 21:27:10",
+  "last_edit": "2020-04-12 19:24:40",
   "published": "false",
   "scene_order": [
     "0",
@@ -15,8 +15,9 @@
     "6",
     "7",
     "8",
-    "9",
     "10",
+    "12",
+    "13",
     "11"
   ],
   "variables": [
@@ -460,7 +461,7 @@
     },
     {
       "name": "noOfScenes",
-      "value": "5",
+      "value": "6",
       "value_type": "Int",
       "id": "-1"
     },
@@ -477,7 +478,7 @@
       "id": "-1"
     },
     {
-      "name": "Qdemand",
+      "name": "Q_occupation",
       "value": "",
       "value_type": "String",
       "id": "-1"

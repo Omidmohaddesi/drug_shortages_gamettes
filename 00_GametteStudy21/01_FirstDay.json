@@ -1729,7 +1729,7 @@
       "type": "dialogue"
     },
     "28122": {
-      "content": "You will be deciding how to allocate {drugName} inventory to health-centers.",
+      "content": "You will be deciding how to allocate {drugName} inventory to health-centers, and how to order it from your supplier.",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
@@ -2397,8 +2397,8 @@
     },
     "scriptorScale": 0.683013141,
     "scriptorPosition": {
-      "x": -68.49443,
-      "y": -815.5333
+      "x": -180.78125,
+      "y": -660.153137
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
