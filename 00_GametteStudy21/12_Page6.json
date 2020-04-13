@@ -61,7 +61,7 @@
       "type": "choice"
     },
     "103": {
-      "nextScript": "End - Thank You!",
+      "nextScript": "Debriefing",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",
@@ -1032,10 +1032,10 @@
       "x": -115.539352,
       "y": 40.3458138
     },
-    "scriptorScale": 0.6830132,
+    "scriptorScale": 1.0,
     "scriptorPosition": {
-      "x": -2383.11914,
-      "y": 1715.8949
+      "x": -3041.28149,
+      "y": -49.0909042
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

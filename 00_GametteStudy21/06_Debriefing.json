@@ -2,11 +2,11 @@
   "dictNodes": {
     "0": {
       "name": "Start",
-      "next": "27997",
+      "next": "29054",
       "tru": "True",
       "index": "0",
-      "posX": "-8.151493",
-      "posY": "0.3693646",
+      "posX": "-9.037081",
+      "posY": "18.37639",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "start"
@@ -19,8 +19,8 @@
       "next": "26279",
       "tru": "True",
       "index": "26278",
-      "posX": "0.3818989",
-      "posY": "1.419438",
+      "posX": "0.08670323",
+      "posY": "1.18328",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -111,11 +111,11 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "26278",
+      "next": "-1",
       "tru": "True",
       "index": "27997",
-      "posX": "-3.370198",
-      "posY": "0.8349296",
+      "posX": "-3.588625",
+      "posY": "-0.462788",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -589,6 +589,34 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
+    },
+    "29054": {
+      "content": "Thank you for playing this game and for participating in our research. ",
+      "owner": "Doctor_Male1",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29055",
+      "tru": "True",
+      "index": "29054",
+      "posX": "-5.559807",
+      "posY": "17.91756",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29055": {
+      "content": "",
+      "owner": "Doctor_Male1",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "-1",
+      "tru": "True",
+      "index": "29055",
+      "posX": "-2.336442",
+      "posY": "17.96068",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
     }
   },
   "scene": {
@@ -1036,10 +1064,10 @@
       "x": -9.472626,
       "y": -28.4188843
     },
-    "scriptorScale": 1.0,
+    "scriptorScale": 0.6830131,
     "scriptorPosition": {
-      "x": -423.8066,
-      "y": -130.80629
+      "x": 95.61187,
+      "y": -1098.77441
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
