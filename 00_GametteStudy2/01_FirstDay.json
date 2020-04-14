@@ -2545,7 +2545,9 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "button_blank_1"
+    ],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.4665073,
