@@ -3,7 +3,7 @@
   "description": "This is the second study with Gamettes to look into human behavior within supply chains",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-04-13 20:52:30",
+  "last_edit": "2020-04-14 08:32:18",
   "published": "false",
   "scene_order": [
     "0",
@@ -461,30 +461,6 @@
       "id": "-1"
     },
     {
-      "name": "noOfScenes",
-      "value": "7",
-      "value_type": "Int",
-      "id": "-1"
-    },
-    {
-      "name": "progress",
-      "value": "0",
-      "value_type": "Int",
-      "id": "-1"
-    },
-    {
-      "name": "sceneNo",
-      "value": "0",
-      "value_type": "Int",
-      "id": "-1"
-    },
-    {
-      "name": "Q_occupation",
-      "value": "",
-      "value_type": "String",
-      "id": "-1"
-    },
-    {
       "name": "Q8",
       "value": "0",
       "value_type": "Int",
@@ -528,6 +504,48 @@
     },
     {
       "name": "Q15",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q16",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q17",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q18",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q_occupation",
+      "value": "",
+      "value_type": "String",
+      "id": "-1"
+    },
+    {
+      "name": "noOfScenes",
+      "value": "7",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "progress",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "sceneNo",
       "value": "0",
       "value_type": "Int",
       "id": "-1"
@@ -625,23 +643,107 @@
     {
       "name": "TotalSalesCum",
       "value": "0",
-      "value_type": "Float",
+      "value_type": "Int",
       "id": "-1"
     },
     {
-      "name": "Q16",
+      "name": "goal_clicked",
       "value": "0",
       "value_type": "Int",
       "id": "-1"
     },
     {
-      "name": "Q17",
+      "name": "dollar_clicked",
       "value": "0",
       "value_type": "Int",
       "id": "-1"
     },
     {
-      "name": "Q18",
+      "name": "info_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "tv_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "inv_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "inv_graph_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "demand_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "demand_graph_1_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "demand_graph_2_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "demand_graph_3_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "shipment_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "shipment_graph_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "policies_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "allocation_modify_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "order_modify_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "order_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "allocation_clicked",
       "value": "0",
       "value_type": "Int",
       "id": "-1"
