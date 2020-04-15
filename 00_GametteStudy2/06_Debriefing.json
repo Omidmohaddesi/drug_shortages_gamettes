@@ -5,8 +5,8 @@
       "next": "29054",
       "tru": "True",
       "index": "0",
-      "posX": "-9.971772",
-      "posY": "18.67138",
+      "posX": "-17.82024",
+      "posY": "18.81271",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "start"
@@ -16,11 +16,11 @@
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "29055",
+      "next": "29103",
       "tru": "True",
       "index": "29054",
-      "posX": "-6.41561",
-      "posY": "18.34457",
+      "posX": "-14.04246",
+      "posY": "17.99773",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -260,6 +260,35 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
+    },
+    "29100": {
+      "content": "Here is how you performed...",
+      "owner": "Doctor_Male1",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29055",
+      "tru": "True",
+      "index": "29100",
+      "posX": "-7.055618",
+      "posY": "18.90199",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29103": {
+      "actionTarget": "Text",
+      "actionName": "TypeText",
+      "action_text": "Sales:\t\t{TotalSalesCum}\nCost:\t\t\t{costTotalCum}\n\nProfit:\t\t{profit}",
+      "action_type-speed": "30",
+      "name": "Action",
+      "next": "29100",
+      "tru": "True",
+      "index": "29103",
+      "posX": "-10.66591",
+      "posY": "17.70236",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
     }
   },
   "scene": {
@@ -314,8 +343,8 @@
         "thisOC": null,
         "name": "plant2",
         "pos": {
-          "x": -177.6349,
-          "y": -77.24417,
+          "x": -319.8033,
+          "y": -65.3968048,
           "z": 0.0
         },
         "size": {
@@ -353,6 +382,56 @@
         "rotation": 0.0,
         "visible": true,
         "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "board_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "board_1",
+        "pos": {
+          "x": -82.93211,
+          "y": -101.084457,
+          "z": 0.0
+        },
+        "size": {
+          "x": 269.285217,
+          "y": 286.640259
+        }
+      },
+      {
+        "uid": 4,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "000000",
+        "image": "Text",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 2,
+        "thisOC": null,
+        "name": "Text",
+        "pos": {
+          "x": -72.47912,
+          "y": -40.59297,
+          "z": 0.0
+        },
+        "size": {
+          "x": 249.276764,
+          "y": 118.955688
+        }
+      },
+      {
+        "uid": 5,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
         "color": "FFFFFF00",
         "textcolor": "000000",
         "image": "Group",
@@ -374,7 +453,7 @@
         }
       },
       {
-        "uid": 4,
+        "uid": 6,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -399,7 +478,7 @@
         }
       },
       {
-        "uid": 5,
+        "uid": 7,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -424,7 +503,7 @@
         }
       },
       {
-        "uid": 6,
+        "uid": 8,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -449,7 +528,7 @@
         }
       },
       {
-        "uid": 7,
+        "uid": 9,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -475,25 +554,27 @@
       }
     ],
     "recent_assets": [
-      "Text",
       "Study 2 Network",
       "tv_1",
       "tv_1",
       "tv_1",
       "tv_1",
-      "panel_blank_1"
+      "panel_blank_1",
+      "board_2",
+      "Text",
+      "board_1"
     ],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.6830132,
     "layoutPosition": {
-      "x": -79.2147,
-      "y": -46.9726753
+      "x": -138.0159,
+      "y": -48.0515976
     },
-    "scriptorScale": 0.35049367,
+    "scriptorScale": 0.6209209,
     "scriptorPosition": {
-      "x": 36.07221,
-      "y": -602.4713
+      "x": 535.613831,
+      "y": -975.8445
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

@@ -61,7 +61,7 @@
       "type": "choice"
     },
     "103": {
-      "nextScript": "Page 6",
+      "nextScript": "Page 8",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",
@@ -1284,7 +1284,7 @@
   },
   "scene": {
     "name": "Scene 1",
-    "title": "Page 5",
+    "title": "Page 7",
     "pos": {
       "x": 0.0,
       "y": 0.0,
@@ -1677,7 +1677,7 @@
         "textcolor": "000000",
         "image": "",
         "value": 0.0,
-        "text": "3. How old are you?",
+        "text": "5. How old are you?",
         "fontSize": 20,
         "parentName": "",
         "objectType": 2,
@@ -1699,13 +1699,13 @@
     "recent_characters": [],
     "layoutScale": 0.512193143,
     "layoutPosition": {
-      "x": -114.929962,
-      "y": 3.648285
+      "x": -114.929955,
+      "y": 3.64828968
     },
-    "scriptorScale": 0.1486434,
+    "scriptorScale": 0.3504934,
     "scriptorPosition": {
-      "x": -632.7413,
-      "y": 54.4974022
+      "x": -1272.31421,
+      "y": 30.48893
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

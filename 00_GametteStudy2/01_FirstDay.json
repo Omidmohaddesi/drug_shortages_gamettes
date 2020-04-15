@@ -1764,7 +1764,7 @@
       "type": "dialogue"
     },
     "28874": {
-      "content": "The entire process will take around 45 minutes. You may stop playing at any time by exiting the web page or closing your web browser.",
+      "content": "The entire process will take around 45 to 60 minutes. You may stop playing at any time by exiting the web page or closing your web browser.",
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
@@ -2555,10 +2555,10 @@
       "x": 16.2467041,
       "y": -88.73518
     },
-    "scriptorScale": 0.197844192,
+    "scriptorScale": 0.6209199,
     "scriptorPosition": {
-      "x": -538.6407,
-      "y": -89.49846
+      "x": 163.129471,
+      "y": -2372.60352
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

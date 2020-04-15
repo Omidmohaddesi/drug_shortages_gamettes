@@ -61,7 +61,7 @@
       "type": "choice"
     },
     "103": {
-      "nextScript": "Page 7",
+      "nextScript": "Debriefing",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",
@@ -99,8 +99,8 @@
       "next": "-1",
       "tru": "True",
       "index": "173",
-      "posX": "9.362573",
-      "posY": "6.528041",
+      "posX": "9.298861",
+      "posY": "6.666084",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -115,8 +115,8 @@
       "next": "173",
       "tru": "True",
       "index": "175",
-      "posX": "6.270469",
-      "posY": "6.228972",
+      "posX": "6.196137",
+      "posY": "6.653721",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -203,7 +203,7 @@
     },
     "28246": {
       "customEventName": "",
-      "eventDetails": "edu1",
+      "eventDetails": "occu1",
       "startsActive": "True",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -218,7 +218,7 @@
       "type": "event"
     },
     "28247": {
-      "actionTarget": "edu1",
+      "actionTarget": "occu1",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -246,12 +246,12 @@
     },
     "28249": {
       "displayName": null,
-      "owner": "{Q17}",
+      "owner": "{Q18}",
       "newValue": "1",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28370",
+      "next": "28380",
       "tru": "True",
       "index": "28249",
       "posX": "34.33698",
@@ -262,12 +262,12 @@
     },
     "28250": {
       "displayName": null,
-      "owner": "{Q17}",
+      "owner": "{Q18}",
       "newValue": "2",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28370",
+      "next": "28380",
       "tru": "True",
       "index": "28250",
       "posX": "34.34627",
@@ -277,7 +277,7 @@
       "type": "variable"
     },
     "28251": {
-      "actionTarget": "edu2",
+      "actionTarget": "occu2",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -292,7 +292,7 @@
     },
     "28252": {
       "customEventName": "",
-      "eventDetails": "edu2",
+      "eventDetails": "occu2",
       "startsActive": "True",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -307,7 +307,7 @@
       "type": "event"
     },
     "28253": {
-      "actionTarget": "edu2",
+      "actionTarget": "occu2",
       "actionName": "ChangeColor",
       "action_color": "FFFFFF",
       "name": "Action",
@@ -321,7 +321,7 @@
       "type": "action"
     },
     "28254": {
-      "actionTarget": "edu1",
+      "actionTarget": "occu1",
       "actionName": "ChangeColor",
       "action_color": "FFFFFF",
       "name": "Action",
@@ -335,7 +335,7 @@
       "type": "action"
     },
     "28255": {
-      "actionTarget": "edu4",
+      "actionTarget": "occu4",
       "actionName": "ChangeColor",
       "action_color": "FFFFFF",
       "name": "Action",
@@ -349,7 +349,7 @@
       "type": "action"
     },
     "28256": {
-      "actionTarget": "edu3",
+      "actionTarget": "occu3",
       "actionName": "ChangeColor",
       "action_color": "FFFFFF",
       "name": "Action",
@@ -363,7 +363,7 @@
       "type": "action"
     },
     "28257": {
-      "actionTarget": "edu5",
+      "actionTarget": "occu5",
       "actionName": "ChangeColor",
       "action_color": "FFFFFF",
       "name": "Action",
@@ -412,12 +412,12 @@
     },
     "28260": {
       "displayName": null,
-      "owner": "{Q17}",
+      "owner": "{Q18}",
       "newValue": "3",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28370",
+      "next": "28380",
       "tru": "True",
       "index": "28260",
       "posX": "34.36695",
@@ -427,7 +427,7 @@
       "type": "variable"
     },
     "28261": {
-      "actionTarget": "edu3",
+      "actionTarget": "occu3",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -442,7 +442,7 @@
     },
     "28262": {
       "customEventName": "",
-      "eventDetails": "edu3",
+      "eventDetails": "occu3",
       "startsActive": "True",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -475,12 +475,12 @@
     },
     "28264": {
       "displayName": null,
-      "owner": "{Q17}",
+      "owner": "{Q18}",
       "newValue": "4",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28370",
+      "next": "28380",
       "tru": "True",
       "index": "28264",
       "posX": "34.36695",
@@ -490,7 +490,7 @@
       "type": "variable"
     },
     "28265": {
-      "actionTarget": "edu4",
+      "actionTarget": "occu4",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -505,7 +505,7 @@
     },
     "28266": {
       "customEventName": "",
-      "eventDetails": "edu4",
+      "eventDetails": "occu4",
       "startsActive": "True",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -538,12 +538,12 @@
     },
     "28268": {
       "displayName": null,
-      "owner": "{Q17}",
+      "owner": "{Q18}",
       "newValue": "5",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28370",
+      "next": "28357",
       "tru": "True",
       "index": "28268",
       "posX": "34.41019",
@@ -553,7 +553,7 @@
       "type": "variable"
     },
     "28269": {
-      "actionTarget": "edu5",
+      "actionTarget": "occu5",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -568,7 +568,7 @@
     },
     "28270": {
       "customEventName": "",
-      "eventDetails": "edu5",
+      "eventDetails": "occu5",
       "startsActive": "True",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -613,7 +613,7 @@
       "type": "customfunction"
     },
     "28299": {
-      "choices": "28300~~{Q14} = 1~-~28301~~{Q14} = 2~-~28302~~{Q14} = 3~-~28303~~{Q14} = 4~-~28304~~{Q14} = 5~-~-1~~true~-~",
+      "choices": "28300~~{Q18} = 1~-~28301~~{Q18} = 2~-~28302~~{Q18} = 3~-~28303~~{Q18} = 4~-~28304~~{Q18} = 5~-~-1~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -626,7 +626,7 @@
       "type": "if"
     },
     "28300": {
-      "actionTarget": "edu1",
+      "actionTarget": "occu1",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -640,7 +640,7 @@
       "type": "action"
     },
     "28301": {
-      "actionTarget": "edu2",
+      "actionTarget": "occu2",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -654,7 +654,7 @@
       "type": "action"
     },
     "28302": {
-      "actionTarget": "edu3",
+      "actionTarget": "occu3",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -668,7 +668,7 @@
       "type": "action"
     },
     "28303": {
-      "actionTarget": "edu4",
+      "actionTarget": "occu4",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -682,7 +682,7 @@
       "type": "action"
     },
     "28304": {
-      "actionTarget": "edu5",
+      "actionTarget": "occu5",
       "actionName": "ChangeColor",
       "action_color": "1ca81e",
       "name": "Action",
@@ -695,61 +695,99 @@
       "advance_mode": "Instantly",
       "type": "action"
     },
-    "28365": {
+    "28357": {
+      "choiceType": "open_response",
+      "content": "",
+      "owner": "",
+      "speaking": "False",
+      "prompted": "False",
+      "timed": "False",
+      "timer": "-1",
+      "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
+      "variable": "Q_occupation",
+      "inputMultiline": "False",
+      "openResponseButton": "Background",
+      "openResponseTextObject": "occu_response_box",
+      "name": "Player Choice",
+      "next": "28360",
+      "tru": "True",
+      "index": "28357",
+      "posX": "38.07931",
+      "posY": "-28.81654",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "choice"
+    },
+    "28360": {
+      "actionTarget": "occu_response_box",
+      "actionName": "TypeText",
+      "action_text": "{Q_occupation}",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "28380",
+      "tru": "True",
+      "index": "28360",
+      "posX": "41.44707",
+      "posY": "-28.0644",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "28374": {
       "functionName": "activate_next",
       "takesFocus": "True",
       "name": "Make Function",
-      "next": "28368",
+      "next": "28377",
       "tru": "True",
-      "index": "28365",
-      "posX": "36.602",
-      "posY": "7.781165",
+      "index": "28374",
+      "posX": "35.6823",
+      "posY": "8.868219",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
     },
-    "28366": {
+    "28375": {
       "actionTarget": "next",
       "actionName": "ChangeColor",
       "action_color": "84D151",
       "name": "Action",
-      "next": "28367",
+      "next": "28376",
       "tru": "True",
-      "index": "28366",
-      "posX": "44.08525",
-      "posY": "9.904773",
+      "index": "28375",
+      "posX": "43.16555",
+      "posY": "10.99183",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
     },
-    "28367": {
+    "28376": {
       "actionTarget": "next",
       "actionName": "ChangeTextColor",
       "action_text-color": "000000",
       "name": "Action",
-      "next": "28369",
+      "next": "28378",
       "tru": "True",
-      "index": "28367",
-      "posX": "47.08553",
-      "posY": "9.894443",
+      "index": "28376",
+      "posX": "46.16583",
+      "posY": "10.9815",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
     },
-    "28368": {
-      "choices": "-1~~{Q17} = 0~-~28366~~true~-~",
+    "28377": {
+      "choices": "-1~~{Q18} = 0~-~28375~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
       "tru": "True",
-      "index": "28368",
-      "posX": "40.30091",
-      "posY": "8.553401",
+      "index": "28377",
+      "posX": "39.38121",
+      "posY": "9.640454",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
     },
-    "28369": {
+    "28378": {
       "functionType": "ActivateEvent",
       "functionDetail": "next",
       "functionDetail2": "",
@@ -759,14 +797,14 @@
       "name": "Call Function",
       "next": "-1",
       "tru": "True",
-      "index": "28369",
-      "posX": "50.35307",
-      "posY": "10.70046",
+      "index": "28378",
+      "posX": "49.43336",
+      "posY": "11.78751",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
-    "28370": {
+    "28380": {
       "functionType": "CustomFunction",
       "functionDetail": "activate_next",
       "functionDetail2": "",
@@ -776,9 +814,9 @@
       "name": "Call Function",
       "next": "-1",
       "tru": "True",
-      "index": "28370",
-      "posX": "41.00122",
-      "posY": "-18.57789",
+      "index": "28380",
+      "posX": "46.11305",
+      "posY": "-17.33787",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -786,13 +824,13 @@
   },
   "scene": {
     "name": "Scene 1",
-    "title": "Page 6",
+    "title": "Page 9",
     "pos": {
       "x": 0.0,
       "y": 0.0,
       "z": 0.0
     },
-    "uid": "12",
+    "uid": "13",
     "background": "wall_inside_35",
     "furniture": [
       {
@@ -899,49 +937,49 @@
         "uid": 4,
         "rotation": 0.0,
         "visible": true,
-        "locked": true,
+        "locked": false,
         "color": "FFFFFF",
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "Prefer not to answer",
+        "text": "",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
-        "name": "edu5",
+        "name": "occu_response_box",
         "pos": {
-          "x": -307.0,
-          "y": -72.0,
+          "x": 74.6839752,
+          "y": -136.0425,
           "z": 0.0
         },
         "size": {
-          "x": 210.0,
-          "y": 45.0
+          "x": 509.804718,
+          "y": 69.36042
         }
       },
       {
         "uid": 5,
         "rotation": 0.0,
         "visible": true,
-        "locked": true,
+        "locked": false,
         "color": "FFFFFF",
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "Ph.D. or higher",
+        "text": "Other - Please explain your occupation below:",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
-        "name": "edu4",
+        "name": "occu5",
         "pos": {
-          "x": -307.0,
-          "y": -19.0,
+          "x": -40.0,
+          "y": -71.99999,
           "z": 0.0
         },
         "size": {
-          "x": 210.0,
+          "x": 740.0,
           "y": 45.0
         }
       },
@@ -949,24 +987,24 @@
         "uid": 6,
         "rotation": 0.0,
         "visible": true,
-        "locked": true,
+        "locked": false,
         "color": "FFFFFF",
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "Master's Degree\r",
+        "text": "I am a supply chain expert currently working in pharmaceutical supply chains.",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
-        "name": "edu3",
+        "name": "occu4",
         "pos": {
-          "x": -307.0,
-          "y": 34.0,
+          "x": -40.0,
+          "y": -19.0000286,
           "z": 0.0
         },
         "size": {
-          "x": 210.0,
+          "x": 740.0,
           "y": 45.0
         }
       },
@@ -974,24 +1012,24 @@
         "uid": 7,
         "rotation": 0.0,
         "visible": true,
-        "locked": true,
+        "locked": false,
         "color": "FFFFFF",
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "Bachelor's Degree",
+        "text": "I am a healthcare professional or pharmacist.",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
-        "name": "edu2",
+        "name": "occu3",
         "pos": {
-          "x": -307.0,
-          "y": 87.0,
+          "x": -40.0,
+          "y": 33.9999924,
           "z": 0.0
         },
         "size": {
-          "x": 210.0,
+          "x": 740.0,
           "y": 45.0
         }
       },
@@ -999,24 +1037,24 @@
         "uid": 8,
         "rotation": 0.0,
         "visible": true,
-        "locked": true,
+        "locked": false,
         "color": "FFFFFF",
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "High School",
+        "text": "I am a graduate student.",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
-        "name": "edu1",
+        "name": "occu2",
         "pos": {
-          "x": -307.0,
-          "y": 142.0,
+          "x": -40.0,
+          "y": 87.0000153,
           "z": 0.0
         },
         "size": {
-          "x": 210.0,
+          "x": 740.0,
           "y": 45.0
         }
       },
@@ -1024,17 +1062,42 @@
         "uid": 9,
         "rotation": 0.0,
         "visible": true,
-        "locked": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "button_blank_1",
+        "value": 0.0,
+        "text": "I am an undergraduate student.\r",
+        "fontSize": 20,
+        "parentName": "",
+        "objectType": 1,
+        "thisOC": null,
+        "name": "occu1",
+        "pos": {
+          "x": -40.0,
+          "y": 142.000031,
+          "z": 0.0
+        },
+        "size": {
+          "x": 740.0,
+          "y": 45.0
+        }
+      },
+      {
+        "uid": 10,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
         "color": "FFFFFF00",
         "textcolor": "000000",
         "image": "",
         "value": 0.0,
-        "text": "5. What is the highest degree or level of education you have completed?",
+        "text": "8. Which statement applies to you best?",
         "fontSize": 20,
         "parentName": "",
         "objectType": 2,
         "thisOC": null,
-        "name": "Question_education",
+        "name": "Question_occupation",
         "pos": {
           "x": -50.0,
           "y": 195.0,
@@ -1052,12 +1115,12 @@
     "layoutScale": 0.5634125,
     "layoutPosition": {
       "x": -115.539352,
-      "y": 40.885273
+      "y": 40.3458138
     },
-    "scriptorScale": 0.6209204,
+    "scriptorScale": 0.42409724,
     "scriptorPosition": {
-      "x": -2338.172,
-      "y": -419.770477
+      "x": -1303.09448,
+      "y": -59.4114838
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

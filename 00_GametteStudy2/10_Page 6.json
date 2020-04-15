@@ -1255,7 +1255,7 @@
       "type": "choice"
     },
     "103": {
-      "nextScript": "Page 5",
+      "nextScript": "Page 7",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",
@@ -2534,7 +2534,7 @@
   },
   "scene": {
     "name": "Scene 1",
-    "title": "Page 4",
+    "title": "Page 6",
     "pos": {
       "x": 0.0,
       "y": 0.0,
@@ -2577,7 +2577,7 @@
         "textcolor": "000000",
         "image": "",
         "value": 0.0,
-        "text": "2. How would you rate following statements?\n",
+        "text": "4. How would you rate following statements?\n",
         "fontSize": 20,
         "parentName": "",
         "objectType": 2,
@@ -3652,10 +3652,10 @@
       "x": -58.51237,
       "y": -11.4635363
     },
-    "scriptorScale": 0.7513145,
+    "scriptorScale": 0.999999642,
     "scriptorPosition": {
-      "x": -2666.88647,
-      "y": -571.5755
+      "x": -3202.023,
+      "y": -171.268265
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
