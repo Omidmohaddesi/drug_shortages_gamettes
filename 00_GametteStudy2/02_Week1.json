@@ -11868,7 +11868,7 @@
     "28263": {
       "actionTarget": "Textbox",
       "actionName": "TypeText",
-      "action_text": "For Allocating\n1) Prefer HC1: <i>Health Center 1 is prioritized to receive units before Health Center 2.</i>\n1) Prefer HC2: <i>Health Center 2 is prioritized to receive units before Health Center 1.</i>\n2) Proportional: <i>If there are not enough units to allocate to all health centers, units are proportionally allocated among Health Center 1 and Health Center 2.</i>\n\nFor Ordering\nOrder-up-to-level: <i>As calculated by the management system, this accounts for the length of time it takes until you receive your order, expected demand, and uncertainty in demand.</i>",
+      "action_text": "For Allocating\n1) Prefer HC1: <i>If there are not enough units to allocate to all health centers, Health Center 1 is prioritized to receive units before Health Center 2.</i>\n2) Prefer HC2: <i>If there are not enough units to allocate to all health centers, Health Center 2 is prioritized to receive units before Health Center 1.</i>\n3) Proportional: <i>If there are not enough units to allocate to all health centers, units are proportionally allocated among Health Center 1 and Health Center 2.</i>\n\nFor Ordering\nOrder-up-to-level: <i>As calculated by the management system, this accounts for the length of time it takes until you receive your order, expected demand, and uncertainty in demand.</i>",
       "action_type-speed": "0",
       "name": "Action",
       "next": "28264",
@@ -20187,10 +20187,10 @@
       "x": -13.7155476,
       "y": -30.0755672
     },
-    "scriptorScale": 0.4665065,
+    "scriptorScale": 0.9090886,
     "scriptorPosition": {
-      "x": 4032.87085,
-      "y": -43.8143539
+      "x": -1263.82861,
+      "y": 3961.4978
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
