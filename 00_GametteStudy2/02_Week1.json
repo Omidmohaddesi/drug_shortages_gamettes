@@ -5989,7 +5989,7 @@
       "type": "choice"
     },
     "25061": {
-      "choices": "26706~~{concern1}+{concern2}+{concern3} = 0~-~26766~~{temp3} >= 1~-~26744~~{OrTobe} = 0~-~26766~~true~-~",
+      "choices": "26706~~{concern1}+{concern2}+{concern3} = 0~-~26766~~{temp3} >= 1~-~26744~~{OrMN1} = 0~-~26766~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -6890,11 +6890,11 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28599",
+      "next": "25462",
       "tru": "True",
       "index": "25463",
-      "posX": "172.2675",
-      "posY": "-85.75385",
+      "posX": "175.9422",
+      "posY": "-85.88234",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -10038,7 +10038,7 @@
       "type": "callfunction"
     },
     "26817": {
-      "choices": "26819~~{OrTobe} < 0~-~26754~~true~-~",
+      "choices": "26819~~{OrMN1} < 0~-~26754~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -10899,7 +10899,7 @@
       "takesFocus": "True",
       "eventType": "ObjectClick",
       "name": "Event",
-      "next": "25463",
+      "next": "28599",
       "tru": "True",
       "index": "27732",
       "posX": "168.9964",
@@ -14220,8 +14220,8 @@
       "next": "25463",
       "tru": "True",
       "index": "28472",
-      "posX": "169.1355",
-      "posY": "-93.17923",
+      "posX": "172.5533",
+      "posY": "-92.40831",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -14746,11 +14746,11 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "25462",
+      "next": "25463",
       "tru": "True",
       "index": "28599",
-      "posX": "175.7085",
-      "posY": "-85.72163",
+      "posX": "172.4192",
+      "posY": "-86.0814",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -20187,10 +20187,10 @@
       "x": -13.7155476,
       "y": -30.0755672
     },
-    "scriptorScale": 0.9090886,
+    "scriptorScale": 0.4665063,
     "scriptorPosition": {
-      "x": -1263.82861,
-      "y": 3961.4978
+      "x": -7455.743,
+      "y": 3662.31665
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
