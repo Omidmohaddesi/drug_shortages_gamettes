@@ -1109,18 +1109,22 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "button_blank_1"
+    ],
     "recent_backgrounds": [],
-    "recent_characters": [],
+    "recent_characters": [
+      "baby_2"
+    ],
     "layoutScale": 0.5634125,
     "layoutPosition": {
       "x": -115.539352,
       "y": 40.3458138
     },
-    "scriptorScale": 0.42409724,
+    "scriptorScale": 0.385542959,
     "scriptorPosition": {
-      "x": -1303.09448,
-      "y": -59.4114838
+      "x": -1169.46472,
+      "y": 894.2714
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
