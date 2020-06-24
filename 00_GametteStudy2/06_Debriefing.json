@@ -292,7 +292,7 @@
     },
     "29123": {
       "choiceType": "simple",
-      "content": "Before you leave, please let me know where did you hear about this experiment?",
+      "content": "Before you leave, please let me know how you heard about this experiment?",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "prompted": "True",
