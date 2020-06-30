@@ -1398,11 +1398,11 @@
       "functionName": "update",
       "takesFocus": "False",
       "name": "Make Function",
-      "next": "28878",
+      "next": "28899",
       "tru": "True",
       "index": "25594",
-      "posX": "-30.39989",
-      "posY": "28.00053",
+      "posX": "-34.32981",
+      "posY": "28.50356",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -1806,8 +1806,8 @@
       "type": "dialogue"
     },
     "28878": {
-      "choices": "27916~~true~-~28886~~true~-~28888~~true~-~28890~~true~-~28892~~true~-~28894~~true~-~28896~~true~-~",
-      "isRandom": "True",
+      "choices": "27916~~{condition} = 1~-~28886~~{condition} = 2~-~28888~~{condition} = 3~-~28890~~{condition} = 4~-~28892~~{condition} = 5~-~28894~~{condition} = 6~-~28896~~true~-~",
+      "isRandom": "False",
       "name": "Branch",
       "next": "-1",
       "tru": "True",
@@ -2031,6 +2031,23 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
+    },
+    "28899": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://gamette.me/api/random_condition?max=9",
+      "functionDetail2": "{condition}",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28878",
+      "tru": "True",
+      "index": "28899",
+      "posX": "-30.55086",
+      "posY": "28.59971",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -2555,10 +2572,10 @@
       "x": 16.2467041,
       "y": -88.73518
     },
-    "scriptorScale": 0.424096942,
+    "scriptorScale": 0.751314461,
     "scriptorPosition": {
-      "x": -1137.90625,
-      "y": -423.099335
+      "x": 1785.13867,
+      "y": -1979.5376
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
