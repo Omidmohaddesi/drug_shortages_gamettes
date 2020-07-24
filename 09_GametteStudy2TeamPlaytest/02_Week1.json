@@ -689,7 +689,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "24103",
+      "next": "-1",
       "tru": "True",
       "index": "23780",
       "posX": "48.32903",
@@ -2383,7 +2383,7 @@
       "type": "action"
     },
     "24103": {
-      "choices": "23780~~{OrderPlaced} = False~-~28199~~true~-~",
+      "choices": "-1~~{OrderPlaced} = False~-~-1~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -5982,7 +5982,7 @@
       "next": "26817",
       "tru": "True",
       "index": "25060",
-      "posX": "75.02833",
+      "posX": "75.02832",
       "posY": "-111.9789",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -6289,7 +6289,7 @@
       "type": "action"
     },
     "25132": {
-      "actionTarget": "BlankButton",
+      "actionTarget": "order_value",
       "actionName": "Visibility",
       "action_hidden": "False",
       "name": "Action",
@@ -6303,7 +6303,7 @@
       "type": "action"
     },
     "25133": {
-      "actionTarget": "BlankButton",
+      "actionTarget": "order_value",
       "actionName": "Visibility",
       "action_hidden": "True",
       "name": "Action",
@@ -8359,8 +8359,8 @@
       "next": "24107",
       "tru": "True",
       "index": "26220",
-      "posX": "63.14943",
-      "posY": "7.369381",
+      "posX": "68.59533",
+      "posY": "7.945829",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -9389,8 +9389,8 @@
       "next": "26730",
       "tru": "True",
       "index": "26717",
-      "posX": "110.1089",
-      "posY": "-84.59531",
+      "posX": "110.159",
+      "posY": "-84.20667",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -9446,7 +9446,7 @@
     },
     "26729": {
       "customEventName": "order_concern",
-      "eventDetails": "BlankButton",
+      "eventDetails": "order_value",
       "startsActive": "False",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -9585,8 +9585,8 @@
       "next": "26754",
       "tru": "True",
       "index": "26741",
-      "posX": "82.6619",
-      "posY": "-113.2416",
+      "posX": "82.77586",
+      "posY": "-114.3585",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -9693,7 +9693,7 @@
       "type": "callfunction"
     },
     "26759": {
-      "actionTarget": "BlankButton",
+      "actionTarget": "order_value",
       "actionName": "TypeText",
       "action_text": "{OrMN1}",
       "action_type-speed": "0",
@@ -9977,7 +9977,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "-1",
+      "next": "29607",
       "tru": "True",
       "index": "26792",
       "posX": "197.9935",
@@ -10038,7 +10038,7 @@
       "type": "callfunction"
     },
     "26817": {
-      "choices": "26819~~{OrMN1} < 0~-~26741~~true~-~",
+      "choices": "26819~~{OrMN1} < 0~-~26754~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -11254,7 +11254,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "-1",
+      "next": "29568",
       "tru": "True",
       "index": "27925",
       "posX": "68.42188",
@@ -11744,8 +11744,8 @@
       "next": "26220",
       "tru": "True",
       "index": "28199",
-      "posX": "58.44815",
-      "posY": "7.457647",
+      "posX": "64.69805",
+      "posY": "7.912737",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -14233,7 +14233,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28475",
+      "next": "26859",
       "tru": "True",
       "index": "28473",
       "posX": "119.2138",
@@ -14248,11 +14248,11 @@
       "action_text": "{OrDS1}",
       "action_type-speed": "0",
       "name": "Action",
-      "next": "26859",
+      "next": "-1",
       "tru": "True",
       "index": "28475",
       "posX": "122.2984",
-      "posY": "-85.09297",
+      "posY": "-87.19917",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -16063,7 +16063,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "-1",
+      "next": "29602",
       "tru": "True",
       "index": "29073",
       "posX": "-10.65673",
@@ -17403,6 +17403,84 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
+    },
+    "29568": {
+      "displayName": null,
+      "owner": "{week}",
+      "newValue": "{week} - 40",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "-1",
+      "tru": "True",
+      "index": "29568",
+      "posX": "71.41302",
+      "posY": "23.76275",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "29602": {
+      "displayName": null,
+      "owner": "{disruptionStart}",
+      "newValue": "{disruptionStart} - 40",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "29604",
+      "tru": "True",
+      "index": "29602",
+      "posX": "-13.58666",
+      "posY": "-1.544558",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "29604": {
+      "displayName": null,
+      "owner": "{disruptionEnd}",
+      "newValue": "{disruptionEnd} - 40",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "-1",
+      "tru": "True",
+      "index": "29604",
+      "posX": "-10.5679",
+      "posY": "-1.499049",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "29606": {
+      "functionName": "go_to_next_week",
+      "takesFocus": "True",
+      "name": "Make Function",
+      "next": "28199",
+      "tru": "True",
+      "index": "29606",
+      "posX": "60.67848",
+      "posY": "8.042778",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "customfunction"
+    },
+    "29607": {
+      "functionType": "CustomFunction",
+      "functionDetail": "go_to_next_week",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "-1",
+      "tru": "True",
+      "index": "29607",
+      "posX": "201.5255",
+      "posY": "-86.72968",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -17413,7 +17491,7 @@
       "y": 0.0,
       "z": 0.0
     },
-    "uid": "0",
+    "uid": "1",
     "background": "wall_inside_34",
     "furniture": [
       {
@@ -20193,21 +20271,25 @@
       }
     ],
     "recent_assets": [
-      "button_blank_1"
+      "button_blank_1",
+      "distributorManagementSystem",
+      "button_blank_1",
+      "drug_shortage_button_1",
+      "Text"
     ],
     "recent_backgrounds": [],
     "recent_characters": [
       "baby_2"
     ],
-    "layoutScale": 0.513157964,
+    "layoutScale": 1.0,
     "layoutPosition": {
-      "x": -13.7155476,
-      "y": -30.0755672
+      "x": -104.522568,
+      "y": 14.3220978
     },
-    "scriptorScale": 0.7699992,
+    "scriptorScale": 0.6363635,
     "scriptorPosition": {
-      "x": 2794.59277,
-      "y": 311.5128
+      "x": -5379.01953,
+      "y": 6363.669
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

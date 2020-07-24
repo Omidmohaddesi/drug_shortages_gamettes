@@ -61,7 +61,7 @@
       "type": "choice"
     },
     "103": {
-      "nextScript": "Page 5",
+      "nextScript": "Page 6",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",
@@ -203,7 +203,7 @@
     },
     "28270": {
       "customEventName": "",
-      "eventDetails": "ux_open_box",
+      "eventDetails": "strategy_open_box",
       "startsActive": "True",
       "takesFocus": "True",
       "eventType": "ObjectClick",
@@ -322,10 +322,10 @@
       "timed": "False",
       "timer": "-1",
       "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
-      "variable": "Q_open_exp",
+      "variable": "Q_strategy",
       "inputMultiline": "True",
       "openResponseButton": "Background",
-      "openResponseTextObject": "ux_open_box",
+      "openResponseTextObject": "strategy_open_box",
       "name": "Player Choice",
       "next": "28360",
       "tru": "True",
@@ -337,9 +337,9 @@
       "type": "choice"
     },
     "28360": {
-      "actionTarget": "ux_open_box",
+      "actionTarget": "strategy_open_box",
       "actionName": "TypeText",
-      "action_text": "{Q_open_exp}",
+      "action_text": "{Q_strategy}",
       "action_type-speed": "0",
       "name": "Action",
       "next": "28380",
@@ -393,7 +393,7 @@
       "type": "action"
     },
     "28377": {
-      "choices": "29078~~{Q_open_exp} = ~-~28375~~true~-~",
+      "choices": "29078~~{Q_strategy} = ~-~28375~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -487,13 +487,13 @@
   },
   "scene": {
     "name": "Scene 1",
-    "title": "Page 4",
+    "title": "Page 5",
     "pos": {
       "x": 0.0,
       "y": 0.0,
       "z": 0.0
     },
-    "uid": "13",
+    "uid": "14",
     "background": "wall_inside_35",
     "furniture": [
       {
@@ -610,7 +610,7 @@
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
-        "name": "ux_open_box",
+        "name": "strategy_open_box",
         "pos": {
           "x": 0.0,
           "y": 9.051987,
@@ -630,7 +630,7 @@
         "textcolor": "000000",
         "image": "",
         "value": 0.0,
-        "text": "2. Can you elaborate on how you experienced playing this game?",
+        "text": "3. What was your strategy in playing this game?",
         "fontSize": 20,
         "parentName": "",
         "objectType": 2,
@@ -654,13 +654,13 @@
     "recent_characters": [],
     "layoutScale": 0.5634125,
     "layoutPosition": {
-      "x": -115.539352,
-      "y": 40.3458138
+      "x": -42.172718,
+      "y": 25.24092
     },
-    "scriptorScale": 0.101525418,
+    "scriptorScale": 0.9999997,
     "scriptorPosition": {
-      "x": -173.09877,
-      "y": 32.94087
+      "x": -3142.34229,
+      "y": -94.80133
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

@@ -1,9 +1,9 @@
 {
-  "title": "Gamette Study 2",
-  "description": "This is the second study with Gamettes to look into human behavior within supply chains",
+  "title": "Gamette Study 2 - Team Playtest",
+  "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-07-23 15:32:12",
+  "last_edit": "2020-07-24 14:00:09",
   "published": "false",
   "scene_order": [
     "0",
