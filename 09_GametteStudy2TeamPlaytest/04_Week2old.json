@@ -2584,7 +2584,7 @@
       "type": "action"
     },
     "25861": {
-      "nextScript": "Talk to Bob!",
+      "nextScript": "Talk to Bob",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",

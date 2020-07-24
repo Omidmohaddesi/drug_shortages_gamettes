@@ -11857,7 +11857,7 @@
       "type": "callfunction"
     },
     "28579": {
-      "nextScript": "Talk to Bob!",
+      "nextScript": "Talk to Bob",
       "transitionText": "None",
       "variablePairs": "",
       "name": "end",
@@ -11963,10 +11963,10 @@
     },
     "28586": {
       "choiceType": "simple",
-      "content": "",
-      "owner": "",
+      "content": "Hey Kate! This is Daniel. Can you come and see me in my office?",
+      "owner": "phone",
       "speaking": "False",
-      "prompted": "False",
+      "prompted": "True",
       "timed": "False",
       "timer": "-1",
       "choices": "28583~~Sure!~~False~~none~~true~-~28585~~Unfortunately, I'm busy!~~False~~none~~true~-~",
@@ -11975,36 +11975,22 @@
       "next": "-1",
       "tru": "True",
       "index": "28586",
-      "posX": "-70.57632",
-      "posY": "53.2449",
+      "posX": "-71.28455",
+      "posY": "53.23971",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
-    },
-    "28587": {
-      "content": "Hey Kate! This is Daniel. Can you come and see me in my office?",
-      "owner": "phone",
-      "speaking": "False",
-      "name": "Dialogue",
-      "next": "28586",
-      "tru": "True",
-      "index": "28587",
-      "posX": "-73.90761",
-      "posY": "53.17034",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
     },
     "28588": {
       "content": "Hello!",
       "owner": "Kate",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28587",
+      "next": "28586",
       "tru": "True",
       "index": "28588",
-      "posX": "-77.01673",
-      "posY": "53.14034",
+      "posX": "-76.00721",
+      "posY": "53.32129",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -20963,10 +20949,10 @@
       "x": 14.2042027,
       "y": -37.5179443
     },
-    "scriptorScale": 0.296867967,
+    "scriptorScale": 0.4781085,
     "scriptorPosition": {
-      "x": -2265.693,
-      "y": 3079.80469
+      "x": 3812.97241,
+      "y": -1642.89966
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

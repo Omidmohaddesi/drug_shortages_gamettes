@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-07-24 14:27:37",
+  "last_edit": "2020-07-24 16:43:12",
   "published": "false",
   "scene_order": [
     "0",
@@ -277,7 +277,7 @@
     },
     {
       "name": "week",
-      "value": "31",
+      "value": "20",
       "value_type": "Int",
       "id": "-1"
     },
