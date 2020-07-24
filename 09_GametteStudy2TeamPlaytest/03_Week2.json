@@ -6527,7 +6527,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28604",
+      "next": "25462",
       "tru": "True",
       "index": "25463",
       "posX": "148.6586",
@@ -9032,8 +9032,8 @@
       "next": "-1",
       "tru": "True",
       "index": "26817",
-      "posX": "78.49234",
-      "posY": "-111.8365",
+      "posX": "78.83509",
+      "posY": "-112.0492",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -9531,22 +9531,6 @@
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
-    },
-    "27732": {
-      "customEventName": "order_submit3",
-      "eventDetails": "treat_order_button",
-      "startsActive": "False",
-      "takesFocus": "True",
-      "eventType": "ObjectClick",
-      "name": "Event",
-      "next": "28604",
-      "tru": "True",
-      "index": "27732",
-      "posX": "141.3169",
-      "posY": "-94.65597",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "event"
     },
     "27734": {
       "functionType": "CustomFunction",
@@ -11002,7 +10986,7 @@
     },
     "28458": {
       "functionType": "CustomFunction",
-      "functionDetail": "order_submit31",
+      "functionDetail": "order_submit3",
       "functionDetail2": "",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -11052,7 +11036,7 @@
       "type": "callfunction"
     },
     "28472": {
-      "functionName": "order_submit31",
+      "functionName": "order_submit3",
       "takesFocus": "True",
       "name": "Make Function",
       "next": "25463",
@@ -12159,22 +12143,6 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
-    },
-    "28604": {
-      "displayName": null,
-      "owner": "{OrMN1}\r}",
-      "newValue": "{OrTobe}",
-      "fromVariable": "False",
-      "get": "True",
-      "name": "Set Variable",
-      "next": "25462",
-      "tru": "True",
-      "index": "28604",
-      "posX": "145.216",
-      "posY": "-89.60852",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "variable"
     },
     "28631": {
       "functionType": "ReloadImageFromServer",
@@ -18132,11 +18100,43 @@
       "next": "26817",
       "tru": "True",
       "index": "29616",
-      "posX": "75.24352",
-      "posY": "-111.3926",
+      "posX": "75.10883",
+      "posY": "-112.18",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
+    },
+    "29628": {
+      "customEventName": "order_submit3",
+      "eventDetails": "treat_order_button",
+      "startsActive": "False",
+      "takesFocus": "True",
+      "eventType": "ObjectClick",
+      "name": "Event",
+      "next": "29630",
+      "tru": "True",
+      "index": "29628",
+      "posX": "141.5982",
+      "posY": "-93.61751",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "event"
+    },
+    "29630": {
+      "displayName": null,
+      "owner": "{OrMN1}",
+      "newValue": "{OrTobe}",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "25463",
+      "tru": "True",
+      "index": "29630",
+      "posX": "145.3734",
+      "posY": "-89.61132",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
     }
   },
   "scene": {
@@ -20963,10 +20963,10 @@
       "x": 14.2042027,
       "y": -37.5179443
     },
-    "scriptorScale": 0.395131618,
+    "scriptorScale": 0.296867967,
     "scriptorPosition": {
-      "x": -5683.908,
-      "y": 3258.67432
+      "x": -2265.693,
+      "y": 3079.80469
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
