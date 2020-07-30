@@ -12003,7 +12003,7 @@
     "28586": {
       "choiceType": "simple",
       "content": "",
-      "owner": "",
+      "owner": "None",
       "speaking": "False",
       "prompted": "False",
       "timed": "False",
@@ -20917,10 +20917,10 @@
       "x": 14.2042027,
       "y": -37.5179443
     },
-    "scriptorScale": 0.385543078,
+    "scriptorScale": 0.5644736,
     "scriptorPosition": {
-      "x": 881.1267,
-      "y": -97.91655
+      "x": 3572.855,
+      "y": -2684.30029
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
