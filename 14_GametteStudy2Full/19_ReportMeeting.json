@@ -1,0 +1,634 @@
+{
+  "dictNodes": {
+    "0": {
+      "name": "Start",
+      "next": "29706",
+      "tru": "True",
+      "index": "0",
+      "posX": "0",
+      "posY": "0",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "start"
+    },
+    "29706": {
+      "content": "Good Morning Everyone! ",
+      "owner": "Boss",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29708",
+      "tru": "True",
+      "index": "29706",
+      "posX": "3.415957",
+      "posY": "1.142212",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29707": {
+      "content": "Let me introduce Kate to you, our new supply chain director.",
+      "owner": "Boss",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29710",
+      "tru": "True",
+      "index": "29707",
+      "posX": "10.64866",
+      "posY": "2.988957",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29708": {
+      "choices": "29707~~true~-~29709~~true~-~",
+      "isRandom": "False",
+      "name": "Branch",
+      "next": "-1",
+      "tru": "True",
+      "index": "29708",
+      "posX": "7.096824",
+      "posY": "1.973009",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "if"
+    },
+    "29709": {
+      "content": "Let's see how we are doing... ",
+      "owner": "Boss",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29712",
+      "tru": "True",
+      "index": "29709",
+      "posX": "22.42697",
+      "posY": "-0.1963769",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29710": {
+      "content": "Kate! Sophie and Jessie are from accounting.",
+      "owner": "Boss",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29711",
+      "tru": "True",
+      "index": "29710",
+      "posX": "13.89455",
+      "posY": "2.97744",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29711": {
+      "content": "We will hold these monthly meetings to go over our status.",
+      "owner": "Boss",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "29709",
+      "tru": "True",
+      "index": "29711",
+      "posX": "17.16986",
+      "posY": "2.985224",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "29712": {
+      "content": "This is our inventory level",
+      "owner": "female_sitting_4(1)",
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "-1",
+      "tru": "True",
+      "index": "29712",
+      "posX": "25.82269",
+      "posY": "-0.201009",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    }
+  },
+  "scene": {
+    "name": "Scene 1",
+    "title": "Report Meeting",
+    "pos": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "uid": "16",
+    "background": "bricks_1",
+    "furniture": [
+      {
+        "uid": 0,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "bricks_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 3,
+        "thisOC": null,
+        "name": "Background",
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 960.0,
+          "y": 540.0
+        }
+      },
+      {
+        "uid": 1,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "electric_plug_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "electric_plug_1",
+        "pos": {
+          "x": 294.085358,
+          "y": -116.555054,
+          "z": 0.0
+        },
+        "size": {
+          "x": 17.0943928,
+          "y": 25.012785
+        }
+      },
+      {
+        "uid": 2,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "plant_3Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "plant_3",
+        "pos": {
+          "x": -377.578064,
+          "y": -76.526474,
+          "z": 0.0
+        },
+        "size": {
+          "x": 144.164413,
+          "y": 216.042908
+        }
+      },
+      {
+        "uid": 3,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "plant_3Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "plant_3(1)",
+        "pos": {
+          "x": 382.164764,
+          "y": -71.90094,
+          "z": 0.0
+        },
+        "size": {
+          "x": 144.164413,
+          "y": 216.042908
+        }
+      },
+      {
+        "uid": 4,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "frame_8",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "frame_8",
+        "pos": {
+          "x": -330.72522,
+          "y": 138.765839,
+          "z": 0.0
+        },
+        "size": {
+          "x": 100.0,
+          "y": 121.0
+        }
+      },
+      {
+        "uid": 5,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "jeopardy_whiteboard_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "jeopardy_whiteboard_1",
+        "pos": {
+          "x": 5.23968029,
+          "y": 126.8522,
+          "z": 0.0
+        },
+        "size": {
+          "x": 405.152679,
+          "y": 208.555008
+        }
+      },
+      {
+        "uid": 6,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "male_middle_age_2",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 4,
+        "thisOC": null,
+        "name": "Boss",
+        "pos": {
+          "x": 237.6769,
+          "y": -66.62284,
+          "z": 0.0
+        },
+        "size": {
+          "x": -84.04908,
+          "y": 301.9904
+        }
+      },
+      {
+        "uid": 7,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "chair_4Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "chair_4(1)",
+        "pos": {
+          "x": -145.884232,
+          "y": -136.899063,
+          "z": 0.0
+        },
+        "size": {
+          "x": 91.7061844,
+          "y": 171.946335
+        }
+      },
+      {
+        "uid": 8,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "male_sitting_6",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 4,
+        "thisOC": null,
+        "name": "male_sitting_6",
+        "pos": {
+          "x": -124.337189,
+          "y": -75.26451,
+          "z": 0.0
+        },
+        "size": {
+          "x": 117.424591,
+          "y": 254.265686
+        }
+      },
+      {
+        "uid": 9,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "table_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "table_1",
+        "pos": {
+          "x": -1.7528553,
+          "y": -178.821625,
+          "z": 0.0
+        },
+        "size": {
+          "x": 447.800934,
+          "y": 134.300354
+        }
+      },
+      {
+        "uid": 10,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "chair_4Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "chair_4",
+        "pos": {
+          "x": 171.093735,
+          "y": -163.666824,
+          "z": 0.0
+        },
+        "size": {
+          "x": -97.72984,
+          "y": 171.1318
+        }
+      },
+      {
+        "uid": 11,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "female_sitting_4",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 4,
+        "thisOC": null,
+        "name": "female_sitting_4(1)",
+        "pos": {
+          "x": 159.9768,
+          "y": -83.3198242,
+          "z": 0.0
+        },
+        "size": {
+          "x": -139.312988,
+          "y": 327.988739
+        }
+      },
+      {
+        "uid": 12,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "chair_4Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "chair_4(2)",
+        "pos": {
+          "x": -209.217117,
+          "y": -159.770233,
+          "z": 0.0
+        },
+        "size": {
+          "x": 96.66869,
+          "y": 187.22876
+        }
+      },
+      {
+        "uid": 13,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "female_sitting_17",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 4,
+        "thisOC": null,
+        "name": "Kate",
+        "pos": {
+          "x": -195.26561,
+          "y": -86.36138,
+          "z": 0.0
+        },
+        "size": {
+          "x": 132.413437,
+          "y": 321.90567
+        }
+      },
+      {
+        "uid": 14,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "glass_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "glass_1",
+        "pos": {
+          "x": -111.695496,
+          "y": -101.033966,
+          "z": 0.0
+        },
+        "size": {
+          "x": 22.69044,
+          "y": 33.8761253
+        }
+      },
+      {
+        "uid": 15,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "glass_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "glass_1(1)",
+        "pos": {
+          "x": -71.26265,
+          "y": -98.0982,
+          "z": 0.0
+        },
+        "size": {
+          "x": 22.69044,
+          "y": 33.8761253
+        }
+      },
+      {
+        "uid": 16,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "keyboard_mouse_1Sprite",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "keyboard_mouse_1",
+        "pos": {
+          "x": 86.01187,
+          "y": -111.20726,
+          "z": 0.0
+        },
+        "size": {
+          "x": 100.0,
+          "y": 5.89483643
+        }
+      },
+      {
+        "uid": 17,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "000000",
+        "textcolor": "000000",
+        "image": "panel_blank_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 3,
+        "thisOC": null,
+        "name": "panel_blank_1",
+        "pos": {
+          "x": 4.72050476,
+          "y": 126.840775,
+          "z": 0.0
+        },
+        "size": {
+          "x": 394.976471,
+          "y": 197.615509
+        }
+      },
+      {
+        "uid": 18,
+        "rotation": 0.0,
+        "visible": true,
+        "locked": false,
+        "color": "FFFFFF",
+        "textcolor": "000000",
+        "image": "drug_shortage_inventory_chart_1",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "drug_shortage_inventory_chart_1",
+        "pos": {
+          "x": 5.91663551,
+          "y": 127.345139,
+          "z": 0.0
+        },
+        "size": {
+          "x": 235.202957,
+          "y": 187.61174
+        }
+      }
+    ],
+    "recent_assets": [
+      "drug_shortage_inventory_chart_1",
+      "keyboard_mouse_1",
+      "jeopardy_laptop_2",
+      "laptop_2",
+      "water_bottle_1",
+      "jeopardy_broken_window_1",
+      "button_blank_1",
+      "panel_blank_1",
+      "electric_plug_1"
+    ],
+    "recent_backgrounds": [
+      "bricks_1"
+    ],
+    "recent_characters": [
+      "female_sitting_17",
+      "female_sitting_14",
+      "male_sitting_6",
+      "male_middle_age_2",
+      "female_sitting_4"
+    ],
+    "layoutScale": 1.0,
+    "layoutPosition": {
+      "x": -72.1918945,
+      "y": -12.6495514
+    },
+    "scriptorScale": 0.7018,
+    "scriptorPosition": {
+      "x": -1743.705,
+      "y": -124.601585
+    },
+    "layoutParamSet": true,
+    "scriptorParamSet": true
+  },
+  "started": false
+}
