@@ -6375,7 +6375,7 @@
     "25158": {
       "displayName": null,
       "owner": "{temp1}",
-      "newValue": "{RpDS1} * 100",
+      "newValue": "{DelivRateHC1} * 100",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -6391,7 +6391,7 @@
     "25159": {
       "displayName": null,
       "owner": "{temp2}",
-      "newValue": "{RpDS2} * 100",
+      "newValue": "{DelivRateHC2} * 100",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -7063,7 +7063,7 @@
     "25490": {
       "displayName": null,
       "owner": "{OrDS2}",
-      "newValue": "{OrTobe}*{RpDS2}",
+      "newValue": "{OrTobe}*{DelivRateHC2}",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -7079,7 +7079,7 @@
     "25491": {
       "displayName": null,
       "owner": "{OrDS1}",
-      "newValue": "{OrTobe}*{RpDS1}",
+      "newValue": "{OrTobe}*{DelivRateHC1}",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",

@@ -7587,8 +7587,8 @@
       "next": "29088",
       "tru": "True",
       "index": "26220",
-      "posX": "20.41676",
-      "posY": "16.31286",
+      "posX": "20.3849",
+      "posY": "16.22791",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -10183,7 +10183,7 @@
       "action_text": "\n<i>Determine how would you like to allocate the inventory to each health center by choosing one of the policies below:\r </i>",
       "action_type-speed": "0",
       "name": "Action",
-      "next": "-1",
+      "next": "28289",
       "tru": "True",
       "index": "28277",
       "posX": "14.52262",
@@ -10236,8 +10236,8 @@
       "next": "28283",
       "tru": "True",
       "index": "28280",
-      "posX": "34.61541",
-      "posY": "-84.03348",
+      "posX": "21.53267",
+      "posY": "-81.57084",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -10287,8 +10287,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28283",
-      "posX": "37.51665",
-      "posY": "-83.93941",
+      "posX": "24.74174",
+      "posY": "-81.63068",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -10310,66 +10310,6 @@
       "advance_mode": "OnClick",
       "type": "callfunction"
     },
-    "28285": {
-      "content": "Now it's time to treat some patients.\n<i><click anywhere on the screen to continue></i>",
-      "owner": "None",
-      "speaking": "True",
-      "name": "Dialogue",
-      "next": "28288",
-      "tru": "True",
-      "index": "28285",
-      "posX": "23.7419",
-      "posY": "-80.23654",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "dialogue"
-    },
-    "28286": {
-      "choices": "28287~~{view5} = 0~-~28289~~true~-~",
-      "isRandom": "False",
-      "name": "Branch",
-      "next": "-1",
-      "tru": "True",
-      "index": "28286",
-      "posX": "17.41136",
-      "posY": "-80.59331",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "if"
-    },
-    "28287": {
-      "functionType": "DeactivateEvent",
-      "functionDetail": "buttons",
-      "functionDetail2": "",
-      "functionDetail3": "",
-      "functionDetail4": "",
-      "functionDetail5": "",
-      "name": "Call Function",
-      "next": "28285",
-      "tru": "True",
-      "index": "28287",
-      "posX": "20.59354",
-      "posY": "-80.24251",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "callfunction"
-    },
-    "28288": {
-      "displayName": null,
-      "owner": "{view5}",
-      "newValue": "1",
-      "fromVariable": "False",
-      "get": "True",
-      "name": "Set Variable",
-      "next": "28289",
-      "tru": "True",
-      "index": "28288",
-      "posX": "26.90578",
-      "posY": "-80.23486",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "variable"
-    },
     "28289": {
       "functionType": "ActivateEvent",
       "functionDetail": "buttons",
@@ -10381,8 +10321,8 @@
       "next": "28280",
       "tru": "True",
       "index": "28289",
-      "posX": "31.49986",
-      "posY": "-84.03469",
+      "posX": "18.41713",
+      "posY": "-81.57205",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -14103,14 +14043,14 @@
       "type": "variable"
     },
     "29088": {
-      "nextScript": "Tutorial 3",
-      "transitionText": "Training Week 3...",
+      "nextScript": "Week 2",
+      "transitionText": "Week {week} ...",
       "variablePairs": "",
       "name": "end",
       "next": "-1",
       "tru": "True",
       "index": "29088",
-      "posX": "23.94652",
+      "posX": "23.91467",
       "posY": "16.14975",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -18199,13 +18139,13 @@
   },
   "scene": {
     "name": "Kate Office 02 ",
-    "title": "Tutorial 2",
+    "title": "Tutorial 4",
     "pos": {
       "x": 0.0,
       "y": 0.0,
       "z": 0.0
     },
-    "uid": "16",
+    "uid": "18",
     "background": "wall_inside_34",
     "furniture": [
       {
@@ -20992,10 +20932,10 @@
       "x": -37.044548,
       "y": -26.7287312
     },
-    "scriptorScale": 0.5644736,
+    "scriptorScale": 0.35049355,
     "scriptorPosition": {
-      "x": -1230.02917,
-      "y": -899.2321
+      "x": -733.9231,
+      "y": 2561.24536
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

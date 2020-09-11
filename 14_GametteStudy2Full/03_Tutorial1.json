@@ -2464,7 +2464,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "25544",
+      "next": "28979",
       "tru": "True",
       "index": "24234",
       "posX": "-45.44933",
@@ -6375,7 +6375,7 @@
     "25158": {
       "displayName": null,
       "owner": "{temp1}",
-      "newValue": "{RpDS1} * 100",
+      "newValue": "{DelivRateHC1} * 100",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -6391,7 +6391,7 @@
     "25159": {
       "displayName": null,
       "owner": "{temp2}",
-      "newValue": "{RpDS2} * 100",
+      "newValue": "{DelivRateHC2} * 100",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -7063,7 +7063,7 @@
     "25490": {
       "displayName": null,
       "owner": "{OrDS2}",
-      "newValue": "{OrTobe}*{RpDS2}",
+      "newValue": "{OrTobe}*{DelivRateHC2}",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -7079,7 +7079,7 @@
     "25491": {
       "displayName": null,
       "owner": "{OrDS1}",
-      "newValue": "{OrTobe}*{RpDS1}",
+      "newValue": "{OrTobe}*{DelivRateHC1}",
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
@@ -15723,15 +15723,15 @@
       "type": "action"
     },
     "28979": {
-      "content": "You will be practicing for 2 weeks. Then, you will start your job.\r",
+      "content": "You will be practicing for 4 weeks. Then, you will start your job.\r",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "27884",
+      "next": "25544",
       "tru": "True",
       "index": "28979",
-      "posX": "-38.42743",
-      "posY": "16.73649",
+      "posX": "-41.56251",
+      "posY": "16.69794",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -20993,10 +20993,10 @@
       "x": -93.84697,
       "y": -24.75786
     },
-    "scriptorScale": 0.620921254,
+    "scriptorScale": 0.564473867,
     "scriptorPosition": {
-      "x": -2221.06519,
-      "y": 3385.16064
+      "x": 1928.96912,
+      "y": -988.6606
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

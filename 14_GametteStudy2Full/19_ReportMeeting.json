@@ -16,7 +16,7 @@
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "29708",
+      "next": "29709",
       "tru": "True",
       "index": "29706",
       "posX": "3.415957",
@@ -95,8 +95,8 @@
       "type": "dialogue"
     },
     "29712": {
-      "content": "This is our inventory level",
-      "owner": "female_sitting_4(1)",
+      "content": "This is our Sales, Cost and Profit in the past 10 weeks...",
+      "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
       "next": "-1",
@@ -577,55 +577,39 @@
         "locked": false,
         "color": "FFFFFF",
         "textcolor": "000000",
-        "image": "drug_shortage_inventory_chart_1",
+        "image": "sales_cost_profit",
         "value": 0.0,
         "text": "",
         "fontSize": 0,
         "parentName": "",
         "objectType": 0,
         "thisOC": null,
-        "name": "drug_shortage_inventory_chart_1",
+        "name": "sales_cost_profit",
         "pos": {
-          "x": 5.91663551,
-          "y": 127.345139,
+          "x": 5.64844131,
+          "y": 126.28138,
           "z": 0.0
         },
         "size": {
-          "x": 235.202957,
-          "y": 187.61174
+          "x": 311.077271,
+          "y": 186.646286
         }
       }
     ],
     "recent_assets": [
-      "drug_shortage_inventory_chart_1",
-      "keyboard_mouse_1",
-      "jeopardy_laptop_2",
-      "laptop_2",
-      "water_bottle_1",
-      "jeopardy_broken_window_1",
-      "button_blank_1",
-      "panel_blank_1",
-      "electric_plug_1"
+      "sales_cost_profit"
     ],
-    "recent_backgrounds": [
-      "bricks_1"
-    ],
-    "recent_characters": [
-      "female_sitting_17",
-      "female_sitting_14",
-      "male_sitting_6",
-      "male_middle_age_2",
-      "female_sitting_4"
-    ],
+    "recent_backgrounds": [],
+    "recent_characters": [],
     "layoutScale": 1.0,
     "layoutPosition": {
-      "x": -72.1918945,
-      "y": -12.6495514
+      "x": -22.022068,
+      "y": -25.0571423
     },
-    "scriptorScale": 0.7018,
+    "scriptorScale": 0.527272463,
     "scriptorPosition": {
-      "x": -1743.705,
-      "y": -124.601585
+      "x": -1080.87549,
+      "y": -32.11361
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

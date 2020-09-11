@@ -2,7 +2,7 @@
   "dictNodes": {
     "0": {
       "name": "Start",
-      "next": "26287",
+      "next": "25595",
       "tru": "True",
       "index": "0",
       "posX": "-24.24621",
@@ -1460,8 +1460,8 @@
       "next": "25595",
       "tru": "True",
       "index": "26287",
-      "posX": "-17.18873",
-      "posY": "2.008854",
+      "posX": "-17.11787",
+      "posY": "1.111262",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "sound"
@@ -2612,10 +2612,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.19784452,
+    "scriptorScale": 0.564473748,
     "scriptorPosition": {
-      "x": -23.1764984,
-      "y": -158.3804
+      "x": 850.732666,
+      "y": -148.944443
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
