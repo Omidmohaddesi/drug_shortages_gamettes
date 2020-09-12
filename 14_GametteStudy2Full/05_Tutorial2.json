@@ -18042,7 +18042,7 @@
     "29713": {
       "functionType": "CallAPI_POST",
       "functionDetail": "https://gamette.me/api/update_tutorial_graphs?",
-      "functionDetail2": "task={token};-2;{OrMN1};120",
+      "functionDetail2": "task={token};1;{OrMN1};120",
       "functionDetail3": "",
       "functionDetail4": "",
       "functionDetail5": "",
@@ -21066,10 +21066,10 @@
       "x": -43.2060242,
       "y": -43.8677177
     },
-    "scriptorScale": 0.245345309,
+    "scriptorScale": 0.395131052,
     "scriptorPosition": {
-      "x": -1146.41541,
-      "y": -1414.35876
+      "x": -950.6526,
+      "y": -1584.51746
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

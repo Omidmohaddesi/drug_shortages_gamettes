@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-09-12 13:18:13",
+  "last_edit": "2020-09-12 16:22:05",
   "published": "false",
   "scene_order": [
     "0",
@@ -817,6 +817,12 @@
       "name": "newDelivRateHC2",
       "value": "0",
       "value_type": "Float",
+      "id": "-1"
+    },
+    {
+      "name": "ALTemp",
+      "value": "",
+      "value_type": "String",
       "id": "-1"
     }
   ],
