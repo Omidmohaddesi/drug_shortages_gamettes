@@ -11266,7 +11266,7 @@
     "27927": {
       "functionType": "CallAPI_POST",
       "functionDetail": "https://gamette.me/api/update_tutorial_graphs?",
-      "functionDetail2": "task={token};1;{OrMN1};120",
+      "functionDetail2": "task={token};1;{OrMN1};119",
       "functionDetail3": "",
       "functionDetail4": "",
       "functionDetail5": "",
@@ -15134,11 +15134,11 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "-1",
+      "next": "29876",
       "tru": "True",
       "index": "28801",
-      "posX": "97.33046",
-      "posY": "36.63489",
+      "posX": "97.35873",
+      "posY": "36.70556",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -18196,6 +18196,22 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
+    },
+    "29876": {
+      "displayName": null,
+      "owner": "{OnOrderTotal}",
+      "newValue": "{OrMN1}+119",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "-1",
+      "tru": "True",
+      "index": "29876",
+      "posX": "100.5937",
+      "posY": "36.76268",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
     }
   },
   "scene": {
@@ -20993,10 +21009,10 @@
       "x": -93.84697,
       "y": -24.75786
     },
-    "scriptorScale": 0.564473867,
+    "scriptorScale": 0.318630069,
     "scriptorPosition": {
-      "x": 1928.96912,
-      "y": -988.6606
+      "x": -2360.5752,
+      "y": -994.3563
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

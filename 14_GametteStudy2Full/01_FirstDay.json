@@ -2056,7 +2056,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "-1",
+      "next": "29881",
       "tru": "True",
       "index": "28925",
       "posX": "-7.580901",
@@ -2090,6 +2090,23 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "comment"
+    },
+    "29881": {
+      "functionType": "CallAPI_POST",
+      "functionDetail": "https://gamette.me/api/update_tutorial_graphs?",
+      "functionDetail2": "task={token};-4;120;120",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "-1",
+      "tru": "True",
+      "index": "29881",
+      "posX": "-4.420736",
+      "posY": "23.69553",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -2612,10 +2629,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.564473748,
+    "scriptorScale": 1.0,
     "scriptorPosition": {
-      "x": 850.732666,
-      "y": -148.944443
+      "x": 619.4198,
+      "y": -2252.39648
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
