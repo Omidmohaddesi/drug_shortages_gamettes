@@ -19035,6 +19035,31 @@
       {
         "uid": 31,
         "rotation": 0.0,
+        "visible": true,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "FFFFFF",
+        "image": "Text",
+        "value": 0.0,
+        "text": "<i>Training Week 2</i>",
+        "fontSize": 16,
+        "parentName": "laptop_large",
+        "objectType": 2,
+        "thisOC": null,
+        "name": "week_text",
+        "pos": {
+          "x": 280.0,
+          "y": 145.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 125.0,
+          "y": 30.0
+        }
+      },
+      {
+        "uid": 32,
+        "rotation": 0.0,
         "visible": false,
         "locked": true,
         "color": "FFFFFF",
@@ -19058,7 +19083,7 @@
         }
       },
       {
-        "uid": 32,
+        "uid": 33,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19083,7 +19108,7 @@
         }
       },
       {
-        "uid": 33,
+        "uid": 34,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19108,7 +19133,7 @@
         }
       },
       {
-        "uid": 34,
+        "uid": 35,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19133,7 +19158,7 @@
         }
       },
       {
-        "uid": 35,
+        "uid": 36,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19158,7 +19183,7 @@
         }
       },
       {
-        "uid": 36,
+        "uid": 37,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19183,7 +19208,7 @@
         }
       },
       {
-        "uid": 37,
+        "uid": 38,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19208,7 +19233,7 @@
         }
       },
       {
-        "uid": 38,
+        "uid": 39,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19233,7 +19258,7 @@
         }
       },
       {
-        "uid": 39,
+        "uid": 40,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19258,7 +19283,7 @@
         }
       },
       {
-        "uid": 40,
+        "uid": 41,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19283,7 +19308,7 @@
         }
       },
       {
-        "uid": 41,
+        "uid": 42,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19308,7 +19333,7 @@
         }
       },
       {
-        "uid": 42,
+        "uid": 43,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19333,7 +19358,7 @@
         }
       },
       {
-        "uid": 43,
+        "uid": 44,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19358,7 +19383,7 @@
         }
       },
       {
-        "uid": 44,
+        "uid": 45,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19383,7 +19408,7 @@
         }
       },
       {
-        "uid": 45,
+        "uid": 46,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19408,7 +19433,7 @@
         }
       },
       {
-        "uid": 46,
+        "uid": 47,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19433,7 +19458,7 @@
         }
       },
       {
-        "uid": 47,
+        "uid": 48,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19458,7 +19483,7 @@
         }
       },
       {
-        "uid": 48,
+        "uid": 49,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19483,7 +19508,7 @@
         }
       },
       {
-        "uid": 49,
+        "uid": 50,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19508,7 +19533,7 @@
         }
       },
       {
-        "uid": 50,
+        "uid": 51,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19533,7 +19558,7 @@
         }
       },
       {
-        "uid": 51,
+        "uid": 52,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19558,7 +19583,7 @@
         }
       },
       {
-        "uid": 52,
+        "uid": 53,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19583,7 +19608,7 @@
         }
       },
       {
-        "uid": 53,
+        "uid": 54,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19608,7 +19633,7 @@
         }
       },
       {
-        "uid": 54,
+        "uid": 55,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19633,7 +19658,7 @@
         }
       },
       {
-        "uid": 55,
+        "uid": 56,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19658,7 +19683,7 @@
         }
       },
       {
-        "uid": 56,
+        "uid": 57,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19683,7 +19708,7 @@
         }
       },
       {
-        "uid": 57,
+        "uid": 58,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19708,7 +19733,7 @@
         }
       },
       {
-        "uid": 58,
+        "uid": 59,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19733,7 +19758,7 @@
         }
       },
       {
-        "uid": 59,
+        "uid": 60,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19758,7 +19783,7 @@
         }
       },
       {
-        "uid": 60,
+        "uid": 61,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19783,7 +19808,7 @@
         }
       },
       {
-        "uid": 61,
+        "uid": 62,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19808,7 +19833,7 @@
         }
       },
       {
-        "uid": 62,
+        "uid": 63,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19833,7 +19858,7 @@
         }
       },
       {
-        "uid": 63,
+        "uid": 64,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19858,7 +19883,7 @@
         }
       },
       {
-        "uid": 64,
+        "uid": 65,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19883,7 +19908,7 @@
         }
       },
       {
-        "uid": 65,
+        "uid": 66,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19908,7 +19933,7 @@
         }
       },
       {
-        "uid": 66,
+        "uid": 67,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -19933,7 +19958,7 @@
         }
       },
       {
-        "uid": 67,
+        "uid": 68,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19958,7 +19983,7 @@
         }
       },
       {
-        "uid": 68,
+        "uid": 69,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -19983,7 +20008,7 @@
         }
       },
       {
-        "uid": 69,
+        "uid": 70,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20008,7 +20033,7 @@
         }
       },
       {
-        "uid": 70,
+        "uid": 71,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20033,7 +20058,7 @@
         }
       },
       {
-        "uid": 71,
+        "uid": 72,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20058,7 +20083,7 @@
         }
       },
       {
-        "uid": 72,
+        "uid": 73,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20083,7 +20108,7 @@
         }
       },
       {
-        "uid": 73,
+        "uid": 74,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20108,7 +20133,7 @@
         }
       },
       {
-        "uid": 74,
+        "uid": 75,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20133,7 +20158,7 @@
         }
       },
       {
-        "uid": 75,
+        "uid": 76,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20158,7 +20183,7 @@
         }
       },
       {
-        "uid": 76,
+        "uid": 77,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20183,7 +20208,7 @@
         }
       },
       {
-        "uid": 77,
+        "uid": 78,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20208,7 +20233,7 @@
         }
       },
       {
-        "uid": 78,
+        "uid": 79,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20233,7 +20258,7 @@
         }
       },
       {
-        "uid": 79,
+        "uid": 80,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20258,7 +20283,7 @@
         }
       },
       {
-        "uid": 80,
+        "uid": 81,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20283,7 +20308,7 @@
         }
       },
       {
-        "uid": 81,
+        "uid": 82,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20308,7 +20333,7 @@
         }
       },
       {
-        "uid": 82,
+        "uid": 83,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20333,7 +20358,7 @@
         }
       },
       {
-        "uid": 83,
+        "uid": 84,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20358,7 +20383,7 @@
         }
       },
       {
-        "uid": 84,
+        "uid": 85,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20383,7 +20408,7 @@
         }
       },
       {
-        "uid": 85,
+        "uid": 86,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20408,7 +20433,7 @@
         }
       },
       {
-        "uid": 86,
+        "uid": 87,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20433,7 +20458,7 @@
         }
       },
       {
-        "uid": 87,
+        "uid": 88,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20458,7 +20483,7 @@
         }
       },
       {
-        "uid": 88,
+        "uid": 89,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20483,7 +20508,7 @@
         }
       },
       {
-        "uid": 89,
+        "uid": 90,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20508,7 +20533,7 @@
         }
       },
       {
-        "uid": 90,
+        "uid": 91,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20533,7 +20558,7 @@
         }
       },
       {
-        "uid": 91,
+        "uid": 92,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20558,7 +20583,7 @@
         }
       },
       {
-        "uid": 92,
+        "uid": 93,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20583,7 +20608,7 @@
         }
       },
       {
-        "uid": 93,
+        "uid": 94,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20608,7 +20633,7 @@
         }
       },
       {
-        "uid": 94,
+        "uid": 95,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20633,7 +20658,7 @@
         }
       },
       {
-        "uid": 95,
+        "uid": 96,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20658,7 +20683,7 @@
         }
       },
       {
-        "uid": 96,
+        "uid": 97,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20683,7 +20708,7 @@
         }
       },
       {
-        "uid": 97,
+        "uid": 98,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20708,7 +20733,7 @@
         }
       },
       {
-        "uid": 98,
+        "uid": 99,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20733,7 +20758,7 @@
         }
       },
       {
-        "uid": 99,
+        "uid": 100,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20758,7 +20783,7 @@
         }
       },
       {
-        "uid": 100,
+        "uid": 101,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20783,7 +20808,7 @@
         }
       },
       {
-        "uid": 101,
+        "uid": 102,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20808,7 +20833,7 @@
         }
       },
       {
-        "uid": 102,
+        "uid": 103,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20833,7 +20858,7 @@
         }
       },
       {
-        "uid": 103,
+        "uid": 104,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20858,7 +20883,7 @@
         }
       },
       {
-        "uid": 104,
+        "uid": 105,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20883,7 +20908,7 @@
         }
       },
       {
-        "uid": 105,
+        "uid": 106,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20908,7 +20933,7 @@
         }
       },
       {
-        "uid": 106,
+        "uid": 107,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20933,7 +20958,7 @@
         }
       },
       {
-        "uid": 107,
+        "uid": 108,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -20958,7 +20983,7 @@
         }
       },
       {
-        "uid": 108,
+        "uid": 109,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -20983,7 +21008,7 @@
         }
       },
       {
-        "uid": 109,
+        "uid": 110,
         "rotation": 0.0,
         "visible": true,
         "locked": true,
@@ -21008,7 +21033,7 @@
         }
       },
       {
-        "uid": 110,
+        "uid": 111,
         "rotation": 0.0,
         "visible": false,
         "locked": true,
@@ -21036,10 +21061,10 @@
     "recent_assets": [],
     "recent_backgrounds": [],
     "recent_characters": [],
-    "layoutScale": 0.564473867,
+    "layoutScale": 0.751314759,
     "layoutPosition": {
-      "x": -37.044548,
-      "y": -26.7287312
+      "x": -43.2060242,
+      "y": -43.8677177
     },
     "scriptorScale": 0.245345309,
     "scriptorPosition": {
