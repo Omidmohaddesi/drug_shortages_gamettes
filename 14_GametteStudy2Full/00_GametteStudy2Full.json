@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-09-13 16:10:34",
+  "last_edit": "2020-09-13 19:18:32",
   "published": "false",
   "scene_order": [
     "0",
@@ -509,8 +509,8 @@
     },
     {
       "name": "Q15",
-      "value": "0",
-      "value_type": "Int",
+      "value": "",
+      "value_type": "String",
       "id": "-1"
     },
     {

@@ -367,7 +367,7 @@
       "actionName": "ChangeColor",
       "action_color": "FFFFFF",
       "name": "Action",
-      "next": "-1",
+      "next": "30999",
       "tru": "True",
       "index": "28257",
       "posX": "41.07198",
@@ -820,6 +820,21 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
+    },
+    "30999": {
+      "actionTarget": "occu_response_box",
+      "actionName": "TypeText",
+      "action_text": "",
+      "action_type-speed": "0",
+      "name": "Action",
+      "next": "-1",
+      "tru": "True",
+      "index": "30999",
+      "posX": "44.16508",
+      "posY": "-8.953999",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
     }
   },
   "scene": {
@@ -1121,10 +1136,10 @@
       "x": -115.539352,
       "y": 40.3458138
     },
-    "scriptorScale": 0.564473867,
+    "scriptorScale": 0.5644737,
     "scriptorPosition": {
-      "x": -1780.7262,
-      "y": 1281.50952
+      "x": -2127.718,
+      "y": 477.985474
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

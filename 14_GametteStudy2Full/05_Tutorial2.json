@@ -7587,8 +7587,8 @@
       "next": "29088",
       "tru": "True",
       "index": "26220",
-      "posX": "20.41676",
-      "posY": "16.31286",
+      "posX": "27.50858",
+      "posY": "16.73003",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -9879,8 +9879,8 @@
       "next": "26220",
       "tru": "True",
       "index": "28199",
-      "posX": "16.68312",
-      "posY": "16.15822",
+      "posX": "23.77493",
+      "posY": "16.57539",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -14110,8 +14110,8 @@
       "next": "-1",
       "tru": "True",
       "index": "29088",
-      "posX": "23.94652",
-      "posY": "16.14975",
+      "posX": "31.03834",
+      "posY": "16.56692",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -17884,11 +17884,11 @@
       "functionName": "go_to_next_week",
       "takesFocus": "True",
       "name": "Make Function",
-      "next": "28199",
+      "next": "30936",
       "tru": "True",
       "index": "29611",
-      "posX": "12.88718",
-      "posY": "16.33451",
+      "posX": "16.57492",
+      "posY": "16.60149",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -18244,6 +18244,97 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
+    },
+    "30931": {
+      "functionName": "loader_icon",
+      "takesFocus": "True",
+      "name": "Make Function",
+      "next": "30935",
+      "tru": "True",
+      "index": "30931",
+      "posX": "28.64281",
+      "posY": "25.37162",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "customfunction"
+    },
+    "30932": {
+      "actionTarget": "loader_icon",
+      "actionName": "RotateBy",
+      "action_angle": "-360000",
+      "action_time": "3000",
+      "action_easing": "linear",
+      "name": "Action",
+      "next": "-1",
+      "tru": "True",
+      "index": "30932",
+      "posX": "42.09895",
+      "posY": "23.79421",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "30933": {
+      "actionTarget": "loader_icon",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "30934",
+      "tru": "True",
+      "index": "30933",
+      "posX": "35.43183",
+      "posY": "24.71202",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "30934": {
+      "actionTarget": "loading_text",
+      "actionName": "Visibility",
+      "action_hidden": "False",
+      "name": "Action",
+      "next": "30932",
+      "tru": "True",
+      "index": "30934",
+      "posX": "38.66769",
+      "posY": "24.7459",
+      "minimized": "False",
+      "advance_mode": "Instantly",
+      "type": "action"
+    },
+    "30935": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "buttons",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "30933",
+      "tru": "True",
+      "index": "30935",
+      "posX": "32.08383",
+      "posY": "25.33063",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "30936": {
+      "functionType": "CustomFunction",
+      "functionDetail": "loader_icon",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "28199",
+      "tru": "True",
+      "index": "30936",
+      "posX": "20.234",
+      "posY": "16.63704",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -21039,6 +21130,56 @@
         "locked": true,
         "color": "FFFFFF",
         "textcolor": "000000",
+        "image": "loader_icon",
+        "value": 0.0,
+        "text": "",
+        "fontSize": 0,
+        "parentName": "",
+        "objectType": 0,
+        "thisOC": null,
+        "name": "loader_icon",
+        "pos": {
+          "x": 80.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 50.0,
+          "y": 50.0
+        }
+      },
+      {
+        "uid": 112,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF00",
+        "textcolor": "45270E",
+        "image": "Text",
+        "value": 0.0,
+        "text": "<i>Sending Order ...</i>",
+        "fontSize": 16,
+        "parentName": "",
+        "objectType": 2,
+        "thisOC": null,
+        "name": "loading_text",
+        "pos": {
+          "x": 90.0,
+          "y": -40.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 122.04,
+          "y": 28.13
+        }
+      },
+      {
+        "uid": 113,
+        "rotation": 0.0,
+        "visible": false,
+        "locked": true,
+        "color": "FFFFFF",
+        "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
         "text": "Experiment completed!\n\nPlease wait until we transfer you to the survey. \nThis can take a few seconds.\n\nloading . . .",
@@ -21058,7 +21199,14 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "loader_icon",
+      "loader_icon",
+      "Text",
+      "Text",
+      "loader_icon",
+      "Text"
+    ],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.751314759,
@@ -21066,10 +21214,10 @@
       "x": -43.2060242,
       "y": -43.8677177
     },
-    "scriptorScale": 0.395131052,
+    "scriptorScale": 0.359210074,
     "scriptorPosition": {
-      "x": -950.6526,
-      "y": -1584.51746
+      "x": -878.5392,
+      "y": -637.647156
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
