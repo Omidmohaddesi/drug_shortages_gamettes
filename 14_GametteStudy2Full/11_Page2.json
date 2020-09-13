@@ -3059,7 +3059,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I felt eager to discover how the game continued.</i>",
+        "text": "<i>I wanted to explore how the game evolved.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -3109,7 +3109,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>The game was challenging but not too \nchallenging.</i>",
+        "text": "<i>The challenges in the game were at the right \nlevel of difficulty for me.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -3134,7 +3134,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>The game gave clear feedback on my \nprogress towards the goals.</i>",
+        "text": "<i>The game informed me of my progress \nin the game.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -4101,7 +4101,15 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "Text",
+      "Text",
+      "Text",
+      "address_book_1",
+      "Text",
+      "button_info_1",
+      "button_basic_1"
+    ],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.4656301,

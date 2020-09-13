@@ -47,8 +47,8 @@
       "next": "-1",
       "tru": "True",
       "index": "46",
-      "posX": "60.18256",
-      "posY": "1.94999",
+      "posX": "60.47186",
+      "posY": "2.040446",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -2066,7 +2066,7 @@
       "type": "variable"
     },
     "29654": {
-      "nextScript": "Tutorial 1",
+      "nextScript": "Week 2",
       "transitionText": "Kate's Office",
       "variablePairs": "",
       "name": "end",
@@ -2612,10 +2612,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.6209211,
+    "scriptorScale": 0.6830132,
     "scriptorPosition": {
-      "x": 648.908752,
-      "y": -1315.66052
+      "x": -243.081085,
+      "y": -479.6472
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

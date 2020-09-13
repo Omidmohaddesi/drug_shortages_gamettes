@@ -3084,7 +3084,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I felt capable while playing the game.</i>",
+        "text": "<i>I felt I was good at playing this game.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -3109,7 +3109,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I was no longer aware of my surroundings \nwhile I was playing.</i>",
+        "text": "<i>I was fully focused on the game.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -3134,7 +3134,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I felt a sense of freedom about how I wanted \nto play this game.</i>",
+        "text": "<i>I felt free to play the game in my own way.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -4101,7 +4101,15 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "Text",
+      "Text",
+      "Text",
+      "address_book_1",
+      "Text",
+      "button_info_1",
+      "button_basic_1"
+    ],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.5634125,
