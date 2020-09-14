@@ -26,7 +26,7 @@
       "type": "dialogue"
     },
     "29055": {
-      "content": "In this experiment we had 7 different conditions, and you were randomly assigned to one of them when you started playing the game. ",
+      "content": "In this experiment we had 6 different conditions, and you were randomly assigned to one of them when you started playing the game. ",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
@@ -40,7 +40,7 @@
       "type": "dialogue"
     },
     "29057": {
-      "content": "Part of the variations in each condition was based on whether or not a disruption happens in the supply chain, or whether it affects Manufacturer 1 or Manufacturer 2 when it happens.",
+      "content": "Part of the variations in each condition was based on whether the disruption affects Manufacturer 1 or Manufacturer 2.",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
@@ -151,7 +151,7 @@
       "type": "dialogue"
     },
     "29067": {
-      "content": "or access to complete information by informing you about the ordering behavior of Health-centers in addition to Manufacturer's inventory, or no access to any of this information.",
+      "content": "or access to complete information by informing you about the ordering behavior of Health-centers and delivery rates in addition to Manufacturer's inventory, or no access to any of this information.",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
@@ -206,7 +206,7 @@
       "type": "dialogue"
     },
     "29071": {
-      "content": "In the condition you were assigned to, you were given complete information by seeing Manufacturer's inventory and being informed about Health-centers' ordering behavior.",
+      "content": "In the condition you were assigned to, you were given complete information by seeing Manufacturer's inventory and being informed about Health-centers' ordering behavior and delivery rates to health-centers.",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
@@ -333,7 +333,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "29122",
+      "next": "29133",
       "tru": "True",
       "index": "29125",
       "posX": "40.98379",
@@ -392,15 +392,15 @@
       "type": "callfunction"
     },
     "29129": {
-      "content": "Please write down the code below and enter it on MTurk to verify you actually completed this survey. Also, please make sure to click SHARE DATA on the pop up that appears next! Thank you!",
+      "content": "Please write down the code below and provide to your instructor to verify you actually completed this assignment. Also, please make sure to click SHARE DATA on the pop up that appears next! Thank you!",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
       "next": "29075",
       "tru": "True",
       "index": "29129",
-      "posX": "54.85206",
-      "posY": "15.76602",
+      "posX": "54.90652",
+      "posY": "15.32776",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -433,6 +433,23 @@
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
+    },
+    "29133": {
+      "functionType": "CallAPI_GET",
+      "functionDetail": "https://studycrafter.com/db/sc_functions.php?action=sc_get_unique_id&platform=NEU",
+      "functionDetail2": "{mturk_code}",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "29130",
+      "tru": "True",
+      "index": "29133",
+      "posX": "44.24579",
+      "posY": "18.86638",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -732,10 +749,10 @@
       "x": -46.8158951,
       "y": -34.2516022
     },
-    "scriptorScale": 0.179858446,
+    "scriptorScale": 0.4240975,
     "scriptorPosition": {
-      "x": -839.624939,
-      "y": -242.306717
+      "x": -1871.1748,
+      "y": -668.3844
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
