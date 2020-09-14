@@ -2602,7 +2602,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>\rI have a knowledge of supply chains \nconcepts in general.\r\r</i>",
+        "text": "<i>\rI have a knowledge of supply chain \nconcepts in general.\r\r</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,

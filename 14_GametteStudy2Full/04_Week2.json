@@ -4611,7 +4611,7 @@
     "25026": {
       "actionTarget": "info_bubble_Text",
       "actionName": "TypeText",
-      "action_text": "If you are concerned about suppliers' reliablity in delivering orders on time, you may want to order more than suggested amount to ensure that you can satisfy patients demand.",
+      "action_text": "If you are concerned about suppliers' reliablity in delivering orders on time, you may want to order more than suggested amount to ensure that you can satisfy health-centers' demand.",
       "action_type-speed": "0",
       "name": "Action",
       "next": "25027",
@@ -11298,7 +11298,7 @@
       "type": "dialogue"
     },
     "28901": {
-      "content": "Your main goal is to maximize the company's sales revenue and to minimize overal cost. ",
+      "content": "Your main goal is to maximize the net profit by maximizing the company's sales revenue and to minimize overal cost. ",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",

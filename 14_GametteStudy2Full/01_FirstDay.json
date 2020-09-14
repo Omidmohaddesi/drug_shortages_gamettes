@@ -16,7 +16,7 @@
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "29654",
+      "next": "31003",
       "tru": "True",
       "index": "4",
       "posX": "1.521544",
@@ -1425,7 +1425,7 @@
       "type": "callfunction"
     },
     "26264": {
-      "content": "Your main goal is to maximize the company's sales revenue and to minimize overal cost. ",
+      "content": "Your main goal is to maximize our net profit by maximizing the company's sales revenue and to minimize overall cost. ",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -1439,7 +1439,7 @@
       "type": "dialogue"
     },
     "26265": {
-      "content": "The company's overall cost consists of the inventory cost and the cost of stockout in case we're out of {drugName}.",
+      "content": "The company's overall cost consists of the inventory cost and the cost of backlog in case we're out of {drugName}.",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -1691,7 +1691,7 @@
       "tru": "True",
       "index": "28866",
       "posX": "18.53537",
-      "posY": "5.209798",
+      "posY": "5.050238",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -2065,20 +2065,6 @@
       "advance_mode": "OnClick",
       "type": "variable"
     },
-    "29654": {
-      "nextScript": "Week 2",
-      "transitionText": "Kate's Office",
-      "variablePairs": "",
-      "name": "end",
-      "next": "-1",
-      "tru": "True",
-      "index": "29654",
-      "posX": "4.614423",
-      "posY": "7.04564",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "end"
-    },
     "29656": {
       "contents": "connect this later",
       "name": "Comment",
@@ -2090,6 +2076,20 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "comment"
+    },
+    "31003": {
+      "nextScript": "Week 2",
+      "transitionText": "None",
+      "variablePairs": "",
+      "name": "end",
+      "next": "-1",
+      "tru": "True",
+      "index": "31003",
+      "posX": "4.29776",
+      "posY": "6.573412",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "end"
     }
   },
   "scene": {
@@ -2612,10 +2612,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.6830132,
+    "scriptorScale": 0.466507167,
     "scriptorPosition": {
-      "x": -243.081085,
-      "y": -479.6472
+      "x": -177.140411,
+      "y": -236.688
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

@@ -81,7 +81,7 @@
       "type": "if"
     },
     "29061": {
-      "content": "The condition you were assigned to included a disruption in form of a shutdown in Manufacturer 2.",
+      "content": "The condition you were assigned to included a disruption in the form of a shutdown in Manufacturer 2.",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
@@ -95,7 +95,7 @@
       "type": "dialogue"
     },
     "29062": {
-      "content": "The condition you were assigned to included a disruption in form of a shutdown in Manufacturer 1.",
+      "content": "The condition you were assigned to included a disruption in the form of a shutdown in Manufacturer 1.",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",
@@ -123,7 +123,7 @@
       "type": "dialogue"
     },
     "29065": {
-      "content": "We also made variations in each condition based on different type of information sharing.",
+      "content": "We also made variations in each condition based on different types of information sharing.",
       "owner": "Doctor_Male1",
       "speaking": "True",
       "name": "Dialogue",

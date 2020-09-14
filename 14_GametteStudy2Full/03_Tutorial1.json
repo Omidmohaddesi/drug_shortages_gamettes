@@ -121,7 +121,7 @@
       "type": "variable"
     },
     "290": {
-      "content": "Good Luck!",
+      "content": "Good luck!",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -5583,7 +5583,7 @@
     "25026": {
       "actionTarget": "info_bubble_Text",
       "actionName": "TypeText",
-      "action_text": "If you are concerned about suppliers' reliablity in delivering orders on time, you may want to order more than suggested amount to ensure that you can satisfy patients demand.",
+      "action_text": "If you are concerned about suppliers' reliablity in delivering orders on time, you may want to order more than suggested amount to ensure that you can satisfy health-centers' demand.",
       "action_type-speed": "0",
       "name": "Action",
       "next": "25027",
@@ -7322,11 +7322,11 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28961",
+      "next": "27884",
       "tru": "True",
       "index": "25544",
-      "posX": "-37.39354",
-      "posY": "26.72949",
+      "posX": "-38.30398",
+      "posY": "17.29287",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11026,7 +11026,7 @@
       "prompted": "True",
       "timed": "False",
       "timer": "-1",
-      "choices": "27897~~Ask about the Lead Time~~True~~none~~true~-~27899~~Ask about ordering from Manufacturer~~True~~none~~true~-~27900~~Ask about how to calculate cost.~~True~~none~~true~-~",
+      "choices": "27897~~Ask about the Lead Time~~True~~none~~true~-~27899~~Ask about ordering from Manufacturer~~True~~none~~true~-~27900~~Ask how to calculate sales revenue and cost~~True~~none~~true~-~",
       "variable": null,
       "name": "Player Choice",
       "next": "-1",
@@ -11081,7 +11081,7 @@
       "type": "dialogue"
     },
     "27900": {
-      "content": "How the sales revenue is being calculated?",
+      "content": "How is the sales revenue calculated?",
       "owner": "Kate",
       "speaking": "True",
       "name": "Dialogue",
@@ -11150,7 +11150,7 @@
       "type": "dialogue"
     },
     "27909": {
-      "content": "As you saw in the supply chain, Wholesaler 2 is our competitor company. We must try to increase our market share by satisfying health-centers demands.",
+      "content": "As you saw in the supply chain, Wholesaler 2 is our competitor company. We must try to increase our market share by satisfying health-centers' demands.",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -11158,7 +11158,7 @@
       "tru": "True",
       "index": "27909",
       "posX": "-7.708257",
-      "posY": "10.75274",
+      "posY": "10.59318",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -11385,8 +11385,8 @@
       "next": "23743",
       "tru": "True",
       "index": "28012",
-      "posX": "-31.4496",
-      "posY": "17.10164",
+      "posX": "-31.56785",
+      "posY": "17.03989",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -11911,7 +11911,7 @@
       "type": "callfunction"
     },
     "28266": {
-      "content": "This is where you can review the our policies.",
+      "content": "This is where you can review our policies.",
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
@@ -14494,7 +14494,7 @@
       "type": "callfunction"
     },
     "28512": {
-      "content": "This is the our supply chain...",
+      "content": "This is our supply chain...",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
@@ -15352,7 +15352,7 @@
       "type": "dialogue"
     },
     "28871": {
-      "content": "Your main goal is to maximize the company's sales revenue and to minimize overal cost. ",
+      "content": "Your main goal is to maximize the net profit by maximizing the company's sales revenue and to minimize overal cost. ",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
@@ -15593,8 +15593,8 @@
       "next": "290",
       "tru": "True",
       "index": "28961",
-      "posX": "14.38343",
-      "posY": "26.90694",
+      "posX": "15.61223",
+      "posY": "12.94024",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -21180,10 +21180,10 @@
       "x": -91.0967255,
       "y": -26.9302883
     },
-    "scriptorScale": 1.0,
+    "scriptorScale": 0.6830131,
     "scriptorPosition": {
-      "x": -7032.781,
-      "y": -774.665649
+      "x": 6235.446,
+      "y": 591.08606
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
