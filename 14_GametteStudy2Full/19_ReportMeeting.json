@@ -67,7 +67,7 @@
       "type": "dialogue"
     },
     "29710": {
-      "content": "Kate! Sophie and Karl are from accounting.",
+      "content": "Kate! Sophie and Karl are from Accounting.",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -362,7 +362,7 @@
     },
     "30699": {
       "choiceType": "open_response",
-      "content": "How do you think we are doing Kate?",
+      "content": "How do you think we are doing Kate?\n\n<i>(type your answer in the box below)</i>",
       "owner": "Boss",
       "speaking": "True",
       "prompted": "True",
@@ -1481,10 +1481,10 @@
       "x": -10.5787144,
       "y": -22.7271461
     },
-    "scriptorScale": 0.5131569,
+    "scriptorScale": 0.68301183,
     "scriptorPosition": {
-      "x": -394.205841,
-      "y": 1302.28369
+      "x": -739.634949,
+      "y": -63.31833
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

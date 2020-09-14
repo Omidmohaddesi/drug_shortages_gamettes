@@ -14273,8 +14273,8 @@
       "next": "29824",
       "tru": "True",
       "index": "29363",
-      "posX": "53.56982",
-      "posY": "-172.9149",
+      "posX": "59.65519",
+      "posY": "-173.0249",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -14287,7 +14287,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "29539",
+      "next": "31020",
       "tru": "True",
       "index": "29364",
       "posX": "33.89576",
@@ -16130,8 +16130,8 @@
       "next": "29540",
       "tru": "True",
       "index": "29539",
-      "posX": "37.25066",
-      "posY": "-175.0834",
+      "posX": "43.33602",
+      "posY": "-175.1934",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -16146,8 +16146,8 @@
       "next": "29541",
       "tru": "True",
       "index": "29540",
-      "posX": "40.31267",
-      "posY": "-175.094",
+      "posX": "46.39803",
+      "posY": "-175.204",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -16162,8 +16162,8 @@
       "next": "29542",
       "tru": "True",
       "index": "29541",
-      "posX": "43.56587",
-      "posY": "-175.0801",
+      "posX": "49.65123",
+      "posY": "-175.1901",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -16178,8 +16178,8 @@
       "next": "29552",
       "tru": "True",
       "index": "29542",
-      "posX": "46.61433",
-      "posY": "-175.0986",
+      "posX": "52.6997",
+      "posY": "-175.2086",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -16238,8 +16238,8 @@
       "next": "-1",
       "tru": "True",
       "index": "29552",
-      "posX": "49.79594",
-      "posY": "-174.2588",
+      "posX": "55.88131",
+      "posY": "-174.3688",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -16255,8 +16255,8 @@
       "next": "29824",
       "tru": "True",
       "index": "29555",
-      "posX": "53.64057",
-      "posY": "-174.9893",
+      "posX": "59.72594",
+      "posY": "-175.0993",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -16272,8 +16272,8 @@
       "next": "29824",
       "tru": "True",
       "index": "29556",
-      "posX": "53.54406",
-      "posY": "-177.1395",
+      "posX": "59.62942",
+      "posY": "-177.2495",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -17178,7 +17178,7 @@
       "type": "dialogue"
     },
     "29756": {
-      "content": "Pay attention to the system instructions. Good Luck!",
+      "content": "Pay attention to the system instructions. Good luck!",
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
@@ -17622,8 +17622,8 @@
       "next": "29837",
       "tru": "True",
       "index": "29824",
-      "posX": "57.17982",
-      "posY": "-174.6555",
+      "posX": "63.26519",
+      "posY": "-174.7655",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -17673,8 +17673,8 @@
       "next": "-1",
       "tru": "True",
       "index": "29837",
-      "posX": "60.24405",
-      "posY": "-174.7587",
+      "posX": "66.32941",
+      "posY": "-174.8687",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -19495,6 +19495,40 @@
       "index": "31013",
       "posX": "43.09739",
       "posY": "-180.8099",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "31020": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "modify_allocation",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "31021",
+      "tru": "True",
+      "index": "31020",
+      "posX": "37.08237",
+      "posY": "-174.9053",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "31021": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "modify_allocation_final",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "29539",
+      "tru": "True",
+      "index": "31021",
+      "posX": "40.35423",
+      "posY": "-174.9072",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -22455,10 +22489,10 @@
       "x": 8.17099,
       "y": -26.7204552
     },
-    "scriptorScale": 0.564473569,
+    "scriptorScale": 0.6830134,
     "scriptorPosition": {
-      "x": -2065.384,
-      "y": 9042.02
+      "x": 1838.89648,
+      "y": -2038.67664
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

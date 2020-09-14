@@ -2,11 +2,11 @@
   "dictNodes": {
     "0": {
       "name": "Start",
-      "next": "25595",
+      "next": "28116",
       "tru": "True",
       "index": "0",
       "posX": "-24.24621",
-      "posY": "3.025608",
+      "posY": "3.387708",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "start"
@@ -16,7 +16,7 @@
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "31003",
+      "next": "17",
       "tru": "True",
       "index": "4",
       "posX": "1.521544",
@@ -33,8 +33,8 @@
       "next": "23137",
       "tru": "True",
       "index": "17",
-      "posX": "5.542608",
-      "posY": "2.172706",
+      "posX": "5.3405",
+      "posY": "2.421456",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1418,8 +1418,8 @@
       "next": "28123",
       "tru": "True",
       "index": "25595",
-      "posX": "-13.33321",
-      "posY": "2.525401",
+      "posX": "-13.00615",
+      "posY": "2.957584",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -1460,8 +1460,8 @@
       "next": "25595",
       "tru": "True",
       "index": "26287",
-      "posX": "-17.11787",
-      "posY": "1.111262",
+      "posX": "-16.70904",
+      "posY": "2.407811",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "sound"
@@ -1528,8 +1528,8 @@
       "next": "26287",
       "tru": "True",
       "index": "28116",
-      "posX": "-20.60042",
-      "posY": "1.791063",
+      "posX": "-20.34344",
+      "posY": "2.959125",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -2064,32 +2064,6 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
-    },
-    "29656": {
-      "contents": "connect this later",
-      "name": "Comment",
-      "next": "-1",
-      "tru": "True",
-      "index": "29656",
-      "posX": "-20.7606",
-      "posY": "0.3320045",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "comment"
-    },
-    "31003": {
-      "nextScript": "Tutorial 4",
-      "transitionText": "None",
-      "variablePairs": "",
-      "name": "end",
-      "next": "-1",
-      "tru": "True",
-      "index": "31003",
-      "posX": "4.29776",
-      "posY": "6.573412",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "end"
     }
   },
   "scene": {
@@ -2612,10 +2586,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.466507167,
+    "scriptorScale": 0.2896642,
     "scriptorPosition": {
-      "x": -177.140411,
-      "y": -236.688
+      "x": 368.33432,
+      "y": -131.721832
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
