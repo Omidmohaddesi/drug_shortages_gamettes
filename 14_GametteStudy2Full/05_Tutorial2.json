@@ -14397,11 +14397,11 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "29486",
+      "next": "-1",
       "tru": "True",
       "index": "29367",
-      "posX": "40.30442",
-      "posY": "-179.6427",
+      "posX": "46.50449",
+      "posY": "-179.7681",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -14448,7 +14448,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "29367",
+      "next": "29486",
       "tru": "True",
       "index": "29370",
       "posX": "37.27739",
@@ -16279,11 +16279,11 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "-1",
+      "next": "31011",
       "tru": "True",
       "index": "29486",
-      "posX": "43.51228",
-      "posY": "-179.5701",
+      "posX": "40.35526",
+      "posY": "-179.798",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -18332,6 +18332,23 @@
       "index": "30936",
       "posX": "20.234",
       "posY": "16.63704",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "31011": {
+      "functionType": "CustomFunction",
+      "functionDetail": "calculate_order_suggestion",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "29367",
+      "tru": "True",
+      "index": "31011",
+      "posX": "43.44487",
+      "posY": "-179.8053",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -21214,10 +21231,10 @@
       "x": -43.2060242,
       "y": -43.8677177
     },
-    "scriptorScale": 0.359210074,
+    "scriptorScale": 0.525919557,
     "scriptorPosition": {
-      "x": -878.5392,
-      "y": -637.647156
+      "x": -1918.8031,
+      "y": 8399.684
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

@@ -9243,11 +9243,11 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "28480",
+      "next": "-1",
       "tru": "True",
       "index": "26696",
-      "posX": "41.31699",
-      "posY": "-179.1481",
+      "posX": "47.56686",
+      "posY": "-179.2414",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -9420,7 +9420,7 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "26696",
+      "next": "28480",
       "tru": "True",
       "index": "26722",
       "posX": "38.28993",
@@ -14312,11 +14312,11 @@
       "functionDetail4": "",
       "functionDetail5": "",
       "name": "Call Function",
-      "next": "-1",
+      "next": "31009",
       "tru": "True",
       "index": "28480",
-      "posX": "44.52485",
-      "posY": "-179.0755",
+      "posX": "41.50874",
+      "posY": "-179.2776",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -18303,6 +18303,23 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
+    },
+    "31009": {
+      "functionType": "CustomFunction",
+      "functionDetail": "calculate_order_suggestion",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "26696",
+      "tru": "True",
+      "index": "31009",
+      "posX": "44.56799",
+      "posY": "-179.2656",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
     }
   },
   "scene": {
@@ -21180,10 +21197,10 @@
       "x": -91.0967255,
       "y": -26.9302883
     },
-    "scriptorScale": 0.6830131,
+    "scriptorScale": 0.385542959,
     "scriptorPosition": {
-      "x": 6235.446,
-      "y": 591.08606
+      "x": -1441.80322,
+      "y": 6123.87646
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
