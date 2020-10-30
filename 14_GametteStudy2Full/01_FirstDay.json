@@ -19,8 +19,8 @@
       "next": "17",
       "tru": "True",
       "index": "4",
-      "posX": "1.521544",
-      "posY": "2.128882",
+      "posX": "1.524455",
+      "posY": "2.224576",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -40,7 +40,7 @@
       "type": "dialogue"
     },
     "46": {
-      "nextScript": "Tutorial 1",
+      "nextScript": "Week 2",
       "transitionText": "Kate's Office",
       "variablePairs": "",
       "name": "end",
@@ -1460,8 +1460,8 @@
       "next": "25595",
       "tru": "True",
       "index": "26287",
-      "posX": "-16.70904",
-      "posY": "2.407811",
+      "posX": "-16.64685",
+      "posY": "2.396504",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "sound"
@@ -1528,8 +1528,8 @@
       "next": "26287",
       "tru": "True",
       "index": "28116",
-      "posX": "-20.34344",
-      "posY": "2.959125",
+      "posX": "-20.08993",
+      "posY": "2.913898",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -2578,7 +2578,11 @@
         }
       }
     ],
-    "recent_assets": [],
+    "recent_assets": [
+      "loader_icon",
+      "loader_icon",
+      "Text"
+    ],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.68301326,
@@ -2586,10 +2590,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.513157845,
+    "scriptorScale": 0.0839053541,
     "scriptorPosition": {
-      "x": 1167.63708,
-      "y": -1279.16626
+      "x": -99.3342,
+      "y": -24.9641418
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

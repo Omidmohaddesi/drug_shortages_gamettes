@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2020-09-14 16:39:56",
+  "last_edit": "2020-10-30 19:20:32",
   "published": "false",
   "scene_order": [
     "0",
@@ -829,6 +829,12 @@
       "name": "kate_reflection",
       "value": "",
       "value_type": "String",
+      "id": "-1"
+    },
+    {
+      "name": "ending_backlog",
+      "value": "0",
+      "value_type": "Int",
       "id": "-1"
     }
   ],
