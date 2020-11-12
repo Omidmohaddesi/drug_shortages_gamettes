@@ -6738,8 +6738,8 @@
       "next": "28603",
       "tru": "True",
       "index": "26219",
-      "posX": "22.07403",
-      "posY": "44.65983",
+      "posX": "22.46702",
+      "posY": "45.35149",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -6755,8 +6755,8 @@
       "next": "29089",
       "tru": "True",
       "index": "26220",
-      "posX": "25.46022",
-      "posY": "16.02671",
+      "posX": "25.16497",
+      "posY": "15.88499",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -8954,8 +8954,8 @@
       "next": "26220",
       "tru": "True",
       "index": "28199",
-      "posX": "21.72658",
-      "posY": "15.87207",
+      "posX": "21.83288",
+      "posY": "15.88388",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11421,8 +11421,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28911",
-      "posX": "44.83051",
-      "posY": "37.00258",
+      "posX": "48.50649",
+      "posY": "36.77979",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11438,8 +11438,8 @@
       "next": "28915",
       "tru": "True",
       "index": "28912",
-      "posX": "38.26515",
-      "posY": "36.09518",
+      "posX": "41.94113",
+      "posY": "35.87239",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -11451,8 +11451,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28913",
-      "posX": "24.7145",
-      "posY": "36.52087",
+      "posX": "28.39049",
+      "posY": "36.32593",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -11465,8 +11465,8 @@
       "next": "28911",
       "tru": "True",
       "index": "28915",
-      "posX": "41.52957",
-      "posY": "36.99756",
+      "posX": "45.20555",
+      "posY": "36.77477",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -11482,8 +11482,8 @@
       "next": "28918",
       "tru": "True",
       "index": "28916",
-      "posX": "31.50671",
-      "posY": "37.23061",
+      "posX": "35.18269",
+      "posY": "37.00783",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11499,8 +11499,8 @@
       "next": "28916",
       "tru": "True",
       "index": "28917",
-      "posX": "28.31522",
-      "posY": "37.19477",
+      "posX": "31.9912",
+      "posY": "36.97198",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11516,8 +11516,8 @@
       "next": "28920",
       "tru": "True",
       "index": "28918",
-      "posX": "34.71632",
-      "posY": "37.07479",
+      "posX": "38.3923",
+      "posY": "36.85201",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11533,8 +11533,8 @@
       "next": "28912",
       "tru": "True",
       "index": "28919",
-      "posX": "34.54713",
-      "posY": "34.40022",
+      "posX": "38.22311",
+      "posY": "34.17743",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11550,8 +11550,8 @@
       "next": "28921",
       "tru": "True",
       "index": "28920",
-      "posX": "28.34782",
-      "posY": "34.50225",
+      "posX": "32.0238",
+      "posY": "34.27946",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -11567,8 +11567,8 @@
       "next": "28919",
       "tru": "True",
       "index": "28921",
-      "posX": "31.41761",
-      "posY": "34.47328",
+      "posX": "35.09359",
+      "posY": "34.2505",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -14102,7 +14102,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "28913",
+      "next": "31029",
       "tru": "True",
       "index": "29600",
       "posX": "21.43571",
@@ -14135,8 +14135,8 @@
       "next": "30900",
       "tru": "True",
       "index": "29611",
-      "posX": "14.97027",
-      "posY": "16.03778",
+      "posX": "15.01751",
+      "posY": "15.93149",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -19578,6 +19578,44 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
+    },
+    "31029": {
+      "choices": "31030~~{week} = -40~-~28913~~true~-~",
+      "isRandom": "False",
+      "name": "Branch",
+      "next": "-1",
+      "tru": "True",
+      "index": "31029",
+      "posX": "24.83772",
+      "posY": "37.56979",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "if"
+    },
+    "31030": {
+      "actionTarget": null,
+      "actionName": "",
+      "name": "Action",
+      "next": "28603",
+      "tru": "True",
+      "index": "31030",
+      "posX": "22.38447",
+      "posY": "42.38268",
+      "minimized": "False",
+      "advance_mode": "AfterTime_3",
+      "type": "action"
+    },
+    "31031": {
+      "contents": "I added this in case server is busy and returns 0 for week, then the game waits 3 seconds and sends another request",
+      "name": "Comment",
+      "next": "-1",
+      "tru": "True",
+      "index": "31031",
+      "posX": "24.20387",
+      "posY": "35.21469",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "comment"
     }
   },
   "scene": {
@@ -22529,10 +22567,10 @@
       "x": 11.6164122,
       "y": 8.539571
     },
-    "scriptorScale": 0.35049367,
+    "scriptorScale": 0.5131577,
     "scriptorPosition": {
-      "x": -2720.02417,
-      "y": 6726.357
+      "x": -1334.47754,
+      "y": -1819.71252
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
