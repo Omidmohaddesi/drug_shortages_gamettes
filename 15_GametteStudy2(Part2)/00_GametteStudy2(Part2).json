@@ -1,0 +1,907 @@
+{
+  "title": "Gamette Study 2 (Part 2)",
+  "description": "",
+  "initial_scene": "First Day",
+  "version": "2.4.6",
+  "last_edit": "2021-06-24 17:20:07",
+  "published": "false",
+  "scene_order": [
+    "11274",
+    "11275",
+    "11276",
+    "11277",
+    "11278",
+    "11279",
+    "11280",
+    "11292",
+    "11281",
+    "11282",
+    "11308",
+    "11307",
+    "11309",
+    "11283",
+    "11284",
+    "11285",
+    "11290",
+    "11291",
+    "11286",
+    "11287",
+    "11288",
+    "11289"
+  ],
+  "variables": [
+    {
+      "name": "Inv",
+      "value": "120",
+      "value_type": "Int",
+      "id": "18977"
+    },
+    {
+      "name": "SS",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18978"
+    },
+    {
+      "name": "HC1D",
+      "value": "97",
+      "value_type": "Int",
+      "id": "18979"
+    },
+    {
+      "name": "HC2D",
+      "value": "156",
+      "value_type": "Int",
+      "id": "18980"
+    },
+    {
+      "name": "TD",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18981"
+    },
+    {
+      "name": "AL",
+      "value": "Null",
+      "value_type": "String",
+      "id": "18982"
+    },
+    {
+      "name": "OrMN1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18983"
+    },
+    {
+      "name": "OrDS1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18984"
+    },
+    {
+      "name": "OrDS2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18985"
+    },
+    {
+      "name": "view3",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18986"
+    },
+    {
+      "name": "view2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18987"
+    },
+    {
+      "name": "view1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18988"
+    },
+    {
+      "name": "temp3",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18989"
+    },
+    {
+      "name": "ALHC1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18990"
+    },
+    {
+      "name": "ALHC2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18991"
+    },
+    {
+      "name": "OrTotal",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18992"
+    },
+    {
+      "name": "OrTobe",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18993"
+    },
+    {
+      "name": "RpMN1",
+      "value": "0",
+      "value_type": "Float",
+      "id": "18994"
+    },
+    {
+      "name": "DelivRateHC1",
+      "value": "0",
+      "value_type": "Float",
+      "id": "18995"
+    },
+    {
+      "name": "DelivRateHC2",
+      "value": "0",
+      "value_type": "Float",
+      "id": "18996"
+    },
+    {
+      "name": "OnOrderMN1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "18997"
+    },
+    {
+      "name": "OnOrderDS1",
+      "value": "20",
+      "value_type": "Int",
+      "id": "18998"
+    },
+    {
+      "name": "OnOrderDS2",
+      "value": "30",
+      "value_type": "Int",
+      "id": "18999"
+    },
+    {
+      "name": "OnOrderTotal",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19000"
+    },
+    {
+      "name": "temp1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19001"
+    },
+    {
+      "name": "temp2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19002"
+    },
+    {
+      "name": "OrderPlaced",
+      "value": "False",
+      "value_type": "Boolean",
+      "id": "19003"
+    },
+    {
+      "name": "untreatedU",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19004"
+    },
+    {
+      "name": "untreatedNU",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19005"
+    },
+    {
+      "name": "cumTD",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19006"
+    },
+    {
+      "name": "cumUntreatedU",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19007"
+    },
+    {
+      "name": "cumUntreatedNU",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19008"
+    },
+    {
+      "name": "happiness",
+      "value": "100",
+      "value_type": "Int",
+      "id": "19009"
+    },
+    {
+      "name": "temp",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19010"
+    },
+    {
+      "name": "cumLost",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19011"
+    },
+    {
+      "name": "right",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19012"
+    },
+    {
+      "name": "left",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19013"
+    },
+    {
+      "name": "coef",
+      "value": "1",
+      "value_type": "Int",
+      "id": "19014"
+    },
+    {
+      "name": "splitType",
+      "value": "",
+      "value_type": "String",
+      "id": "19015"
+    },
+    {
+      "name": "concern1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19016"
+    },
+    {
+      "name": "concern2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19017"
+    },
+    {
+      "name": "concern3",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19018"
+    },
+    {
+      "name": "week",
+      "value": "20",
+      "value_type": "Int",
+      "id": "19019"
+    },
+    {
+      "name": "invCost",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19020"
+    },
+    {
+      "name": "invCostCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19021"
+    },
+    {
+      "name": "update",
+      "value": "",
+      "value_type": "String",
+      "id": "19022"
+    },
+    {
+      "name": "rec_DS1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19023"
+    },
+    {
+      "name": "rec_DS2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19024"
+    },
+    {
+      "name": "playerID",
+      "value": "cd94040d-46c4-480e-8a8c-7a0684c28056",
+      "value_type": "String",
+      "id": "19025"
+    },
+    {
+      "name": "disruptionStart",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19026"
+    },
+    {
+      "name": "disruptionType",
+      "value": "shutdown",
+      "value_type": "String",
+      "id": "19027"
+    },
+    {
+      "name": "disruptionSize",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19028"
+    },
+    {
+      "name": "view4",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19029"
+    },
+    {
+      "name": "view5",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19030"
+    },
+    {
+      "name": "view6",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19031"
+    },
+    {
+      "name": "visitBob",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19032"
+    },
+    {
+      "name": "token",
+      "value": "",
+      "value_type": "String",
+      "id": "19033"
+    },
+    {
+      "name": "user_id",
+      "value": "",
+      "value_type": "String",
+      "id": "19034"
+    },
+    {
+      "name": "cumRepCostU",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19035"
+    },
+    {
+      "name": "cumRepCostNU",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19036"
+    },
+    {
+      "name": "cumRepCostTotal",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19037"
+    },
+    {
+      "name": "costTotal",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19038"
+    },
+    {
+      "name": "drugName",
+      "value": "saline",
+      "value_type": "String",
+      "id": "19039"
+    },
+    {
+      "name": "warningText",
+      "value": "",
+      "value_type": "String",
+      "id": "19040"
+    },
+    {
+      "name": "backTo",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19041"
+    },
+    {
+      "name": "OUTL",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19042"
+    },
+    {
+      "name": "Q1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19043"
+    },
+    {
+      "name": "Q2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19044"
+    },
+    {
+      "name": "Q3",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19045"
+    },
+    {
+      "name": "Q4",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19046"
+    },
+    {
+      "name": "Q5",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19047"
+    },
+    {
+      "name": "Q6",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19048"
+    },
+    {
+      "name": "Q7",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19049"
+    },
+    {
+      "name": "Q8",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19050"
+    },
+    {
+      "name": "Q9",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19051"
+    },
+    {
+      "name": "Q10",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19052"
+    },
+    {
+      "name": "Q11",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19053"
+    },
+    {
+      "name": "Q12",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19054"
+    },
+    {
+      "name": "Q13",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19055"
+    },
+    {
+      "name": "Q14",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19056"
+    },
+    {
+      "name": "Q15",
+      "value": "",
+      "value_type": "String",
+      "id": "19057"
+    },
+    {
+      "name": "Q16",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19058"
+    },
+    {
+      "name": "Q17",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19059"
+    },
+    {
+      "name": "Q18",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19060"
+    },
+    {
+      "name": "Q_occupation",
+      "value": "",
+      "value_type": "String",
+      "id": "19061"
+    },
+    {
+      "name": "noOfScenes",
+      "value": "12",
+      "value_type": "Int",
+      "id": "19062"
+    },
+    {
+      "name": "progress",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19063"
+    },
+    {
+      "name": "sceneNo",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19064"
+    },
+    {
+      "name": "backlog",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19065"
+    },
+    {
+      "name": "disruptionEnd",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19066"
+    },
+    {
+      "name": "backlogHC1",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19067"
+    },
+    {
+      "name": "backlogHC2",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19068"
+    },
+    {
+      "name": "mnInventory",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19069"
+    },
+    {
+      "name": "condition",
+      "value": "3",
+      "value_type": "Int",
+      "id": "19070"
+    },
+    {
+      "name": "profit",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19071"
+    },
+    {
+      "name": "HC1Sales",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19072"
+    },
+    {
+      "name": "HC2Sales",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19073"
+    },
+    {
+      "name": "HC1SalesCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19074"
+    },
+    {
+      "name": "HC2SalesCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19075"
+    },
+    {
+      "name": "TotalSales",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19076"
+    },
+    {
+      "name": "backlogCost",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19077"
+    },
+    {
+      "name": "backlogCostCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19078"
+    },
+    {
+      "name": "costTotalCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19079"
+    },
+    {
+      "name": "TotalSalesCum",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19080"
+    },
+    {
+      "name": "goal_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19081"
+    },
+    {
+      "name": "dollar_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19082"
+    },
+    {
+      "name": "info_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19083"
+    },
+    {
+      "name": "tv_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19084"
+    },
+    {
+      "name": "inv_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19085"
+    },
+    {
+      "name": "inv_graph_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19086"
+    },
+    {
+      "name": "demand_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19087"
+    },
+    {
+      "name": "demand_graph_1_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19088"
+    },
+    {
+      "name": "demand_graph_2_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19089"
+    },
+    {
+      "name": "demand_graph_3_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19090"
+    },
+    {
+      "name": "shipment_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19091"
+    },
+    {
+      "name": "shipment_graph_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19092"
+    },
+    {
+      "name": "policies_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19093"
+    },
+    {
+      "name": "allocation_modify_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19094"
+    },
+    {
+      "name": "order_modify_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19095"
+    },
+    {
+      "name": "order_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19096"
+    },
+    {
+      "name": "allocation_clicked",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19097"
+    },
+    {
+      "name": "TDandBacklog",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19098"
+    },
+    {
+      "name": "HC1DandBacklog",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19099"
+    },
+    {
+      "name": "HC2DandBacklog",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19100"
+    },
+    {
+      "name": "Q_open_exp",
+      "value": "",
+      "value_type": "String",
+      "id": "19101"
+    },
+    {
+      "name": "Q_strategy",
+      "value": "",
+      "value_type": "String",
+      "id": "19102"
+    },
+    {
+      "name": "where",
+      "value": "",
+      "value_type": "String",
+      "id": "19103"
+    },
+    {
+      "name": "mturk_code",
+      "value": "",
+      "value_type": "String",
+      "id": "19104"
+    },
+    {
+      "name": "tutorial_week",
+      "value": "1",
+      "value_type": "Int",
+      "id": "19105"
+    },
+    {
+      "name": "ending_inv",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19106"
+    },
+    {
+      "name": "newDelivRateHC1",
+      "value": "0",
+      "value_type": "Float",
+      "id": "19107"
+    },
+    {
+      "name": "newDelivRateHC2",
+      "value": "0",
+      "value_type": "Float",
+      "id": "19108"
+    },
+    {
+      "name": "ALTemp",
+      "value": "",
+      "value_type": "String",
+      "id": "19109"
+    },
+    {
+      "name": "kate_reflection",
+      "value": "",
+      "value_type": "String",
+      "id": "19110"
+    },
+    {
+      "name": "ending_backlog",
+      "value": "0",
+      "value_type": "Int",
+      "id": "19317"
+    },
+    {
+      "name": "username",
+      "value": "",
+      "value_type": "String",
+      "id": "20082"
+    },
+    {
+      "name": "Q19",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20084"
+    },
+    {
+      "name": "Q20",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20085"
+    },
+    {
+      "name": "Q21",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20086"
+    },
+    {
+      "name": "Q22",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20087"
+    },
+    {
+      "name": "Q23",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20088"
+    },
+    {
+      "name": "Q24",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20089"
+    },
+    {
+      "name": "Q25",
+      "value": "0",
+      "value_type": "Int",
+      "id": "20090"
+    },
+    {
+      "name": "Q_open_realism",
+      "value": "",
+      "value_type": "String",
+      "id": "20091"
+    },
+    {
+      "name": "Q_gender_self",
+      "value": "",
+      "value_type": "String",
+      "id": "20092"
+    }
+  ],
+  "proj_status": [],
+  "research_variables": [],
+  "hypotheses": []
+}
