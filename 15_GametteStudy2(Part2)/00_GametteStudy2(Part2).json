@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2021-06-24 17:20:07",
+  "last_edit": "2021-07-07 11:13:06",
   "published": "false",
   "scene_order": [
     "11274",
@@ -899,6 +899,12 @@
       "value": "",
       "value_type": "String",
       "id": "20092"
+    },
+    {
+      "name": "prolific_id",
+      "value": "",
+      "value_type": "String",
+      "id": "20793"
     }
   ],
   "proj_status": [],
