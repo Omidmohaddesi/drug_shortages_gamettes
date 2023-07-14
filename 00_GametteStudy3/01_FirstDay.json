@@ -2,11 +2,11 @@
   "dictNodes": {
     "0": {
       "name": "Start",
-      "next": "28116",
+      "next": "25595",
       "tru": "True",
       "index": "0",
-      "posX": "-24.24621",
-      "posY": "3.387708",
+      "posX": "-24.07928",
+      "posY": "4.87339",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "start"
@@ -40,15 +40,15 @@
       "type": "dialogue"
     },
     "46": {
-      "nextScript": "Tutorial 1",
+      "nextScript": "Tutorial 4",
       "transitionText": "Kate's Office",
       "variablePairs": "",
       "name": "end",
       "next": "-1",
       "tru": "True",
       "index": "46",
-      "posX": "60.47186",
-      "posY": "2.040446",
+      "posX": "60.32494",
+      "posY": "4.537728",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -61,8 +61,8 @@
       "next": "46",
       "tru": "True",
       "index": "293",
-      "posX": "56.84711",
-      "posY": "1.93068",
+      "posX": "54.76406",
+      "posY": "7.37659",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1398,11 +1398,11 @@
       "functionName": "update",
       "takesFocus": "False",
       "name": "Make Function",
-      "next": "28899",
+      "next": "31158",
       "tru": "True",
       "index": "25594",
-      "posX": "-32.10766",
-      "posY": "33.30664",
+      "posX": "-33.30121",
+      "posY": "33.31582",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -1631,11 +1631,11 @@
       "action_time": "2",
       "action_easing": null,
       "name": "Action",
-      "next": "4",
+      "next": "293",
       "tru": "True",
       "index": "28128",
-      "posX": "-2.896472",
-      "posY": "1.11255",
+      "posX": "-2.171937",
+      "posY": "5.459748",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -2416,7 +2416,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "-1",
+      "next": "27917",
       "tru": "True",
       "index": "29180",
       "posX": "-12.58862",
@@ -2475,7 +2475,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "-1",
+      "next": "27917",
       "tru": "True",
       "index": "29200",
       "posX": "-12.43247",
@@ -2486,7 +2486,7 @@
     },
     "29201": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_4_2",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=68&studyName=study3_4_2",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2508,7 +2508,7 @@
       "fromVariable": "False",
       "get": "True",
       "name": "Set Variable",
-      "next": "-1",
+      "next": "27917",
       "tru": "True",
       "index": "29202",
       "posX": "-12.4592",
@@ -2541,6 +2541,36 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "comment"
+    },
+    "31158": {
+      "displayName": null,
+      "owner": "{condition}",
+      "newValue": "342",
+      "fromVariable": "False",
+      "get": "True",
+      "name": "Set Variable",
+      "next": "29181",
+      "tru": "True",
+      "index": "31158",
+      "posX": "-28.87769",
+      "posY": "29.0783",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "variable"
+    },
+    "31160": {
+      "nextScript": "Tutorial 1",
+      "transitionText": "Kate's Office",
+      "variablePairs": "",
+      "name": "end",
+      "next": "-1",
+      "tru": "True",
+      "index": "31160",
+      "posX": "60.28931",
+      "posY": "2.027887",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "end"
     }
   },
   "scene": {
@@ -3065,10 +3095,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.620920539,
+    "scriptorScale": 0.466506451,
     "scriptorPosition": {
-      "x": 1459.67712,
-      "y": -1841.31348
+      "x": -2241.94849,
+      "y": -226.377655
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
