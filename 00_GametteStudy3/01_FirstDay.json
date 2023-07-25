@@ -2,7 +2,7 @@
   "dictNodes": {
     "0": {
       "name": "Start",
-      "next": "25595",
+      "next": "31162",
       "tru": "True",
       "index": "0",
       "posX": "-24.07928",
@@ -58,7 +58,7 @@
       "owner": "Boss",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "46",
+      "next": "31160",
       "tru": "True",
       "index": "293",
       "posX": "54.76406",
@@ -1398,7 +1398,7 @@
       "functionName": "update",
       "takesFocus": "False",
       "name": "Make Function",
-      "next": "31158",
+      "next": "29181",
       "tru": "True",
       "index": "25594",
       "posX": "-33.30121",
@@ -1468,7 +1468,7 @@
     },
     "27916": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_2_0",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_2_0",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1836,7 +1836,7 @@
     },
     "28886": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_2_1",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_2_1",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1869,7 +1869,7 @@
     },
     "28888": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_2_2",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_2_2",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1902,7 +1902,7 @@
     },
     "28890": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_2_3",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_2_3",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1935,7 +1935,7 @@
     },
     "28892": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_3_0",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_3_0",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -1968,7 +1968,7 @@
     },
     "28894": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_3_1",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_3_1",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2001,7 +2001,7 @@
     },
     "28896": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_4_0",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_4_0",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2394,7 +2394,7 @@
     },
     "29179": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_3_2",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_3_2",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2453,7 +2453,7 @@
     },
     "29199": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=60&studyName=study3_4_1",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_4_1",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2486,7 +2486,7 @@
     },
     "29201": {
       "functionType": "CallAPI_GET",
-      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle=68&studyName=study3_4_2",
+      "functionDetail": "https://gamette.studycrafter.com/api/create_game?role=distributor&numHumanPlayer=1&startCycle={startCycle}&studyName=study3_4_2",
       "functionDetail2": "token",
       "functionDetail3": "",
       "functionDetail4": "",
@@ -2571,6 +2571,52 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
+    },
+    "31162": {
+      "choiceType": "open_response",
+      "content": "Which condition?",
+      "owner": "",
+      "speaking": "False",
+      "prompted": "True",
+      "timed": "False",
+      "timer": "-1",
+      "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
+      "variable": "condition",
+      "inputMultiline": "False",
+      "openResponseButton": "",
+      "openResponseTextObject": "",
+      "name": "Player Choice",
+      "next": "31165",
+      "tru": "True",
+      "index": "31162",
+      "posX": "-18.64787",
+      "posY": "-3.879009",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "choice"
+    },
+    "31165": {
+      "choiceType": "open_response",
+      "content": "Put in StartCycle",
+      "owner": "",
+      "speaking": "False",
+      "prompted": "True",
+      "timed": "False",
+      "timer": "-1",
+      "choices": "-1~~~~False~~none~~true~-~-1~~~~False~~none~~true~-~",
+      "variable": "startCycle",
+      "inputMultiline": "False",
+      "openResponseButton": "",
+      "openResponseTextObject": "",
+      "name": "Player Choice",
+      "next": "25595",
+      "tru": "True",
+      "index": "31165",
+      "posX": "-15.3997",
+      "posY": "-3.936692",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "choice"
     }
   },
   "scene": {
@@ -3095,10 +3141,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.466506451,
+    "scriptorScale": 0.350492984,
     "scriptorPosition": {
-      "x": -2241.94849,
-      "y": -226.377655
+      "x": -1766.53674,
+      "y": -202.83728
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

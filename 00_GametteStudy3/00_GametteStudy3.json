@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2023-07-14 10:56:55",
+  "last_edit": "2023-07-25 12:00:03",
   "published": "false",
   "scene_order": [
     "0",
@@ -593,7 +593,7 @@
     },
     {
       "name": "condition",
-      "value": "321",
+      "value": "332",
       "value_type": "Int",
       "id": "19070"
     },
@@ -1030,9 +1030,9 @@
       "id": "-1"
     },
     {
-      "name": "var166",
-      "value": "0",
-      "value_type": "Float",
+      "name": "startCycle",
+      "value": "60",
+      "value_type": "Int",
       "id": "-1"
     }
   ],
