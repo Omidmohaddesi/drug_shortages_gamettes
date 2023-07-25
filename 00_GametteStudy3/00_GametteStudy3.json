@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2023-07-25 12:00:03",
+  "last_edit": "2023-07-25 14:14:52",
   "published": "false",
   "scene_order": [
     "0",
@@ -1032,6 +1032,30 @@
     {
       "name": "startCycle",
       "value": "60",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "hc1_inventory_to_show",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "hc2_inventory_to_show",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "hc1_patient_backlog_to_show",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "hc2_patient_backlog_to_show",
+      "value": "0",
       "value_type": "Int",
       "id": "-1"
     }
