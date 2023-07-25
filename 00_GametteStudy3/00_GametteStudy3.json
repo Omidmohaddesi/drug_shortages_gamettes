@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2023-07-25 15:40:28",
+  "last_edit": "2023-07-25 17:54:40",
   "published": "false",
   "scene_order": [
     "0",
@@ -1057,6 +1057,12 @@
       "name": "hc2_patient_backlog_to_show",
       "value": "0",
       "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "situation_assessment",
+      "value": "",
+      "value_type": "String",
       "id": "-1"
     }
   ],
