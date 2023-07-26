@@ -16796,7 +16796,7 @@
     "29790": {
       "actionTarget": "info_bubble_Text",
       "actionName": "TypeText",
-      "action_text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i>HC Inventory</i>\n\nIf a health-center does not have enough inventory to satisfy its patients, you will see the number of patients waiting for treatment (i.e., backlog) at that health-center.",
+      "action_text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i>HC Inventory</i>\n\nIf a health center lacks sufficient {drugName} inventory for treatment, the <i>number of patients waiting for treatment</i>, which indicates the patient backlog for that health-center, will be shown.",
       "action_type-speed": "0",
       "name": "Action",
       "next": "29782",
@@ -16976,29 +16976,29 @@
       "type": "dialogue"
     },
     "29850": {
-      "content": "You also have access to the actual inventory level at each health-center.",
+      "content": "Similar to the ordering screen, you can see the <b>inventory level</b> of each health-center.",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
       "next": "29851",
       "tru": "True",
       "index": "29850",
-      "posX": "43.97016",
-      "posY": "-98.03979",
+      "posX": "44.02199",
+      "posY": "-97.8325",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
     },
     "29851": {
-      "content": "If health-centers do not have enough inventory to satisfy their patients, you will see the number of patients waiting for treatment at each health-center.",
+      "content": "If a health center lacks sufficient {drugName} inventory for treatment, the <i>number of patients waiting for treatment</i>, which indicates the patient backlog for that health-center, will be shown.",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
       "next": "30382",
       "tru": "True",
       "index": "29851",
-      "posX": "47.27215",
-      "posY": "-98.20727",
+      "posX": "47.20945",
+      "posY": "-98.19537",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -25100,10 +25100,10 @@
       "x": -63.96942,
       "y": -31.7229023
     },
-    "scriptorScale": 0.35049364,
+    "scriptorScale": 0.5644736,
     "scriptorPosition": {
-      "x": 1071.48779,
-      "y": 3595.69
+      "x": 1770.13159,
+      "y": 5966.462
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

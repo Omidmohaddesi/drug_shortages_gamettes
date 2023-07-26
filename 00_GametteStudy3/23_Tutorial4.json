@@ -15887,7 +15887,7 @@
     "29790": {
       "actionTarget": "info_bubble_Text",
       "actionName": "TypeText",
-      "action_text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i>HC Inventory</i>\n\nIf a health-center does not have enough inventory to satisfy its patients, you will see the number of patients waiting for treatment (i.e., backlog) at that health-center.",
+      "action_text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i>HC Inventory</i>\n\nIf a health center lacks sufficient {drugName} inventory for treatment, the <i>number of patients waiting for treatment</i>, which indicates the patient backlog for that health-center, will be shown.",
       "action_type-speed": "0",
       "name": "Action",
       "next": "29782",
@@ -24931,10 +24931,10 @@
       "x": -98.2207,
       "y": -31.6852074
     },
-    "scriptorScale": 0.179858208,
+    "scriptorScale": 0.5131566,
     "scriptorPosition": {
-      "x": 752.4741,
-      "y": 1819.81616
+      "x": 1685.37415,
+      "y": 5451.80225
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

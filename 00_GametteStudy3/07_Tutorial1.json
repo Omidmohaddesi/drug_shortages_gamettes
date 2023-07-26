@@ -14755,15 +14755,15 @@
       "type": "if"
     },
     "28765": {
-      "content": "On this screen, you also have access to <b>inventory</b> and <b>patient backlog</b> in both Health-centers.",
+      "content": "On this screen, you also have access to the <b>inventory level</b> of each health-center.",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28928",
+      "next": "32104",
       "tru": "True",
       "index": "28765",
-      "posX": "68.48995",
-      "posY": "-57.87118",
+      "posX": "68.54514",
+      "posY": "-57.78151",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -15108,8 +15108,8 @@
       "next": "28933",
       "tru": "True",
       "index": "28928",
-      "posX": "72.34036",
-      "posY": "-62.08771",
+      "posX": "81.8467",
+      "posY": "-64.19128",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -15137,8 +15137,8 @@
       "next": "27724",
       "tru": "True",
       "index": "28933",
-      "posX": "75.56435",
-      "posY": "-63.03174",
+      "posX": "85.0479",
+      "posY": "-65.13529",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "variable"
@@ -18294,21 +18294,21 @@
       "tru": "True",
       "index": "31086",
       "posX": "68.51151",
-      "posY": "-54.96352",
+      "posY": "-54.95662",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
     },
     "31087": {
-      "content": "On this screen, you also have access to <b>Manufacturer's expected capacity</b> over the next three weeks, and <b>inventory</b> and <b>patient backlog</b> in both Health-centers.",
+      "content": "On this screen, you also have access to <b>Manufacturer's expected capacity</b> over the next three weeks.",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
-      "next": "31112",
+      "next": "32106",
       "tru": "True",
       "index": "31087",
-      "posX": "68.55655",
-      "posY": "-60.99281",
+      "posX": "68.56689",
+      "posY": "-61.34462",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -18588,15 +18588,15 @@
       "type": "action"
     },
     "31112": {
-      "content": "You can click on the chart to view it larger.",
+      "content": "You can click on the chart to enlarge it.",
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
       "next": "28928",
       "tru": "True",
       "index": "31112",
-      "posX": "72.26317",
-      "posY": "-57.92636",
+      "posX": "71.99414",
+      "posY": "-54.78088",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -20686,6 +20686,62 @@
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
+    },
+    "32104": {
+      "content": "If a health center lacks sufficient {drugName} inventory for treatment, the <i>number of patients waiting for treatment</i>, which indicates the patient backlog for that health-center, will be shown.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "28928",
+      "tru": "True",
+      "index": "32104",
+      "posX": "71.88917",
+      "posY": "-58.10526",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "32106": {
+      "content": "You can click on the chart to enlarge it.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "32107",
+      "tru": "True",
+      "index": "32106",
+      "posX": "71.75933",
+      "posY": "-61.17649",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "32107": {
+      "content": "You also have access to the <b>inventory level</b> of each health-center.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "32108",
+      "tru": "True",
+      "index": "32107",
+      "posX": "75.01581",
+      "posY": "-61.288",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
+    },
+    "32108": {
+      "content": "If a health center lacks sufficient {drugName} inventory for treatment, the <i>number of patients waiting for treatment</i>, which indicates the patient backlog for that health-center, will be shown.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "28928",
+      "tru": "True",
+      "index": "32108",
+      "posX": "78.35903",
+      "posY": "-61.70097",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
     }
   },
   "scene": {
@@ -23858,10 +23914,10 @@
       "x": -6.738353,
       "y": -32.9600143
     },
-    "scriptorScale": 0.318628669,
+    "scriptorScale": 0.2393904,
     "scriptorPosition": {
-      "x": -857.2682,
-      "y": 2874.24536
+      "x": -1571.37085,
+      "y": 1281.2
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
