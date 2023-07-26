@@ -3,7 +3,7 @@
   "description": "",
   "initial_scene": "First Day",
   "version": "2.4.6",
-  "last_edit": "2023-07-26 10:38:07",
+  "last_edit": "2023-07-26 13:05:13",
   "published": "false",
   "scene_order": [
     "0",
@@ -20,6 +20,10 @@
     "16",
     "18",
     "19",
+    "25",
+    "29",
+    "27",
+    "28",
     "5",
     "9",
     "21",
@@ -1063,6 +1067,126 @@
       "name": "situation_assessment",
       "value": "",
       "value_type": "String",
+      "id": "-1"
+    },
+    {
+      "name": "Q39",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q40",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q41",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q42",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q43",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q44",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q45",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q46",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q47",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q48",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q49",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q50",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q51",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q52",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q53",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q54",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q55",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q56",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q57",
+      "value": "0",
+      "value_type": "Int",
+      "id": "-1"
+    },
+    {
+      "name": "Q58",
+      "value": "0",
+      "value_type": "Int",
       "id": "-1"
     }
   ],

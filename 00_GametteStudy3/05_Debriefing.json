@@ -33,8 +33,8 @@
       "next": "29059",
       "tru": "True",
       "index": "29055",
-      "posX": "-3.527707",
-      "posY": "18.49661",
+      "posX": "-3.520809",
+      "posY": "18.50351",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -47,8 +47,8 @@
       "next": "29059",
       "tru": "True",
       "index": "29057",
-      "posX": "-0.2039963",
-      "posY": "14.94133",
+      "posX": "-0.2453842",
+      "posY": "14.26533",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -130,8 +130,8 @@
       "next": "29066",
       "tru": "True",
       "index": "29065",
-      "posX": "15.49307",
-      "posY": "20.06577",
+      "posX": "15.53897",
+      "posY": "20.3412",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -255,7 +255,7 @@
       "next": "29055",
       "tru": "True",
       "index": "29100",
-      "posX": "-7.055618",
+      "posX": "-7.055617",
       "posY": "18.90199",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -443,8 +443,8 @@
       "next": "29057",
       "tru": "True",
       "index": "29135",
-      "posX": "-3.397864",
-      "posY": "14.83533",
+      "posX": "-3.418558",
+      "posY": "14.2628",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1328,10 +1328,10 @@
       "x": -48.72754,
       "y": 5.09256
     },
-    "scriptorScale": 0.6830128,
+    "scriptorScale": 0.318630368,
     "scriptorPosition": {
-      "x": -4023.28662,
-      "y": -1076.5824
+      "x": -468.148621,
+      "y": -549.9267
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
