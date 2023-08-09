@@ -15110,7 +15110,7 @@
       "type": "if"
     },
     "30008": {
-      "choices": "30009~~{condition} = 6~-~30009~~{condition} = 7~-~-1~~true~-~",
+      "choices": "30009~~{condition} = 332~-~30009~~{condition} = 342~-~-1~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
@@ -25381,10 +25381,10 @@
       "x": 11.6164112,
       "y": 8.539575
     },
-    "scriptorScale": 0.385543019,
+    "scriptorScale": 0.263331,
     "scriptorPosition": {
-      "x": 1447.8103,
-      "y": 3915.384
+      "x": -716.0918,
+      "y": 2403.561
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

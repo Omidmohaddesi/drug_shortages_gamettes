@@ -1401,8 +1401,8 @@
       "next": "29181",
       "tru": "True",
       "index": "25594",
-      "posX": "-33.30121",
-      "posY": "33.31582",
+      "posX": "-32.71695",
+      "posY": "31.40446",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -1541,8 +1541,8 @@
       "next": "28119",
       "tru": "True",
       "index": "28117",
-      "posX": "-32.11154",
-      "posY": "56.55576",
+      "posX": "-36.48967",
+      "posY": "56.74545",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -1552,11 +1552,11 @@
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28120",
+      "next": "32114",
       "tru": "True",
       "index": "28119",
-      "posX": "-27.63956",
-      "posY": "56.28796",
+      "posX": "-32.35915",
+      "posY": "56.35625",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1569,8 +1569,8 @@
       "next": "28873",
       "tru": "True",
       "index": "28120",
-      "posX": "1.289308",
-      "posY": "55.63018",
+      "posX": "0.5217615",
+      "posY": "55.3272",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1631,11 +1631,11 @@
       "action_time": "2",
       "action_easing": null,
       "name": "Action",
-      "next": "293",
+      "next": "4",
       "tru": "True",
       "index": "28128",
-      "posX": "-2.171937",
-      "posY": "5.459748",
+      "posX": "-2.355561",
+      "posY": "1.732185",
       "minimized": "False",
       "advance_mode": "WhenCompleted",
       "type": "action"
@@ -2242,7 +2242,7 @@
       "next": "-1",
       "tru": "True",
       "index": "28943",
-      "posX": "-9.172789",
+      "posX": "-9.172788",
       "posY": "55.82276",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -2574,7 +2574,7 @@
     },
     "31162": {
       "choiceType": "open_response",
-      "content": "Which condition?",
+      "content": "Which condition do you want to play (type in the condition number)?",
       "owner": "",
       "speaking": "False",
       "prompted": "True",
@@ -2586,11 +2586,11 @@
       "openResponseButton": "",
       "openResponseTextObject": "",
       "name": "Player Choice",
-      "next": "31165",
+      "next": "28116",
       "tru": "True",
       "index": "31162",
-      "posX": "-18.64787",
-      "posY": "-3.879009",
+      "posX": "-20.3372",
+      "posY": "-3.447493",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
@@ -2617,6 +2617,20 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
+    },
+    "32114": {
+      "content": "You can play the game in full-screen by clicking on the full-screen icon at the bottom right corner of the screen.",
+      "owner": null,
+      "speaking": "True",
+      "name": "Dialogue",
+      "next": "28120",
+      "tru": "True",
+      "index": "32114",
+      "posX": "-29.04258",
+      "posY": "56.38221",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "dialogue"
     }
   },
   "scene": {
@@ -3141,10 +3155,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.350492984,
+    "scriptorScale": 0.564472556,
     "scriptorPosition": {
-      "x": -1766.53674,
-      "y": -202.83728
+      "x": 1281.906,
+      "y": -2939.55249
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

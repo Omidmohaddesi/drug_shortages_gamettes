@@ -14742,14 +14742,14 @@
       "type": "dialogue"
     },
     "28764": {
-      "choices": "31086~~{condition} = 322~-~28765~~{condition} = 332~-~31087~~{condition} = 342~-~28928~~true~-~",
+      "choices": "31086~~{condition} = 322~-~31086~~{condition} = 323~-~28765~~{condition} = 332~-~31087~~{condition} = 342~-~28928~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
       "tru": "True",
       "index": "28764",
-      "posX": "64.88115",
-      "posY": "-59.16269",
+      "posX": "64.80602",
+      "posY": "-59.17939",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -14762,8 +14762,8 @@
       "next": "32104",
       "tru": "True",
       "index": "28765",
-      "posX": "68.54514",
-      "posY": "-57.78151",
+      "posX": "68.11351",
+      "posY": "-58.96159",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -18293,8 +18293,8 @@
       "next": "31112",
       "tru": "True",
       "index": "31086",
-      "posX": "68.51151",
-      "posY": "-54.95662",
+      "posX": "68.13811",
+      "posY": "-55.86549",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -18307,8 +18307,8 @@
       "next": "32106",
       "tru": "True",
       "index": "31087",
-      "posX": "68.56689",
-      "posY": "-61.34462",
+      "posX": "68.1656",
+      "posY": "-62.47159",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -18595,8 +18595,8 @@
       "next": "28928",
       "tru": "True",
       "index": "31112",
-      "posX": "71.99414",
-      "posY": "-54.78088",
+      "posX": "71.43105",
+      "posY": "-55.82633",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -19751,13 +19751,13 @@
     },
     "31667": {
       "choiceType": "simple",
-      "content": "I understand!",
+      "content": "I understand! Health-centers might not get all their saline from us.",
       "owner": "Kate",
       "speaking": "True",
       "prompted": "True",
       "timed": "False",
       "timer": "-1",
-      "choices": "27911~~Health-centers might not get all their saline from us. They may order some of their saline from our competitor wholesaler.~~False~~none~~true~-~",
+      "choices": "27911~~They may order some of their saline from our competitor wholesaler.~~False~~none~~true~-~",
       "variable": null,
       "name": "Player Choice",
       "next": "-1",
@@ -20695,8 +20695,8 @@
       "next": "28928",
       "tru": "True",
       "index": "32104",
-      "posX": "71.88917",
-      "posY": "-58.10526",
+      "posX": "71.45753",
+      "posY": "-59.28535",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -20709,8 +20709,8 @@
       "next": "32107",
       "tru": "True",
       "index": "32106",
-      "posX": "71.75933",
-      "posY": "-61.17649",
+      "posX": "71.35806",
+      "posY": "-62.30348",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -20723,8 +20723,8 @@
       "next": "32108",
       "tru": "True",
       "index": "32107",
-      "posX": "75.01581",
-      "posY": "-61.288",
+      "posX": "74.61456",
+      "posY": "-62.41496",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -20737,8 +20737,8 @@
       "next": "28928",
       "tru": "True",
       "index": "32108",
-      "posX": "78.35903",
-      "posY": "-61.70097",
+      "posX": "77.95775",
+      "posY": "-62.82794",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -23914,10 +23914,10 @@
       "x": -6.738353,
       "y": -32.9600143
     },
-    "scriptorScale": 0.2393904,
+    "scriptorScale": 0.385540575,
     "scriptorPosition": {
-      "x": -1571.37085,
-      "y": 1281.2
+      "x": -2426.666,
+      "y": 2066.05151
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

@@ -9983,8 +9983,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28276",
-      "posX": "9.615965",
-      "posY": "-106.5765",
+      "posX": "9.382671",
+      "posY": "-106.6543",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -9998,8 +9998,8 @@
       "next": "28280",
       "tru": "True",
       "index": "28277",
-      "posX": "12.61964",
-      "posY": "-101.5066",
+      "posX": "12.46411",
+      "posY": "-101.4399",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -10048,8 +10048,8 @@
       "next": "30380",
       "tru": "True",
       "index": "28280",
-      "posX": "16.28289",
-      "posY": "-99.95872",
+      "posX": "15.51635",
+      "posY": "-99.91428",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -10133,8 +10133,8 @@
       "next": "28283",
       "tru": "True",
       "index": "28289",
-      "posX": "37.91475",
-      "posY": "-107.3657",
+      "posX": "37.77703",
+      "posY": "-107.2739",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -16549,8 +16549,8 @@
       "next": "-1",
       "tru": "True",
       "index": "29767",
-      "posX": "30.6245",
-      "posY": "-100.1727",
+      "posX": "31.02442",
+      "posY": "-100.2838",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -16563,8 +16563,8 @@
       "next": "32101",
       "tru": "True",
       "index": "29768",
-      "posX": "34.01839",
-      "posY": "-99.75325",
+      "posX": "34.55164",
+      "posY": "-97.998",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -16927,7 +16927,7 @@
       "next": "29847",
       "tru": "True",
       "index": "29846",
-      "posX": "23.59816",
+      "posX": "24.67575",
       "posY": "-98.81106",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -16941,8 +16941,8 @@
       "next": "29848",
       "tru": "True",
       "index": "29847",
-      "posX": "26.77053",
-      "posY": "-98.79811",
+      "posX": "27.7037",
+      "posY": "-98.80923",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -16955,8 +16955,8 @@
       "next": "29849",
       "tru": "True",
       "index": "29848",
-      "posX": "23.72232",
-      "posY": "-102.36",
+      "posX": "24.64438",
+      "posY": "-102.3378",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -16969,8 +16969,8 @@
       "next": "29767",
       "tru": "True",
       "index": "29849",
-      "posX": "26.87502",
-      "posY": "-102.3212",
+      "posX": "27.73043",
+      "posY": "-102.2879",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -17153,14 +17153,14 @@
       "type": "variable"
     },
     "30380": {
-      "choices": "29846~~{view5} = 0~-~29767~~true~-~",
+      "choices": "32111~~{view5} = 0~-~29767~~true~-~",
       "isRandom": "False",
       "name": "Branch",
       "next": "-1",
       "tru": "True",
       "index": "30380",
-      "posX": "19.48455",
-      "posY": "-100.2174",
+      "posX": "18.52916",
+      "posY": "-100.273",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -21838,8 +21838,25 @@
       "next": "30381",
       "tru": "True",
       "index": "32101",
-      "posX": "37.35263",
-      "posY": "-97.50691",
+      "posX": "37.65258",
+      "posY": "-97.47359",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "callfunction"
+    },
+    "32111": {
+      "functionType": "DeactivateEvent",
+      "functionDetail": "buttons",
+      "functionDetail2": "",
+      "functionDetail3": "",
+      "functionDetail4": "",
+      "functionDetail5": "",
+      "name": "Call Function",
+      "next": "29846",
+      "tru": "True",
+      "index": "32111",
+      "posX": "21.54767",
+      "posY": "-98.29088",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "callfunction"
@@ -25100,10 +25117,10 @@
       "x": -63.96942,
       "y": -31.7229023
     },
-    "scriptorScale": 0.5644736,
+    "scriptorScale": 0.217629,
     "scriptorPosition": {
-      "x": 1770.13159,
-      "y": 5966.462
+      "x": -440.8451,
+      "y": 2172.33032
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
