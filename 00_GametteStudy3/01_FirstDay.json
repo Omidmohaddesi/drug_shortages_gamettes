@@ -2,11 +2,11 @@
   "dictNodes": {
     "0": {
       "name": "Start",
-      "next": "31162",
+      "next": "28116",
       "tru": "True",
       "index": "0",
-      "posX": "-24.07928",
-      "posY": "4.87339",
+      "posX": "-27.69929",
+      "posY": "4.804981",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "start"
@@ -39,20 +39,6 @@
       "advance_mode": "OnClick",
       "type": "dialogue"
     },
-    "46": {
-      "nextScript": "Tutorial 4",
-      "transitionText": "Kate's Office",
-      "variablePairs": "",
-      "name": "end",
-      "next": "-1",
-      "tru": "True",
-      "index": "46",
-      "posX": "60.32494",
-      "posY": "4.537728",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "end"
-    },
     "293": {
       "content": "Now let me show you your office.",
       "owner": "Boss",
@@ -61,8 +47,8 @@
       "next": "31160",
       "tru": "True",
       "index": "293",
-      "posX": "54.76406",
-      "posY": "7.37659",
+      "posX": "43.89921",
+      "posY": "2.244116",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1398,11 +1384,11 @@
       "functionName": "update",
       "takesFocus": "False",
       "name": "Make Function",
-      "next": "29181",
+      "next": "28899",
       "tru": "True",
       "index": "25594",
-      "posX": "-32.71695",
-      "posY": "31.40446",
+      "posX": "-32.40585",
+      "posY": "33.309",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "customfunction"
@@ -1569,8 +1555,8 @@
       "next": "28873",
       "tru": "True",
       "index": "28120",
-      "posX": "0.5217615",
-      "posY": "55.3272",
+      "posX": "0.5217616",
+      "posY": "55.32721",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1648,8 +1634,8 @@
       "next": "28155",
       "tru": "True",
       "index": "28149",
-      "posX": "18.42395",
-      "posY": "55.30807",
+      "posX": "18.44182",
+      "posY": "55.45099",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1663,7 +1649,7 @@
       "tru": "True",
       "index": "28152",
       "posX": "15.07703",
-      "posY": "55.35201",
+      "posY": "55.4056",
       "minimized": "False",
       "advance_mode": "Instantly",
       "type": "action"
@@ -1703,8 +1689,8 @@
       "next": "-1",
       "tru": "True",
       "index": "28868",
-      "posX": "26.98389",
-      "posY": "3.346586",
+      "posX": "27.10075",
+      "posY": "3.622021",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -1743,8 +1729,8 @@
       "next": "29148",
       "tru": "True",
       "index": "28872",
-      "posX": "31.94822",
-      "posY": "52.46378",
+      "posX": "31.93741",
+      "posY": "52.31248",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -1764,7 +1750,7 @@
       "type": "dialogue"
     },
     "28874": {
-      "content": "The entire process will take around 45 minutes. You may stop playing at any time by exiting the web page or closing your web browser.",
+      "content": "The entire process will take around 60 minutes. You may stop playing at any time by exiting the web page or closing your web browser.",
       "owner": "None",
       "speaking": "True",
       "name": "Dialogue",
@@ -2242,7 +2228,7 @@
       "next": "-1",
       "tru": "True",
       "index": "28943",
-      "posX": "-9.172788",
+      "posX": "-9.172789",
       "posY": "55.82276",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -2265,8 +2251,8 @@
       "next": "28941",
       "tru": "True",
       "index": "28944",
-      "posX": "-4.160412",
-      "posY": "56.60472",
+      "posX": "-4.897272",
+      "posY": "56.94859",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
@@ -2299,7 +2285,7 @@
       "next": "-1",
       "tru": "True",
       "index": "28946",
-      "posX": "47.14464",
+      "posX": "47.14465",
       "posY": "60.36004",
       "minimized": "False",
       "advance_mode": "OnClick",
@@ -2346,7 +2332,7 @@
       "tru": "True",
       "index": "29148",
       "posX": "35.28153",
-      "posY": "52.19539",
+      "posY": "52.08733",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
@@ -2432,8 +2418,8 @@
       "next": "-1",
       "tru": "True",
       "index": "29181",
-      "posX": "-25.11515",
-      "posY": "31.26441",
+      "posX": "-25.17942",
+      "posY": "31.39295",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -2542,22 +2528,6 @@
       "advance_mode": "OnClick",
       "type": "comment"
     },
-    "31158": {
-      "displayName": null,
-      "owner": "{condition}",
-      "newValue": "342",
-      "fromVariable": "False",
-      "get": "True",
-      "name": "Set Variable",
-      "next": "29181",
-      "tru": "True",
-      "index": "31158",
-      "posX": "-28.87769",
-      "posY": "29.0783",
-      "minimized": "False",
-      "advance_mode": "OnClick",
-      "type": "variable"
-    },
     "31160": {
       "nextScript": "Tutorial 1",
       "transitionText": "Kate's Office",
@@ -2566,8 +2536,8 @@
       "next": "-1",
       "tru": "True",
       "index": "31160",
-      "posX": "60.28931",
-      "posY": "2.027887",
+      "posX": "47.56922",
+      "posY": "2.327837",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "end"
@@ -2589,8 +2559,8 @@
       "next": "28116",
       "tru": "True",
       "index": "31162",
-      "posX": "-20.3372",
-      "posY": "-3.447493",
+      "posX": "-23.866",
+      "posY": "-0.8650305",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
@@ -2612,8 +2582,8 @@
       "next": "25595",
       "tru": "True",
       "index": "31165",
-      "posX": "-15.3997",
-      "posY": "-3.936692",
+      "posX": "-16.40304",
+      "posY": "-3.834078",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "choice"
@@ -2623,7 +2593,7 @@
       "owner": null,
       "speaking": "True",
       "name": "Dialogue",
-      "next": "28120",
+      "next": "28939",
       "tru": "True",
       "index": "32114",
       "posX": "-29.04258",
@@ -2631,6 +2601,18 @@
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "dialogue"
+    },
+    "32116": {
+      "contents": "studyGroup parameter in the this API call needs to be adjusted for each Experiment series according to this document:\n https://docs.google.com/document/u/1/d/10ipdhDviC3adlpOVxPv1xsyt9LZwzIfv4cOrEGCJOPk/edit#heading=h.gcnhv1se4lnl\n\nOmid (8.9.2023)",
+      "name": "Comment",
+      "next": "-1",
+      "tru": "True",
+      "index": "32116",
+      "posX": "-29.59476",
+      "posY": "35.73244",
+      "minimized": "False",
+      "advance_mode": "OnClick",
+      "type": "comment"
     }
   },
   "scene": {
@@ -3155,10 +3137,10 @@
       "x": -115.707336,
       "y": -32.77269
     },
-    "scriptorScale": 0.564472556,
+    "scriptorScale": 0.111677676,
     "scriptorPosition": {
-      "x": 1281.906,
-      "y": -2939.55249
+      "x": 123.85173,
+      "y": -270.2269
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
