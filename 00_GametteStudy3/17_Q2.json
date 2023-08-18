@@ -491,8 +491,8 @@
       "next": "-1",
       "tru": "True",
       "index": "29082",
-      "posX": "34.91802",
-      "posY": "1.178048",
+      "posX": "34.79385",
+      "posY": "1.109068",
       "minimized": "False",
       "advance_mode": "OnClick",
       "type": "if"
@@ -743,10 +743,10 @@
       "x": -22.97525,
       "y": -37.777092
     },
-    "scriptorScale": 0.35049367,
+    "scriptorScale": 0.424097359,
     "scriptorPosition": {
-      "x": -1158.428,
-      "y": -14.1702747
+      "x": -1401.278,
+      "y": -28.5634384
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

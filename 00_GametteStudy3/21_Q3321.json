@@ -3084,14 +3084,14 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I relied on the information about the estimated length of the Manufacturer’s shutdown \n</i>every time<i> that I made an ordering decision.</i>",
+        "text": "<i>I relied on the estimated length of the Manufacturer’s shutdown,</i> when it was provided, <i>for</i> every <i>ordering decision that I made.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
         "thisOC": null,
         "name": "Question2",
         "pos": {
-          "x": -209.999954,
+          "x": -209.613739,
           "y": 48.0,
           "z": 0.0
         },
@@ -3109,7 +3109,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I thought the estimation of the length of Manufacturer’s shutdown was accurate and trustworthy.</i>",
+        "text": "<i>I thought the estimated length of the Manufacturer’s shutdown was accurate and trustworthy.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -3134,7 +3134,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>The estimations of the length of Manufacturer’s shutdown helped me to make informed ordering decisions.</i>",
+        "text": "<i>The estimated length of the Manufacturer’s shutdown helped me to make informed ordering decisions.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -4114,10 +4114,10 @@
       "x": -72.0557861,
       "y": -44.7810936
     },
-    "scriptorScale": 0.101525463,
+    "scriptorScale": 0.3186304,
     "scriptorPosition": {
-      "x": -175.074051,
-      "y": 456.795258
+      "x": -979.8596,
+      "y": -54.95701
     },
     "layoutParamSet": true,
     "scriptorParamSet": true

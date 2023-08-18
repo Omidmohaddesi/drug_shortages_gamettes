@@ -824,7 +824,7 @@
       "prompted": "True",
       "timed": "False",
       "timer": "-1",
-      "choices": "30744~~Steady - <i>Operations running smoothly with no significant issues.\r</i>~~False~~none~~true~-~30745~~Monitor - <i>Noticed minor fluctuations or potential risks.\r</i>~~False~~none~~true~-~30746~~Caution - <i>Identified notable fluctuations or risk, requiring attention.\r</i>~~False~~none~~true~-~30747~~Critical - <i>Noticed severe disruptions, requiring immediate action.</i>~~False~~none~~true~-~",
+      "choices": "30744~~Steady~~False~~none~~true~-~30745~~Monitor~~False~~none~~true~-~30746~~Caution~~False~~none~~true~-~30747~~Critical~~False~~none~~true~-~",
       "variable": "kate_reflection",
       "name": "Player Choice",
       "next": "-1",
@@ -1592,10 +1592,10 @@
       "x": 20.6905937,
       "y": -22.8271732
     },
-    "scriptorScale": 0.179858655,
+    "scriptorScale": 0.466507137,
     "scriptorPosition": {
-      "x": -540.370361,
-      "y": 295.0203
+      "x": -1834.7937,
+      "y": 889.3255
     },
     "layoutParamSet": true,
     "scriptorParamSet": true
