@@ -4128,18 +4128,13 @@
         }
       }
     ],
-    "recent_assets": [
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity"
-    ],
+    "recent_assets": [],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.563412547,
     "layoutPosition": {
-      "x": -11.56968,
-      "y": -9.015962
+      "x": -11.5697021,
+      "y": -9.015953
     },
     "scriptorScale": 0.466507047,
     "scriptorPosition": {

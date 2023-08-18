@@ -3059,7 +3059,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>The information provided in the game \n(i.e. inventory, demand, received shipment) \nwas sufficient to make informed decisions.</i>",
+        "text": "<i>The information provided in the game \n(i.e., inventory, demand, received shipment) \nwas sufficient to make informed decisions.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -4101,12 +4101,7 @@
         }
       }
     ],
-    "recent_assets": [
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity"
-    ],
+    "recent_assets": [],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.6817292,

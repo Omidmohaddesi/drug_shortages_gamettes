@@ -3084,7 +3084,7 @@
         "textcolor": "000000",
         "image": "button_blank_1",
         "value": 0.0,
-        "text": "<i>I relied on the estimated length of the Manufacturer’s shutdown,</i> when it was provided, <i>for</i> every <i>ordering decision that I made.</i>",
+        "text": "<i>When provided with the estimated length of the Manufacturer’s shutdown, I relied on it for</i> every <i>ordering decision I made.</i>",
         "fontSize": 20,
         "parentName": "",
         "objectType": 1,
@@ -4101,12 +4101,7 @@
         }
       }
     ],
-    "recent_assets": [
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity",
-      "drug_shortage_mn1_expected_future_capacity"
-    ],
+    "recent_assets": [],
     "recent_backgrounds": [],
     "recent_characters": [],
     "layoutScale": 0.681729257,
